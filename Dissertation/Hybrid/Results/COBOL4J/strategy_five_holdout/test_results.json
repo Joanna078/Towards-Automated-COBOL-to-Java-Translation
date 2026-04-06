@@ -1,0 +1,682 @@
+[
+  {
+    "problem_id": "p02597",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "compilation_error",
+    "error_details": "/tmp/temp_compile_v5/_3174D.java:203: error: cannot find symbol\n        for(;b_I.cmpInteger (b_R_C.getNumdisp(6)) <= 0; b_I.addSwpU32Binary (1))\n                ^\n  symbol:   method cmpInteger(int)\n  location: variable b_I of type CobolDataStorage\n1 error",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/_3174D.java:203: error: cannot find symbol\n        for(;b_I.cmpInteger (b_R_C.getNumdisp(6)) <= 0; b_I.addSwpU32Binary (1))\n                ^\n  symbol:   method cmpInteger(int)\n  location: variable b_I of type CobolDataStorage\n1 error"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02628",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": false,
+        "passed": false,
+        "error_type": "extraction_failed",
+        "error_details": "Could not extract valid Java from LLM output."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02684",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02689",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "compilation_error",
+    "error_details": "/tmp/temp_compile_v5/_3166C.java:215: error: cannot find symbol\n        for(; b_I.cmpInteger ((int)(b_N.bswap_32())) <= 0; b_I.addSwpU32Binary (1))\n                 ^\n  symbol:   method cmpInteger(int)\n  location: variable b_I of type CobolDataStorage\n/tmp/temp_compile_v5/_3166C.java:246: error: cannot find symbol\n        for(; b_I.cmpInteger ((int)(b_M.bswap_32())) <= 0; b_I.addSwpU32Binary (1))\n                 ^\n  symbol:   method cmpInteger(int)\n  location: variable b_I of type CobolDataStorage\n/tmp/temp_compile_v5/_3166C.java:289: error: cannot find symbol\n        for(; b_I.cmpInteger ((int)(b_N.bswap_32())) <= 0; b_I.addSwpU32Binary (1))\n                 ^\n  symbol:   method cmpInteger(int)\n  location: variable b_I of type CobolDataStorage\n3 errors",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/_3166C.java:215: error: cannot find symbol\n        for(; b_I.cmpInteger ((int)(b_N.bswap_32())) <= 0; b_I.addSwpU32Binary (1))\n                 ^\n  symbol:   method cmpInteger(int)\n  location: variable b_I of type CobolDataStorage\n/tmp/temp_compile_v5/_3166C.java:246: error: cannot find symbol\n        for(; b_I.cmpInteger ((int)(b_M.bswap_32())) <= 0; b_I.addSwpU32Binary (1))\n                 ^\n  symbol:   method cmpInteger(int)\n  location: variable b_I of type CobolDataStorage\n/tmp/temp_compile_v5/_3166C.java:289: error: cannot find symbol\n        for(; b_I.cmpInteger ((int)(b_N.bswap_32())) <= 0; b_I.addSwpU32Binary (1))\n                 ^\n  symbol:   method cmpInteger(int)\n  location: variable b_I of type CobolDataStorage\n3 errors"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02718",
+    "passed": "Y",
+    "passed_on_iter": 2,
+    "iterations_tried": 2,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": false,
+        "passed": false,
+        "error_type": "extraction_failed",
+        "error_details": "Could not extract valid Java from LLM output."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02725",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02727",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02916",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03282",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"jp.osscons.opensourcecobol.libcobj.data.CobolFieldAttribute.getType()\" because \"attr\" is null\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolFieldFactory.makeCobolField(CobolFieldFactory.java:75)\n\tat BIT_QUERY.init(BIT_QUERY.java:252)\n\tat BIT_QUERY.<init>(BIT_QUERY.java:227)\n\tat BIT_QUERY.main(BIT_QUERY.java:222)",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/BIT_QUERY.java:171: error: cannot find symbol\n              }.run().add(CobolFieldFactory.makeCobolField(6, b_BT__BT1.getSubDataStorage(6 * (b_BX1.intValue() - 1)), a_6_NumericDisplay_Digits6_Scale0), 4);\n                                                              ^\n  symbol: variable b_BT__BT1\n/tmp/temp_compile_v5/BIT_QUERY.java:215: error: cannot find symbol\n    f_Z.setDataStorage(b_Z);\n                       ^\n  symbol:   variable b_Z\n  location: class BIT_QUERY\n/tmp/temp_compile_v5/BIT_QUERY.java:215: error: cannot find symbol\n    f_Z.setDataStorage(b_Z);\n    ^\n  symbol:   variable f_Z\n  location: class BIT_QUERY\n/tmp/temp_compile_v5/BIT_QUERY.java:216: error: cannot find symbol\n    f_INF.setDataStorage(b_INF);\n                         ^\n  symbol:   variable b_INF\n  location: class BIT_QUERY\n/tmp/temp_compile_v5/BIT_QUERY.java:216: error: cannot find symbol\n    f_INF.setDataStorage(b_INF);\n    ^\n  symbol:   variable f_INF\n  location: class BIT_QUERY\n5 errors"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/BIT_QUERY.java:215: error: cannot find symbol\n    f_Z.setDataStorage(b_Z);\n                       ^\n  symbol:   variable b_Z\n  location: class BIT_QUERY\n/tmp/temp_compile_v5/BIT_QUERY.java:215: error: cannot find symbol\n    f_Z.setDataStorage(b_Z);\n    ^\n  symbol:   variable f_Z\n  location: class BIT_QUERY\n/tmp/temp_compile_v5/BIT_QUERY.java:216: error: cannot find symbol\n    f_INF.setDataStorage(b_INF);\n                         ^\n  symbol:   variable b_INF\n  location: class BIT_QUERY\n/tmp/temp_compile_v5/BIT_QUERY.java:216: error: cannot find symbol\n    f_INF.setDataStorage(b_INF);\n    ^\n  symbol:   variable f_INF\n  location: class BIT_QUERY\n4 errors"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"jp.osscons.opensourcecobol.libcobj.data.CobolFieldAttribute.getType()\" because \"attr\" is null\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolFieldFactory.makeCobolField(CobolFieldFactory.java:75)\n\tat BIT_QUERY.init(BIT_QUERY.java:253)\n\tat BIT_QUERY.<init>(BIT_QUERY.java:228)\n\tat BIT_QUERY.main(BIT_QUERY.java:223)"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"jp.osscons.opensourcecobol.libcobj.data.CobolFieldAttribute.getType()\" because \"attr\" is null\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolFieldFactory.makeCobolField(CobolFieldFactory.java:75)\n\tat BIT_QUERY.init(BIT_QUERY.java:252)\n\tat BIT_QUERY.<init>(BIT_QUERY.java:227)\n\tat BIT_QUERY.main(BIT_QUERY.java:222)"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"jp.osscons.opensourcecobol.libcobj.data.CobolFieldAttribute.getType()\" because \"attr\" is null\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolFieldFactory.makeCobolField(CobolFieldFactory.java:75)\n\tat BIT_QUERY.init(BIT_QUERY.java:252)\n\tat BIT_QUERY.<init>(BIT_QUERY.java:227)\n\tat BIT_QUERY.main(BIT_QUERY.java:222)"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03285",
+    "passed": "Y",
+    "passed_on_iter": 2,
+    "iterations_tried": 2,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: Yes\n... | got: 10..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03294",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "compilation_error",
+    "error_details": "/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:39: error: cannot find symbol\n    b_d_x = f_d_x.getDataStorage();\n    ^\n  symbol:   variable b_d_x\n  location: class LOWEST_BIT_VAL\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:40: error: cannot find symbol\n    f_d_tmp.setDataStorage(new CobolDataStorage(6));\n    ^\n  symbol:   variable f_d_tmp\n  location: class LOWEST_BIT_VAL\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:41: error: cannot find symbol\n    f_d_tmp.moveFrom(d_tmp);\n    ^\n  symbol:   variable f_d_tmp\n  location: class LOWEST_BIT_VAL\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:42: error: cannot find symbol\n    b_d_tmp = f_d_tmp.getDataStorage();\n              ^\n  symbol:   variable f_d_tmp\n  location: class LOWEST_BIT_VAL\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:46: error: cannot find symbol\n      new CobolResultInt(f_d_tmp.getInt())\n                         ^\n  symbol:   variable f_d_tmp\n  location: class LOWEST_BIT_VAL\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:52: error: cannot find symbol\n    b_d_x = 0 < argStorages.length ? argStorages[0] : null;\n    ^\n  symbol:   variable b_d_x\n  location: class LOWEST_BIT_VAL\n6 errors",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:375: error: variable b_BT1 is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_BT1;\t/* BT1 */\n                           ^\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:378: error: variable b_N is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:379: error: variable b_M is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_M;\t/* M */\n                           ^\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:380: error: variable b_BT1 is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_BT1;\t/* BT1 */\n                           ^\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:392: error: variable b_N is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:393: error: variable b_tmp is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:395: error: variable b_r is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_r;\t/* r */\n                           ^\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:414: error: variable f_tmp is already defined in class LOWEST_BIT_VAL\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:415: error: variable f_x is already defined in class LOWEST_BIT_VAL\n  private AbstractCobolField f_x;\t/* x */\n                             ^\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:419: error: variable f_x is already defined in class LOWEST_BIT_VAL\n  private AbstractCobolField f_x;\t/* x */\n                             ^\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:420: error: variable f_tmp is already defined in class LOWEST_BIT_VAL\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:425: error: variable f_tmp is already defined in class LOWEST_BIT_VAL\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:427: error: variable f_r is already defined in class LOWEST_BIT_VAL\n  private AbstractCobolField f_r;\t/* r */\n                             ^\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:430: error: variable f_d_ret is already defined in class LOWEST_BIT_VAL\n  private AbstractCobolField f_d_ret;\t/* d_ret */\n                             ^\n14 errors"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:40: error: cannot find symbol\n    this.f_d_tmp.setDataStorage(new CobolDataStorage(6));\n        ^\n  symbol: variable f_d_tmp\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:41: error: cannot find symbol\n    this.f_d_tmp.moveFrom(d_tmp);\n        ^\n  symbol: variable f_d_tmp\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:42: error: cannot find symbol\n    this.b_d_tmp = this.f_d_tmp.getDataStorage();\n                       ^\n  symbol: variable f_d_tmp\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:46: error: cannot find symbol\n      new CobolResultInt(f_d_tmp.getInt())\n                         ^\n  symbol:   variable f_d_tmp\n  location: class LOWEST_BIT_VAL\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:157: error: cannot find symbol\n              f_r.divRemainder (4);\n              ^\n  symbol: variable f_r\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:174: error: cannot find symbol\n                  f_d_tmp.setDataStorage(b_d_tmp);\n                  ^\n  symbol: variable f_d_tmp\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:175: error: cannot find symbol\n                  return f_d_tmp;\n                         ^\n  symbol: variable f_d_tmp\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:265: error: cannot find symbol\n    b_d_ret = new CobolDataStorage(10);\t/* d_ret */\n    ^\n  symbol:   variable b_d_ret\n  location: class LOWEST_BIT_VAL\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:284: error: cannot find symbol\n    f_d_ret\t= CobolFieldFactory.makeCobolField(10, (CobolDataStorage)null, a_2_NumericDisplay_Digits10_Scale0);\t/* d_ret */\n    ^\n  symbol:   variable f_d_ret\n  location: class LOWEST_BIT_VAL\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:289: error: cannot find symbol\n    f_r\t= CobolFieldFactory.makeCobolField(1, b_r, a_5_NumericDisplay_Digits1_Scale0);\t/* r */\n    ^\n  symbol:   variable f_r\n  location: class LOWEST_BIT_VAL\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:290: error: cannot find symbol\n    f_d_tmp\t= CobolFieldFactory.makeCobolField(6, (CobolDataStorage)null, a_6_NumericDisplay_Digits6_Scale0);\t/* d_tmp */\n    ^\n  symbol:   variable f_d_tmp\n  location: class LOWEST_BIT_VAL\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:295: error: cannot find symbol\n    f_r\t= CobolFieldFactory.makeCobolField(10, b_r, a_2_NumericDisplay_Digits10_Scale0);\t/* r */\n    ^\n  symbol:   variable f_r\n  location: class LOWEST_BIT_VAL\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:298: error: cannot find symbol\n    f_d_ret\t= CobolFieldFactory.makeCobolField(10, b_d_ret, a_2_NumericDisplay_Digits10_Scale0);\t/* d_ret */\n    ^\n  symbol:   variable f_d_ret\n  location: class LOWEST_BIT_VAL\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:298: error: cannot find symbol\n    f_d_ret\t= CobolFieldFactory.makeCobolField(10, b_d_ret, a_2_NumericDisplay_Digits10_Scale0);\t/* d_ret */\n           \t                                       ^\n  symbol:   variable b_d_ret\n  location: class LOWEST_BIT_VAL\n14 errors"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:40: error: cannot find symbol\n    this.f_d_tmp.setDataStorage(new CobolDataStorage(6));\n        ^\n  symbol: variable f_d_tmp\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:41: error: cannot find symbol\n    this.f_d_tmp.moveFrom(d_tmp);\n        ^\n  symbol: variable f_d_tmp\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:42: error: cannot find symbol\n    this.b_d_tmp = this.f_d_tmp.getDataStorage();\n                       ^\n  symbol: variable f_d_tmp\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:46: error: cannot find symbol\n      new CobolResultInt(f_d_tmp.getInt())\n                         ^\n  symbol:   variable f_d_tmp\n  location: class LOWEST_BIT_VAL\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:157: error: cannot find symbol\n              f_r.divRemainder (4);\n              ^\n  symbol: variable f_r\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:174: error: cannot find symbol\n                  f_d_tmp.setDataStorage(b_d_tmp);\n                  ^\n  symbol: variable f_d_tmp\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:175: error: cannot find symbol\n                  return f_d_tmp;\n                         ^\n  symbol: variable f_d_tmp\n7 errors"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:39: error: cannot find symbol\n    this.b_d_x = this.f_d_x.getDataStorage();\n        ^\n  symbol: variable b_d_x\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:40: error: cannot find symbol\n    this.f_d_tmp.setDataStorage(new CobolDataStorage(6));\n        ^\n  symbol: variable f_d_tmp\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:41: error: cannot find symbol\n    this.f_d_tmp.moveFrom(d_tmp);\n        ^\n  symbol: variable f_d_tmp\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:42: error: cannot find symbol\n    this.b_d_tmp = this.f_d_tmp.getDataStorage();\n                       ^\n  symbol: variable f_d_tmp\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:46: error: cannot find symbol\n      new CobolResultInt(f_d_tmp.getInt())\n                         ^\n  symbol:   variable f_d_tmp\n  location: class LOWEST_BIT_VAL\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:52: error: cannot find symbol\n    this.b_d_x = 0 < argStorages.length ? argStorages[0] : null;\n        ^\n  symbol: variable b_d_x\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:146: error: cannot find symbol\n          b_x.setBytes (b_d_x, 6);\n                        ^\n  symbol: variable b_d_x\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:157: error: cannot find symbol\n              f_r.divRemainder (4);\n              ^\n  symbol: variable f_r\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:174: error: cannot find symbol\n                  f_d_tmp.setDataStorage(b_d_tmp);\n                  ^\n  symbol: variable f_d_tmp\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:175: error: cannot find symbol\n                  return f_d_tmp;\n                         ^\n  symbol: variable f_d_tmp\n10 errors"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:39: error: cannot find symbol\n    b_d_x = f_d_x.getDataStorage();\n    ^\n  symbol:   variable b_d_x\n  location: class LOWEST_BIT_VAL\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:40: error: cannot find symbol\n    f_d_tmp.setDataStorage(new CobolDataStorage(6));\n    ^\n  symbol:   variable f_d_tmp\n  location: class LOWEST_BIT_VAL\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:41: error: cannot find symbol\n    f_d_tmp.moveFrom(d_tmp);\n    ^\n  symbol:   variable f_d_tmp\n  location: class LOWEST_BIT_VAL\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:42: error: cannot find symbol\n    b_d_tmp = f_d_tmp.getDataStorage();\n              ^\n  symbol:   variable f_d_tmp\n  location: class LOWEST_BIT_VAL\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:46: error: cannot find symbol\n      new CobolResultInt(f_d_tmp.getInt())\n                         ^\n  symbol:   variable f_d_tmp\n  location: class LOWEST_BIT_VAL\n/tmp/temp_compile_v5/LOWEST_BIT_VAL.java:52: error: cannot find symbol\n    b_d_x = 0 < argStorages.length ? argStorages[0] : null;\n    ^\n  symbol:   variable b_d_x\n  location: class LOWEST_BIT_VAL\n6 errors"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03297",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Runtime error: Exception in thread \"main\" jp.osscons.opensourcecobol.libcobj.exceptions.CobolRuntimeException: 73 : Program not found: GCD\n\tat jp.osscons.opensourcecobol.libcobj.call.CobolResolve.resolve(CobolResolve.java:432)\n\tat jp.osscons.opensourcecobol.libcobj.call.CobolResolve.resolve(CobolResolve.java:349)\n\tat LCM.initExternProc(LCM.java:217)\n\tat LCM.run_module(LCM.java:96)\n\tat LCM.LCM_(LCM.java:58)\n\tat LCM.main(LCM.java:224)",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" jp.osscons.opensourcecobol.libcobj.exceptions.CobolRuntimeException: 73 : Program not found: GCD\n\tat jp.osscons.opensourcecobol.libcobj.call.CobolResolve.resolve(CobolResolve.java:432)\n\tat jp.osscons.opensourcecobol.libcobj.call.CobolResolve.resolve(CobolResolve.java:349)\n\tat LCM$4.run(LCM.java:158)\n\tat LCM.execEntry(LCM.java:211)\n\tat LCM.run_module(LCM.java:103)\n\tat LCM.LCM_(LCM.java:59)\n\tat LCM.main(LCM.java:223)"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" jp.osscons.opensourcecobol.libcobj.exceptions.CobolRuntimeException: 73 : Program not found: GCD\n\tat jp.osscons.opensourcecobol.libcobj.call.CobolResolve.resolve(CobolResolve.java:432)\n\tat jp.osscons.opensourcecobol.libcobj.call.CobolResolve.resolve(CobolResolve.java:349)\n\tat LCM.initExternProc(LCM.java:218)\n\tat LCM.run_module(LCM.java:97)\n\tat LCM.LCM_(LCM.java:59)\n\tat LCM.main(LCM.java:225)"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" jp.osscons.opensourcecobol.libcobj.exceptions.CobolRuntimeException: 73 : Program not found: GCD\n\tat jp.osscons.opensourcecobol.libcobj.call.CobolResolve.resolve(CobolResolve.java:432)\n\tat jp.osscons.opensourcecobol.libcobj.call.CobolResolve.resolve(CobolResolve.java:349)\n\tat LCM.initExternProc(LCM.java:218)\n\tat LCM.run_module(LCM.java:97)\n\tat LCM.LCM_(LCM.java:59)\n\tat LCM.main(LCM.java:225)"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" jp.osscons.opensourcecobol.libcobj.exceptions.CobolRuntimeException: 73 : Program not found: GCD\n\tat jp.osscons.opensourcecobol.libcobj.call.CobolResolve.resolve(CobolResolve.java:432)\n\tat jp.osscons.opensourcecobol.libcobj.call.CobolResolve.resolve(CobolResolve.java:349)\n\tat LCM.initExternProc(LCM.java:217)\n\tat LCM.run_module(LCM.java:96)\n\tat LCM.LCM_(LCM.java:58)\n\tat LCM.main(LCM.java:224)"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" jp.osscons.opensourcecobol.libcobj.exceptions.CobolRuntimeException: 73 : Program not found: GCD\n\tat jp.osscons.opensourcecobol.libcobj.call.CobolResolve.resolve(CobolResolve.java:432)\n\tat jp.osscons.opensourcecobol.libcobj.call.CobolResolve.resolve(CobolResolve.java:349)\n\tat LCM.initExternProc(LCM.java:217)\n\tat LCM.run_module(LCM.java:96)\n\tat LCM.LCM_(LCM.java:58)\n\tat LCM.main(LCM.java:224)"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03311",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 2\n... | got: Yes\nYes\nYes\nYes\nYes...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: Yes\nYes\nYes\nYes\nYes..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: Yes\nYes\nYes\nYes\nYes..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: Yes\nYes\nYes\nYes\nYes..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: Yes\nYes\nYes\nYes\nYes..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: Yes\nYes\nYes\nYes\nYes..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03325",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03327",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03636",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _3069B$4.run(_3069B.java:137)\n\tat _3069B.execEntry(_3069B.java:185)\n\tat _3069B.run_module(_3069B.java:89)\n\tat _3069B._3069B_(_3069B.java:43)\n\tat _3069B.main(_3069B.java:193)",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _3069B$4.run(_3069B.java:137)\n\tat _3069B.execEntry(_3069B.java:185)\n\tat _3069B.run_module(_3069B.java:89)\n\tat _3069B._3069B_(_3069B.java:43)\n\tat _3069B.main(_3069B.java:193)"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _3069B$4.run(_3069B.java:137)\n\tat _3069B.execEntry(_3069B.java:185)\n\tat _3069B.run_module(_3069B.java:89)\n\tat _3069B._3069B_(_3069B.java:43)\n\tat _3069B.main(_3069B.java:193)"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _3069B$4.run(_3069B.java:137)\n\tat _3069B.execEntry(_3069B.java:185)\n\tat _3069B.run_module(_3069B.java:89)\n\tat _3069B._3069B_(_3069B.java:43)\n\tat _3069B.main(_3069B.java:193)"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _3069B$4.run(_3069B.java:137)\n\tat _3069B.execEntry(_3069B.java:185)\n\tat _3069B.run_module(_3069B.java:89)\n\tat _3069B._3069B_(_3069B.java:43)\n\tat _3069B.main(_3069B.java:193)"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _3069B$4.run(_3069B.java:137)\n\tat _3069B.execEntry(_3069B.java:185)\n\tat _3069B.run_module(_3069B.java:89)\n\tat _3069B._3069B_(_3069B.java:43)\n\tat _3069B.main(_3069B.java:193)"
+      }
+    ]
+  }
+]

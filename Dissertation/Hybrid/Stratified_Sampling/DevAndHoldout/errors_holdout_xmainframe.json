@@ -1,0 +1,289 @@
+{
+  "p02818": {
+    "problem_id": "p02818",
+    "java_file": "s177785519.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/Main.java:15: error: cannot find symbol\n        mnb = Math.min(B, mna);\n        ^\n  symbol:   variable mnb\n  location: class Main\n/content/temp_compile/Main.java:16: error: cannot find symbol\n        B -= mnb;\n             ^\n  symbol:   variable mnb\n  location: class Main\n2 errors"
+  },
+  "p03486": {
+    "problem_id": "p03486",
+    "java_file": "s629976871.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/Main.java:107: error: reached end of file while parsing\n    }\n     ^\n1 error"
+  },
+  "p03125": {
+    "problem_id": "p03125",
+    "java_file": "s802684192.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/Atcoder.java:11: error: variable r might not have been initialized\n        if (r > 0) {\n            ^\n1 error"
+  },
+  "p03238": {
+    "problem_id": "p03238",
+    "java_file": "s210287946.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/Main.java:16: error: incompatible types: char cannot be converted to String\n                System.out.println(Integer.parseInt(String.valueOf(sum).charAt(0)));\n                                                                              ^\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output\n1 error"
+  },
+  "p02583": {
+    "problem_id": "p02583",
+    "java_file": "s950730034.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/Main.java:16: error: cannot find symbol\n        System.out.println(result);\n                           ^\n  symbol:   variable result\n  location: class Main\n1 error"
+  },
+  "p02762": {
+    "problem_id": "p02762",
+    "java_file": "s425431517.java",
+    "error_type": "compilation",
+    "error_message": "Could not extract class name from Java file"
+  },
+  "p03658": {
+    "problem_id": "p03658",
+    "java_file": "s686261831.java",
+    "error_type": "compilation",
+    "error_message": "Could not extract class name from Java file"
+  },
+  "p03400": {
+    "problem_id": "p03400",
+    "java_file": "s004679718.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: begin 0, end 3, length 1\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)\n\tat java.base/java.lang.String.substring(String.java:2709)\n\tat Main.main(Main.java:9)"
+  },
+  "p02882": {
+    "problem_id": "p02882",
+    "java_file": "s212715907.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"2 4\"\n\tat java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)\n\tat java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)\n\tat java.base/java.lang.Double.parseDouble(Double.java:651)\n\tat Main.main(Main.java:14)"
+  },
+  "p03260": {
+    "problem_id": "p03260",
+    "java_file": "s346414249.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: String index out of range: 1\n\tat java.base/java.lang.StringLatin1.charAt(StringLatin1.java:48)\n\tat java.base/java.lang.String.charAt(String.java:1517)\n\tat Main.main(Main.java:13)"
+  },
+  "p02694": {
+    "problem_id": "p02694",
+    "java_file": "s270033837.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1\n\tat Main.main(Main.java:6)"
+  },
+  "p02547": {
+    "problem_id": "p02547",
+    "java_file": "s973069594.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1\n\tat SORTNUM.main(SORTNUM.java:13)"
+  },
+  "p02767": {
+    "problem_id": "p02767",
+    "java_file": "s948758755.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: String index out of range: 1\n\tat java.base/java.lang.StringLatin1.charAt(StringLatin1.java:48)\n\tat java.base/java.lang.String.charAt(String.java:1517)\n\tat Main.main(Main.java:16)"
+  },
+  "p03377": {
+    "problem_id": "p03377",
+    "java_file": "s146845231.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"3 5\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat Main.main(Main.java:9)"
+  },
+  "p03274": {
+    "problem_id": "p03274",
+    "java_file": "s327968127.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.ArrayStoreException: java.lang.Long\n\tat java.base/java.util.Arrays.fill(Arrays.java:3430)\n\tat Main.main(Main.java:14)"
+  },
+  "p02756": {
+    "problem_id": "p02756",
+    "java_file": "s579388514.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: index 199999, length 1\n\tat java.base/java.lang.String.checkIndex(String.java:4565)\n\tat java.base/java.lang.AbstractStringBuilder.setCharAt(AbstractStringBuilder.java:533)\n\tat java.base/java.lang.StringBuilder.setCharAt(StringBuilder.java:91)\n\tat Main.main(Main.java:27)"
+  },
+  "p03246": {
+    "problem_id": "p03246",
+    "java_file": "s028416734.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:678)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat Main.main(Main.java:25)"
+  },
+  "p03317": {
+    "problem_id": "p03317",
+    "java_file": "s422439243.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"2 3 1 4\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.math.BigInteger.<init>(BigInteger.java:544)\n\tat java.base/java.math.BigInteger.<init>(BigInteger.java:682)\n\tat Main.main(Main.java:12)"
+  },
+  "p03636": {
+    "problem_id": "p03636",
+    "java_file": "s022173867.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 20 out of bounds for length 20\n\tat Main.main(Main.java:10)"
+  },
+  "p03494": {
+    "problem_id": "p03494",
+    "java_file": "s225194042.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:678)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat Main.main(Main.java:15)"
+  },
+  "p03845": {
+    "problem_id": "p03845",
+    "java_file": "s448658911.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: begin 2, end 2, length 1\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)\n\tat java.base/java.lang.String.substring(String.java:2709)\n\tat Main.main(Main.java:17)"
+  },
+  "p03543": {
+    "problem_id": "p03543",
+    "java_file": "s058600095.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\nYes\n\nActual:\nNo",
+    "actual_output": "No"
+  },
+  "p03338": {
+    "problem_id": "p03338",
+    "java_file": "s088969903.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n2\n\nActual:\n0",
+    "actual_output": "0"
+  },
+  "p03478": {
+    "problem_id": "p03478",
+    "java_file": "s041129266.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n84\n\nActual:\n14",
+    "actual_output": "14"
+  },
+  "p03694": {
+    "problem_id": "p03694",
+    "java_file": "s519364543.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n7\n\nActual:\n0",
+    "actual_output": "0"
+  },
+  "p03292": {
+    "problem_id": "p03292",
+    "java_file": "s031109456.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n5\n\nActual:\n-2",
+    "actual_output": "-2"
+  },
+  "p02726": {
+    "problem_id": "p02726",
+    "java_file": "s538290764.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 4 lines, got 1 lines.\nExpected:\n5\n4\n1\n0\n\nActual:\n4",
+    "actual_output": "4"
+  },
+  "p03242": {
+    "problem_id": "p03242",
+    "java_file": "s713218331.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n991\n\nActual:\n191",
+    "actual_output": "191"
+  },
+  "p03309": {
+    "problem_id": "p03309",
+    "java_file": "s615242390.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n2\n\nActual:\n6",
+    "actual_output": "6"
+  },
+  "p03283": {
+    "problem_id": "p03283",
+    "java_file": "s242926709.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n3\n\nActual:\n0",
+    "actual_output": "0"
+  },
+  "p03680": {
+    "problem_id": "p03680",
+    "java_file": "s367463491.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n2\n\nActual:\n3",
+    "actual_output": "3"
+  },
+  "p02732": {
+    "problem_id": "p02732",
+    "java_file": "s046317718.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 5 lines, got 1 lines.\nExpected:\n2\n2\n3\n2\n3\n\nActual:\n4",
+    "actual_output": "4"
+  },
+  "p03328": {
+    "problem_id": "p03328",
+    "java_file": "s036392141.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n2\n\nActual:\n10",
+    "actual_output": "10"
+  },
+  "p03632": {
+    "problem_id": "p03632",
+    "java_file": "s522385416.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n50\n\nActual:\n050",
+    "actual_output": "050"
+  },
+  "p04029": {
+    "problem_id": "p04029",
+    "java_file": "s018368309.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n6\n\nActual:\n0006",
+    "actual_output": "0006"
+  },
+  "p03075": {
+    "problem_id": "p03075",
+    "java_file": "s071690090.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\nYay!\n\nActual:\nYay",
+    "actual_output": "Yay"
+  },
+  "p02801": {
+    "problem_id": "p02801",
+    "java_file": "s369699947.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\nb\n\nActual:\n@",
+    "actual_output": "@"
+  },
+  "p02705": {
+    "problem_id": "p02705",
+    "java_file": "s326642291.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n6.2831\nActual:\n6.283185",
+    "actual_output": "6.283185"
+  },
+  "p03107": {
+    "problem_id": "p03107",
+    "java_file": "s269184848.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n4\n\nActual:\n0",
+    "actual_output": "0"
+  },
+  "p02945": {
+    "problem_id": "p02945",
+    "java_file": "a.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n-0000000010\nActual:\n-10",
+    "actual_output": "-10"
+  },
+  "p03311": {
+    "problem_id": "p03311",
+    "java_file": "s166722602.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n2\n\nActual:\n3",
+    "actual_output": "3"
+  },
+  "p03325": {
+    "problem_id": "p03325",
+    "java_file": "s619899213.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n3\n\nActual:\n0",
+    "actual_output": "0"
+  },
+  "p02766": {
+    "problem_id": "p02766",
+    "java_file": "s052793025.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n4\n\nActual:\n04",
+    "actual_output": "04"
+  },
+  "p03323": {
+    "problem_id": "p03323",
+    "java_file": "s070261901.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\nYay!\n\nActual:\nYay",
+    "actual_output": "Yay"
+  }
+}

@@ -1,0 +1,83 @@
+IDENTIFICATION DIVISION.
+PROGRAM-ID. 173C.
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+01 INP        PIC X(21).
+01 H          PIC 9(02).
+01 W          PIC 9(02).
+01 K          PIC 9(02).
+01 CW         PIC 9(02).
+01 CB         PIC 9(02).
+01 CB-W       PIC 9(02).
+01 TBL1.
+   03 TBL2    OCCURS 6.
+      05 CS   PIC X(06).
+      05 C-R  REDEFINES CS.
+         07 C PIC X(01) OCCURS 6. 
+01 TBL-SV     PIC X(36).
+01 I          PIC 9(04) COMP.
+01 J          PIC 9(04) COMP.
+01 I1         PIC 9(04) COMP.
+01 J1         PIC 9(04) COMP.
+01 S          PIC 9(02).
+01 AMR        PIC 9(01).
+01 CNT        PIC 9(04) COMP.
+01 OUT        PIC ZZZ9.
+*>
+PROCEDURE DIVISION.
+  ACCEPT INP.
+  UNSTRING INP DELIMITED BY ' '
+      INTO H W K.
+*>
+  PERFORM VARYING I FROM 1 BY 1 UNTIL I > H
+    ACCEPT CS(I)
+    PERFORM VARYING J FROM 1 BY 1 UNTIL J > W
+      IF (C(I J) = '#')
+        ADD 1 TO CB
+      ELSE
+        ADD 1 TO CW
+      END-IF
+    END-PERFORM
+  END-PERFORM.
+*>
+  MOVE TBL1 TO TBL-SV.
+*>
+  IF (CB < K)
+    MOVE 0 TO CNT         
+  ELSE
+    PERFORM VARYING I FROM 0 BY 1 UNTIL I > 2 ** H - 1
+      PERFORM VARYING J FROM 0 BY 1 UNTIL J > 2 ** W - 1
+        MOVE TBL-SV TO TBL1
+*>
+        MOVE I TO S
+        PERFORM VARYING I1 FROM 1 BY 1 UNTIL I1 > H
+          DIVIDE S BY 2 GIVING S REMAINDER AMR
+          IF AMR = 1
+            PERFORM VARYING J1 FROM 1 BY 1 UNTIL J1 > W  
+              MOVE '*' TO C(H - I1 + 1 J1)
+            END-PERFORM
+          END-IF
+        END-PERFORM
+*>
+        MOVE J TO S
+        PERFORM VARYING J1 FROM 1 BY 1 UNTIL J1 > W
+          DIVIDE S BY 2 GIVING S REMAINDER AMR
+          IF AMR = 1
+            PERFORM VARYING I1 FROM 1 BY 1 UNTIL I1 > H  
+              MOVE '*' TO C(I1 W - J1 + 1)
+            END-PERFORM
+          END-IF
+        END-PERFORM
+*>
+        MOVE 0 TO CB-W
+        INSPECT TBL1 TALLYING CB-W FOR ALL '#'
+        IF (CB-W = K)
+          ADD 1 TO CNT
+        END-IF
+      END-PERFORM
+    END-PERFORM
+  END-IF.
+*>
+  MOVE CNT TO OUT.
+  DISPLAY FUNCTION TRIM(OUT).
+  STOP RUN.

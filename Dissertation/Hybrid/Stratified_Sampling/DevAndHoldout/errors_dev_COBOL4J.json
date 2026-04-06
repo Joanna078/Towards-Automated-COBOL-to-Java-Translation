@@ -1,0 +1,219 @@
+{
+  "p02630": {
+    "problem_id": "p02630",
+    "java_file": "_3171C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02639": {
+    "problem_id": "p02639",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:140: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+  },
+  "p02642": {
+    "problem_id": "p02642",
+    "java_file": "_3170D.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/_3170D.java:270: error: bad operand types for binary operator '-'\n                          b_C__TBL_M__TBL2.getSubDataStorage(5 * (b_A__TBL1.getSubDataStorage(4 * (b_I - 1)) - 1)).set((byte)1);\n                                                                                                       ^\n  first type:  CobolDataStorage\n  second type: int\n/content/temp_compile/_3170D.java:292: error: bad operand types for binary operator '-'\n                      b_C__TBL_M__TBL2.getSubDataStorage(5 * ((b_A__TBL1.getSubDataStorage(4 * (b_I - 1)) * b_J) - 1)).set((byte)1);\n                                                                                                    ^\n  first type:  CobolDataStorage\n  second type: int\n2 errors"
+  },
+  "p02658": {
+    "problem_id": "p02658",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:206: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+  },
+  "p02664": {
+    "problem_id": "p02664",
+    "java_file": "NOMURA__B.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02688": {
+    "problem_id": "p02688",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:167: error: incompatible types: possible lossy conversion from long to int\n            for (int n1 = b_maxlen.bswap_64(); n1 > 0; n1--)\n                                           ^\n1 error"
+  },
+  "p02691": {
+    "problem_id": "p02691",
+    "java_file": "_3164C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02707": {
+    "problem_id": "p02707",
+    "java_file": "_3163C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02732": {
+    "problem_id": "p02732",
+    "java_file": "_3159C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02784": {
+    "problem_id": "p02784",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02848": {
+    "problem_id": "p02848",
+    "java_file": "_3146B.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02881": {
+    "problem_id": "p02881",
+    "java_file": "AtCoder.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"jp.osscons.opensourcecobol.libcobj.data.CobolDecimal.getValue()\" because \"decimal\" is null\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDecimal.setField(CobolDecimal.java:265)\n\tat AtCoder$4$2.run(AtCoder.java:205)\n\tat AtCoder$4.run(AtCoder.java:216)\n\tat AtCoder.execEntry(AtCoder.java:256)\n\tat AtCoder.run_module(AtCoder.java:103)\n\tat AtCoder.AtCoder_(AtCoder.java:44)\n\tat AtCoder.main(AtCoder.java:264)"
+  },
+  "p02886": {
+    "problem_id": "p02886",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:148: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+  },
+  "p02898": {
+    "problem_id": "p02898",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:217: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+  },
+  "p02958": {
+    "problem_id": "p02958",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:144: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+  },
+  "p02982": {
+    "problem_id": "p02982",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:182: error: incompatible types: possible lossy conversion from long to int\n            for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                           ^\n1 error"
+  },
+  "p03073": {
+    "problem_id": "p03073",
+    "java_file": "_3124C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03107": {
+    "problem_id": "p03107",
+    "java_file": "_30303A.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100000\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _30303A$4.run(_30303A.java:149)\n\tat _30303A.execEntry(_30303A.java:266)\n\tat _30303A.run_module(_30303A.java:99)\n\tat _30303A._30303A_(_30303A.java:44)\n\tat _30303A.main(_30303A.java:274)"
+  },
+  "p03246": {
+    "problem_id": "p03246",
+    "java_file": "_3103C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03274": {
+    "problem_id": "p03274",
+    "java_file": "ABC_107_C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03275": {
+    "problem_id": "p03275",
+    "java_file": "ABC_107_D.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/ABC_107_D.java:616: error: variable b_RETURN_CODE is already defined in class ABC_107_D\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_107_D.java:617: error: variable b_INF is already defined in class ABC_107_D\n  private CobolDataStorage b_INF;\t/* INF */\n                           ^\n/content/temp_compile/ABC_107_D.java:619: error: variable b_Z is already defined in class ABC_107_D\n  private CobolDataStorage b_Z;\t/* Z */\n                           ^\n/content/temp_compile/ABC_107_D.java:621: error: variable b_RETURN_CODE is already defined in class ABC_107_D\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_107_D.java:622: error: variable b_BNY is already defined in class ABC_107_D\n  private CobolDataStorage b_BNY;\t/* BNY */\n                           ^\n/content/temp_compile/ABC_107_D.java:627: error: variable b_RETURN_CODE is already defined in class ABC_107_D\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_107_D.java:628: error: variable b_N is already defined in class ABC_107_D\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/ABC_107_D.java:629: error: variable b_M is already defined in class ABC_107_D\n  private CobolDataStorage b_M;\t/* M */\n                           ^\n/content/temp_compile/ABC_107_D.java:633: error: variable b_tmp is already defined in class ABC_107_D\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/ABC_107_D.java:634: error: variable b_x is already defined in class ABC_107_D\n  private CobolDataStorage b_x;\t/* x */\n                           ^\n/content/temp_compile/ABC_107_D.java:636: error: variable b_RETURN_CODE is already defined in class ABC_107_D\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_107_D.java:637: error: variable b_N is already defined in class ABC_107_D\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/ABC_107_D.java:638: error: variable b_BT1 is already defined in class ABC_107_D\n  private CobolDataStorage b_BT1;\t/* BT1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:639: error: variable b_BX1 is already defined in class ABC_107_D\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:640: error: variable b_BX2 is already defined in class ABC_107_D\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/ABC_107_D.java:641: error: variable b_tmp is already defined in class ABC_107_D\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/ABC_107_D.java:642: error: variable b_x is already defined in class ABC_107_D\n  private CobolDataStorage b_x;\t/* x */\n                           ^\n/content/temp_compile/ABC_107_D.java:644: error: variable b_RETURN_CODE is already defined in class ABC_107_D\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_107_D.java:645: error: variable b_Z is already defined in class ABC_107_D\n  private CobolDataStorage b_Z;\t/* Z */\n                           ^\n/content/temp_compile/ABC_107_D.java:646: error: variable b_N is already defined in class ABC_107_D\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/ABC_107_D.java:647: error: variable b_M is already defined in class ABC_107_D\n  private CobolDataStorage b_M;\t/* M */\n                           ^\n/content/temp_compile/ABC_107_D.java:648: error: variable b_BT1 is already defined in class ABC_107_D\n  private CobolDataStorage b_BT1;\t/* BT1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:649: error: variable b_BX1 is already defined in class ABC_107_D\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:650: error: variable b_BX2 is already defined in class ABC_107_D\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/ABC_107_D.java:651: error: variable b_x1 is already defined in class ABC_107_D\n  private CobolDataStorage b_x1;\t/* x1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:652: error: variable b_XX1 is already defined in class ABC_107_D\n  private CobolDataStorage b_XX1;\t/* XX1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:653: error: variable b_XX2 is already defined in class ABC_107_D\n  private CobolDataStorage b_XX2;\t/* XX2 */\n                           ^\n/content/temp_compile/ABC_107_D.java:661: error: variable b_RETURN_CODE is already defined in class ABC_107_D\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_107_D.java:662: error: variable b_INF is already defined in class ABC_107_D\n  private CobolDataStorage b_INF;\t/* INF */\n                           ^\n/content/temp_compile/ABC_107_D.java:663: error: variable b_N is already defined in class ABC_107_D\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/ABC_107_D.java:664: error: variable b_tmp is already defined in class ABC_107_D\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/ABC_107_D.java:666: error: variable b_r is already defined in class ABC_107_D\n  private CobolDataStorage b_r;\t/* r */\n                           ^\n/content/temp_compile/ABC_107_D.java:669: error: variable b_BX1 is already defined in class ABC_107_D\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:670: error: variable b_BX2 is already defined in class ABC_107_D\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/ABC_107_D.java:671: error: variable b_d_ret is already defined in class ABC_107_D\n  private CobolDataStorage b_d_ret;\t/* d_ret */\n                           ^\n/content/temp_compile/ABC_107_D.java:690: error: variable f_Z is already defined in class ABC_107_D\n  private AbstractCobolField f_Z;\t/* Z */\n                             ^\n/content/temp_compile/ABC_107_D.java:701: error: variable f_tmp is already defined in class ABC_107_D\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/ABC_107_D.java:702: error: variable f_x is already defined in class ABC_107_D\n  private AbstractCobolField f_x;\t/* x */\n                             ^\n/content/temp_compile/ABC_107_D.java:703: error: variable f_d_ret is already defined in class ABC_107_D\n  private AbstractCobolField f_d_ret;\t/* d_ret */\n                             ^\n/content/temp_compile/ABC_107_D.java:706: error: variable f_x is already defined in class ABC_107_D\n  private AbstractCobolField f_x;\t/* x */\n                             ^\n/content/temp_compile/ABC_107_D.java:707: error: variable f_tmp is already defined in class ABC_107_D\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/ABC_107_D.java:711: error: variable f_INF is already defined in class ABC_107_D\n  private AbstractCobolField f_INF;\t/* INF */\n                             ^\n/content/temp_compile/ABC_107_D.java:712: error: variable f_tmp is already defined in class ABC_107_D\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/ABC_107_D.java:714: error: variable f_r is already defined in class ABC_107_D\n  private AbstractCobolField f_r;\t/* r */\n                             ^\n/content/temp_compile/ABC_107_D.java:717: error: variable f_d_ret is already defined in class ABC_107_D\n  private AbstractCobolField f_d_ret;\t/* d_ret */\n                             ^\n45 errors"
+  },
+  "p03276": {
+    "problem_id": "p03276",
+    "java_file": "F.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/F.java:401: error: variable b_RETURN_CODE is already defined in class F\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/F.java:403: error: variable b_N is already defined in class F\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/F.java:409: error: variable b_BX1 is already defined in class F\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/F.java:410: error: variable b_BX2 is already defined in class F\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/F.java:453: error: variable f_d_ret is already defined in class F\n  private AbstractCobolField f_d_ret;\n                             ^\n/content/temp_compile/F.java:454: error: variable b_d_ret is already defined in class F\n  private CobolDataStorage b_d_ret;\n                           ^\n6 errors"
+  },
+  "p03280": {
+    "problem_id": "p03280",
+    "java_file": "_3101C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03283": {
+    "problem_id": "p03283",
+    "java_file": "BIT_ADD.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/BIT_ADD.java:371: error: variable b_RETURN_CODE is already defined in class BIT_ADD\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/BIT_ADD.java:372: error: variable b_N is already defined in class BIT_ADD\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/BIT_ADD.java:373: error: variable b_BT1 is already defined in class BIT_ADD\n  private CobolDataStorage b_BT1;\t/* BT1 */\n                           ^\n/content/temp_compile/BIT_ADD.java:374: error: variable b_BX1 is already defined in class BIT_ADD\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/BIT_ADD.java:375: error: variable b_BX2 is already defined in class BIT_ADD\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/BIT_ADD.java:376: error: variable b_tmp is already defined in class BIT_ADD\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/BIT_ADD.java:377: error: variable b_x is already defined in class BIT_ADD\n  private CobolDataStorage b_x;\t/* x */\n                           ^\n/content/temp_compile/BIT_ADD.java:379: error: variable b_RETURN_CODE is already defined in class BIT_ADD\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/BIT_ADD.java:381: error: variable b_N is already defined in class BIT_ADD\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/BIT_ADD.java:382: error: variable b_M is already defined in class BIT_ADD\n  private CobolDataStorage b_M;\t/* M */\n                           ^\n/content/temp_compile/BIT_ADD.java:383: error: variable b_BT1 is already defined in class BIT_ADD\n  private CobolDataStorage b_BT1;\t/* BT1 */\n                           ^\n/content/temp_compile/BIT_ADD.java:384: error: variable b_BX1 is already defined in class BIT_ADD\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/BIT_ADD.java:385: error: variable b_BX2 is already defined in class BIT_ADD\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/BIT_ADD.java:396: error: variable b_RETURN_CODE is already defined in class BIT_ADD\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/BIT_ADD.java:398: error: variable b_N is already defined in class BIT_ADD\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/BIT_ADD.java:399: error: variable b_tmp is already defined in class BIT_ADD\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/BIT_ADD.java:404: error: variable b_BX1 is already defined in class BIT_ADD\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/BIT_ADD.java:405: error: variable b_BX2 is already defined in class BIT_ADD\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/BIT_ADD.java:423: error: variable f_tmp is already defined in class BIT_ADD\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/BIT_ADD.java:424: error: variable f_x is already defined in class BIT_ADD\n  private AbstractCobolField f_x;\t/* x */\n                             ^\n/content/temp_compile/BIT_ADD.java:428: error: variable f_tmp is already defined in class BIT_ADD\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/BIT_ADD.java:433: error: variable f_d_ret is already defined in class BIT_ADD\n  private AbstractCobolField f_d_ret;\t/* d_ret */\n                             ^\n22 errors"
+  },
+  "p03287": {
+    "problem_id": "p03287",
+    "java_file": "ABC_105_D.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03290": {
+    "problem_id": "p03290",
+    "java_file": "B_TABLE.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/B_TABLE.java:360: error: variable b_RETURN_CODE is already defined in class B_TABLE\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/B_TABLE.java:363: error: variable b_HXD is already defined in class B_TABLE\n  private CobolDataStorage b_HXD;\t/* HXD */\n                           ^\n/content/temp_compile/B_TABLE.java:364: error: variable b_i is already defined in class B_TABLE\n  private CobolDataStorage b_i;\t/* i */\n                           ^\n/content/temp_compile/B_TABLE.java:365: error: variable b_j is already defined in class B_TABLE\n  private CobolDataStorage b_j;\t/* j */\n                           ^\n/content/temp_compile/B_TABLE.java:368: error: variable b_q is already defined in class B_TABLE\n  private CobolDataStorage b_q;\t/* q */\n                           ^\n/content/temp_compile/B_TABLE.java:369: error: variable b_r is already defined in class B_TABLE\n  private CobolDataStorage b_r;\t/* r */\n                           ^\n/content/temp_compile/B_TABLE.java:370: error: variable b_B_TBL1 is already defined in class B_TABLE\n  private CobolDataStorage b_B_TBL1;\t/* B_TBL1 */\n                           ^\n/content/temp_compile/B_TABLE.java:390: error: variable f_i is already defined in class B_TABLE\n  private AbstractCobolField f_i;\t/* i */\n                             ^\n/content/temp_compile/B_TABLE.java:392: error: variable f_q is already defined in class B_TABLE\n  private AbstractCobolField f_q;\t/* q */\n                             ^\n/content/temp_compile/B_TABLE.java:393: error: variable f_r is already defined in class B_TABLE\n  private AbstractCobolField f_r;\t/* r */\n                             ^\n10 errors"
+  },
+  "p03291": {
+    "problem_id": "p03291",
+    "java_file": "ABC_104_D.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03309": {
+    "problem_id": "p03309",
+    "java_file": "GCD.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/GCD.java:271: error: variable b_RETURN_CODE is already defined in class GCD\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/GCD.java:290: error: variable f_d_ret is already defined in class GCD\n  private AbstractCobolField f_d_ret;\t/* d_ret */\n                             ^\n/content/temp_compile/GCD.java:304: error: variable f_d_b is already defined in class GCD\n  private AbstractCobolField f_d_b;\n                             ^\n/content/temp_compile/GCD.java:306: error: variable f_d_a is already defined in class GCD\n  private AbstractCobolField f_d_a;\n                             ^\n4 errors"
+  },
+  "p03310": {
+    "problem_id": "p03310",
+    "java_file": "ABC_102_D.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03315": {
+    "problem_id": "p03315",
+    "java_file": "ABC_102_C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03341": {
+    "problem_id": "p03341",
+    "java_file": "_3098C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03399": {
+    "problem_id": "p03399",
+    "java_file": "BISECTION_METHOD.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(int)\" because \"data\" is null\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.setBytes(CobolDataStorage.java:696)\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.setBytes(CobolDataStorage.java:672)\n\tat BISECTION_METHOD$4.run(BISECTION_METHOD.java:155)\n\tat BISECTION_METHOD.execEntry(BISECTION_METHOD.java:276)\n\tat BISECTION_METHOD.run_module(BISECTION_METHOD.java:116)\n\tat BISECTION_METHOD.BISECTION_METHOD_(BISECTION_METHOD.java:60)\n\tat BISECTION_METHOD.main(BISECTION_METHOD.java:289)"
+  },
+  "p03474": {
+    "problem_id": "p03474",
+    "java_file": "ABC_104_C.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/ABC_104_C.java:754: error: variable b_RETURN_CODE is already defined in class ABC_104_C\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_104_C.java:760: error: variable b_HXD is already defined in class ABC_104_C\n  private CobolDataStorage b_HXD;\t/* HXD */\n                           ^\n/content/temp_compile/ABC_104_C.java:761: error: variable b_NUM_OFF is already defined in class ABC_104_C\n  private CobolDataStorage b_NUM_OFF;\t/* NUM_OFF */\n                           ^\n/content/temp_compile/ABC_104_C.java:762: error: variable b_NUM_ON is already defined in class ABC_104_C\n  private CobolDataStorage b_NUM_ON;\t/* NUM_ON */\n                           ^\n/content/temp_compile/ABC_104_C.java:767: error: variable b_RETURN_CODE is already defined in class ABC_104_C\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_104_C.java:768: error: variable b_HXD is already defined in class ABC_104_C\n  private CobolDataStorage b_HXD;\t/* HXD */\n                           ^\n/content/temp_compile/ABC_104_C.java:769: error: variable b_BNY is already defined in class ABC_104_C\n  private CobolDataStorage b_BNY;\t/* BNY */\n                           ^\n/content/temp_compile/ABC_104_C.java:771: error: variable b_i is already defined in class ABC_104_C\n  private CobolDataStorage b_i;\t/* i */\n                           ^\n/content/temp_compile/ABC_104_C.java:772: error: variable b_j is already defined in class ABC_104_C\n  private CobolDataStorage b_j;\t/* j */\n                           ^\n/content/temp_compile/ABC_104_C.java:781: error: variable b_RETURN_CODE is already defined in class ABC_104_C\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_104_C.java:782: error: variable b_BIT4 is already defined in class ABC_104_C\n  private CobolDataStorage b_BIT4;\t/* BIT4 */\n                           ^\n/content/temp_compile/ABC_104_C.java:783: error: variable b_BYT4 is already defined in class ABC_104_C\n  private CobolDataStorage b_BYT4;\t/* BYT4 */\n                           ^\n/content/temp_compile/ABC_104_C.java:784: error: variable b_HXD is already defined in class ABC_104_C\n  private CobolDataStorage b_HXD;\t/* HXD */\n                           ^\n/content/temp_compile/ABC_104_C.java:785: error: variable b_i is already defined in class ABC_104_C\n  private CobolDataStorage b_i;\t/* i */\n                           ^\n/content/temp_compile/ABC_104_C.java:786: error: variable b_j is already defined in class ABC_104_C\n  private CobolDataStorage b_j;\t/* j */\n                           ^\n/content/temp_compile/ABC_104_C.java:787: error: variable b_k is already defined in class ABC_104_C\n  private CobolDataStorage b_k;\t/* k */\n                           ^\n/content/temp_compile/ABC_104_C.java:788: error: variable b_m is already defined in class ABC_104_C\n  private CobolDataStorage b_m;\t/* m */\n                           ^\n/content/temp_compile/ABC_104_C.java:789: error: variable b_q is already defined in class ABC_104_C\n  private CobolDataStorage b_q;\t/* q */\n                           ^\n/content/temp_compile/ABC_104_C.java:790: error: variable b_r is already defined in class ABC_104_C\n  private CobolDataStorage b_r;\t/* r */\n                           ^\n/content/temp_compile/ABC_104_C.java:791: error: variable b_B_TBL1 is already defined in class ABC_104_C\n  private CobolDataStorage b_B_TBL1;\t/* B_TBL1 */\n                           ^\n/content/temp_compile/ABC_104_C.java:819: error: variable f_i is already defined in class ABC_104_C\n  private AbstractCobolField f_i;\t/* i */\n                             ^\n/content/temp_compile/ABC_104_C.java:820: error: variable f_j is already defined in class ABC_104_C\n  private AbstractCobolField f_j;\t/* j */\n                             ^\n/content/temp_compile/ABC_104_C.java:832: error: variable f_i is already defined in class ABC_104_C\n  private AbstractCobolField f_i;\t/* i */\n                             ^\n/content/temp_compile/ABC_104_C.java:833: error: variable f_k is already defined in class ABC_104_C\n  private AbstractCobolField f_k;\t/* k */\n                             ^\n/content/temp_compile/ABC_104_C.java:834: error: variable f_q is already defined in class ABC_104_C\n  private AbstractCobolField f_q;\t/* q */\n                             ^\n/content/temp_compile/ABC_104_C.java:835: error: variable f_r is already defined in class ABC_104_C\n  private AbstractCobolField f_r;\t/* r */\n                             ^\n26 errors"
+  },
+  "p03556": {
+    "problem_id": "p03556",
+    "java_file": "ABC_084_B.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n9\n\nActual:\nNo",
+    "actual_output": "No"
+  },
+  "p03610": {
+    "problem_id": "p03610",
+    "java_file": "ABC_072_B.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03814": {
+    "problem_id": "p03814",
+    "java_file": "ABC_053_B.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  }
+}

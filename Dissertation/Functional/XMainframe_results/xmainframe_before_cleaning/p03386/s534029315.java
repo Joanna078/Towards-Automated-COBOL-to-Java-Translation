@@ -1,0 +1,67 @@
+Here's the equivalent Java code translated from the given COBOL program:
+
+```java
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String inp = sc.nextLine();
+        int maxlen = 3;
+        int cur = 1;
+        int i = 1;
+        int j;
+
+        int[] abk = new int[maxlen];
+        for (int k = 0; k < maxlen; k++) {
+            j = cur;
+            while (inp.charAt(j - 1) != ' ') {
+                j++;
+            }
+            int len = j - cur;
+            abk[k] = Integer.parseInt(inp.substring(cur - 1, j));
+            cur = j + 1;
+            i++;
+        }
+
+        int m;
+        int n = abk[0];
+        int[] a = new int[n];
+        for (m = 0; m < n; m++) {
+            if (m + 1 <= abk[1]) {
+                a[m] = m + 1;
+            } else {
+                break;
+            }
+        }
+
+        int p;
+        int idx = m;
+        int tmp;
+        int idx2 = 0;
+        int[] b = new int[n];
+        for (p = abk[1]; p >= abk[1] - abk[2] + 1; p--) {
+            if (a[idx - 1] > p) {
+                b[idx2] = p;
+                idx2++;
+            } else {
+                break;
+            }
+        }
+
+        StringBuilder sb = new StringBuilder();
+        for (int x = 0; x < idx; x++) {
+            sb.append(a[x]).append(" ");
+        }
+        System.out.println(sb.toString().trim());
+
+        for (int y = idx2 - 1; y >= 0; y--) {
+            sb.setLength(0);
+            sb.append(b[y]).append(" ");
+            System.out.println(sb.toString().trim());
+        }
+    }
+}
+```
+
+This Java code is functionally equivalent to the original COBOL program provided. It processes user input, extracts values into arrays `abk`, `a`, and `b`, performs some operations on these arrays, and finally prints out the results as required by the problem statement.

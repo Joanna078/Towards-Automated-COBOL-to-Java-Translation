@@ -1,0 +1,1241 @@
+[
+  {
+    "problem_id": "p02726",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02726/s538290764.java",
+    "cleaned_file": "strategythree_results/cleaned/p02726/s538290764.java"
+  },
+  {
+    "problem_id": "p02934",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02934/s077882121.java",
+    "cleaned_file": "strategythree_results/cleaned/p02934/s077882121.java"
+  },
+  {
+    "problem_id": "p02691",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02691/s211413560.java",
+    "cleaned_file": "strategythree_results/cleaned/p02691/s211413560.java"
+  },
+  {
+    "problem_id": "p03290",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03290/s902800534.java",
+    "cleaned_file": "strategythree_results/cleaned/p03290/s902800534.java"
+  },
+  {
+    "problem_id": "p03434",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03434/s074208092.java",
+    "cleaned_file": "strategythree_results/cleaned/p03434/s074208092.java"
+  },
+  {
+    "problem_id": "p03309",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03309/s615242390.java",
+    "cleaned_file": "strategythree_results/cleaned/p03309/s615242390.java"
+  },
+  {
+    "problem_id": "p03378",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03378/s590565726.java",
+    "cleaned_file": "strategythree_results/cleaned/p03378/s590565726.java"
+  },
+  {
+    "problem_id": "p03073",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03073/s453834313.java",
+    "cleaned_file": "strategythree_results/cleaned/p03073/s453834313.java"
+  },
+  {
+    "problem_id": "p03331",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03331/s251999208.java",
+    "cleaned_file": "strategythree_results/cleaned/p03331/s251999208.java"
+  },
+  {
+    "problem_id": "p03326",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03326/s684869797.java",
+    "cleaned_file": "strategythree_results/cleaned/p03326/s684869797.java"
+  },
+  {
+    "problem_id": "p02982",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02982/s138385023.java",
+    "cleaned_file": "strategythree_results/cleaned/p02982/s138385023.java"
+  },
+  {
+    "problem_id": "p02762",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02762/s425431517.java",
+    "cleaned_file": "strategythree_results/cleaned/p02762/s425431517.java"
+  },
+  {
+    "problem_id": "p02767",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02767/s948758755.java",
+    "cleaned_file": "strategythree_results/cleaned/p02767/s948758755.java"
+  },
+  {
+    "problem_id": "p03332",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03332/s039905875.java",
+    "cleaned_file": "strategythree_results/cleaned/p03332/s039905875.java"
+  },
+  {
+    "problem_id": "p02719",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02719/s200166977.java",
+    "cleaned_file": "strategythree_results/cleaned/p02719/s200166977.java"
+  },
+  {
+    "problem_id": "p03275",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03275/s013607974.java",
+    "cleaned_file": "strategythree_results/cleaned/p03275/s013607974.java"
+  },
+  {
+    "problem_id": "p03408",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03408/s211850063.java",
+    "cleaned_file": "strategythree_results/cleaned/p03408/s211850063.java"
+  },
+  {
+    "problem_id": "p02692",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02692/s359856906.java",
+    "cleaned_file": "strategythree_results/cleaned/p02692/s359856906.java"
+  },
+  {
+    "problem_id": "p03328",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03328/s036392141.java",
+    "cleaned_file": "strategythree_results/cleaned/p03328/s036392141.java"
+  },
+  {
+    "problem_id": "p02583",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02583/s950730034.java",
+    "cleaned_file": "strategythree_results/cleaned/p02583/s950730034.java"
+  },
+  {
+    "problem_id": "p03636",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03636/s022173867.java",
+    "cleaned_file": "strategythree_results/cleaned/p03636/s022173867.java"
+  },
+  {
+    "problem_id": "p02969",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02969/s648537227.java",
+    "cleaned_file": "strategythree_results/cleaned/p02969/s648537227.java"
+  },
+  {
+    "problem_id": "p03274",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03274/s327968127.java",
+    "cleaned_file": "strategythree_results/cleaned/p03274/s327968127.java"
+  },
+  {
+    "problem_id": "p02613",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02613/s050998688.java",
+    "cleaned_file": "strategythree_results/cleaned/p02613/s050998688.java"
+  },
+  {
+    "problem_id": "p03658",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03658/s686261831.java",
+    "cleaned_file": "strategythree_results/cleaned/p03658/s686261831.java"
+  },
+  {
+    "problem_id": "p02684",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02684/s387788132.java",
+    "cleaned_file": "strategythree_results/cleaned/p02684/s387788132.java"
+  },
+  {
+    "problem_id": "p02608",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02608/s068691185.java",
+    "cleaned_file": "strategythree_results/cleaned/p02608/s068691185.java"
+  },
+  {
+    "problem_id": "p03370",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03370/s318369553.java",
+    "cleaned_file": "strategythree_results/cleaned/p03370/s318369553.java"
+  },
+  {
+    "problem_id": "p03041",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03041/s402018399.java",
+    "cleaned_file": "strategythree_results/cleaned/p03041/s402018399.java"
+  },
+  {
+    "problem_id": "p02725",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02725/s205724976.java",
+    "cleaned_file": "strategythree_results/cleaned/p02725/s205724976.java"
+  },
+  {
+    "problem_id": "p03457",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03457/s003350529.java",
+    "cleaned_file": "strategythree_results/cleaned/p03457/s003350529.java"
+  },
+  {
+    "problem_id": "p03813",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03813/s102841374.java",
+    "cleaned_file": "strategythree_results/cleaned/p03813/s102841374.java"
+  },
+  {
+    "problem_id": "p02594",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02594/s106775064.java",
+    "cleaned_file": "strategythree_results/cleaned/p02594/s106775064.java"
+  },
+  {
+    "problem_id": "p02916",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02916/s896874253.java",
+    "cleaned_file": "strategythree_results/cleaned/p02916/s896874253.java"
+  },
+  {
+    "problem_id": "p02629",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02629/s569024562.java",
+    "cleaned_file": "strategythree_results/cleaned/p02629/s569024562.java"
+  },
+  {
+    "problem_id": "p03962",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03962/s031003625.java",
+    "cleaned_file": "strategythree_results/cleaned/p03962/s031003625.java"
+  },
+  {
+    "problem_id": "p03012",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03012/s902668426.java",
+    "cleaned_file": "strategythree_results/cleaned/p03012/s902668426.java"
+  },
+  {
+    "problem_id": "p03192",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03192/s054342320.java",
+    "cleaned_file": "strategythree_results/cleaned/p03192/s054342320.java"
+  },
+  {
+    "problem_id": "p03680",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03680/s367463491.java",
+    "cleaned_file": "strategythree_results/cleaned/p03680/s367463491.java"
+  },
+  {
+    "problem_id": "p03473",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03473/s528559044.java",
+    "cleaned_file": "strategythree_results/cleaned/p03473/s528559044.java"
+  },
+  {
+    "problem_id": "p03672",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03672/s739811867.java",
+    "cleaned_file": "strategythree_results/cleaned/p03672/s739811867.java"
+  },
+  {
+    "problem_id": "p02886",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02886/s387826284.java",
+    "cleaned_file": "strategythree_results/cleaned/p02886/s387826284.java"
+  },
+  {
+    "problem_id": "p03455",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03455/s067629639.java",
+    "cleaned_file": "strategythree_results/cleaned/p03455/s067629639.java"
+  },
+  {
+    "problem_id": "p03386",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03386/s534029315.java",
+    "cleaned_file": "strategythree_results/cleaned/p03386/s534029315.java"
+  },
+  {
+    "problem_id": "p03359",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03359/s167049581.java",
+    "cleaned_file": "strategythree_results/cleaned/p03359/s167049581.java"
+  },
+  {
+    "problem_id": "p03337",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03337/s618094240.java",
+    "cleaned_file": "strategythree_results/cleaned/p03337/s618094240.java"
+  },
+  {
+    "problem_id": "p04012",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p04012/s018053102.java",
+    "cleaned_file": "strategythree_results/cleaned/p04012/s018053102.java"
+  },
+  {
+    "problem_id": "p03827",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03827/s948838093.java",
+    "cleaned_file": "strategythree_results/cleaned/p03827/s948838093.java"
+  },
+  {
+    "problem_id": "p02756",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02756/s579388514.java",
+    "cleaned_file": "strategythree_results/cleaned/p02756/s579388514.java"
+  },
+  {
+    "problem_id": "p02958",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02958/s107709147.java",
+    "cleaned_file": "strategythree_results/cleaned/p02958/s107709147.java"
+  },
+  {
+    "problem_id": "p02760",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02760/s453190548.java",
+    "cleaned_file": "strategythree_results/cleaned/p02760/s453190548.java"
+  },
+  {
+    "problem_id": "p02683",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02683/s953465528.java",
+    "cleaned_file": "strategythree_results/cleaned/p02683/s953465528.java"
+  },
+  {
+    "problem_id": "p02759",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02759/s141747878.java",
+    "cleaned_file": "strategythree_results/cleaned/p02759/s141747878.java"
+  },
+  {
+    "problem_id": "p03276",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03276/s036764800.java",
+    "cleaned_file": "strategythree_results/cleaned/p03276/s036764800.java"
+  },
+  {
+    "problem_id": "p03796",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03796/s359999427.java",
+    "cleaned_file": "strategythree_results/cleaned/p03796/s359999427.java"
+  },
+  {
+    "problem_id": "p03243",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03243/s232998445.java",
+    "cleaned_file": "strategythree_results/cleaned/p03243/s232998445.java"
+  },
+  {
+    "problem_id": "p02689",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02689/s314065899.java",
+    "cleaned_file": "strategythree_results/cleaned/p02689/s314065899.java"
+  },
+  {
+    "problem_id": "p03774",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03774/s108395736.java",
+    "cleaned_file": "strategythree_results/cleaned/p03774/s108395736.java"
+  },
+  {
+    "problem_id": "p03470",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03470/s107906750.java",
+    "cleaned_file": "strategythree_results/cleaned/p03470/s107906750.java"
+  },
+  {
+    "problem_id": "p02731",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02731/s207488930.java",
+    "cleaned_file": "strategythree_results/cleaned/p02731/s207488930.java"
+  },
+  {
+    "problem_id": "p03424",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03424/s069120838.java",
+    "cleaned_file": "strategythree_results/cleaned/p03424/s069120838.java"
+  },
+  {
+    "problem_id": "p02642",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02642/s331263104.java",
+    "cleaned_file": "strategythree_results/cleaned/p02642/s331263104.java"
+  },
+  {
+    "problem_id": "p03293",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03293/s217934662.java",
+    "cleaned_file": "strategythree_results/cleaned/p03293/s217934662.java"
+  },
+  {
+    "problem_id": "p03407",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03407/s828037807.java",
+    "cleaned_file": "strategythree_results/cleaned/p03407/s828037807.java"
+  },
+  {
+    "problem_id": "p03609",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03609/s150651649.java",
+    "cleaned_file": "strategythree_results/cleaned/p03609/s150651649.java"
+  },
+  {
+    "problem_id": "p02720",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02720/s977378257.java",
+    "cleaned_file": "strategythree_results/cleaned/p02720/s977378257.java"
+  },
+  {
+    "problem_id": "p03294",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03294/s528980461.java",
+    "cleaned_file": "strategythree_results/cleaned/p03294/s528980461.java"
+  },
+  {
+    "problem_id": "p03494",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03494/s225194042.java",
+    "cleaned_file": "strategythree_results/cleaned/p03494/s225194042.java"
+  },
+  {
+    "problem_id": "p02639",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02639/s179342198.java",
+    "cleaned_file": "strategythree_results/cleaned/p02639/s179342198.java"
+  },
+  {
+    "problem_id": "p03694",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03694/s519364543.java",
+    "cleaned_file": "strategythree_results/cleaned/p03694/s519364543.java"
+  },
+  {
+    "problem_id": "p03720",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03720/s098875618.java",
+    "cleaned_file": "strategythree_results/cleaned/p03720/s098875618.java"
+  },
+  {
+    "problem_id": "p03260",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03260/s346414249.java",
+    "cleaned_file": "strategythree_results/cleaned/p03260/s346414249.java"
+  },
+  {
+    "problem_id": "p02772",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02772/s199895381.java",
+    "cleaned_file": "strategythree_results/cleaned/p02772/s199895381.java"
+  },
+  {
+    "problem_id": "p03288",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03288/s228929734.java",
+    "cleaned_file": "strategythree_results/cleaned/p03288/s228929734.java"
+  },
+  {
+    "problem_id": "p03292",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03292/s031109456.java",
+    "cleaned_file": "strategythree_results/cleaned/p03292/s031109456.java"
+  },
+  {
+    "problem_id": "p02732",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02732/s046317718.java",
+    "cleaned_file": "strategythree_results/cleaned/p02732/s046317718.java"
+  },
+  {
+    "problem_id": "p03997",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03997/s162261467.java",
+    "cleaned_file": "strategythree_results/cleaned/p03997/s162261467.java"
+  },
+  {
+    "problem_id": "p03861",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03861/s533824771.java",
+    "cleaned_file": "strategythree_results/cleaned/p03861/s533824771.java"
+  },
+  {
+    "problem_id": "p02723",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02723/s297901918.java",
+    "cleaned_file": "strategythree_results/cleaned/p02723/s297901918.java"
+  },
+  {
+    "problem_id": "p02663",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02663/s581403666.java",
+    "cleaned_file": "strategythree_results/cleaned/p02663/s581403666.java"
+  },
+  {
+    "problem_id": "p03729",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03729/s327078584.java",
+    "cleaned_file": "strategythree_results/cleaned/p03729/s327078584.java"
+  },
+  {
+    "problem_id": "p03719",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03719/s681020301.java",
+    "cleaned_file": "strategythree_results/cleaned/p03719/s681020301.java"
+  },
+  {
+    "problem_id": "p03272",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03272/s339563310.java",
+    "cleaned_file": "strategythree_results/cleaned/p03272/s339563310.java"
+  },
+  {
+    "problem_id": "p03485",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03485/s025676861.java",
+    "cleaned_file": "strategythree_results/cleaned/p03485/s025676861.java"
+  },
+  {
+    "problem_id": "p03417",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03417/s495068575.java",
+    "cleaned_file": "strategythree_results/cleaned/p03417/s495068575.java"
+  },
+  {
+    "problem_id": "p02836",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02836/s741947376.java",
+    "cleaned_file": "strategythree_results/cleaned/p02836/s741947376.java"
+  },
+  {
+    "problem_id": "p03280",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03280/s705006988.java",
+    "cleaned_file": "strategythree_results/cleaned/p03280/s705006988.java"
+  },
+  {
+    "problem_id": "p02957",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02957/s518989812.java",
+    "cleaned_file": "strategythree_results/cleaned/p02957/s518989812.java"
+  },
+  {
+    "problem_id": "p03597",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03597/s194039918.java",
+    "cleaned_file": "strategythree_results/cleaned/p03597/s194039918.java"
+  },
+  {
+    "problem_id": "p02606",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02606/s071676573.java",
+    "cleaned_file": "strategythree_results/cleaned/p02606/s071676573.java"
+  },
+  {
+    "problem_id": "p02922",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02922/s627538804.java",
+    "cleaned_file": "strategythree_results/cleaned/p02922/s627538804.java"
+  },
+  {
+    "problem_id": "p02729",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02729/s421082227.java",
+    "cleaned_file": "strategythree_results/cleaned/p02729/s421082227.java"
+  },
+  {
+    "problem_id": "p03415",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03415/s094784608.java",
+    "cleaned_file": "strategythree_results/cleaned/p03415/s094784608.java"
+  },
+  {
+    "problem_id": "p03071",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03071/s047948447.java",
+    "cleaned_file": "strategythree_results/cleaned/p03071/s047948447.java"
+  },
+  {
+    "problem_id": "p03282",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03282/s199197467.java",
+    "cleaned_file": "strategythree_results/cleaned/p03282/s199197467.java"
+  },
+  {
+    "problem_id": "p02811",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02811/s062730582.java",
+    "cleaned_file": "strategythree_results/cleaned/p02811/s062730582.java"
+  },
+  {
+    "problem_id": "p03563",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03563/s337879094.java",
+    "cleaned_file": "strategythree_results/cleaned/p03563/s337879094.java"
+  },
+  {
+    "problem_id": "p03606",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03606/s506821698.java",
+    "cleaned_file": "strategythree_results/cleaned/p03606/s506821698.java"
+  },
+  {
+    "problem_id": "p03778",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03778/s856499817.java",
+    "cleaned_file": "strategythree_results/cleaned/p03778/s856499817.java"
+  },
+  {
+    "problem_id": "p03573",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03573/s236387528.java",
+    "cleaned_file": "strategythree_results/cleaned/p03573/s236387528.java"
+  },
+  {
+    "problem_id": "p02910",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02910/s445136261.java",
+    "cleaned_file": "strategythree_results/cleaned/p02910/s445136261.java"
+  },
+  {
+    "problem_id": "p02859",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02859/s259870705.java",
+    "cleaned_file": "strategythree_results/cleaned/p02859/s259870705.java"
+  },
+  {
+    "problem_id": "p02753",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02753/s138398313.java",
+    "cleaned_file": "strategythree_results/cleaned/p02753/s138398313.java"
+  },
+  {
+    "problem_id": "p02898",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02898/s855856422.java",
+    "cleaned_file": "strategythree_results/cleaned/p02898/s855856422.java"
+  },
+  {
+    "problem_id": "p02696",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02696/s692173887.java",
+    "cleaned_file": "strategythree_results/cleaned/p02696/s692173887.java"
+  },
+  {
+    "problem_id": "p02699",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02699/s639613950.java",
+    "cleaned_file": "strategythree_results/cleaned/p02699/s639613950.java"
+  },
+  {
+    "problem_id": "p03281",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03281/s846469865.java",
+    "cleaned_file": "strategythree_results/cleaned/p03281/s846469865.java"
+  },
+  {
+    "problem_id": "p02711",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02711/s627514981.java",
+    "cleaned_file": "strategythree_results/cleaned/p02711/s627514981.java"
+  },
+  {
+    "problem_id": "p03399",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03399/s852906290.java",
+    "cleaned_file": "strategythree_results/cleaned/p03399/s852906290.java"
+  },
+  {
+    "problem_id": "p03283",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03283/s242926709.java",
+    "cleaned_file": "strategythree_results/cleaned/p03283/s242926709.java"
+  },
+  {
+    "problem_id": "p02693",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02693/s220088753.java",
+    "cleaned_file": "strategythree_results/cleaned/p02693/s220088753.java"
+  },
+  {
+    "problem_id": "p03107",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03107/s269184848.java",
+    "cleaned_file": "strategythree_results/cleaned/p03107/s269184848.java"
+  },
+  {
+    "problem_id": "p03076",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03076/s827760751.java",
+    "cleaned_file": "strategythree_results/cleaned/p03076/s827760751.java"
+  },
+  {
+    "problem_id": "p03323",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03323/s070261901.java",
+    "cleaned_file": "strategythree_results/cleaned/p03323/s070261901.java"
+  },
+  {
+    "problem_id": "p02742",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02742/s015191726.java",
+    "cleaned_file": "strategythree_results/cleaned/p02742/s015191726.java"
+  },
+  {
+    "problem_id": "p02717",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02717/s307745273.java",
+    "cleaned_file": "strategythree_results/cleaned/p02717/s307745273.java"
+  },
+  {
+    "problem_id": "p03307",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03307/s432790883.java",
+    "cleaned_file": "strategythree_results/cleaned/p03307/s432790883.java"
+  },
+  {
+    "problem_id": "p03295",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03295/s360290371.java",
+    "cleaned_file": "strategythree_results/cleaned/p03295/s360290371.java"
+  },
+  {
+    "problem_id": "p02682",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02682/s022156684.java",
+    "cleaned_file": "strategythree_results/cleaned/p02682/s022156684.java"
+  },
+  {
+    "problem_id": "p03773",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03773/s174430499.java",
+    "cleaned_file": "strategythree_results/cleaned/p03773/s174430499.java"
+  },
+  {
+    "problem_id": "p03325",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03325/s619899213.java",
+    "cleaned_file": "strategythree_results/cleaned/p03325/s619899213.java"
+  },
+  {
+    "problem_id": "p02730",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02730/s310886053.java",
+    "cleaned_file": "strategythree_results/cleaned/p02730/s310886053.java"
+  },
+  {
+    "problem_id": "p03319",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03319/s233564082.java",
+    "cleaned_file": "strategythree_results/cleaned/p03319/s233564082.java"
+  },
+  {
+    "problem_id": "p03369",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03369/s073072560.java",
+    "cleaned_file": "strategythree_results/cleaned/p03369/s073072560.java"
+  },
+  {
+    "problem_id": "p02694",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02694/s270033837.java",
+    "cleaned_file": "strategythree_results/cleaned/p02694/s270033837.java"
+  },
+  {
+    "problem_id": "p03826",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03826/s467821232.java",
+    "cleaned_file": "strategythree_results/cleaned/p03826/s467821232.java"
+  },
+  {
+    "problem_id": "p03759",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03759/s220155735.java",
+    "cleaned_file": "strategythree_results/cleaned/p03759/s220155735.java"
+  },
+  {
+    "problem_id": "p03469",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03469/s051044583.java",
+    "cleaned_file": "strategythree_results/cleaned/p03469/s051044583.java"
+  },
+  {
+    "problem_id": "p02817",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02817/s077520124.java",
+    "cleaned_file": "strategythree_results/cleaned/p02817/s077520124.java"
+  },
+  {
+    "problem_id": "p03643",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03643/s543414424.java",
+    "cleaned_file": "strategythree_results/cleaned/p03643/s543414424.java"
+  },
+  {
+    "problem_id": "p03632",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03632/s522385416.java",
+    "cleaned_file": "strategythree_results/cleaned/p03632/s522385416.java"
+  },
+  {
+    "problem_id": "p03631",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03631/s348648098.java",
+    "cleaned_file": "strategythree_results/cleaned/p03631/s348648098.java"
+  },
+  {
+    "problem_id": "p03478",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03478/s041129266.java",
+    "cleaned_file": "strategythree_results/cleaned/p03478/s041129266.java"
+  },
+  {
+    "problem_id": "p03623",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03623/s498016040.java",
+    "cleaned_file": "strategythree_results/cleaned/p03623/s498016040.java"
+  },
+  {
+    "problem_id": "p02612",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02612/s019381271.java",
+    "cleaned_file": "strategythree_results/cleaned/p02612/s019381271.java"
+  },
+  {
+    "problem_id": "p02915",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02915/s005870989.java",
+    "cleaned_file": "strategythree_results/cleaned/p02915/s005870989.java"
+  },
+  {
+    "problem_id": "p02761",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02761/s303856617.java",
+    "cleaned_file": "strategythree_results/cleaned/p02761/s303856617.java"
+  },
+  {
+    "problem_id": "p03657",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03657/s702302234.java",
+    "cleaned_file": "strategythree_results/cleaned/p03657/s702302234.java"
+  },
+  {
+    "problem_id": "p02621",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02621/s170676205.java",
+    "cleaned_file": "strategythree_results/cleaned/p02621/s170676205.java"
+  },
+  {
+    "problem_id": "p02676",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02676/s138742190.java",
+    "cleaned_file": "strategythree_results/cleaned/p02676/s138742190.java"
+  },
+  {
+    "problem_id": "p03145",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03145/s555600829.java",
+    "cleaned_file": "strategythree_results/cleaned/p03145/s555600829.java"
+  },
+  {
+    "problem_id": "p02640",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02640/s348198913.java",
+    "cleaned_file": "strategythree_results/cleaned/p02640/s348198913.java"
+  },
+  {
+    "problem_id": "p02755",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02755/s194534720.java",
+    "cleaned_file": "strategythree_results/cleaned/p02755/s194534720.java"
+  },
+  {
+    "problem_id": "p02790",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02790/s065502436.java",
+    "cleaned_file": "strategythree_results/cleaned/p02790/s065502436.java"
+  },
+  {
+    "problem_id": "p02879",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02879/s018777192.java",
+    "cleaned_file": "strategythree_results/cleaned/p02879/s018777192.java"
+  },
+  {
+    "problem_id": "p03418",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03418/s965501208.java",
+    "cleaned_file": "strategythree_results/cleaned/p03418/s965501208.java"
+  },
+  {
+    "problem_id": "p02595",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02595/s473088855.java",
+    "cleaned_file": "strategythree_results/cleaned/p02595/s473088855.java"
+  },
+  {
+    "problem_id": "p03085",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03085/s022224853.java",
+    "cleaned_file": "strategythree_results/cleaned/p03085/s022224853.java"
+  },
+  {
+    "problem_id": "p02812",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02812/s913560979.java",
+    "cleaned_file": "strategythree_results/cleaned/p02812/s913560979.java"
+  },
+  {
+    "problem_id": "p03373",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03373/s457801430.java",
+    "cleaned_file": "strategythree_results/cleaned/p03373/s457801430.java"
+  },
+  {
+    "problem_id": "p03795",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03795/s249455063.java",
+    "cleaned_file": "strategythree_results/cleaned/p03795/s249455063.java"
+  },
+  {
+    "problem_id": "p03264",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03264/s170480419.java",
+    "cleaned_file": "strategythree_results/cleaned/p03264/s170480419.java"
+  },
+  {
+    "problem_id": "p03547",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03547/s707971310.java",
+    "cleaned_file": "strategythree_results/cleaned/p03547/s707971310.java"
+  },
+  {
+    "problem_id": "p02882",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02882/s212715907.java",
+    "cleaned_file": "strategythree_results/cleaned/p02882/s212715907.java"
+  },
+  {
+    "problem_id": "p03697",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03697/s314775125.java",
+    "cleaned_file": "strategythree_results/cleaned/p03697/s314775125.java"
+  },
+  {
+    "problem_id": "p02724",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02724/s483715630.java",
+    "cleaned_file": "strategythree_results/cleaned/p02724/s483715630.java"
+  },
+  {
+    "problem_id": "p03286",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03286/s027698751.java",
+    "cleaned_file": "strategythree_results/cleaned/p03286/s027698751.java"
+  },
+  {
+    "problem_id": "p03352",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03352/s354136278.java",
+    "cleaned_file": "strategythree_results/cleaned/p03352/s354136278.java"
+  },
+  {
+    "problem_id": "p03311",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03311/s166722602.java",
+    "cleaned_file": "strategythree_results/cleaned/p03311/s166722602.java"
+  },
+  {
+    "problem_id": "p02789",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02789/s066002025.java",
+    "cleaned_file": "strategythree_results/cleaned/p02789/s066002025.java"
+  },
+  {
+    "problem_id": "p03679",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03679/s440675024.java",
+    "cleaned_file": "strategythree_results/cleaned/p03679/s440675024.java"
+  },
+  {
+    "problem_id": "p02687",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02687/s244469283.java",
+    "cleaned_file": "strategythree_results/cleaned/p02687/s244469283.java"
+  },
+  {
+    "problem_id": "p03360",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03360/s495566803.java",
+    "cleaned_file": "strategythree_results/cleaned/p03360/s495566803.java"
+  },
+  {
+    "problem_id": "p02712",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02712/s145007197.java",
+    "cleaned_file": "strategythree_results/cleaned/p02712/s145007197.java"
+  },
+  {
+    "problem_id": "p03105",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03105/s999681284.java",
+    "cleaned_file": "strategythree_results/cleaned/p03105/s999681284.java"
+  },
+  {
+    "problem_id": "p02766",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02766/s052793025.java",
+    "cleaned_file": "strategythree_results/cleaned/p02766/s052793025.java"
+  },
+  {
+    "problem_id": "p02548",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02548/s996086821.java",
+    "cleaned_file": "strategythree_results/cleaned/p02548/s996086821.java"
+  },
+  {
+    "problem_id": "p03011",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03011/s057573741.java",
+    "cleaned_file": "strategythree_results/cleaned/p03011/s057573741.java"
+  },
+  {
+    "problem_id": "p03671",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03671/s750180504.java",
+    "cleaned_file": "strategythree_results/cleaned/p03671/s750180504.java"
+  },
+  {
+    "problem_id": "p02951",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02951/s263155769.java",
+    "cleaned_file": "strategythree_results/cleaned/p02951/s263155769.java"
+  },
+  {
+    "problem_id": "p02783",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02783/s215593276.java",
+    "cleaned_file": "strategythree_results/cleaned/p02783/s215593276.java"
+  },
+  {
+    "problem_id": "p03543",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03543/s058600095.java",
+    "cleaned_file": "strategythree_results/cleaned/p03543/s058600095.java"
+  },
+  {
+    "problem_id": "p02818",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02818/s177785519.java",
+    "cleaned_file": "strategythree_results/cleaned/p02818/s177785519.java"
+  },
+  {
+    "problem_id": "p03316",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03316/s010576817.java",
+    "cleaned_file": "strategythree_results/cleaned/p03316/s010576817.java"
+  },
+  {
+    "problem_id": "p03477",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03477/s334651441.java",
+    "cleaned_file": "strategythree_results/cleaned/p03477/s334651441.java"
+  },
+  {
+    "problem_id": "p02771",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p02771/s228737535.java",
+    "cleaned_file": "strategythree_results/cleaned/p02771/s228737535.java"
+  },
+  {
+    "problem_id": "p03730",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategythree_results/raw/p03730/s572313718.java",
+    "cleaned_file": "strategythree_results/cleaned/p03730/s572313718.java"
+  }
+]

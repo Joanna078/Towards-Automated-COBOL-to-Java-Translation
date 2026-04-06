@@ -1,0 +1,60 @@
+IDENTIFICATION                   DIVISION.
+PROGRAM-ID.                      ABC_059_B.
+ENVIRONMENT                      DIVISION.
+DATA                             DIVISION.
+WORKING-STORAGE                  SECTION.
+    01 i      PIC 9(3).
+    01 num    PIC 9(3) VALUE 101.
+    01 A      PIC X(101).
+    01 B      PIC X(101).
+    01 strA   PIC X(101).
+    01 strB   PIC X(101).
+    01 numA   PIC 9(3).
+    01 numB   PIC 9(3).
+PROCEDURE                        DIVISION.
+MAIN.
+    ACCEPT A.
+    ACCEPT B.
+
+    SUBTRACT FUNCTION STORED-CHAR-LENGTH(A) FROM num GIVING numA.
+    SUBTRACT FUNCTION STORED-CHAR-LENGTH(B) FROM num GIVING numB.
+
+    PERFORM VARYING i FROM 1 BY 1 UNTIL numA < i
+        STRING
+            strA(1:FUNCTION STORED-CHAR-LENGTH(strA))
+            ZERO
+            INTO strA
+        END-STRING
+    END-PERFORM.
+
+    STRING
+        strA(1:FUNCTION STORED-CHAR-LENGTH(strA))
+        A(1:FUNCTION STORED-CHAR-LENGTH(A))
+        INTO strA
+    END-STRING.
+
+    PERFORM VARYING i FROM 1 BY 1 UNTIL numB < i
+        STRING
+            strB(1:FUNCTION STORED-CHAR-LENGTH(strB))
+            ZERO
+            INTO strB
+        END-STRING
+    END-PERFORM.
+
+    STRING
+        strB(1:FUNCTION STORED-CHAR-LENGTH(strB))
+        B(1:FUNCTION STORED-CHAR-LENGTH(B))
+        INTO strB
+    END-STRING.
+
+    IF strA > strB THEN
+        DISPLAY "GREATER"
+    ELSE
+        IF strA < strB THEN
+            DISPLAY "LESS"
+        ELSE
+            DISPLAY "EQUAL"
+        END-IF
+    END-IF.
+
+    STOP RUN.

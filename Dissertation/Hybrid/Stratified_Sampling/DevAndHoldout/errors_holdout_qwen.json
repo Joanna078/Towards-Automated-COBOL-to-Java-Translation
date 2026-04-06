@@ -1,0 +1,501 @@
+{
+  "p03486": {
+    "problem_id": "p03486",
+    "java_file": "s629976871.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/ABC_082_A.java:139: error: reached end of file while parsing\n        a = q\n             ^\n1 error"
+  },
+  "p03351": {
+    "problem_id": "p03351",
+    "java_file": "s157217516.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/ABC_097_B.java:14: error: cannot find symbol\n        Scanner scanner = new Scanner(System.in);\n        ^\n  symbol:   class Scanner\n  location: class ABC_097_B\n/content/temp_compile/ABC_097_B.java:14: error: cannot find symbol\n        Scanner scanner = new Scanner(System.in);\n                              ^\n  symbol:   class Scanner\n  location: class ABC_097_B\n2 errors"
+  },
+  "p03291": {
+    "problem_id": "p03291",
+    "java_file": "s240347973.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/ABC_104_D.java:11: error: cannot find symbol\n        Arrays.fill(dp, '0');\n        ^\n  symbol:   variable Arrays\n  location: class ABC_104_D\n1 error"
+  },
+  "p02657": {
+    "problem_id": "p02657",
+    "java_file": "s088815911.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/ProgramID.java:19: error: method stripLeading in class String cannot be applied to given types;\n        String zs = String.format(\"%d\", ans).stripLeading('0');\n                                            ^\n  required: no arguments\n  found:    char\n  reason: actual and formal argument lists differ in length\n1 error"
+  },
+  "p03317": {
+    "problem_id": "p03317",
+    "java_file": "s422439243.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/ABC_101_C.java:19: error: cannot find symbol\n        Scanner scanner = new Scanner(System.in);\n        ^\n  symbol:   class Scanner\n  location: class ABC_101_C\n/content/temp_compile/ABC_101_C.java:19: error: cannot find symbol\n        Scanner scanner = new Scanner(System.in);\n                              ^\n  symbol:   class Scanner\n  location: class ABC_101_C\n2 errors"
+  },
+  "p02688": {
+    "problem_id": "p02688",
+    "java_file": "s058653853.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/ProgramID.java:15: error: int cannot be dereferenced\n            ln = ln.substring(maxlen.length() + 1).trim();\n                                    ^\n1 error"
+  },
+  "p03845": {
+    "problem_id": "p03845",
+    "java_file": "s448658911.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/ABC_050_B.java:33: error: cannot find symbol\n            long tmp = sm - t[p] + x;\n                            ^\n  symbol:   variable t\n  location: class ABC_050_B\n1 error"
+  },
+  "p03029": {
+    "problem_id": "p03029",
+    "java_file": "s018605057.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/AtCoder.java:21: error: cannot find symbol\n        String disp = g.stripLeading().toString();\n                       ^\n  symbol:   method stripLeading()\n  location: variable g of type BigInteger\n1 error"
+  },
+  "p03273": {
+    "problem_id": "p03273",
+    "java_file": "s205049758.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/ABC_107_B.java:47: error: cannot find symbol\n                    cnt++;\n                    ^\n  symbol:   variable cnt\n  location: class ABC_107_B\n1 error"
+  },
+  "p02584": {
+    "problem_id": "p02584",
+    "java_file": "s393766391.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/Main.java:47: error: cannot find symbol\n                int out = za;\n                          ^\n  symbol:   variable za\n  location: class Main\n/content/temp_compile/Main.java:50: error: cannot find symbol\n                if (za > 0) {\n                    ^\n  symbol:   variable za\n  location: class Main\n/content/temp_compile/Main.java:51: error: cannot find symbol\n                    int out = za - d;\n                              ^\n  symbol:   variable za\n  location: class Main\n/content/temp_compile/Main.java:54: error: cannot find symbol\n                    int out = za + d;\n                              ^\n  symbol:   variable za\n  location: class Main\n/content/temp_compile/Main.java:59: error: cannot find symbol\n            int out = za;\n                      ^\n  symbol:   variable za\n  location: class Main\n5 errors"
+  },
+  "p02713": {
+    "problem_id": "p02713",
+    "java_file": "s127348104.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/Main.java:37: error: cannot find symbol\n                        y = c;\n                        ^\n  symbol:   variable y\n  location: class Main\n/content/temp_compile/Main.java:38: error: cannot find symbol\n                        gcd(x, y);\n                               ^\n  symbol:   variable y\n  location: class Main\n2 errors"
+  },
+  "p04030": {
+    "problem_id": "p04030",
+    "java_file": "s295386615.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"java.io.Console.readLine()\" because the return value of \"java.lang.System.console()\" is null\n\tat ABC_043_B.main(ABC_043_B.java:14)"
+  },
+  "p02641": {
+    "problem_id": "p02641",
+    "java_file": "s835215373.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"your_input_here\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat Main.main(Main.java:6)"
+  },
+  "p02784": {
+    "problem_id": "p02784",
+    "java_file": "s485228749.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02658": {
+    "problem_id": "p02658",
+    "java_file": "s130275544.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: String index out of range: 21\n\tat java.base/java.lang.StringLatin1.charAt(StringLatin1.java:48)\n\tat java.base/java.lang.String.charAt(String.java:1517)\n\tat ProgramID.main(ProgramID.java:25)"
+  },
+  "p03246": {
+    "problem_id": "p03246",
+    "java_file": "s028416734.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:678)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat Main.main(Main.java:36)"
+  },
+  "p03000": {
+    "problem_id": "p03000",
+    "java_file": "s343466009.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: begin 4, end 4, length 3\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)\n\tat java.base/java.lang.String.substring(String.java:2709)\n\tat Main.main(Main.java:23)"
+  },
+  "p03324": {
+    "problem_id": "p03324",
+    "java_file": "s693642232.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \" 5\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Long.parseLong(Long.java:697)\n\tat java.base/java.lang.Long.parseLong(Long.java:836)\n\tat ABC_100_B.main(ABC_100_B.java:24)"
+  },
+  "p02614": {
+    "problem_id": "p02614",
+    "java_file": "s673769446.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"example\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat Main.main(Main.java:6)"
+  },
+  "p03377": {
+    "problem_id": "p03377",
+    "java_file": "s146845231.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \" 5\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Long.parseLong(Long.java:697)\n\tat java.base/java.lang.Long.parseLong(Long.java:836)\n\tat ABC_094_A.main(ABC_094_A.java:21)"
+  },
+  "p02727": {
+    "problem_id": "p02727",
+    "java_file": "s027608251.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"2 4\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat Main.main(Main.java:21)"
+  },
+  "p03287": {
+    "problem_id": "p03287",
+    "java_file": "s104521550.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3\n\tat ABC_105_D.main(ABC_105_D.java:33)"
+  },
+  "p03297": {
+    "problem_id": "p03297",
+    "java_file": "s113045862.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"java.io.Console.readLine()\" because the return value of \"java.lang.System.console()\" is null\n\tat AGC_026_B.main(AGC_026_B.java:5)"
+  },
+  "p03308": {
+    "problem_id": "p03308",
+    "java_file": "s530473808.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Long.parseLong(Long.java:721)\n\tat java.base/java.lang.Long.parseLong(Long.java:836)\n\tat ABC_102_B.main(ABC_102_B.java:29)"
+  },
+  "p02714": {
+    "problem_id": "p02714",
+    "java_file": "s093998123.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"java.io.Console.readLine()\" because the return value of \"java.lang.System.console()\" is null\n\tat Main.main(Main.java:5)"
+  },
+  "p03338": {
+    "problem_id": "p03338",
+    "java_file": "s088969903.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"java.io.Console.readLine()\" because the return value of \"java.lang.System.console()\" is null\n\tat ABC_098_B.main(ABC_098_B.java:5)"
+  },
+  "p02707": {
+    "problem_id": "p02707",
+    "java_file": "s161954964.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"java.io.Console.readLine()\" because the return value of \"java.lang.System.console()\" is null\n\tat Main.main(Main.java:6)"
+  },
+  "p02718": {
+    "problem_id": "p02718",
+    "java_file": "s005372856.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: String index out of range: 7\n\tat java.base/java.lang.StringLatin1.charAt(StringLatin1.java:48)\n\tat java.base/java.lang.String.charAt(String.java:1517)\n\tat ProgramID.main(ProgramID.java:38)"
+  },
+  "p04043": {
+    "problem_id": "p04043",
+    "java_file": "s255407276.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.ArrayStoreException: arraycopy: type mismatch: can not copy int[] into char[]\n\tat java.base/java.lang.System.arraycopy(Native Method)\n\tat ABC_042_A.main(ABC_042_A.java:30)"
+  },
+  "p02946": {
+    "problem_id": "p02946",
+    "java_file": "s149809417.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2\n\tat ProgramID.main(ProgramID.java:8)"
+  },
+  "p02741": {
+    "problem_id": "p02741",
+    "java_file": "s355100255.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat AKthTerm.main(AKthTerm.java:15)"
+  },
+  "p03251": {
+    "problem_id": "p03251",
+    "java_file": "s755316041.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"java.io.Console.readLine()\" because the return value of \"java.lang.System.console()\" is null\n\tat ABC110B.main(ABC110B.java:5)"
+  },
+  "p03296": {
+    "problem_id": "p03296",
+    "java_file": "s359945653.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: String index out of range: 1\n\tat java.base/java.lang.StringLatin1.charAt(StringLatin1.java:48)\n\tat java.base/java.lang.String.charAt(String.java:1517)\n\tat ABC_026_A.main(ABC_026_A.java:24)"
+  },
+  "p03242": {
+    "problem_id": "p03242",
+    "java_file": "s713218331.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n991\n\nActual:\nEnter a number: 191",
+    "actual_output": "Enter a number: 191"
+  },
+  "p03556": {
+    "problem_id": "p03556",
+    "java_file": "s691198341.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n9\n\nActual:\nEnter a number: 00000000010",
+    "actual_output": "Enter a number: 00000000010"
+  },
+  "p03711": {
+    "problem_id": "p03711",
+    "java_file": "s322750381.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 2 lines.\nExpected:\nYES\nActual:\nEnter two numbers separated by space:\nYES",
+    "actual_output": "Enter two numbers separated by space:\nYES"
+  },
+  "p03777": {
+    "problem_id": "p03777",
+    "java_file": "s562875340.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\nH\n\nActual:\nEnter three characters: H",
+    "actual_output": "Enter three characters: H"
+  },
+  "p03943": {
+    "problem_id": "p03943",
+    "java_file": "s127402962.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\nYes\n\nActual:\nEnter three numbers separated by spaces: Yes",
+    "actual_output": "Enter three numbers separated by spaces: Yes"
+  },
+  "p02552": {
+    "problem_id": "p02552",
+    "java_file": "s252298897.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n0\n\nActual:\nEnter a number: 0",
+    "actual_output": "Enter a number: 0"
+  },
+  "p03268": {
+    "problem_id": "p03268",
+    "java_file": "s556546034.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n9\n\nActual:\nEnter input: 00000000000000010",
+    "actual_output": "Enter input: 00000000000000010"
+  },
+  "p02765": {
+    "problem_id": "p02765",
+    "java_file": "s025361824.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n0800\nActual:\nEnter value for A: Enter value for RATE: 3719",
+    "actual_output": "Enter value for A: Enter value for RATE: 3719"
+  },
+  "p03814": {
+    "problem_id": "p03814",
+    "java_file": "s941389016.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n5\n\nActual:\n0000012",
+    "actual_output": "0000012"
+  },
+  "p03035": {
+    "problem_id": "p03035",
+    "java_file": "s055220988.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n100\n\nActual:\n0",
+    "actual_output": "0"
+  },
+  "p03635": {
+    "problem_id": "p03635",
+    "java_file": "s376858071.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n6\n\nActual:\nEnter input (format: XX YY): 6000",
+    "actual_output": "Enter input (format: XX YY): 6000"
+  },
+  "p02885": {
+    "problem_id": "p02885",
+    "java_file": "s414265822.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n4\n\nActual:\nEnter a string: 4",
+    "actual_output": "Enter a string: 4"
+  },
+  "p02897": {
+    "problem_id": "p02897",
+    "java_file": "s228315274.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n0.5000000000\n\nActual:\nEnter a number: Result: 0.5",
+    "actual_output": "Enter a number: Result: 0.5"
+  },
+  "p02659": {
+    "problem_id": "p02659",
+    "java_file": "s113923755.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n217\n\nActual:\n218",
+    "actual_output": "218"
+  },
+  "p03284": {
+    "problem_id": "p03284",
+    "java_file": "s038241548.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 2 lines.\nExpected:\n1\n\nActual:\nEnter the input string:\n1",
+    "actual_output": "Enter the input string:\n1"
+  },
+  "p03998": {
+    "problem_id": "p03998",
+    "java_file": "s276024934.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 4 lines.\nExpected:\nA\n\nActual:\nEnter string SA:\nEnter string SB:\nEnter string SC:\nA",
+    "actual_output": "Enter string SA:\nEnter string SB:\nEnter string SC:\nA"
+  },
+  "p03355": {
+    "problem_id": "p03355",
+    "java_file": "s493677913.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\nb\n\nActual:\nut_s",
+    "actual_output": "ut_s"
+  },
+  "p03963": {
+    "problem_id": "p03963",
+    "java_file": "s308981732.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n2\n\nActual:\n0000000002",
+    "actual_output": "0000000002"
+  },
+  "p02705": {
+    "problem_id": "p02705",
+    "java_file": "s326642291.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n6.2831\nActual:\nEnter a value for R: 6",
+    "actual_output": "Enter a value for R: 6"
+  },
+  "p04011": {
+    "problem_id": "p04011",
+    "java_file": "s009729033.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n48000\n\nActual:\nEnter N: Enter K: Enter X: Enter Y: 000048000",
+    "actual_output": "Enter N: Enter K: Enter X: Enter Y: 000048000"
+  },
+  "p02700": {
+    "problem_id": "p02700",
+    "java_file": "s337122046.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\nNo\n\nActual:\nEnter value for ln: No",
+    "actual_output": "Enter value for ln: No"
+  },
+  "p02690": {
+    "problem_id": "p02690",
+    "java_file": "s250561012.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n1 -2\nActual:\n0 0",
+    "actual_output": "0 0"
+  },
+  "p03605": {
+    "problem_id": "p03605",
+    "java_file": "s265485081.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\nYes\n\nActual:\nEnter a two-character string: Yes",
+    "actual_output": "Enter a two-character string: Yes"
+  },
+  "p02630": {
+    "problem_id": "p02630",
+    "java_file": "s579665617.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 3 lines, got 3 lines.\nExpected:\n11\n12\n16\n\nActual:\n7\n0\n-12",
+    "actual_output": "7\n0\n-12"
+  },
+  "p03423": {
+    "problem_id": "p03423",
+    "java_file": "s274294710.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n2\n\nActual:\n002",
+    "actual_output": "002"
+  },
+  "p02681": {
+    "problem_id": "p02681",
+    "java_file": "s728245736.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\nYes\n\nActual:\nEnter value for S: Enter value for T: Yes",
+    "actual_output": "Enter value for S: Enter value for T: Yes"
+  },
+  "p03737": {
+    "problem_id": "p03737",
+    "java_file": "s387540551.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 2 lines.\nExpected:\nABC\n\nActual:\nEnter a string of 32 characters separated by spaces:\nA B C",
+    "actual_output": "Enter a string of 32 characters separated by spaces:\nA B C"
+  },
+  "p03834": {
+    "problem_id": "p03834",
+    "java_file": "s057191388.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\nhappy newyear enjoy\n\nActual:\nexample input string",
+    "actual_output": "example input string"
+  },
+  "p02952": {
+    "problem_id": "p02952",
+    "java_file": "s271229314.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n9\n\nActual:\nEnter a number: 9",
+    "actual_output": "Enter a number: 9"
+  },
+  "p03400": {
+    "problem_id": "p03400",
+    "java_file": "s004679718.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n8\n\nActual:\n62",
+    "actual_output": "62"
+  },
+  "p03502": {
+    "problem_id": "p03502",
+    "java_file": "s279783543.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\nYes\n\nActual:\nEnter a number: Yes",
+    "actual_output": "Enter a number: Yes"
+  },
+  "p03598": {
+    "problem_id": "p03598",
+    "java_file": "s206150324.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n4\n\nActual:\n000004",
+    "actual_output": "000004"
+  },
+  "p03853": {
+    "problem_id": "p03853",
+    "java_file": "s529692143.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 4 lines, got 6 lines.\nExpected:\n*.\n*.\n.*\n.*\n\nActual:\nEnter input: Enter string: \n*.\n*.\nEnter string: \n*..*\n*..*",
+    "actual_output": "Enter input: Enter string: \n*.\n*.\nEnter string: \n*..*\n*..*"
+  },
+  "p03101": {
+    "problem_id": "p03101",
+    "java_file": "s003914100.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 3 lines.\nExpected:\n1\n\nActual:\nEnter values for H1 W1: \nEnter values for H2 W2: \n0001",
+    "actual_output": "Enter values for H1 W1: \nEnter values for H2 W2: \n0001"
+  },
+  "p02777": {
+    "problem_id": "p02777",
+    "java_file": "s185792743.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n2 4\n\nActual:\n0204 0204",
+    "actual_output": "0204 0204"
+  },
+  "p03206": {
+    "problem_id": "p03206",
+    "java_file": "s274524816.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\nChristmas\n\nActual:\nEnter a number: Christmas",
+    "actual_output": "Enter a number: Christmas"
+  },
+  "p02778": {
+    "problem_id": "p02778",
+    "java_file": "s528895902.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 2 lines.\nExpected:\nxxxxxxx\n\nActual:\nEnter input string:\nxxxxxxx",
+    "actual_output": "Enter input string:\nxxxxxxx"
+  },
+  "p03644": {
+    "problem_id": "p03644",
+    "java_file": "s553431056.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n4\n\nActual:\n0004",
+    "actual_output": "0004"
+  },
+  "p03501": {
+    "problem_id": "p03501",
+    "java_file": "s867762321.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n119\n\nActual:\n0119",
+    "actual_output": "0119"
+  },
+  "p03738": {
+    "problem_id": "p03738",
+    "java_file": "s280160985.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 3 lines.\nExpected:\nGREATER\n\nActual:\nEnter string A:\nEnter string B:\nGREATER",
+    "actual_output": "Enter string A:\nEnter string B:\nGREATER"
+  },
+  "p04029": {
+    "problem_id": "p04029",
+    "java_file": "s018368309.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n6\n\nActual:\nEnter a number: 0006",
+    "actual_output": "Enter a number: 0006"
+  },
+  "p03310": {
+    "problem_id": "p03310",
+    "java_file": "s059758528.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\n2\n\nActual:\n6",
+    "actual_output": "6"
+  },
+  "p02945": {
+    "problem_id": "p02945",
+    "java_file": "a.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 2 lines.\nExpected:\n-0000000010\nActual:\nEnter two numbers separated by space:\n-10",
+    "actual_output": "Enter two numbers separated by space:\n-10"
+  }
+}

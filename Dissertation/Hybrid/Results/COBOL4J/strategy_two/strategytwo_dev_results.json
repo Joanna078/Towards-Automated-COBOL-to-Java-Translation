@@ -1,0 +1,254 @@
+[
+  {
+    "problem_id": "p02630",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p02630/_3171C.java",
+    "cleaned_file": "strategytwo_results/cleaned/p02630/_3171C.java"
+  },
+  {
+    "problem_id": "p02639",
+    "status": "extraction_failed",
+    "success": false,
+    "raw_file": "strategytwo_results/raw/p02639/PROGRAM_ID.java",
+    "error": "Could not extract valid Java code from LLM output"
+  },
+  {
+    "problem_id": "p02642",
+    "status": "extraction_failed",
+    "success": false,
+    "raw_file": "strategytwo_results/raw/p02642/_3170D.java",
+    "error": "Could not extract valid Java code from LLM output"
+  },
+  {
+    "problem_id": "p02658",
+    "status": "extraction_failed",
+    "success": false,
+    "raw_file": "strategytwo_results/raw/p02658/PROGRAM_ID.java",
+    "error": "Could not extract valid Java code from LLM output"
+  },
+  {
+    "problem_id": "p02664",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p02664/NOMURA__B.java",
+    "cleaned_file": "strategytwo_results/cleaned/p02664/NOMURA__B.java"
+  },
+  {
+    "problem_id": "p02688",
+    "status": "extraction_failed",
+    "success": false,
+    "raw_file": "strategytwo_results/raw/p02688/PROGRAM_ID.java",
+    "error": "Could not extract valid Java code from LLM output"
+  },
+  {
+    "problem_id": "p02691",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p02691/_3164C.java",
+    "cleaned_file": "strategytwo_results/cleaned/p02691/_3164C.java"
+  },
+  {
+    "problem_id": "p02707",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p02707/_3163C.java",
+    "cleaned_file": "strategytwo_results/cleaned/p02707/_3163C.java"
+  },
+  {
+    "problem_id": "p02732",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p02732/_3159C.java",
+    "cleaned_file": "strategytwo_results/cleaned/p02732/_3159C.java"
+  },
+  {
+    "problem_id": "p02784",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p02784/PROGRAM_ID.java",
+    "cleaned_file": "strategytwo_results/cleaned/p02784/PROGRAM_ID.java"
+  },
+  {
+    "problem_id": "p02848",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p02848/_3146B.java",
+    "cleaned_file": "strategytwo_results/cleaned/p02848/_3146B.java"
+  },
+  {
+    "problem_id": "p02881",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p02881/AtCoder.java",
+    "cleaned_file": "strategytwo_results/cleaned/p02881/AtCoder.java"
+  },
+  {
+    "problem_id": "p02886",
+    "status": "extraction_failed",
+    "success": false,
+    "raw_file": "strategytwo_results/raw/p02886/PROGRAM_ID.java",
+    "error": "Could not extract valid Java code from LLM output"
+  },
+  {
+    "problem_id": "p02898",
+    "status": "extraction_failed",
+    "success": false,
+    "raw_file": "strategytwo_results/raw/p02898/PROGRAM_ID.java",
+    "error": "Could not extract valid Java code from LLM output"
+  },
+  {
+    "problem_id": "p02958",
+    "status": "extraction_failed",
+    "success": false,
+    "raw_file": "strategytwo_results/raw/p02958/PROGRAM_ID.java",
+    "error": "Could not extract valid Java code from LLM output"
+  },
+  {
+    "problem_id": "p02982",
+    "status": "extraction_failed",
+    "success": false,
+    "raw_file": "strategytwo_results/raw/p02982/PROGRAM_ID.java",
+    "error": "Could not extract valid Java code from LLM output"
+  },
+  {
+    "problem_id": "p03073",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03073/_3124C.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03073/_3124C.java"
+  },
+  {
+    "problem_id": "p03107",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03107/_30303A.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03107/_30303A.java"
+  },
+  {
+    "problem_id": "p03246",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03246/_3103C.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03246/_3103C.java"
+  },
+  {
+    "problem_id": "p03274",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03274/ABC_107_C.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03274/ABC_107_C.java"
+  },
+  {
+    "problem_id": "p03275",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03275/ABC_107_D.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03275/ABC_107_D.java"
+  },
+  {
+    "problem_id": "p03276",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03276/F.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03276/F.java"
+  },
+  {
+    "problem_id": "p03280",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03280/_3101C.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03280/_3101C.java"
+  },
+  {
+    "problem_id": "p03283",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03283/BIT_ADD.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03283/BIT_ADD.java"
+  },
+  {
+    "problem_id": "p03287",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03287/ABC_105_D.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03287/ABC_105_D.java"
+  },
+  {
+    "problem_id": "p03290",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03290/B_TABLE.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03290/B_TABLE.java"
+  },
+  {
+    "problem_id": "p03291",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03291/ABC_104_D.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03291/ABC_104_D.java"
+  },
+  {
+    "problem_id": "p03309",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03309/GCD.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03309/GCD.java"
+  },
+  {
+    "problem_id": "p03310",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03310/ABC_102_D.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03310/ABC_102_D.java"
+  },
+  {
+    "problem_id": "p03315",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03315/ABC_102_C.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03315/ABC_102_C.java"
+  },
+  {
+    "problem_id": "p03341",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03341/_3098C.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03341/_3098C.java"
+  },
+  {
+    "problem_id": "p03399",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03399/BISECTION_METHOD.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03399/BISECTION_METHOD.java"
+  },
+  {
+    "problem_id": "p03474",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03474/ABC_104_C.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03474/ABC_104_C.java"
+  },
+  {
+    "problem_id": "p03556",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03556/ABC_084_B.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03556/ABC_084_B.java"
+  },
+  {
+    "problem_id": "p03610",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03610/ABC_072_B.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03610/ABC_072_B.java"
+  },
+  {
+    "problem_id": "p03814",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "strategytwo_results/raw/p03814/ABC_053_B.java",
+    "cleaned_file": "strategytwo_results/cleaned/p03814/ABC_053_B.java"
+  }
+]

@@ -1,0 +1,31 @@
+IDENTIFICATION DIVISION.
+PROGRAM-ID. 165D.
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+01 INP        PIC X(100).
+01 A          PIC 9(07).
+01 B          PIC 9(13).
+01 N          PIC 9(13).
+01 X          PIC 9(13).
+01 FA         PIC 9(18).
+01 FB         PIC 9(18).
+01 OUT        PIC Z(17)9.
+*>
+PROCEDURE DIVISION.
+  ACCEPT INP.
+  UNSTRING INP DELIMITED BY ' '
+      INTO A B N.
+*>
+  IF (N >= B)
+    COMPUTE X = B - 1
+  ELSE
+    COMPUTE X = N
+  END-IF.
+*>
+  COMPUTE FA = (A * X) / B
+  COMPUTE FB = X / B
+  COMPUTE FB = A * FB
+  COMPUTE OUT = FA - FB. 
+*>
+  DISPLAY FUNCTION TRIM(OUT).
+  STOP RUN.

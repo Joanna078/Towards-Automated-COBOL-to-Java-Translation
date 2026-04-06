@@ -1,0 +1,2773 @@
+{
+  "tool_name": "qwen",
+  "total_failures": 253,
+  "compilation_errors": {
+    "other": {
+      "count": 9,
+      "common_constructs": [
+        "data_types.PIC_X",
+        "data_types.PIC_9",
+        "control_flow.STOP_RUN",
+        "string_operations.MOVE",
+        "io_operations.ACCEPT"
+      ],
+      "sample_pids": [
+        "p02657",
+        "p03636",
+        "p03378",
+        "p02583",
+        "p03486"
+      ],
+      "sample_details": [
+        {
+          "pid": "p02657",
+          "error_msg": "/content/temp_compile/ProgramID.java:19: error: method stripLeading in class String cannot be applied to given types;\n        String zs = String.format(\"%d\", ans).stripLeading('0');\n                                            ^\n  required: no arguments\n  found:    char\n  reason: actual and formal argument lists differ in length\n1 error",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 3,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 1,
+            "string_operations.MOVE": 1,
+            "math_operations.MULTIPLY": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 5,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 19,
+            "file_stats.code_lines": 16,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p03636",
+          "error_msg": "/content/temp_compile/Main.java:28: error: bad operand types for binary operator '+'\n            System.out.println(wkTbl[0] + Arrays.copyOfRange(wkTbl, idx3, idx2 + 1));\n                                        ^\n  first type:  char\n  second type: char[]\n1 error",
+          "constructs": {
+            "data_types.PIC_X": 3,
+            "data_types.PIC_9": 2,
+            "control_flow.PERFORM": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 1,
+            "math_operations.ADD": 1,
+            "math_operations.COMPUTE": 2,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 1,
+            "data_structures.LEVEL_01": 6,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 28,
+            "file_stats.code_lines": 21,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p03378",
+          "error_msg": "/content/temp_compile/ABC_094_B.java:48: error: variable sm might not have been initialized\n        int sm = Math.min(sm, tmp);\n                          ^\n1 error",
+          "constructs": {
+            "data_types.PIC_X": 4,
+            "data_types.PIC_9": 12,
+            "control_flow.PERFORM": 13,
+            "control_flow.PERFORM_TIMES": 2,
+            "control_flow.PERFORM_UNTIL": 4,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 2,
+            "string_operations.MOVE": 8,
+            "math_operations.ADD": 3,
+            "math_operations.COMPUTE": 6,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 2,
+            "data_structures.LEVEL_01": 17,
+            "data_structures.VALUE": 5,
+            "advanced_features.FUNCTION": 3,
+            "advanced_features.FUNCTION_MIN": 2,
+            "file_stats.total_lines": 98,
+            "file_stats.code_lines": 69
+          }
+        },
+        {
+          "pid": "p02583",
+          "error_msg": "/content/temp_compile/Main.java:30: error: no suitable method found for sort(char[],int,int,Comparator<T#1>)\n        Arrays.sort(tbl1, lC, 1, Comparator.reverseOrder());\n              ^\n    method Arrays.<T#2>sort(T#2[],Comparator<? super T#2>) is not applicable\n      (cannot infer type-variable(s) T#2\n        (actual and formal argument lists differ in length))\n    method Arrays.<T#3>sort(T#3[],int,int,Comparator<? super T#3>) is not applicable\n      (inference variable T#3 has incompatible bounds\n        equality constraints: char\n        lower bounds: Object)\n  where T#1,T#2,T#3 are type-variables:\n    T#1 extends Comparable<? super T#1>\n    T#2 extends Object declared in method <T#2>sort(T#2[],Comparator<? super T#2>)\n    T#3 extends Object declared in method <T#3>sort(T#3[],int,int,Comparator<? super T#3>)\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output\n1 error",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 11,
+            "data_types.COMP": 7,
+            "control_flow.PERFORM": 12,
+            "control_flow.PERFORM_UNTIL": 6,
+            "control_flow.IF": 4,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 10,
+            "math_operations.ADD": 2,
+            "math_operations.COMPUTE": 4,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 3,
+            "data_structures.LEVEL_01": 12,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 67,
+            "file_stats.code_lines": 60,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p03486",
+          "error_msg": "/content/temp_compile/ABC_082_A.java:139: error: reached end of file while parsing\n        a = q\n             ^\n1 error",
+          "constructs": {
+            "data_types.PIC_X": 9,
+            "data_types.PIC_9": 20,
+            "data_types.PIC_V9": 1,
+            "control_flow.PERFORM": 25,
+            "control_flow.PERFORM_UNTIL": 6,
+            "control_flow.IF": 24,
+            "control_flow.IF_ELSE": 4,
+            "control_flow.EXIT": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 40,
+            "string_operations.INITIALIZE": 2,
+            "math_operations.ADD": 6,
+            "math_operations.SUBTRACT": 5,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 2,
+            "data_structures.OCCURS": 4,
+            "data_structures.LEVEL_01": 29,
+            "data_structures.VALUE": 3,
+            "advanced_features.FUNCTION": 1,
+            "advanced_features.FUNCTION_MIN": 1,
+            "file_stats.total_lines": 209,
+            "file_stats.code_lines": 159
+          }
+        }
+      ]
+    },
+    "undefined_symbol": {
+      "count": 22,
+      "common_constructs": [
+        "control_flow.STOP_RUN",
+        "string_operations.MOVE",
+        "io_operations.DISPLAY",
+        "data_structures.LEVEL_01",
+        "file_stats.total_lines"
+      ],
+      "sample_pids": [
+        "p02969",
+        "p02719",
+        "p03331",
+        "p03408",
+        "p02713"
+      ],
+      "sample_details": [
+        {
+          "pid": "p02969",
+          "error_msg": "/content/temp_compile/AtCoder.java:7: error: cannot find symbol\n        Scanner scanner = new Scanner(System.in);\n        ^\n  symbol:   class Scanner\n  location: class AtCoder\n/content/temp_compile/AtCoder.java:7: error: cannot find symbol\n        Scanner scanner = new Scanner(System.in);\n                              ^\n  symbol:   class Scanner\n  location: class AtCoder\n2 errors",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 6,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 1,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 8,
+            "file_stats.total_lines": 23,
+            "file_stats.code_lines": 20,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02719",
+          "error_msg": "/content/temp_compile/Main.java:53: error: cannot find symbol\n        System.out.println(ans.stripTrailingZeros());\n                              ^\n  symbol:   method stripTrailingZeros()\n  location: variable ans of type BigInteger\n1 error",
+          "constructs": {
+            "data_types.PIC_X": 3,
+            "data_types.PIC_9": 4,
+            "data_types.COMP": 4,
+            "control_flow.EVALUATE": 4,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 1,
+            "string_operations.MOVE": 8,
+            "math_operations.DIVIDE": 1,
+            "math_operations.COMPUTE": 3,
+            "math_operations.REMAINDER": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 8,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 47,
+            "file_stats.code_lines": 42,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p03331",
+          "error_msg": "/content/temp_compile/AGC_025_A.java:49: error: cannot find symbol\n        ans = sb.toString();\n        ^\n  symbol:   variable ans\n  location: class AGC_025_A\n1 error",
+          "constructs": {
+            "data_types.PIC_X": 2,
+            "data_types.PIC_9": 10,
+            "data_types.PIC_V9": 1,
+            "control_flow.PERFORM": 7,
+            "control_flow.PERFORM_UNTIL": 2,
+            "control_flow.IF": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 2,
+            "string_operations.MOVE": 6,
+            "math_operations.ADD": 3,
+            "math_operations.SUBTRACT": 1,
+            "math_operations.DIVIDE": 3,
+            "math_operations.REMAINDER": 2,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 13,
+            "data_structures.VALUE": 1,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 61,
+            "file_stats.code_lines": 47
+          }
+        },
+        {
+          "pid": "p03408",
+          "error_msg": "/content/temp_compile/ABC_091_B.java:6: error: cannot find symbol\n        Scanner scanner = new Scanner(System.in);\n        ^\n  symbol:   class Scanner\n  location: class ABC_091_B\n/content/temp_compile/ABC_091_B.java:6: error: cannot find symbol\n        Scanner scanner = new Scanner(System.in);\n                              ^\n  symbol:   class Scanner\n  location: class ABC_091_B\n2 errors",
+          "constructs": {
+            "data_types.PIC_X": 5,
+            "data_types.PIC_9": 10,
+            "data_types.PIC_S9": 2,
+            "control_flow.PERFORM": 13,
+            "control_flow.PERFORM_UNTIL": 6,
+            "control_flow.IF": 10,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 2,
+            "string_operations.MOVE": 10,
+            "math_operations.ADD": 4,
+            "math_operations.SUBTRACT": 1,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 4,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 2,
+            "data_structures.LEVEL_01": 16,
+            "data_structures.VALUE": 9,
+            "advanced_features.FUNCTION": 2,
+            "advanced_features.FUNCTION_MAX": 1,
+            "file_stats.total_lines": 97,
+            "file_stats.code_lines": 79
+          }
+        },
+        {
+          "pid": "p02713",
+          "error_msg": "/content/temp_compile/Main.java:37: error: cannot find symbol\n                        y = c;\n                        ^\n  symbol:   variable y\n  location: class Main\n/content/temp_compile/Main.java:38: error: cannot find symbol\n                        gcd(x, y);\n                               ^\n  symbol:   variable y\n  location: class Main\n2 errors",
+          "constructs": {
+            "data_types.PIC_9": 11,
+            "data_types.COMP": 10,
+            "control_flow.PERFORM": 10,
+            "control_flow.PERFORM_UNTIL": 3,
+            "control_flow.IF": 6,
+            "control_flow.IF_ELSE": 3,
+            "control_flow.EVALUATE": 4,
+            "control_flow.EXIT": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 18,
+            "math_operations.ADD": 1,
+            "math_operations.DIVIDE": 1,
+            "math_operations.REMAINDER": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 2,
+            "data_structures.LEVEL_01": 12,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 80,
+            "file_stats.code_lines": 69,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "type_mismatch": {
+      "count": 4,
+      "common_constructs": [
+        "data_types.PIC_X",
+        "data_types.PIC_9",
+        "control_flow.PERFORM",
+        "control_flow.PERFORM_UNTIL",
+        "control_flow.STOP_RUN"
+      ],
+      "sample_pids": [
+        "p02613",
+        "p02691",
+        "p02762",
+        "p03309"
+      ],
+      "sample_details": [
+        {
+          "pid": "p02613",
+          "error_msg": "/content/temp_compile/ProgramID.java:19: error: incompatible types: inference variable A has incompatible bounds\n        char[][] j = j1.chars().mapToObj(c -> String.valueOf((char) c)).toArray(String[]::new);\n                                                                               ^\n    lower bounds: char[],Object\n    lower bounds: String\n  where A is a type-variable:\n    A extends Object declared in method <A>toArray(IntFunction<A[]>)\n/content/temp_compile/ProgramID.java:46: error: cannot find symbol\n            ans = j[i - 1].trim() + mul + String.format(\"%d\", (int) zs).trim();\n                          ^\n  symbol:   method trim()\n  location: class char[]\n2 errors",
+          "constructs": {
+            "data_types.PIC_X": 5,
+            "data_types.PIC_9": 9,
+            "data_types.COMP": 6,
+            "control_flow.PERFORM": 6,
+            "control_flow.PERFORM_UNTIL": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.STRING": 1,
+            "string_operations.MOVE": 3,
+            "math_operations.ADD": 1,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 2,
+            "data_structures.OCCURS_DEPENDING": 1,
+            "data_structures.REDEFINES": 1,
+            "data_structures.LEVEL_01": 15,
+            "data_structures.VALUE": 8,
+            "advanced_features.FUNCTION": 3,
+            "file_stats.total_lines": 48,
+            "file_stats.code_lines": 45,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02691",
+          "error_msg": "/content/temp_compile/Main.java:20: error: incompatible types: char[] cannot be converted to byte[]\n        System.in.read(inp);\n                       ^\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output\n1 error",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 7,
+            "data_types.COMP": 6,
+            "control_flow.PERFORM": 6,
+            "control_flow.PERFORM_UNTIL": 3,
+            "control_flow.IF": 4,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 5,
+            "math_operations.ADD": 1,
+            "math_operations.COMPUTE": 2,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "io_operations.READ": 1,
+            "io_operations.OPEN": 1,
+            "io_operations.CLOSE": 1,
+            "data_structures.OCCURS": 2,
+            "data_structures.LEVEL_01": 9,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 54,
+            "file_stats.code_lines": 46,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02762",
+          "error_msg": "/content/temp_compile/DFriend.java:30: error: cannot find symbol\n        Scanner scanner = new Scanner(System.in);\n        ^\n  symbol:   class Scanner\n  location: class DFriend\n/content/temp_compile/DFriend.java:30: error: cannot find symbol\n        Scanner scanner = new Scanner(System.in);\n                              ^\n  symbol:   class Scanner\n  location: class DFriend\n/content/temp_compile/DFriend.java:71: error: no suitable method found for sort(int[],int,int,Comparator<Object>)\n        Arrays.sort(tF1, 0, m, Comparator.comparingInt(o -> o));\n              ^\n    method Arrays.<T#1>sort(T#1[],Comparator<? super T#1>) is not applicable\n      (cannot infer type-variable(s) T#1\n        (actual and formal argument lists differ in length))\n    method Arrays.<T#2>sort(T#2[],int,int,Comparator<? super T#2>) is not applicable\n      (inference variable T#2 has incompatible bounds\n        equality constraints: int\n        lower bounds: Object)\n  where T#1,T#2 are type-variables:\n    T#1 extends Object declared in method <T#1>sort(T#1[],Comparator<? super T#1>)\n    T#2 extends Object declared in method <T#2>sort(T#2[],int,int,Comparator<? super T#2>)\n/content/temp_compile/DFriend.java:71: error: incompatible types: cannot infer type-variable(s) T\n        Arrays.sort(tF1, 0, m, Comparator.comparingInt(o -> o));\n                                                      ^\n    (argument mismatch; bad return type in lambda expression\n      Object cannot be converted to int)\n  where T is a type-variable:\n    T extends Object declared in method <T>comparingInt(ToIntFunction<? super T>)\n/content/temp_compile/DFriend.java:72: error: no suitable method found for sort(int[],int,int,Comparator<Object>)\n        Arrays.sort(tF2, 0, m, Comparator.comparingInt(o -> o));\n              ^\n    method Arrays.<T#1>sort(T#1[],Comparator<? super T#1>) is not applicable\n      (cannot infer type-variable(s) T#1\n        (actual and formal argument lists differ in length))\n    method Arrays.<T#2>sort(T#2[],int,int,Comparator<? super T#2>) is not applicable\n      (inference variable T#2 has incompatible bounds\n        equality constraints: int\n        lower bounds: Object)\n  where T#1,T#2 are type-variables:\n    T#1 extends Object declared in method <T#1>sort(T#1[],Comparator<? super T#1>)\n    T#2 extends Object declared in method <T#2>sort(T#2[],int,int,Comparator<? super T#2>)\n/content/temp_compile/DFriend.java:72: error: incompatible types: cannot infer type-variable(s) T\n        Arrays.sort(tF2, 0, m, Comparator.comparingInt(o -> o));\n                                                      ^\n    (argument mismatch; bad return type in lambda expression\n      Object cannot be converted to int)\n  where T is a type-variable:\n    T extends Object declared in method <T>comparingInt(ToIntFunction<? super T>)\n/content/temp_compile/DFriend.java:73: error: no suitable method found for sort(int[],int,int,Comparator<Object>)\n        Arrays.sort(tF3, 0, m, Comparator.comparingInt(o -> o));\n              ^\n    method Arrays.<T#1>sort(T#1[],Comparator<? super T#1>) is not applicable\n      (cannot infer type-variable(s) T#1\n        (actual and formal argument lists differ in length))\n    method Arrays.<T#2>sort(T#2[],int,int,Comparator<? super T#2>) is not applicable\n      (inference variable T#2 has incompatible bounds\n        equality constraints: int\n        lower bounds: Object)\n  where T#1,T#2 are type-variables:\n    T#1 extends Object declared in method <T#1>sort(T#1[],Comparator<? super T#1>)\n    T#2 extends Object declared in method <T#2>sort(T#2[],int,int,Comparator<? super T#2>)\n/content/temp_compile/DFriend.java:73: error: incompatible types: cannot infer type-variable(s) T\n        Arrays.sort(tF3, 0, m, Comparator.comparingInt(o -> o));\n                                                      ^\n    (argument mismatch; bad return type in lambda expression\n      Object cannot be converted to int)\n  where T is a type-variable:\n    T extends Object declared in method <T>comparingInt(ToIntFunction<? super T>)\n/content/temp_compile/DFriend.java:74: error: no suitable method found for sort(int[],int,int,Comparator<Object>)\n        Arrays.sort(tF4, 0, m * 2, Comparator.comparingInt(o -> o));\n              ^\n    method Arrays.<T#1>sort(T#1[],Comparator<? super T#1>) is not applicable\n      (cannot infer type-variable(s) T#1\n        (actual and formal argument lists differ in length))\n    method Arrays.<T#2>sort(T#2[],int,int,Comparator<? super T#2>) is not applicable\n      (inference variable T#2 has incompatible bounds\n        equality constraints: int\n        lower bounds: Object)\n  where T#1,T#2 are type-variables:\n    T#1 extends Object declared in method <T#1>sort(T#1[],Comparator<? super T#1>)\n    T#2 extends Object declared in method <T#2>sort(T#2[],int,int,Comparator<? super T#2>)\n/content/temp_compile/DFriend.java:74: error: incompatible types: cannot infer type-variable(s) T\n        Arrays.sort(tF4, 0, m * 2, Comparator.comparingInt(o -> o));\n                                                          ^\n    (argument mismatch; bad return type in lambda expression\n      Object cannot be converted to int)\n  where T is a type-variable:\n    T extends Object declared in method <T>comparingInt(ToIntFunction<? super T>)\n/content/temp_compile/DFriend.java:75: error: no suitable method found for sort(int[],int,int,Comparator<Object>)\n        Arrays.sort(tB1, 0, k, Comparator.comparingInt(o -> o));\n              ^\n    method Arrays.<T#1>sort(T#1[],Comparator<? super T#1>) is not applicable\n      (cannot infer type-variable(s) T#1\n        (actual and formal argument lists differ in length))\n    method Arrays.<T#2>sort(T#2[],int,int,Comparator<? super T#2>) is not applicable\n      (inference variable T#2 has incompatible bounds\n        equality constraints: int\n        lower bounds: Object)\n  where T#1,T#2 are type-variables:\n    T#1 extends Object declared in method <T#1>sort(T#1[],Comparator<? super T#1>)\n    T#2 extends Object declared in method <T#2>sort(T#2[],int,int,Comparator<? super T#2>)\n/content/temp_compile/DFriend.java:75: error: incompatible types: cannot infer type-variable(s) T\n        Arrays.sort(tB1, 0, k, Comparator.comparingInt(o -> o));\n                                                      ^\n    (argument mismatch; bad return type in lambda expression\n      Object cannot be converted to int)\n  where T is a type-variable:\n    T extends Object declared in method <T>comparingInt(ToIntFunction<? super T>)\n/content/temp_compile/DFriend.java:76: error: no suitable method found for sort(int[],int,int,Comparator<Object>)\n        Arrays.sort(tB2, 0, k, Comparator.comparingInt(o -> o));\n              ^\n    method Arrays.<T#1>sort(T#1[],Comparator<? super T#1>) is not applicable\n      (cannot infer type-variable(s) T#1\n        (actual and formal argument lists differ in length))\n    method Arrays.<T#2>sort(T#2[],int,int,Comparator<? super T#2>) is not applicable\n      (inference variable T#2 has incompatible bounds\n        equality constraints: int\n        lower bounds: Object)\n  where T#1,T#2 are type-variables:\n    T#1 extends Object declared in method <T#1>sort(T#1[],Comparator<? super T#1>)\n    T#2 extends Object declared in method <T#2>sort(T#2[],int,int,Comparator<? super T#2>)\n/content/temp_compile/DFriend.java:76: error: incompatible types: cannot infer type-variable(s) T\n        Arrays.sort(tB2, 0, k, Comparator.comparingInt(o -> o));\n                                                      ^\n    (argument mismatch; bad return type in lambda expression\n      Object cannot be converted to int)\n  where T is a type-variable:\n    T extends Object declared in method <T>comparingInt(ToIntFunction<? super T>)\n/content/temp_compile/DFriend.java:136: error: cannot find symbol\n        while (pF > m || idxIj <= tF1[pF]) {\n               ^\n  symbol:   variable pF\n  location: class DFriend\n/content/temp_compile/DFriend.java:136: error: cannot find symbol\n        while (pF > m || idxIj <= tF1[pF]) {\n                    ^\n  symbol:   variable m\n  location: class DFriend\n/content/temp_compile/DFriend.java:136: error: cannot find symbol\n        while (pF > m || idxIj <= tF1[pF]) {\n                                      ^\n  symbol:   variable pF\n  location: class DFriend\n/content/temp_compile/DFriend.java:137: error: cannot find symbol\n            pF++;\n            ^\n  symbol:   variable pF\n  location: class DFriend\n/content/temp_compile/DFriend.java:139: error: cannot find symbol\n        if (idxIj == tF1[pF]) {\n                         ^\n  symbol:   variable pF\n  location: class DFriend\n/content/temp_compile/DFriend.java:140: error: incompatible types: boolean cannot be converted to char\n            flFri = true;\n                    ^\n/content/temp_compile/DFriend.java:142: error: incompatible types: boolean cannot be converted to char\n            flFri = false;\n                    ^\n/content/temp_compile/DFriend.java:147: error: cannot find symbol\n        while (pB > k || idxIj <= tB1[pB]) {\n               ^\n  symbol:   variable pB\n  location: class DFriend\n/content/temp_compile/DFriend.java:147: error: cannot find symbol\n        while (pB > k || idxIj <= tB1[pB]) {\n                    ^\n  symbol:   variable k\n  location: class DFriend\n/content/temp_compile/DFriend.java:147: error: cannot find symbol\n        while (pB > k || idxIj <= tB1[pB]) {\n                                      ^\n  symbol:   variable pB\n  location: class DFriend\n/content/temp_compile/DFriend.java:148: error: cannot find symbol\n            pB++;\n            ^\n  symbol:   variable pB\n  location: class DFriend\n/content/temp_compile/DFriend.java:150: error: cannot find symbol\n        if (idxIj == tB1[pB]) {\n                         ^\n  symbol:   variable pB\n  location: class DFriend\n/content/temp_compile/DFriend.java:151: error: incompatible types: boolean cannot be converted to char\n            flBlk = true;\n                    ^\n/content/temp_compile/DFriend.java:153: error: incompatible types: boolean cannot be converted to char\n            flBlk = false;\n                    ^\n/content/temp_compile/DFriend.java:160: error: cannot find symbol\n        while (sPos[lvl] > 1 && sKey != tF3[sPos[lvl] - 1]) {\n                                ^\n  symbol:   variable sKey\n  location: class DFriend\n/content/temp_compile/DFriend.java:166: error: cannot find symbol\n        sKey = sFri[lvl];\n        ^\n  symbol:   variable sKey\n  location: class DFriend\n/content/temp_compile/DFriend.java:168: error: cannot find symbol\n        int kMax = cFr2;\n                   ^\n  symbol:   variable cFr2\n  location: class DFriend\n/content/temp_compile/DFriend.java:172: error: cannot find symbol\n            if (sKey == tF3[kCur]) {\n                ^\n  symbol:   variable sKey\n  location: class DFriend\n/content/temp_compile/DFriend.java:174: error: cannot find symbol\n            } else if (sKey < tF3[kCur]) {\n                       ^\n  symbol:   variable sKey\n  location: class DFriend\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output\n33 errors",
+          "constructs": {
+            "data_types.PIC_X": 9,
+            "data_types.PIC_9": 28,
+            "control_flow.PERFORM": 29,
+            "control_flow.PERFORM_UNTIL": 7,
+            "control_flow.IF": 16,
+            "control_flow.IF_ELSE": 5,
+            "control_flow.EVALUATE": 2,
+            "control_flow.EXIT": 9,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 3,
+            "string_operations.MOVE": 32,
+            "math_operations.ADD": 6,
+            "math_operations.COMPUTE": 9,
+            "io_operations.ACCEPT": 3,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 6,
+            "data_structures.OCCURS_DEPENDING": 3,
+            "data_structures.LEVEL_01": 25,
+            "file_stats.total_lines": 224,
+            "file_stats.code_lines": 196,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p03309",
+          "error_msg": "/content/temp_compile/ABC_102_C.java:36: error: incompatible types: possible lossy conversion from long to int\n            cur = j + 1;\n                    ^\n1 error",
+          "constructs": {
+            "data_types.PIC_X": 4,
+            "data_types.PIC_9": 9,
+            "data_types.PIC_S9": 2,
+            "data_types.BINARY": 1,
+            "control_flow.PERFORM": 7,
+            "control_flow.PERFORM_TIMES": 2,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 2,
+            "string_operations.MOVE": 7,
+            "math_operations.ADD": 4,
+            "math_operations.SUBTRACT": 3,
+            "math_operations.DIVIDE": 1,
+            "math_operations.COMPUTE": 2,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "io_operations.READ": 1,
+            "io_operations.OPEN": 1,
+            "io_operations.CLOSE": 1,
+            "data_structures.OCCURS": 1,
+            "data_structures.OCCURS_DEPENDING": 1,
+            "data_structures.LEVEL_01": 16,
+            "data_structures.VALUE": 2,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 108,
+            "file_stats.code_lines": 68
+          }
+        }
+      ]
+    }
+  },
+  "runtime_errors": {
+    "array_index_exception": {
+      "count": 15,
+      "common_constructs": [
+        "control_flow.STOP_RUN",
+        "io_operations.ACCEPT",
+        "io_operations.DISPLAY",
+        "data_structures.LEVEL_01",
+        "file_stats.total_lines"
+      ],
+      "sample_pids": [
+        "p02759",
+        "p02741",
+        "p02608",
+        "p03658",
+        "p02946"
+      ],
+      "sample_details": [
+        {
+          "pid": "p02759",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat ProgramId.main(ProgramId.java:4)",
+          "constructs": {
+            "data_types.PIC_9": 1,
+            "control_flow.STOP_RUN": 1,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 2,
+            "file_stats.total_lines": 12,
+            "file_stats.code_lines": 10
+          }
+        },
+        {
+          "pid": "p02741",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat AKthTerm.main(AKthTerm.java:15)",
+          "constructs": {
+            "data_types.PIC_X": 2,
+            "data_types.PIC_9": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 1,
+            "data_structures.REDEFINES": 1,
+            "data_structures.LEVEL_01": 4,
+            "data_structures.VALUE": 2,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 20,
+            "file_stats.code_lines": 17,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02608",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat AisingC.main(AisingC.java:5)",
+          "constructs": {
+            "data_types.PIC_9": 7,
+            "data_types.COMP": 6,
+            "control_flow.PERFORM": 8,
+            "control_flow.PERFORM_UNTIL": 4,
+            "control_flow.IF": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 2,
+            "math_operations.ADD": 1,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 1,
+            "data_structures.LEVEL_01": 8,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 37,
+            "file_stats.code_lines": 31,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p03658",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8\n\tat ABC_067_B.main(ABC_067_B.java:14)",
+          "constructs": {
+            "data_types.PIC_X": 4,
+            "data_types.PIC_9": 26,
+            "control_flow.PERFORM": 15,
+            "control_flow.PERFORM_UNTIL": 4,
+            "control_flow.IF": 12,
+            "control_flow.IF_ELSE": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 3,
+            "string_operations.MOVE": 26,
+            "math_operations.ADD": 6,
+            "math_operations.SUBTRACT": 2,
+            "math_operations.COMPUTE": 2,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 2,
+            "data_structures.LEVEL_01": 30,
+            "data_structures.VALUE": 4,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 166,
+            "file_stats.code_lines": 122
+          }
+        },
+        {
+          "pid": "p02946",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2\n\tat ProgramID.main(ProgramID.java:8)",
+          "constructs": {
+            "data_types.PIC_X": 2,
+            "data_types.PIC_9": 2,
+            "data_types.PIC_S9": 5,
+            "control_flow.PERFORM": 6,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.IF": 10,
+            "control_flow.IF_ELSE": 4,
+            "control_flow.STOP_RUN": 2,
+            "string_operations.UNSTRING": 1,
+            "string_operations.MOVE": 5,
+            "math_operations.ADD": 1,
+            "math_operations.COMPUTE": 2,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 5,
+            "data_structures.LEVEL_01": 10,
+            "data_structures.VALUE": 2,
+            "advanced_features.FUNCTION": 2,
+            "file_stats.total_lines": 57,
+            "file_stats.code_lines": 53,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "number_format": {
+      "count": 20,
+      "common_constructs": [
+        "data_types.PIC_X",
+        "data_types.PIC_9",
+        "control_flow.PERFORM",
+        "control_flow.PERFORM_UNTIL",
+        "control_flow.STOP_RUN"
+      ],
+      "sample_pids": [
+        "p03324",
+        "p03609",
+        "p03694",
+        "p03455",
+        "p02683"
+      ],
+      "sample_details": [
+        {
+          "pid": "p03324",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \" 5\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Long.parseLong(Long.java:697)\n\tat java.base/java.lang.Long.parseLong(Long.java:836)\n\tat ABC_100_B.main(ABC_100_B.java:24)",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 7,
+            "control_flow.PERFORM": 4,
+            "control_flow.PERFORM_TIMES": 1,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 2,
+            "math_operations.ADD": 1,
+            "math_operations.COMPUTE": 3,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 1,
+            "data_structures.LEVEL_01": 9,
+            "data_structures.VALUE": 3,
+            "file_stats.total_lines": 42,
+            "file_stats.code_lines": 32
+          }
+        },
+        {
+          "pid": "p03609",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:678)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat Test1.main(Test1.java:40)",
+          "constructs": {
+            "data_types.PIC_X": 2,
+            "data_types.PIC_9": 6,
+            "control_flow.PERFORM": 4,
+            "control_flow.PERFORM_UNTIL": 2,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 4,
+            "math_operations.ADD": 1,
+            "math_operations.SUBTRACT": 2,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 9,
+            "file_stats.total_lines": 36,
+            "file_stats.code_lines": 34,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p03694",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:678)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat ABC_064_B.main(ABC_064_B.java:30)",
+          "constructs": {
+            "data_types.PIC_X": 3,
+            "data_types.PIC_9": 9,
+            "control_flow.PERFORM": 5,
+            "control_flow.PERFORM_TIMES": 1,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 2,
+            "string_operations.MOVE": 3,
+            "math_operations.ADD": 1,
+            "math_operations.SUBTRACT": 1,
+            "math_operations.COMPUTE": 4,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 13,
+            "data_structures.VALUE": 4,
+            "advanced_features.FUNCTION": 3,
+            "advanced_features.FUNCTION_MAX": 1,
+            "advanced_features.FUNCTION_MIN": 1,
+            "file_stats.total_lines": 65,
+            "file_stats.code_lines": 44
+          }
+        },
+        {
+          "pid": "p03455",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:678)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat ABC_086_A.main(ABC_086_A.java:30)",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 8,
+            "control_flow.PERFORM": 4,
+            "control_flow.PERFORM_TIMES": 1,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 1,
+            "math_operations.ADD": 1,
+            "math_operations.MULTIPLY": 1,
+            "math_operations.DIVIDE": 1,
+            "math_operations.COMPUTE": 2,
+            "math_operations.REMAINDER": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 2,
+            "data_structures.OCCURS": 1,
+            "data_structures.LEVEL_01": 9,
+            "data_structures.VALUE": 3,
+            "file_stats.total_lines": 49,
+            "file_stats.code_lines": 36
+          }
+        },
+        {
+          "pid": "p02683",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"your_input_here\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat Main.main(Main.java:7)",
+          "constructs": {
+            "data_types.PIC_X": 2,
+            "data_types.PIC_9": 16,
+            "data_types.PIC_S9": 1,
+            "data_types.COMP": 6,
+            "control_flow.PERFORM": 14,
+            "control_flow.PERFORM_UNTIL": 6,
+            "control_flow.IF": 8,
+            "control_flow.IF_ELSE": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 1,
+            "string_operations.MOVE": 10,
+            "math_operations.ADD": 4,
+            "math_operations.DIVIDE": 2,
+            "math_operations.COMPUTE": 1,
+            "math_operations.REMAINDER": 2,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 4,
+            "data_structures.OCCURS_DEPENDING": 1,
+            "data_structures.LEVEL_01": 19,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 86,
+            "file_stats.code_lines": 77,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "other_exception": {
+      "count": 18,
+      "common_constructs": [
+        "data_types.PIC_X",
+        "string_operations.MOVE",
+        "io_operations.ACCEPT",
+        "io_operations.DISPLAY",
+        "file_stats.total_lines"
+      ],
+      "sample_pids": [
+        "p03359",
+        "p04043",
+        "p03337",
+        "p02958",
+        "p02639"
+      ],
+      "sample_details": [
+        {
+          "pid": "p03359",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: begin 3, end 5, length 3\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)\n\tat java.base/java.lang.String.substring(String.java:2709)\n\tat Main.main(Main.java:18)",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 4,
+            "control_flow.PERFORM": 2,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.IF": 4,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 3,
+            "math_operations.ADD": 3,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 2,
+            "file_stats.total_lines": 28,
+            "file_stats.code_lines": 28,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p04043",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.ArrayStoreException: arraycopy: type mismatch: can not copy int[] into char[]\n\tat java.base/java.lang.System.arraycopy(Native Method)\n\tat ABC_042_A.main(ABC_042_A.java:30)",
+          "constructs": {
+            "data_types.PIC_X": 2,
+            "data_types.PIC_9": 8,
+            "control_flow.PERFORM": 6,
+            "control_flow.PERFORM_TIMES": 1,
+            "control_flow.PERFORM_UNTIL": 2,
+            "control_flow.IF": 5,
+            "control_flow.IF_ELSE": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 1,
+            "math_operations.ADD": 3,
+            "math_operations.COMPUTE": 2,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 2,
+            "data_structures.OCCURS": 1,
+            "data_structures.LEVEL_01": 10,
+            "data_structures.VALUE": 5,
+            "file_stats.total_lines": 51,
+            "file_stats.code_lines": 39
+          }
+        },
+        {
+          "pid": "p03337",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: begin 11, end 11, length 10\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)\n\tat java.base/java.lang.String.substring(String.java:2709)\n\tat ABC_098_A.main(ABC_098_A.java:18)",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 5,
+            "data_types.PIC_S9": 1,
+            "control_flow.PERFORM": 4,
+            "control_flow.PERFORM_TIMES": 1,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 2,
+            "math_operations.ADD": 1,
+            "math_operations.COMPUTE": 2,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 1,
+            "data_structures.LEVEL_01": 8,
+            "data_structures.VALUE": 3,
+            "advanced_features.FUNCTION": 1,
+            "advanced_features.FUNCTION_MAX": 1,
+            "file_stats.total_lines": 41,
+            "file_stats.code_lines": 31
+          }
+        },
+        {
+          "pid": "p02958",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: String index out of range: 9\n\tat java.base/java.lang.StringLatin1.charAt(StringLatin1.java:48)\n\tat java.base/java.lang.String.charAt(String.java:1517)\n\tat ProgramID.main(ProgramID.java:22)",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 8,
+            "data_types.COMP": 5,
+            "control_flow.PERFORM": 4,
+            "control_flow.PERFORM_TIMES": 1,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.IF": 4,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 2,
+            "math_operations.ADD": 2,
+            "math_operations.COMPUTE": 2,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 2,
+            "data_structures.LEVEL_01": 10,
+            "data_structures.VALUE": 4,
+            "file_stats.total_lines": 38,
+            "file_stats.code_lines": 35,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02639",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.ArrayStoreException: arraycopy: type mismatch: can not copy char[] into int[]\n\tat java.base/java.lang.System.arraycopy(Native Method)\n\tat ProgramID.main(ProgramID.java:19)",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 6,
+            "data_types.PIC_S9": 1,
+            "data_types.COMP": 5,
+            "control_flow.PERFORM": 6,
+            "control_flow.PERFORM_TIMES": 1,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 4,
+            "math_operations.ADD": 1,
+            "math_operations.COMPUTE": 2,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 1,
+            "data_structures.LEVEL_01": 9,
+            "data_structures.VALUE": 3,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 42,
+            "file_stats.code_lines": 39,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "arithmetic_exception": {
+      "count": 1,
+      "common_constructs": [
+        "data_types.PIC_X",
+        "data_types.PIC_9",
+        "data_types.COMP",
+        "control_flow.PERFORM",
+        "control_flow.PERFORM_UNTIL"
+      ],
+      "sample_pids": [
+        "p02642"
+      ],
+      "sample_details": [
+        {
+          "pid": "p02642",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.ArithmeticException: / by zero\n\tat Main.main(Main.java:41)",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 10,
+            "data_types.COMP": 8,
+            "control_flow.PERFORM": 10,
+            "control_flow.PERFORM_UNTIL": 5,
+            "control_flow.IF": 6,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 8,
+            "math_operations.ADD": 2,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "io_operations.READ": 1,
+            "io_operations.OPEN": 1,
+            "io_operations.CLOSE": 1,
+            "data_structures.OCCURS": 2,
+            "data_structures.OCCURS_DEPENDING": 1,
+            "data_structures.LEVEL_01": 11,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 70,
+            "file_stats.code_lines": 59,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "null_pointer": {
+      "count": 19,
+      "common_constructs": [
+        "data_types.PIC_9",
+        "control_flow.STOP_RUN",
+        "io_operations.ACCEPT",
+        "io_operations.DISPLAY",
+        "file_stats.total_lines"
+      ],
+      "sample_pids": [
+        "p03473",
+        "p03192",
+        "p03470",
+        "p03338",
+        "p03012"
+      ],
+      "sample_details": [
+        {
+          "pid": "p03473",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"java.io.Console.readLine()\" because the return value of \"java.lang.System.console()\" is null\n\tat ABC_084_A.main(ABC_084_A.java:4)",
+          "constructs": {
+            "data_types.PIC_9": 1,
+            "control_flow.STOP_RUN": 1,
+            "math_operations.SUBTRACT": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 1,
+            "file_stats.total_lines": 15,
+            "file_stats.code_lines": 12
+          }
+        },
+        {
+          "pid": "p03192",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"java.io.Console.readLine()\" because the return value of \"java.lang.System.console()\" is null\n\tat Caddi2018A.main(Caddi2018A.java:4)",
+          "constructs": {
+            "data_types.PIC_9": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.INSPECT": 1,
+            "string_operations.INSPECT_TALLYING": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_77": 2,
+            "file_stats.total_lines": 16,
+            "file_stats.code_lines": 11,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p03470",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"java.io.Console.readLine()\" because the return value of \"java.lang.System.console()\" is null\n\tat Test1.main(Test1.java:29)",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 13,
+            "control_flow.PERFORM": 6,
+            "control_flow.PERFORM_UNTIL": 3,
+            "control_flow.IF": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 3,
+            "math_operations.ADD": 3,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 1,
+            "data_structures.LEVEL_01": 15,
+            "file_stats.total_lines": 45,
+            "file_stats.code_lines": 42,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p03338",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"java.io.Console.readLine()\" because the return value of \"java.lang.System.console()\" is null\n\tat ABC_098_B.main(ABC_098_B.java:5)",
+          "constructs": {
+            "data_types.PIC_X": 5,
+            "data_types.PIC_9": 11,
+            "control_flow.PERFORM": 12,
+            "control_flow.PERFORM_UNTIL": 6,
+            "control_flow.IF": 10,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 11,
+            "string_operations.INITIALIZE": 1,
+            "math_operations.ADD": 3,
+            "math_operations.COMPUTE": 2,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 2,
+            "data_structures.LEVEL_01": 15,
+            "data_structures.VALUE": 8,
+            "advanced_features.FUNCTION": 1,
+            "advanced_features.FUNCTION_MAX": 1,
+            "file_stats.total_lines": 98,
+            "file_stats.code_lines": 71
+          }
+        },
+        {
+          "pid": "p03012",
+          "error_msg": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"java.io.Console.readLine()\" because the return value of \"java.lang.System.console()\" is null\n\tat Main.main(Main.java:6)",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 10,
+            "data_types.PIC_V9": 1,
+            "control_flow.PERFORM": 6,
+            "control_flow.PERFORM_UNTIL": 3,
+            "control_flow.IF": 6,
+            "control_flow.IF_ELSE": 3,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 6,
+            "math_operations.COMPUTE": 6,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 2,
+            "data_structures.OCCURS": 1,
+            "data_structures.LEVEL_01": 12,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 60,
+            "file_stats.code_lines": 51,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "timeout": {
+      "count": 1,
+      "common_constructs": [
+        "data_types.PIC_X",
+        "data_types.PIC_9",
+        "control_flow.PERFORM",
+        "control_flow.PERFORM_TIMES",
+        "control_flow.PERFORM_UNTIL"
+      ],
+      "sample_pids": [
+        "p02784"
+      ],
+      "sample_details": [
+        {
+          "pid": "p02784",
+          "error_msg": "Execution timeout (>5s)",
+          "constructs": {
+            "data_types.PIC_X": 3,
+            "data_types.PIC_9": 9,
+            "control_flow.PERFORM": 4,
+            "control_flow.PERFORM_TIMES": 1,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "string_operations.UNSTRING": 1,
+            "string_operations.MOVE": 1,
+            "math_operations.ADD": 2,
+            "math_operations.COMPUTE": 2,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 2,
+            "io_operations.READ": 1,
+            "io_operations.OPEN": 1,
+            "io_operations.CLOSE": 1,
+            "data_structures.LEVEL_01": 12,
+            "data_structures.VALUE": 3,
+            "file_stats.total_lines": 46,
+            "file_stats.code_lines": 42,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    }
+  },
+  "test_failures": {
+    "control_flow.PERFORM_UNTIL_math_operations.COMPUTE": {
+      "count": 9,
+      "common_constructs": [
+        "data_types.PIC_9",
+        "control_flow.PERFORM",
+        "control_flow.PERFORM_UNTIL",
+        "control_flow.IF",
+        "control_flow.STOP_RUN"
+      ],
+      "sample_pids": [
+        "p03352",
+        "p03316",
+        "p02548",
+        "p02730",
+        "p02879"
+      ],
+      "sample_details": [
+        {
+          "pid": "p03352",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n9\n\nActual:\nEnter value for A: Result: 9",
+          "constructs": {
+            "data_types.PIC_9": 4,
+            "control_flow.PERFORM": 5,
+            "control_flow.PERFORM_UNTIL": 2,
+            "control_flow.IF": 2,
+            "control_flow.EXIT": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 1,
+            "math_operations.COMPUTE": 2,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 5,
+            "advanced_features.FUNCTION": 1,
+            "advanced_features.FUNCTION_MAX": 1,
+            "file_stats.total_lines": 33,
+            "file_stats.code_lines": 25
+          }
+        },
+        {
+          "pid": "p03316",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\nYes\n\nActual:\nNo",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 6,
+            "control_flow.PERFORM": 2,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 3,
+            "math_operations.DIVIDE": 1,
+            "math_operations.COMPUTE": 1,
+            "math_operations.REMAINDER": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 2,
+            "data_structures.LEVEL_01": 8,
+            "file_stats.total_lines": 35,
+            "file_stats.code_lines": 29
+          }
+        },
+        {
+          "pid": "p02548",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n3\n\nActual:\nEnter a number: 3",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 6,
+            "control_flow.PERFORM": 8,
+            "control_flow.PERFORM_UNTIL": 3,
+            "control_flow.IF": 4,
+            "control_flow.EXIT": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 1,
+            "math_operations.ADD": 1,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 8,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 57,
+            "file_stats.code_lines": 35,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02730",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\nYes\n\nActual:\nNo",
+          "constructs": {
+            "data_types.PIC_X": 4,
+            "data_types.PIC_9": 3,
+            "control_flow.PERFORM": 4,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.IF": 4,
+            "control_flow.IF_ELSE": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 4,
+            "math_operations.DIVIDE": 1,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 3,
+            "data_structures.LEVEL_01": 7,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 39,
+            "file_stats.code_lines": 34,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02879",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n00000000010\nActual:\n10",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 6,
+            "control_flow.PERFORM": 4,
+            "control_flow.PERFORM_UNTIL": 2,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 2,
+            "math_operations.ADD": 1,
+            "math_operations.SUBTRACT": 1,
+            "math_operations.COMPUTE": 2,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 2,
+            "data_structures.LEVEL_01": 7,
+            "file_stats.total_lines": 36,
+            "file_stats.code_lines": 33,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "basic": {
+      "count": 14,
+      "common_constructs": [
+        "control_flow.STOP_RUN",
+        "io_operations.ACCEPT",
+        "io_operations.DISPLAY",
+        "file_stats.total_lines",
+        "file_stats.code_lines"
+      ],
+      "sample_pids": [
+        "p03643",
+        "p03605",
+        "p03631",
+        "p02552",
+        "p02711"
+      ],
+      "sample_details": [
+        {
+          "pid": "p03643",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\nABC100\n\nActual:\nEnter value for N: ABC100",
+          "constructs": {
+            "data_types.PIC_X": 2,
+            "control_flow.STOP_RUN": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 2,
+            "file_stats.total_lines": 14,
+            "file_stats.code_lines": 12
+          }
+        },
+        {
+          "pid": "p03605",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\nYes\n\nActual:\nEnter a two-character string: Yes",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 2,
+            "data_structures.LEVEL_01": 1,
+            "file_stats.total_lines": 19,
+            "file_stats.code_lines": 15
+          }
+        },
+        {
+          "pid": "p03631",
+          "error_msg": "Expected 1 lines, got 2 lines.\nExpected:\nYes\n\nActual:\nEnter a value:\nYes",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 2,
+            "data_structures.LEVEL_01": 1,
+            "file_stats.total_lines": 17,
+            "file_stats.code_lines": 14,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02552",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n0\n\nActual:\nEnter a number: 0",
+          "constructs": {
+            "data_types.PIC_9": 1,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 2,
+            "data_structures.LEVEL_01": 1,
+            "file_stats.total_lines": 22,
+            "file_stats.code_lines": 14,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02711",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\nYes\n\nActual:\nEnter a three-character string: Yes",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 2,
+            "data_structures.LEVEL_01": 1,
+            "file_stats.total_lines": 16,
+            "file_stats.code_lines": 13,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "string_operations.UNSTRING_control_flow.PERFORM_UNTIL": {
+      "count": 13,
+      "common_constructs": [
+        "data_types.PIC_X",
+        "data_types.PIC_9",
+        "control_flow.PERFORM",
+        "control_flow.PERFORM_UNTIL",
+        "control_flow.STOP_RUN"
+      ],
+      "sample_pids": [
+        "p03853",
+        "p02640",
+        "p03281",
+        "p03644",
+        "p03598"
+      ],
+      "sample_details": [
+        {
+          "pid": "p03853",
+          "error_msg": "Expected 4 lines, got 6 lines.\nExpected:\n*.\n*.\n.*\n.*\n\nActual:\nEnter input: Enter string: \n*.\n*.\nEnter string: \n*..*\n*..*",
+          "constructs": {
+            "data_types.PIC_X": 2,
+            "data_types.PIC_9": 3,
+            "control_flow.PERFORM": 2,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 1,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 2,
+            "data_structures.LEVEL_01": 5,
+            "advanced_features.FUNCTION": 2,
+            "file_stats.total_lines": 24,
+            "file_stats.code_lines": 19
+          }
+        },
+        {
+          "pid": "p02640",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\nYes\n\nActual:\nEnter input: Yes",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 3,
+            "control_flow.PERFORM": 2,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 2,
+            "data_structures.LEVEL_01": 4,
+            "file_stats.total_lines": 26,
+            "file_stats.code_lines": 21,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p03281",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n1\n\nActual:\n000",
+          "constructs": {
+            "data_types.PIC_X": 2,
+            "data_types.PIC_9": 7,
+            "control_flow.PERFORM": 5,
+            "control_flow.PERFORM_UNTIL": 2,
+            "control_flow.IF": 4,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 2,
+            "string_operations.MOVE": 3,
+            "math_operations.ADD": 2,
+            "math_operations.DIVIDE": 1,
+            "math_operations.REMAINDER": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 10,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 49,
+            "file_stats.code_lines": 37
+          }
+        },
+        {
+          "pid": "p03644",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n4\n\nActual:\n0004",
+          "constructs": {
+            "data_types.PIC_X": 2,
+            "data_types.PIC_9": 8,
+            "control_flow.PERFORM": 6,
+            "control_flow.PERFORM_UNTIL": 2,
+            "control_flow.IF": 4,
+            "control_flow.EXIT": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 2,
+            "string_operations.MOVE": 7,
+            "math_operations.ADD": 1,
+            "math_operations.DIVIDE": 1,
+            "math_operations.REMAINDER": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 11,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 58,
+            "file_stats.code_lines": 45
+          }
+        },
+        {
+          "pid": "p03598",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n4\n\nActual:\n000004",
+          "constructs": {
+            "data_types.PIC_X": 3,
+            "data_types.PIC_9": 9,
+            "control_flow.PERFORM": 5,
+            "control_flow.PERFORM_TIMES": 1,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 2,
+            "string_operations.MOVE": 3,
+            "math_operations.ADD": 2,
+            "math_operations.MULTIPLY": 1,
+            "math_operations.COMPUTE": 3,
+            "io_operations.ACCEPT": 3,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 13,
+            "data_structures.VALUE": 3,
+            "advanced_features.FUNCTION": 2,
+            "advanced_features.FUNCTION_MIN": 1,
+            "file_stats.total_lines": 64,
+            "file_stats.code_lines": 45
+          }
+        }
+      ]
+    },
+    "math_operations.COMPUTE_advanced_features.FUNCTION": {
+      "count": 6,
+      "common_constructs": [
+        "data_types.PIC_9",
+        "control_flow.STOP_RUN",
+        "math_operations.COMPUTE",
+        "io_operations.ACCEPT",
+        "io_operations.DISPLAY"
+      ],
+      "sample_pids": [
+        "p02621",
+        "p02705",
+        "p02724",
+        "p02859",
+        "p02612"
+      ],
+      "sample_details": [
+        {
+          "pid": "p02621",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n14\n\nActual:\nEnter a value: 014",
+          "constructs": {
+            "data_types.PIC_9": 1,
+            "control_flow.STOP_RUN": 1,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 2,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 15,
+            "file_stats.code_lines": 11,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02705",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n6.2831\nActual:\nEnter a value for R: 6",
+          "constructs": {
+            "data_types.PIC_9": 1,
+            "control_flow.STOP_RUN": 1,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 2,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 15,
+            "file_stats.code_lines": 11,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02724",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n2020\n\nActual:\nEnter a value for X: 2020",
+          "constructs": {
+            "data_types.PIC_9": 4,
+            "control_flow.STOP_RUN": 1,
+            "math_operations.DIVIDE": 2,
+            "math_operations.COMPUTE": 1,
+            "math_operations.REMAINDER": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 5,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 19,
+            "file_stats.code_lines": 16,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02859",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n4\n\nActual:\nEnter a value: 4",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 1,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 3,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 16,
+            "file_stats.code_lines": 13,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02612",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n100\n\nActual:\nEnter a number: 100",
+          "constructs": {
+            "data_types.PIC_9": 5,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 1,
+            "math_operations.DIVIDE": 2,
+            "math_operations.COMPUTE": 1,
+            "math_operations.REMAINDER": 2,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 6,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 21,
+            "file_stats.code_lines": 18,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "string_operations.UNSTRING_data_structures.OCCURS": {
+      "count": 9,
+      "common_constructs": [
+        "data_types.PIC_X",
+        "data_types.PIC_9",
+        "control_flow.PERFORM",
+        "control_flow.PERFORM_UNTIL",
+        "control_flow.STOP_RUN"
+      ],
+      "sample_pids": [
+        "p03283",
+        "p03295",
+        "p03360",
+        "p03400",
+        "p03814"
+      ],
+      "sample_details": [
+        {
+          "pid": "p03283",
+          "error_msg": "Expected 1 lines, got 3 lines.\nExpected:\n3\n\nActual:\n5\n5\n5",
+          "constructs": {
+            "data_types.PIC_X": 4,
+            "data_types.PIC_9": 11,
+            "data_types.BINARY": 4,
+            "control_flow.PERFORM": 13,
+            "control_flow.PERFORM_UNTIL": 6,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 5,
+            "string_operations.MOVE": 2,
+            "math_operations.ADD": 3,
+            "math_operations.SUBTRACT": 3,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 3,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 2,
+            "data_structures.LEVEL_01": 16,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 114,
+            "file_stats.code_lines": 80
+          }
+        },
+        {
+          "pid": "p03295",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n1\n\nActual:\n000001",
+          "constructs": {
+            "data_types.PIC_X": 3,
+            "data_types.PIC_9": 7,
+            "data_types.BINARY": 1,
+            "control_flow.PERFORM": 5,
+            "control_flow.PERFORM_UNTIL": 2,
+            "control_flow.IF": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 4,
+            "string_operations.MOVE": 3,
+            "math_operations.ADD": 1,
+            "math_operations.SUBTRACT": 1,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 1,
+            "data_structures.OCCURS_DEPENDING": 1,
+            "data_structures.LEVEL_01": 10,
+            "data_structures.VALUE": 1,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 61,
+            "file_stats.code_lines": 45
+          }
+        },
+        {
+          "pid": "p03360",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n30\n\nActual:\n000404",
+          "constructs": {
+            "data_types.PIC_X": 3,
+            "data_types.PIC_9": 9,
+            "control_flow.PERFORM": 5,
+            "control_flow.PERFORM_TIMES": 1,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 2,
+            "string_operations.MOVE": 2,
+            "math_operations.ADD": 3,
+            "math_operations.SUBTRACT": 1,
+            "math_operations.COMPUTE": 4,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 1,
+            "data_structures.LEVEL_01": 13,
+            "data_structures.VALUE": 3,
+            "advanced_features.FUNCTION": 2,
+            "advanced_features.FUNCTION_MAX": 1,
+            "file_stats.total_lines": 66,
+            "file_stats.code_lines": 47
+          }
+        },
+        {
+          "pid": "p03400",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n8\n\nActual:\n62",
+          "constructs": {
+            "data_types.PIC_X": 3,
+            "data_types.PIC_9": 14,
+            "control_flow.PERFORM": 11,
+            "control_flow.PERFORM_TIMES": 1,
+            "control_flow.PERFORM_UNTIL": 4,
+            "control_flow.IF": 4,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 2,
+            "string_operations.MOVE": 3,
+            "math_operations.ADD": 4,
+            "math_operations.DIVIDE": 1,
+            "math_operations.COMPUTE": 2,
+            "math_operations.REMAINDER": 1,
+            "io_operations.ACCEPT": 3,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 2,
+            "data_structures.LEVEL_01": 18,
+            "data_structures.VALUE": 3,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 92,
+            "file_stats.code_lines": 66
+          }
+        },
+        {
+          "pid": "p03814",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n5\n\nActual:\n0000012",
+          "constructs": {
+            "data_types.PIC_X": 4,
+            "data_types.PIC_9": 3,
+            "data_types.BINARY": 2,
+            "control_flow.PERFORM": 7,
+            "control_flow.PERFORM_UNTIL": 2,
+            "control_flow.IF": 4,
+            "control_flow.EXIT": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 2,
+            "string_operations.MOVE": 1,
+            "math_operations.ADD": 1,
+            "math_operations.SUBTRACT": 1,
+            "math_operations.COMPUTE": 1,
+            "io_operations.DISPLAY": 1,
+            "io_operations.READ": 1,
+            "io_operations.OPEN": 1,
+            "io_operations.CLOSE": 1,
+            "data_structures.OCCURS": 1,
+            "data_structures.LEVEL_01": 8,
+            "advanced_features.FUNCTION": 2,
+            "file_stats.total_lines": 62,
+            "file_stats.code_lines": 44
+          }
+        }
+      ]
+    },
+    "string_operations.UNSTRING_math_operations.COMPUTE": {
+      "count": 33,
+      "common_constructs": [
+        "data_types.PIC_X",
+        "control_flow.STOP_RUN",
+        "string_operations.UNSTRING",
+        "math_operations.COMPUTE",
+        "io_operations.ACCEPT"
+      ],
+      "sample_pids": [
+        "p03280",
+        "p03597",
+        "p03071",
+        "p02945",
+        "p02951"
+      ],
+      "sample_details": [
+        {
+          "pid": "p03280",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n1\n\nActual:\nEnter input: 1",
+          "constructs": {
+            "data_types.PIC_X": 3,
+            "data_types.PIC_9": 3,
+            "control_flow.PERFORM": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 3,
+            "string_operations.MOVE": 1,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 7,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 33,
+            "file_stats.code_lines": 25
+          }
+        },
+        {
+          "pid": "p03597",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n5\n\nActual:\nEnter N: Enter A: 000005",
+          "constructs": {
+            "data_types.PIC_X": 2,
+            "data_types.PIC_9": 2,
+            "control_flow.PERFORM": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 2,
+            "string_operations.MOVE": 1,
+            "math_operations.SUBTRACT": 1,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 5,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 33,
+            "file_stats.code_lines": 25
+          }
+        },
+        {
+          "pid": "p03071",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n9\n\nActual:\nEnter two numbers separated by space: 9",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 2,
+            "control_flow.EVALUATE": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 1,
+            "math_operations.COMPUTE": 3,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 4,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 26,
+            "file_stats.code_lines": 22,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02945",
+          "error_msg": "Expected 1 lines, got 2 lines.\nExpected:\n-0000000010\nActual:\nEnter two numbers separated by space:\n-10",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_S9": 4,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 1,
+            "string_operations.MOVE": 1,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 5,
+            "advanced_features.FUNCTION": 1,
+            "advanced_features.FUNCTION_MAX": 1,
+            "file_stats.total_lines": 20,
+            "file_stats.code_lines": 16,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02951",
+          "error_msg": "Expected 1 lines, got 2 lines.\nExpected:\n1\n\nActual:\nEnter three numbers separated by spaces:\n1",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 4,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 1,
+            "string_operations.MOVE": 1,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 2,
+            "data_structures.LEVEL_01": 6,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 24,
+            "file_stats.code_lines": 21,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "string_operations.UNSTRING_advanced_features.FUNCTION": {
+      "count": 17,
+      "common_constructs": [
+        "data_types.PIC_X",
+        "control_flow.STOP_RUN",
+        "string_operations.UNSTRING",
+        "io_operations.ACCEPT",
+        "io_operations.DISPLAY"
+      ],
+      "sample_pids": [
+        "p03737",
+        "p03272",
+        "p03635",
+        "p03563",
+        "p03307"
+      ],
+      "sample_details": [
+        {
+          "pid": "p03737",
+          "error_msg": "Expected 1 lines, got 2 lines.\nExpected:\nABC\n\nActual:\nEnter a string of 32 characters separated by spaces:\nA B C",
+          "constructs": {
+            "data_types.PIC_X": 4,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 1,
+            "string_operations.MOVE": 3,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 4,
+            "advanced_features.FUNCTION": 3,
+            "file_stats.total_lines": 25,
+            "file_stats.code_lines": 20
+          }
+        },
+        {
+          "pid": "p03272",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n3\n\nActual:\nEnter input (format: N i): 001",
+          "constructs": {
+            "data_types.PIC_X": 3,
+            "data_types.PIC_9": 2,
+            "control_flow.PERFORM": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 3,
+            "string_operations.MOVE": 1,
+            "math_operations.ADD": 1,
+            "math_operations.SUBTRACT": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 6,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 35,
+            "file_stats.code_lines": 25
+          }
+        },
+        {
+          "pid": "p03635",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n6\n\nActual:\nEnter input (format: XX YY): 6000",
+          "constructs": {
+            "data_types.PIC_X": 3,
+            "data_types.PIC_9": 3,
+            "control_flow.PERFORM": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 3,
+            "string_operations.MOVE": 1,
+            "math_operations.SUBTRACT": 2,
+            "math_operations.MULTIPLY": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 7,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 42,
+            "file_stats.code_lines": 30
+          }
+        },
+        {
+          "pid": "p03563",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n2032\n\nActual:\nEnter R: Enter G:",
+          "constructs": {
+            "data_types.PIC_X": 2,
+            "data_types.PIC_9": 1,
+            "data_types.PIC_S9": 1,
+            "control_flow.PERFORM": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 2,
+            "string_operations.MOVE": 1,
+            "math_operations.ADD": 1,
+            "math_operations.SUBTRACT": 1,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 5,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 34,
+            "file_stats.code_lines": 25
+          }
+        },
+        {
+          "pid": "p03307",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n6\n\nActual:\n00000000006",
+          "constructs": {
+            "data_types.PIC_X": 2,
+            "data_types.PIC_9": 3,
+            "control_flow.PERFORM": 1,
+            "control_flow.IF": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 2,
+            "string_operations.MOVE": 1,
+            "math_operations.MULTIPLY": 1,
+            "math_operations.DIVIDE": 1,
+            "math_operations.REMAINDER": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 6,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 34,
+            "file_stats.code_lines": 27
+          }
+        }
+      ]
+    },
+    "advanced_features.FUNCTION": {
+      "count": 1,
+      "common_constructs": [
+        "data_types.PIC_X",
+        "control_flow.IF",
+        "control_flow.IF_ELSE",
+        "control_flow.STOP_RUN",
+        "io_operations.ACCEPT"
+      ],
+      "sample_pids": [
+        "p02681"
+      ],
+      "sample_details": [
+        {
+          "pid": "p02681",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\nYes\n\nActual:\nEnter value for S: Enter value for T: Yes",
+          "constructs": {
+            "data_types.PIC_X": 2,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 2,
+            "data_structures.LEVEL_01": 2,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 19,
+            "file_stats.code_lines": 15,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "control_flow.PERFORM_UNTIL_advanced_features.FUNCTION": {
+      "count": 1,
+      "common_constructs": [
+        "data_types.PIC_9",
+        "data_types.PIC_S9",
+        "data_types.COMP",
+        "control_flow.PERFORM",
+        "control_flow.PERFORM_UNTIL"
+      ],
+      "sample_pids": [
+        "p02690"
+      ],
+      "sample_details": [
+        {
+          "pid": "p02690",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n1 -2\nActual:\n0 0",
+          "constructs": {
+            "data_types.PIC_9": 2,
+            "data_types.PIC_S9": 4,
+            "data_types.COMP": 6,
+            "control_flow.PERFORM": 4,
+            "control_flow.PERFORM_UNTIL": 2,
+            "control_flow.IF": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 5,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 8,
+            "advanced_features.FUNCTION": 2,
+            "file_stats.total_lines": 31,
+            "file_stats.code_lines": 27,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "string_operations.UNSTRING": {
+      "count": 16,
+      "common_constructs": [
+        "data_types.PIC_X",
+        "string_operations.UNSTRING",
+        "io_operations.ACCEPT",
+        "io_operations.DISPLAY",
+        "data_structures.LEVEL_01"
+      ],
+      "sample_pids": [
+        "p03547",
+        "p03719",
+        "p03679",
+        "p02789",
+        "p02693"
+      ],
+      "sample_details": [
+        {
+          "pid": "p03547",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n<\n\nActual:\nEnter three characters: <",
+          "constructs": {
+            "data_types.PIC_X": 3,
+            "control_flow.IF": 4,
+            "control_flow.IF_ELSE": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 3,
+            "data_structures.LEVEL_01": 3,
+            "file_stats.total_lines": 29,
+            "file_stats.code_lines": 24
+          }
+        },
+        {
+          "pid": "p03719",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\nYes\n\nActual:\nEnter three numbers separated by spaces: Yes",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_S9": 3,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 2,
+            "data_structures.LEVEL_01": 4,
+            "file_stats.total_lines": 26,
+            "file_stats.code_lines": 21
+          }
+        },
+        {
+          "pid": "p03679",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\nsafe\n\nActual:\nEnter input: safe",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 2,
+            "data_types.PIC_S9": 1,
+            "control_flow.IF": 4,
+            "control_flow.IF_ELSE": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 1,
+            "math_operations.SUBTRACT": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 3,
+            "data_structures.LEVEL_01": 4,
+            "file_stats.total_lines": 31,
+            "file_stats.code_lines": 26
+          }
+        },
+        {
+          "pid": "p02789",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\nYes\n\nActual:\nEnter three characters: Yes",
+          "constructs": {
+            "data_types.PIC_X": 2,
+            "data_types.PIC_9": 2,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 2,
+            "data_structures.LEVEL_01": 4,
+            "file_stats.total_lines": 20,
+            "file_stats.code_lines": 17,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02693",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\nOK\n\nActual:\nEnter K: Enter INP: Invalid input format",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 7,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 1,
+            "math_operations.DIVIDE": 2,
+            "math_operations.REMAINDER": 2,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 2,
+            "data_structures.LEVEL_01": 8,
+            "file_stats.total_lines": 30,
+            "file_stats.code_lines": 26,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "string_operations.UNSTRING_string_operations.STRING": {
+      "count": 4,
+      "common_constructs": [
+        "data_types.PIC_X",
+        "control_flow.STOP_RUN",
+        "string_operations.STRING",
+        "string_operations.UNSTRING",
+        "io_operations.ACCEPT"
+      ],
+      "sample_pids": [
+        "p02717",
+        "p02777",
+        "p02817",
+        "p02818"
+      ],
+      "sample_details": [
+        {
+          "pid": "p02717",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n3 1 2\n\nActual:\nEnter three numbers separated by spaces: 3 1 2",
+          "constructs": {
+            "data_types.PIC_X": 2,
+            "data_types.PIC_9": 3,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.STRING": 1,
+            "string_operations.UNSTRING": 1,
+            "string_operations.MOVE": 3,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 8,
+            "advanced_features.FUNCTION": 4,
+            "file_stats.total_lines": 30,
+            "file_stats.code_lines": 27,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02777",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n2 4\n\nActual:\n0204 0204",
+          "constructs": {
+            "data_types.PIC_X": 7,
+            "data_types.PIC_9": 2,
+            "control_flow.PERFORM": 2,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.STRING": 2,
+            "string_operations.UNSTRING": 3,
+            "string_operations.MOVE": 2,
+            "math_operations.ADD": 2,
+            "io_operations.ACCEPT": 3,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 10,
+            "advanced_features.FUNCTION": 4,
+            "file_stats.total_lines": 44,
+            "file_stats.code_lines": 40,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02817",
+          "error_msg": "Expected 1 lines, got 2 lines.\nExpected:\natcoder\n\nActual:\nEnter a string:\noderatc",
+          "constructs": {
+            "data_types.PIC_X": 4,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.STRING": 1,
+            "string_operations.UNSTRING": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 4,
+            "advanced_features.FUNCTION": 3,
+            "file_stats.total_lines": 17,
+            "file_stats.code_lines": 14,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02818",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n0 2\n\nActual:\n0 1",
+          "constructs": {
+            "data_types.PIC_X": 2,
+            "data_types.PIC_9": 5,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.STRING": 1,
+            "string_operations.UNSTRING": 1,
+            "string_operations.MOVE": 2,
+            "math_operations.COMPUTE": 5,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 9,
+            "advanced_features.FUNCTION": 5,
+            "advanced_features.FUNCTION_MIN": 2,
+            "file_stats.total_lines": 29,
+            "file_stats.code_lines": 26,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "data_structures.OCCURS_control_flow.PERFORM_UNTIL": {
+      "count": 4,
+      "common_constructs": [
+        "data_types.PIC_X",
+        "data_types.PIC_9",
+        "control_flow.PERFORM",
+        "control_flow.PERFORM_UNTIL",
+        "control_flow.IF"
+      ],
+      "sample_pids": [
+        "p02761",
+        "p03107",
+        "p03282",
+        "p03311"
+      ],
+      "sample_details": [
+        {
+          "pid": "p02761",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n702\n\nActual:\n100",
+          "constructs": {
+            "data_types.PIC_X": 3,
+            "data_types.PIC_9": 6,
+            "control_flow.PERFORM": 4,
+            "control_flow.PERFORM_UNTIL": 2,
+            "control_flow.IF": 12,
+            "control_flow.IF_ELSE": 3,
+            "control_flow.EXIT": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 8,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 2,
+            "data_structures.OCCURS": 1,
+            "data_structures.LEVEL_01": 6,
+            "file_stats.total_lines": 61,
+            "file_stats.code_lines": 52,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p03107",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n4\n\nActual:\n0",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 5,
+            "control_flow.PERFORM": 2,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.IF": 6,
+            "control_flow.IF_ELSE": 3,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 2,
+            "math_operations.COMPUTE": 5,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 1,
+            "data_structures.LEVEL_01": 7,
+            "data_structures.VALUE": 6,
+            "file_stats.total_lines": 38,
+            "file_stats.code_lines": 34,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p03282",
+          "error_msg": "Expected 1 lines, got 3 lines.\nExpected:\n2\n\nActual:\nEnter string S:\nEnter value of K:\n2",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 3,
+            "control_flow.PERFORM": 3,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.IF": 4,
+            "control_flow.EXIT": 1,
+            "control_flow.STOP_RUN": 2,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 2,
+            "data_structures.OCCURS": 1,
+            "data_structures.LEVEL_01": 4,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 28,
+            "file_stats.code_lines": 22
+          }
+        },
+        {
+          "pid": "p03311",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n2\n\nActual:\n-3",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 8,
+            "data_types.PIC_S9": 2,
+            "data_types.COMP": 8,
+            "control_flow.PERFORM": 6,
+            "control_flow.PERFORM_UNTIL": 3,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 5,
+            "math_operations.DIVIDE": 1,
+            "math_operations.COMPUTE": 5,
+            "math_operations.REMAINDER": 1,
+            "math_operations.ROUNDED": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "io_operations.READ": 1,
+            "io_operations.OPEN": 1,
+            "io_operations.CLOSE": 1,
+            "data_structures.OCCURS": 2,
+            "data_structures.OCCURS_DEPENDING": 2,
+            "data_structures.LEVEL_01": 12,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 61,
+            "file_stats.code_lines": 52,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "math_operations.COMPUTE": {
+      "count": 8,
+      "common_constructs": [
+        "data_types.PIC_9",
+        "control_flow.STOP_RUN",
+        "math_operations.COMPUTE",
+        "io_operations.ACCEPT",
+        "io_operations.DISPLAY"
+      ],
+      "sample_pids": [
+        "p02897",
+        "p02915",
+        "p03997",
+        "p04029",
+        "p02811"
+      ],
+      "sample_details": [
+        {
+          "pid": "p02897",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n0.5000000000\n\nActual:\nEnter a number: Result: 0.5",
+          "constructs": {
+            "data_types.PIC_9": 3,
+            "data_types.PIC_V9": 1,
+            "control_flow.STOP_RUN": 1,
+            "math_operations.COMPUTE": 2,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 3,
+            "file_stats.total_lines": 16,
+            "file_stats.code_lines": 13,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02915",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n8\n\nActual:\nEnter a number: 008",
+          "constructs": {
+            "data_types.PIC_9": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 1,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 3,
+            "file_stats.total_lines": 14,
+            "file_stats.code_lines": 13,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p03997",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n7\n\nActual:\nEnter A: Enter B: Enter H: 000000007",
+          "constructs": {
+            "data_types.PIC_9": 4,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 1,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 3,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 5,
+            "file_stats.total_lines": 20,
+            "file_stats.code_lines": 17,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p04029",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n6\n\nActual:\nEnter a number: 0006",
+          "constructs": {
+            "data_types.PIC_9": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 1,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_77": 3,
+            "file_stats.total_lines": 18,
+            "file_stats.code_lines": 16,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p02811",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\nYes\n\nActual:\nEnter value for K: Enter value for X: Yes",
+          "constructs": {
+            "data_types.PIC_9": 2,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 2,
+            "data_structures.LEVEL_01": 2,
+            "file_stats.total_lines": 22,
+            "file_stats.code_lines": 17,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "string_operations.INSPECT": {
+      "count": 3,
+      "common_constructs": [
+        "control_flow.STOP_RUN",
+        "string_operations.INSPECT",
+        "io_operations.ACCEPT",
+        "io_operations.DISPLAY",
+        "file_stats.total_lines"
+      ],
+      "sample_pids": [
+        "p02812",
+        "p03242",
+        "p03834"
+      ],
+      "sample_details": [
+        {
+          "pid": "p02812",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n2\n\nActual:\nEnter N: Enter S: 7",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.INSPECT": 1,
+            "string_operations.INSPECT_TALLYING": 1,
+            "string_operations.MOVE": 1,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 4,
+            "file_stats.total_lines": 18,
+            "file_stats.code_lines": 15,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p03242",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n991\n\nActual:\nEnter a number: 191",
+          "constructs": {
+            "data_types.PIC_9": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.INSPECT": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_77": 1,
+            "file_stats.total_lines": 13,
+            "file_stats.code_lines": 10,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        },
+        {
+          "pid": "p03834",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\nhappy newyear enjoy\n\nActual:\nexample input string",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.INSPECT": 1,
+            "string_operations.INSPECT_REPLACING": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_77": 1,
+            "file_stats.total_lines": 13,
+            "file_stats.code_lines": 10,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "data_structures.REDEFINES_control_flow.PERFORM_UNTIL": {
+      "count": 1,
+      "common_constructs": [
+        "data_types.PIC_9",
+        "data_types.PIC_V9",
+        "control_flow.PERFORM",
+        "control_flow.PERFORM_UNTIL",
+        "control_flow.IF"
+      ],
+      "sample_pids": [
+        "p03076"
+      ],
+      "sample_details": [
+        {
+          "pid": "p03076",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n215\n\nActual:\n00",
+          "constructs": {
+            "data_types.PIC_9": 10,
+            "data_types.PIC_V9": 1,
+            "control_flow.PERFORM": 2,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.IF": 2,
+            "control_flow.IF_ELSE": 1,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 6,
+            "math_operations.ADD": 1,
+            "math_operations.COMPUTE": 3,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.REDEFINES": 2,
+            "data_structures.LEVEL_01": 10,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 40,
+            "file_stats.code_lines": 36,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "control_flow.PERFORM_UNTIL": {
+      "count": 1,
+      "common_constructs": [
+        "data_types.PIC_X",
+        "data_types.PIC_9",
+        "control_flow.PERFORM",
+        "control_flow.PERFORM_UNTIL",
+        "control_flow.STOP_RUN"
+      ],
+      "sample_pids": [
+        "p03085"
+      ],
+      "sample_details": [
+        {
+          "pid": "p03085",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\nT\n\nActual:\nEnter a character: T",
+          "constructs": {
+            "data_types.PIC_X": 2,
+            "data_types.PIC_9": 1,
+            "control_flow.PERFORM": 2,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.STOP_RUN": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.LEVEL_01": 3,
+            "data_structures.VALUE": 1,
+            "file_stats.total_lines": 20,
+            "file_stats.code_lines": 14,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "string_operations.UNSTRING_data_structures.REDEFINES": {
+      "count": 1,
+      "common_constructs": [
+        "data_types.PIC_X",
+        "data_types.PIC_9",
+        "data_types.PIC_V9",
+        "control_flow.IF",
+        "control_flow.IF_ELSE"
+      ],
+      "sample_pids": [
+        "p03268"
+      ],
+      "sample_details": [
+        {
+          "pid": "p03268",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n9\n\nActual:\nEnter input: 00000000000000010",
+          "constructs": {
+            "data_types.PIC_X": 1,
+            "data_types.PIC_9": 8,
+            "data_types.PIC_V9": 1,
+            "control_flow.IF": 4,
+            "control_flow.IF_ELSE": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.UNSTRING": 1,
+            "string_operations.MOVE": 1,
+            "math_operations.DIVIDE": 2,
+            "math_operations.COMPUTE": 4,
+            "math_operations.REMAINDER": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 1,
+            "data_structures.REDEFINES": 1,
+            "data_structures.LEVEL_01": 9,
+            "advanced_features.FUNCTION": 1,
+            "file_stats.total_lines": 39,
+            "file_stats.code_lines": 34,
+            "file_stats.has_identification_division": true,
+            "file_stats.has_data_division": true,
+            "file_stats.has_procedure_division": true
+          }
+        }
+      ]
+    },
+    "string_operations.STRING_control_flow.PERFORM_UNTIL": {
+      "count": 2,
+      "common_constructs": [
+        "data_types.PIC_X",
+        "data_types.PIC_9",
+        "control_flow.PERFORM",
+        "control_flow.PERFORM_UNTIL",
+        "control_flow.IF"
+      ],
+      "sample_pids": [
+        "p03286",
+        "p03738"
+      ],
+      "sample_details": [
+        {
+          "pid": "p03286",
+          "error_msg": "Expected 1 lines, got 1 lines.\nExpected:\n1011\n\nActual:\n1000",
+          "constructs": {
+            "data_types.PIC_X": 2,
+            "data_types.PIC_9": 4,
+            "data_types.PIC_S9": 1,
+            "control_flow.PERFORM": 4,
+            "control_flow.PERFORM_UNTIL": 1,
+            "control_flow.IF": 3,
+            "control_flow.IF_ELSE": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.STRING": 6,
+            "string_operations.MOVE": 2,
+            "math_operations.SUBTRACT": 1,
+            "math_operations.DIVIDE": 1,
+            "math_operations.COMPUTE": 1,
+            "io_operations.ACCEPT": 1,
+            "io_operations.DISPLAY": 2,
+            "data_structures.LEVEL_01": 7,
+            "advanced_features.FUNCTION": 2,
+            "advanced_features.FUNCTION_MOD": 1,
+            "advanced_features.POINTER": 3,
+            "file_stats.total_lines": 49,
+            "file_stats.code_lines": 41
+          }
+        },
+        {
+          "pid": "p03738",
+          "error_msg": "Expected 1 lines, got 3 lines.\nExpected:\nGREATER\n\nActual:\nEnter string A:\nEnter string B:\nGREATER",
+          "constructs": {
+            "data_types.PIC_X": 4,
+            "data_types.PIC_9": 4,
+            "control_flow.PERFORM": 4,
+            "control_flow.PERFORM_UNTIL": 2,
+            "control_flow.IF": 4,
+            "control_flow.IF_ELSE": 2,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.STRING": 8,
+            "math_operations.SUBTRACT": 2,
+            "io_operations.ACCEPT": 2,
+            "io_operations.DISPLAY": 3,
+            "data_structures.LEVEL_01": 8,
+            "data_structures.VALUE": 1,
+            "advanced_features.FUNCTION": 8,
+            "file_stats.total_lines": 61,
+            "file_stats.code_lines": 53
+          }
+        }
+      ]
+    },
+    "data_structures.OCCURS_math_operations.COMPUTE": {
+      "count": 1,
+      "common_constructs": [
+        "data_types.PIC_X",
+        "data_types.PIC_9",
+        "control_flow.PERFORM",
+        "control_flow.IF",
+        "control_flow.IF_ELSE"
+      ],
+      "sample_pids": [
+        "p03998"
+      ],
+      "sample_details": [
+        {
+          "pid": "p03998",
+          "error_msg": "Expected 1 lines, got 4 lines.\nExpected:\nA\n\nActual:\nEnter string SA:\nEnter string SB:\nEnter string SC:\nA",
+          "constructs": {
+            "data_types.PIC_X": 6,
+            "data_types.PIC_9": 6,
+            "control_flow.PERFORM": 5,
+            "control_flow.IF": 9,
+            "control_flow.IF_ELSE": 2,
+            "control_flow.EXIT": 3,
+            "control_flow.STOP_RUN": 1,
+            "string_operations.MOVE": 7,
+            "math_operations.ADD": 3,
+            "math_operations.COMPUTE": 3,
+            "io_operations.ACCEPT": 3,
+            "io_operations.DISPLAY": 1,
+            "data_structures.OCCURS": 3,
+            "data_structures.LEVEL_01": 12,
+            "data_structures.VALUE": 5,
+            "advanced_features.FUNCTION": 3,
+            "file_stats.total_lines": 66,
+            "file_stats.code_lines": 53
+          }
+        }
+      ]
+    }
+  }
+}

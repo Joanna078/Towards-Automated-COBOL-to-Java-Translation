@@ -1,0 +1,7431 @@
+{
+  "translator": "xmainframe",
+  "overall_statistics": {
+    "total_files": 317,
+    "total_nloc": 5962,
+    "total_ccn": 1355,
+    "total_token": 48980,
+    "total_functions": 372,
+    "avg_nloc_per_function": 16.026881720430108,
+    "avg_ccn_per_function": 3.64247311827957,
+    "avg_token_per_function": 131.66666666666666,
+    "max_ccn": 15,
+    "max_nloc": 72
+  },
+  "per_file_metrics": [
+    {
+      "problem_id": "p02547",
+      "java_file": "s973069594.java",
+      "functions": [
+        {
+          "nloc": 23,
+          "ccn": 5,
+          "token": 151,
+          "param": 1,
+          "length": 27,
+          "location": "SORTNUM::main@4-30@/content/drive/MyDrive/xmainframe_final/p02547/s973069594.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 23,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 23.0
+      }
+    },
+    {
+      "problem_id": "p02548",
+      "java_file": "s996086821.java",
+      "functions": [
+        {
+          "nloc": 20,
+          "ccn": 6,
+          "token": 123,
+          "param": 1,
+          "length": 24,
+          "location": "SORTNUM::main@4-27@/content/drive/MyDrive/xmainframe_final/p02548/s996086821.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 20,
+        "total_ccn": 6,
+        "avg_ccn": 6.0,
+        "max_ccn": 6,
+        "function_count": 1,
+        "avg_function_length": 20.0
+      }
+    },
+    {
+      "problem_id": "p02552",
+      "java_file": "s252298897.java",
+      "functions": [
+        {
+          "nloc": 9,
+          "ccn": 2,
+          "token": 58,
+          "param": 1,
+          "length": 10,
+          "location": "SortNum::main@4-13@/content/drive/MyDrive/xmainframe_final/p02552/s252298897.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 9,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 9.0
+      }
+    },
+    {
+      "problem_id": "p02582",
+      "java_file": "s176691783.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 7,
+          "token": 136,
+          "param": 1,
+          "length": 15,
+          "location": "Main::main@3-17@/content/drive/MyDrive/xmainframe_final/p02582/s176691783.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 15,
+        "total_ccn": 7,
+        "avg_ccn": 7.0,
+        "max_ccn": 7,
+        "function_count": 1,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p02583",
+      "java_file": "s950730034.java",
+      "functions": [
+        {
+          "nloc": 8,
+          "ccn": 1,
+          "token": 93,
+          "param": 1,
+          "length": 11,
+          "location": "Main::main@7-17@/content/drive/MyDrive/xmainframe_final/p02583/s950730034.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 8,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 8.0
+      }
+    },
+    {
+      "problem_id": "p02584",
+      "java_file": "s393766391.java",
+      "functions": [
+        {
+          "nloc": 33,
+          "ccn": 8,
+          "token": 263,
+          "param": 1,
+          "length": 33,
+          "location": "Main::main@3-35@/content/drive/MyDrive/xmainframe_final/p02584/s393766391.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 33,
+        "total_ccn": 8,
+        "avg_ccn": 8.0,
+        "max_ccn": 8,
+        "function_count": 1,
+        "avg_function_length": 33.0
+      }
+    },
+    {
+      "problem_id": "p02594",
+      "java_file": "s106775064.java",
+      "functions": [
+        {
+          "nloc": 9,
+          "ccn": 2,
+          "token": 58,
+          "param": 1,
+          "length": 9,
+          "location": "Main::main@4-12@/content/drive/MyDrive/xmainframe_final/p02594/s106775064.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 9,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 9.0
+      }
+    },
+    {
+      "problem_id": "p02595",
+      "java_file": "s473088855.java",
+      "functions": [
+        {
+          "nloc": 17,
+          "ccn": 3,
+          "token": 164,
+          "param": 1,
+          "length": 17,
+          "location": "Main::main@6-22@/content/drive/MyDrive/xmainframe_final/p02595/s473088855.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 17,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 17.0
+      }
+    },
+    {
+      "problem_id": "p02597",
+      "java_file": "s126798715.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 3,
+          "token": 94,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@6-18@/content/drive/MyDrive/xmainframe_final/p02597/s126798715.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p02606",
+      "java_file": "s071676573.java",
+      "functions": [
+        {
+          "nloc": 18,
+          "ccn": 4,
+          "token": 154,
+          "param": 1,
+          "length": 18,
+          "location": "Main::main@3-20@/content/drive/MyDrive/xmainframe_final/p02606/s071676573.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 18,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 18.0
+      }
+    },
+    {
+      "problem_id": "p02607",
+      "java_file": "s788443039.java",
+      "functions": [
+        {
+          "nloc": 23,
+          "ccn": 5,
+          "token": 176,
+          "param": 1,
+          "length": 23,
+          "location": "Main::main@6-28@/content/drive/MyDrive/xmainframe_final/p02607/s788443039.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 23,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 23.0
+      }
+    },
+    {
+      "problem_id": "p02608",
+      "java_file": "s068691185.java",
+      "functions": [
+        {
+          "nloc": 19,
+          "ccn": 6,
+          "token": 166,
+          "param": 1,
+          "length": 19,
+          "location": "Main::main@3-21@/content/drive/MyDrive/xmainframe_final/p02608/s068691185.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 19,
+        "total_ccn": 6,
+        "avg_ccn": 6.0,
+        "max_ccn": 6,
+        "function_count": 1,
+        "avg_function_length": 19.0
+      }
+    },
+    {
+      "problem_id": "p02612",
+      "java_file": "s019381271.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 1,
+          "token": 95,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@3-15@/content/drive/MyDrive/xmainframe_final/p02612/s019381271.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p02613",
+      "java_file": "s050998688.java",
+      "functions": [
+        {
+          "nloc": 30,
+          "ccn": 7,
+          "token": 212,
+          "param": 1,
+          "length": 30,
+          "location": "Main::main@3-32@/content/drive/MyDrive/xmainframe_final/p02613/s050998688.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 30,
+        "total_ccn": 7,
+        "avg_ccn": 7.0,
+        "max_ccn": 7,
+        "function_count": 1,
+        "avg_function_length": 30.0
+      }
+    },
+    {
+      "problem_id": "p02614",
+      "java_file": "s673769446.java",
+      "functions": [
+        {
+          "nloc": 20,
+          "ccn": 5,
+          "token": 208,
+          "param": 1,
+          "length": 20,
+          "location": "Main::main@7-26@/content/drive/MyDrive/xmainframe_final/p02614/s673769446.java"
+        },
+        {
+          "nloc": 10,
+          "ccn": 4,
+          "token": 76,
+          "param": 4,
+          "length": 10,
+          "location": "Main::isSquare@28-37@/content/drive/MyDrive/xmainframe_final/p02614/s673769446.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 30,
+        "total_ccn": 9,
+        "avg_ccn": 4.5,
+        "max_ccn": 5,
+        "function_count": 2,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p02621",
+      "java_file": "s170676205.java",
+      "functions": [
+        {
+          "nloc": 6,
+          "ccn": 1,
+          "token": 73,
+          "param": 1,
+          "length": 6,
+          "location": "Main::main@4-9@/content/drive/MyDrive/xmainframe_final/p02621/s170676205.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 6,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 6.0
+      }
+    },
+    {
+      "problem_id": "p02627",
+      "java_file": "s799013402.java",
+      "functions": [
+        {
+          "nloc": 9,
+          "ccn": 2,
+          "token": 63,
+          "param": 1,
+          "length": 9,
+          "location": "Program_Id::main@4-12@/content/drive/MyDrive/xmainframe_final/p02627/s799013402.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 9,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 9.0
+      }
+    },
+    {
+      "problem_id": "p02628",
+      "java_file": "s044960230.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 2,
+          "token": 144,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@8-20@/content/drive/MyDrive/xmainframe_final/p02628/s044960230.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p02629",
+      "java_file": "s569024562.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 2,
+          "token": 109,
+          "param": 1,
+          "length": 15,
+          "location": "Main::main@3-17@/content/drive/MyDrive/xmainframe_final/p02629/s569024562.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 15,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p02630",
+      "java_file": "s579665617.java",
+      "functions": [
+        {
+          "nloc": 35,
+          "ccn": 5,
+          "token": 357,
+          "param": 1,
+          "length": 35,
+          "location": "Main::main@7-41@/content/drive/MyDrive/xmainframe_final/p02630/s579665617.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 35,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 35.0
+      }
+    },
+    {
+      "problem_id": "p02639",
+      "java_file": "s179342198.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 4,
+          "token": 107,
+          "param": 1,
+          "length": 15,
+          "location": "Main::main@4-18@/content/drive/MyDrive/xmainframe_final/p02639/s179342198.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 15,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p02640",
+      "java_file": "s348198913.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 5,
+          "token": 139,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@4-16@/content/drive/MyDrive/xmainframe_final/p02640/s348198913.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p02641",
+      "java_file": "s835215373.java",
+      "functions": [
+        {
+          "nloc": 50,
+          "ccn": 11,
+          "token": 306,
+          "param": 1,
+          "length": 50,
+          "location": "Main::main@3-52@/content/drive/MyDrive/xmainframe_final/p02641/s835215373.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 50,
+        "total_ccn": 11,
+        "avg_ccn": 11.0,
+        "max_ccn": 11,
+        "function_count": 1,
+        "avg_function_length": 50.0
+      }
+    },
+    {
+      "problem_id": "p02642",
+      "java_file": "s331263104.java",
+      "functions": [
+        {
+          "nloc": 45,
+          "ccn": 14,
+          "token": 362,
+          "param": 1,
+          "length": 45,
+          "location": "Main::main@3-47@/content/drive/MyDrive/xmainframe_final/p02642/s331263104.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 45,
+        "total_ccn": 14,
+        "avg_ccn": 14.0,
+        "max_ccn": 14,
+        "function_count": 1,
+        "avg_function_length": 45.0
+      }
+    },
+    {
+      "problem_id": "p02657",
+      "java_file": "s088815911.java",
+      "functions": [
+        {
+          "nloc": 7,
+          "ccn": 1,
+          "token": 54,
+          "param": 1,
+          "length": 7,
+          "location": "Main::main@4-10@/content/drive/MyDrive/xmainframe_final/p02657/s088815911.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 7,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 7.0
+      }
+    },
+    {
+      "problem_id": "p02658",
+      "java_file": "s130275544.java",
+      "functions": [
+        {
+          "nloc": 25,
+          "ccn": 5,
+          "token": 173,
+          "param": 1,
+          "length": 25,
+          "location": "Main::main@5-29@/content/drive/MyDrive/xmainframe_final/p02658/s130275544.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 25,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 25.0
+      }
+    },
+    {
+      "problem_id": "p02659",
+      "java_file": "s113923755.java",
+      "functions": [
+        {
+          "nloc": 8,
+          "ccn": 1,
+          "token": 95,
+          "param": 1,
+          "length": 8,
+          "location": "Main::main@7-14@/content/drive/MyDrive/xmainframe_final/p02659/s113923755.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 8,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 8.0
+      }
+    },
+    {
+      "problem_id": "p02663",
+      "java_file": "s581403666.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 1,
+          "token": 163,
+          "param": 1,
+          "length": 14,
+          "location": "Main::main@3-16@/content/drive/MyDrive/xmainframe_final/p02663/s581403666.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p02664",
+      "java_file": "s878770160.java",
+      "functions": [
+        {
+          "nloc": 8,
+          "ccn": 1,
+          "token": 70,
+          "param": 1,
+          "length": 10,
+          "location": "NomuraB::main@6-15@/content/drive/MyDrive/xmainframe_final/p02664/s878770160.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 8,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 8.0
+      }
+    },
+    {
+      "problem_id": "p02675",
+      "java_file": "s109677469.java",
+      "functions": [
+        {
+          "nloc": 16,
+          "ccn": 11,
+          "token": 140,
+          "param": 1,
+          "length": 18,
+          "location": "PracticeA::main@4-21@/content/drive/MyDrive/xmainframe_final/p02675/s109677469.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 16,
+        "total_ccn": 11,
+        "avg_ccn": 11.0,
+        "max_ccn": 11,
+        "function_count": 1,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p02676",
+      "java_file": "s138742190.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 2,
+          "token": 92,
+          "param": 1,
+          "length": 11,
+          "location": "Main::main@3-13@/content/drive/MyDrive/xmainframe_final/p02676/s138742190.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p02677",
+      "java_file": "s958289917.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 5,
+          "token": 197,
+          "param": 1,
+          "length": 15,
+          "location": "Main::main@3-17@/content/drive/MyDrive/xmainframe_final/p02677/s958289917.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 15,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p02681",
+      "java_file": "s728245736.java",
+      "functions": [
+        {
+          "nloc": 10,
+          "ccn": 2,
+          "token": 83,
+          "param": 1,
+          "length": 10,
+          "location": "Main::main@3-12@/content/drive/MyDrive/xmainframe_final/p02681/s728245736.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 10,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 10.0
+      }
+    },
+    {
+      "problem_id": "p02682",
+      "java_file": "s022156684.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 3,
+          "token": 145,
+          "param": 1,
+          "length": 15,
+          "location": "Main::main@4-18@/content/drive/MyDrive/xmainframe_final/p02682/s022156684.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 15,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p02683",
+      "java_file": "s953465528.java",
+      "functions": [
+        {
+          "nloc": 19,
+          "ccn": 3,
+          "token": 184,
+          "param": 1,
+          "length": 19,
+          "location": "Main::main@8-26@/content/drive/MyDrive/xmainframe_final/p02683/s953465528.java"
+        },
+        {
+          "nloc": 38,
+          "ccn": 12,
+          "token": 290,
+          "param": 4,
+          "length": 38,
+          "location": "Main::solve@28-65@/content/drive/MyDrive/xmainframe_final/p02683/s953465528.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 57,
+        "total_ccn": 15,
+        "avg_ccn": 7.5,
+        "max_ccn": 12,
+        "function_count": 2,
+        "avg_function_length": 28.5
+      }
+    },
+    {
+      "problem_id": "p02684",
+      "java_file": "s387788132.java",
+      "functions": [
+        {
+          "nloc": 46,
+          "ccn": 15,
+          "token": 376,
+          "param": 1,
+          "length": 46,
+          "location": "Main::main@4-49@/content/drive/MyDrive/xmainframe_final/p02684/s387788132.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 46,
+        "total_ccn": 15,
+        "avg_ccn": 15.0,
+        "max_ccn": 15,
+        "function_count": 1,
+        "avg_function_length": 46.0
+      }
+    },
+    {
+      "problem_id": "p02687",
+      "java_file": "s244469283.java",
+      "functions": [
+        {
+          "nloc": 9,
+          "ccn": 2,
+          "token": 61,
+          "param": 1,
+          "length": 9,
+          "location": "Main::main@3-11@/content/drive/MyDrive/xmainframe_final/p02687/s244469283.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 9,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 9.0
+      }
+    },
+    {
+      "problem_id": "p02688",
+      "java_file": "s058653853.java",
+      "functions": [
+        {
+          "nloc": 19,
+          "ccn": 5,
+          "token": 174,
+          "param": 1,
+          "length": 19,
+          "location": "Main::main@4-22@/content/drive/MyDrive/xmainframe_final/p02688/s058653853.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 19,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 19.0
+      }
+    },
+    {
+      "problem_id": "p02689",
+      "java_file": "s314065899.java",
+      "functions": [
+        {
+          "nloc": 23,
+          "ccn": 4,
+          "token": 272,
+          "param": 1,
+          "length": 23,
+          "location": "Main::main@7-29@/content/drive/MyDrive/xmainframe_final/p02689/s314065899.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 23,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 23.0
+      }
+    },
+    {
+      "problem_id": "p02690",
+      "java_file": "s250561012.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 6,
+          "token": 125,
+          "param": 1,
+          "length": 15,
+          "location": "Main::main@3-17@/content/drive/MyDrive/xmainframe_final/p02690/s250561012.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 15,
+        "total_ccn": 6,
+        "avg_ccn": 6.0,
+        "max_ccn": 6,
+        "function_count": 1,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p02691",
+      "java_file": "s211413560.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 3,
+          "token": 154,
+          "param": 1,
+          "length": 17,
+          "location": "Main::main@7-23@/content/drive/MyDrive/xmainframe_final/p02691/s211413560.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 15,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p02693",
+      "java_file": "s220088753.java",
+      "functions": [
+        {
+          "nloc": 18,
+          "ccn": 5,
+          "token": 157,
+          "param": 1,
+          "length": 18,
+          "location": "Main::main@3-20@/content/drive/MyDrive/xmainframe_final/p02693/s220088753.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 18,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 18.0
+      }
+    },
+    {
+      "problem_id": "p02694",
+      "java_file": "s270033837.java",
+      "functions": [
+        {
+          "nloc": 16,
+          "ccn": 4,
+          "token": 120,
+          "param": 1,
+          "length": 16,
+          "location": "Main::main@3-18@/content/drive/MyDrive/xmainframe_final/p02694/s270033837.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 16,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p02696",
+      "java_file": "s692173887.java",
+      "functions": [
+        {
+          "nloc": 19,
+          "ccn": 2,
+          "token": 159,
+          "param": 1,
+          "length": 19,
+          "location": "Main::main@3-21@/content/drive/MyDrive/xmainframe_final/p02696/s692173887.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 19,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 19.0
+      }
+    },
+    {
+      "problem_id": "p02699",
+      "java_file": "s639613950.java",
+      "functions": [
+        {
+          "nloc": 7,
+          "ccn": 2,
+          "token": 83,
+          "param": 1,
+          "length": 7,
+          "location": "Main::main@5-11@/content/drive/MyDrive/xmainframe_final/p02699/s639613950.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 7,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 7.0
+      }
+    },
+    {
+      "problem_id": "p02700",
+      "java_file": "s337122046.java",
+      "functions": [
+        {
+          "nloc": 16,
+          "ccn": 2,
+          "token": 148,
+          "param": 1,
+          "length": 16,
+          "location": "Main::main@4-19@/content/drive/MyDrive/xmainframe_final/p02700/s337122046.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 16,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p02701",
+      "java_file": "s378370356.java",
+      "functions": [
+        {
+          "nloc": 16,
+          "ccn": 4,
+          "token": 138,
+          "param": 1,
+          "length": 16,
+          "location": "Main::main@7-22@/content/drive/MyDrive/xmainframe_final/p02701/s378370356.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 16,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p02705",
+      "java_file": "s326642291.java",
+      "functions": [
+        {
+          "nloc": 6,
+          "ccn": 1,
+          "token": 54,
+          "param": 1,
+          "length": 6,
+          "location": "Main::main@4-9@/content/drive/MyDrive/xmainframe_final/p02705/s326642291.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 6,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 6.0
+      }
+    },
+    {
+      "problem_id": "p02707",
+      "java_file": "s161954964.java",
+      "functions": [
+        {
+          "nloc": 20,
+          "ccn": 4,
+          "token": 164,
+          "param": 1,
+          "length": 20,
+          "location": "Main::main@7-26@/content/drive/MyDrive/xmainframe_final/p02707/s161954964.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 20,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 20.0
+      }
+    },
+    {
+      "problem_id": "p02711",
+      "java_file": "s627514981.java",
+      "functions": [
+        {
+          "nloc": 9,
+          "ccn": 4,
+          "token": 81,
+          "param": 1,
+          "length": 10,
+          "location": "Main::main@4-13@/content/drive/MyDrive/xmainframe_final/p02711/s627514981.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 9,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 9.0
+      }
+    },
+    {
+      "problem_id": "p02712",
+      "java_file": "s145007197.java",
+      "functions": [
+        {
+          "nloc": 24,
+          "ccn": 1,
+          "token": 197,
+          "param": 1,
+          "length": 29,
+          "location": "Program_Id::main@4-32@/content/drive/MyDrive/xmainframe_final/p02712/s145007197.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 24,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 24.0
+      }
+    },
+    {
+      "problem_id": "p02713",
+      "java_file": "s127348104.java",
+      "functions": [
+        {
+          "nloc": 43,
+          "ccn": 13,
+          "token": 406,
+          "param": 1,
+          "length": 43,
+          "location": "Main::main@7-49@/content/drive/MyDrive/xmainframe_final/p02713/s127348104.java"
+        },
+        {
+          "nloc": 8,
+          "ccn": 2,
+          "token": 36,
+          "param": 2,
+          "length": 8,
+          "location": "Main::gcd@51-58@/content/drive/MyDrive/xmainframe_final/p02713/s127348104.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 51,
+        "total_ccn": 15,
+        "avg_ccn": 7.5,
+        "max_ccn": 13,
+        "function_count": 2,
+        "avg_function_length": 25.5
+      }
+    },
+    {
+      "problem_id": "p02714",
+      "java_file": "s093998123.java",
+      "functions": [
+        {
+          "nloc": 39,
+          "ccn": 11,
+          "token": 332,
+          "param": 1,
+          "length": 39,
+          "location": "Main::main@4-42@/content/drive/MyDrive/xmainframe_final/p02714/s093998123.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 39,
+        "total_ccn": 11,
+        "avg_ccn": 11.0,
+        "max_ccn": 11,
+        "function_count": 1,
+        "avg_function_length": 39.0
+      }
+    },
+    {
+      "problem_id": "p02717",
+      "java_file": "s307745273.java",
+      "functions": [
+        {
+          "nloc": 8,
+          "ccn": 1,
+          "token": 95,
+          "param": 1,
+          "length": 8,
+          "location": "Main::main@4-11@/content/drive/MyDrive/xmainframe_final/p02717/s307745273.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 8,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 8.0
+      }
+    },
+    {
+      "problem_id": "p02718",
+      "java_file": "s005372856.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 3,
+          "token": 126,
+          "param": 1,
+          "length": 15,
+          "location": "Main::main@4-18@/content/drive/MyDrive/xmainframe_final/p02718/s005372856.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 15,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p02719",
+      "java_file": "s200166977.java",
+      "functions": [
+        {
+          "nloc": 26,
+          "ccn": 6,
+          "token": 259,
+          "param": 1,
+          "length": 26,
+          "location": "Main::main@3-28@/content/drive/MyDrive/xmainframe_final/p02719/s200166977.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 26,
+        "total_ccn": 6,
+        "avg_ccn": 6.0,
+        "max_ccn": 6,
+        "function_count": 1,
+        "avg_function_length": 26.0
+      }
+    },
+    {
+      "problem_id": "p02720",
+      "java_file": "s977378257.java",
+      "functions": [
+        {
+          "nloc": 25,
+          "ccn": 6,
+          "token": 189,
+          "param": 1,
+          "length": 25,
+          "location": "Main::main@3-27@/content/drive/MyDrive/xmainframe_final/p02720/s977378257.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 25,
+        "total_ccn": 6,
+        "avg_ccn": 6.0,
+        "max_ccn": 6,
+        "function_count": 1,
+        "avg_function_length": 25.0
+      }
+    },
+    {
+      "problem_id": "p02723",
+      "java_file": "s297901918.java",
+      "functions": [
+        {
+          "nloc": 9,
+          "ccn": 3,
+          "token": 82,
+          "param": 1,
+          "length": 9,
+          "location": "Main::main@3-11@/content/drive/MyDrive/xmainframe_final/p02723/s297901918.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 9,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 9.0
+      }
+    },
+    {
+      "problem_id": "p02724",
+      "java_file": "s483715630.java",
+      "functions": [
+        {
+          "nloc": 9,
+          "ccn": 1,
+          "token": 70,
+          "param": 1,
+          "length": 9,
+          "location": "Main::main@3-11@/content/drive/MyDrive/xmainframe_final/p02724/s483715630.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 9,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 9.0
+      }
+    },
+    {
+      "problem_id": "p02725",
+      "java_file": "s205724976.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 1,
+          "token": 163,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@7-19@/content/drive/MyDrive/xmainframe_final/p02725/s205724976.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p02726",
+      "java_file": "s538290764.java",
+      "functions": [
+        {
+          "nloc": 31,
+          "ccn": 7,
+          "token": 236,
+          "param": 1,
+          "length": 31,
+          "location": "Main::main@6-36@/content/drive/MyDrive/xmainframe_final/p02726/s538290764.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 31,
+        "total_ccn": 7,
+        "avg_ccn": 7.0,
+        "max_ccn": 7,
+        "function_count": 1,
+        "avg_function_length": 31.0
+      }
+    },
+    {
+      "problem_id": "p02727",
+      "java_file": "s027608251.java",
+      "functions": [
+        {
+          "nloc": 43,
+          "ccn": 9,
+          "token": 413,
+          "param": 1,
+          "length": 43,
+          "location": "Main::main@7-49@/content/drive/MyDrive/xmainframe_final/p02727/s027608251.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 43,
+        "total_ccn": 9,
+        "avg_ccn": 9.0,
+        "max_ccn": 9,
+        "function_count": 1,
+        "avg_function_length": 43.0
+      }
+    },
+    {
+      "problem_id": "p02729",
+      "java_file": "s421082227.java",
+      "functions": [
+        {
+          "nloc": 9,
+          "ccn": 1,
+          "token": 99,
+          "param": 1,
+          "length": 9,
+          "location": "Main::main@4-12@/content/drive/MyDrive/xmainframe_final/p02729/s421082227.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 9,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 9.0
+      }
+    },
+    {
+      "problem_id": "p02730",
+      "java_file": "s310886053.java",
+      "functions": [
+        {
+          "nloc": 21,
+          "ccn": 3,
+          "token": 158,
+          "param": 1,
+          "length": 21,
+          "location": "Main::main@4-24@/content/drive/MyDrive/xmainframe_final/p02730/s310886053.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 21,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 21.0
+      }
+    },
+    {
+      "problem_id": "p02731",
+      "java_file": "s207488930.java",
+      "functions": [
+        {
+          "nloc": 7,
+          "ccn": 1,
+          "token": 64,
+          "param": 1,
+          "length": 7,
+          "location": "Main::main@3-9@/content/drive/MyDrive/xmainframe_final/p02731/s207488930.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 7,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 7.0
+      }
+    },
+    {
+      "problem_id": "p02732",
+      "java_file": "s046317718.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 4,
+          "token": 142,
+          "param": 1,
+          "length": 15,
+          "location": "Main::main@7-21@/content/drive/MyDrive/xmainframe_final/p02732/s046317718.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 15,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p02741",
+      "java_file": "s355100255.java",
+      "functions": [
+        {
+          "nloc": 7,
+          "ccn": 1,
+          "token": 65,
+          "param": 1,
+          "length": 7,
+          "location": "AKthTerm::main@3-9@/content/drive/MyDrive/xmainframe_final/p02741/s355100255.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 7,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 7.0
+      }
+    },
+    {
+      "problem_id": "p02742",
+      "java_file": "s015191726.java",
+      "functions": [
+        {
+          "nloc": 18,
+          "ccn": 5,
+          "token": 152,
+          "param": 1,
+          "length": 18,
+          "location": "Bishop::main@3-20@/content/drive/MyDrive/xmainframe_final/p02742/s015191726.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 18,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 18.0
+      }
+    },
+    {
+      "problem_id": "p02743",
+      "java_file": "s050786190.java",
+      "functions": [
+        {
+          "nloc": 16,
+          "ccn": 2,
+          "token": 141,
+          "param": 1,
+          "length": 16,
+          "location": "AtCoder::main@3-18@/content/drive/MyDrive/xmainframe_final/p02743/s050786190.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 16,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p02753",
+      "java_file": "s138398313.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 3,
+          "token": 90,
+          "param": 1,
+          "length": 12,
+          "location": "Main::main@4-15@/content/drive/MyDrive/xmainframe_final/p02753/s138398313.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p02754",
+      "java_file": "s054213397.java",
+      "functions": [
+        {
+          "nloc": 27,
+          "ccn": 5,
+          "token": 205,
+          "param": 1,
+          "length": 27,
+          "location": "Main::main@3-29@/content/drive/MyDrive/xmainframe_final/p02754/s054213397.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 27,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 27.0
+      }
+    },
+    {
+      "problem_id": "p02755",
+      "java_file": "s194534720.java",
+      "functions": [
+        {
+          "nloc": 24,
+          "ccn": 4,
+          "token": 177,
+          "param": 1,
+          "length": 24,
+          "location": "Main::main@3-26@/content/drive/MyDrive/xmainframe_final/p02755/s194534720.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 24,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 24.0
+      }
+    },
+    {
+      "problem_id": "p02756",
+      "java_file": "s579388514.java",
+      "functions": [
+        {
+          "nloc": 29,
+          "ccn": 4,
+          "token": 256,
+          "param": 1,
+          "length": 29,
+          "location": "Main::main@6-34@/content/drive/MyDrive/xmainframe_final/p02756/s579388514.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 29,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 29.0
+      }
+    },
+    {
+      "problem_id": "p02759",
+      "java_file": "s141747878.java",
+      "functions": [
+        {
+          "nloc": 6,
+          "ccn": 1,
+          "token": 50,
+          "param": 1,
+          "length": 6,
+          "location": "Program::main@3-8@/content/drive/MyDrive/xmainframe_final/p02759/s141747878.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 6,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 6.0
+      }
+    },
+    {
+      "problem_id": "p02760",
+      "java_file": "s453190548.java",
+      "functions": [
+        {
+          "nloc": 72,
+          "ccn": 13,
+          "token": 457,
+          "param": 1,
+          "length": 73,
+          "location": "Program_Id::main@6-78@/content/drive/MyDrive/xmainframe_final/p02760/s453190548.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 72,
+        "total_ccn": 13,
+        "avg_ccn": 13.0,
+        "max_ccn": 13,
+        "function_count": 1,
+        "avg_function_length": 72.0
+      }
+    },
+    {
+      "problem_id": "p02761",
+      "java_file": "s303856617.java",
+      "functions": [
+        {
+          "nloc": 32,
+          "ccn": 9,
+          "token": 292,
+          "param": 1,
+          "length": 32,
+          "location": "GuessNum::main@3-34@/content/drive/MyDrive/xmainframe_final/p02761/s303856617.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 32,
+        "total_ccn": 9,
+        "avg_ccn": 9.0,
+        "max_ccn": 9,
+        "function_count": 1,
+        "avg_function_length": 32.0
+      }
+    },
+    {
+      "problem_id": "p02765",
+      "java_file": "s025361824.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 2,
+          "token": 93,
+          "param": 1,
+          "length": 14,
+          "location": "Main::main@4-17@/content/drive/MyDrive/xmainframe_final/p02765/s025361824.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p02766",
+      "java_file": "s052793025.java",
+      "functions": [
+        {
+          "nloc": 12,
+          "ccn": 2,
+          "token": 106,
+          "param": 1,
+          "length": 12,
+          "location": "Main::main@4-15@/content/drive/MyDrive/xmainframe_final/p02766/s052793025.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 12,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 12.0
+      }
+    },
+    {
+      "problem_id": "p02767",
+      "java_file": "s948758755.java",
+      "functions": [
+        {
+          "nloc": 25,
+          "ccn": 5,
+          "token": 197,
+          "param": 1,
+          "length": 25,
+          "location": "Main::main@6-30@/content/drive/MyDrive/xmainframe_final/p02767/s948758755.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 25,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 25.0
+      }
+    },
+    {
+      "problem_id": "p02771",
+      "java_file": "s228737535.java",
+      "functions": [
+        {
+          "nloc": 19,
+          "ccn": 8,
+          "token": 146,
+          "param": 1,
+          "length": 19,
+          "location": "Program::main@3-21@/content/drive/MyDrive/xmainframe_final/p02771/s228737535.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 19,
+        "total_ccn": 8,
+        "avg_ccn": 8.0,
+        "max_ccn": 8,
+        "function_count": 1,
+        "avg_function_length": 19.0
+      }
+    },
+    {
+      "problem_id": "p02772",
+      "java_file": "s199895381.java",
+      "functions": [
+        {
+          "nloc": 19,
+          "ccn": 6,
+          "token": 174,
+          "param": 1,
+          "length": 19,
+          "location": "Main::main@6-24@/content/drive/MyDrive/xmainframe_final/p02772/s199895381.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 19,
+        "total_ccn": 6,
+        "avg_ccn": 6.0,
+        "max_ccn": 6,
+        "function_count": 1,
+        "avg_function_length": 19.0
+      }
+    },
+    {
+      "problem_id": "p02773",
+      "java_file": "s008350910.java",
+      "functions": [
+        {
+          "nloc": 45,
+          "ccn": 11,
+          "token": 329,
+          "param": 1,
+          "length": 48,
+          "location": "Main::main@7-54@/content/drive/MyDrive/xmainframe_final/p02773/s008350910.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 45,
+        "total_ccn": 11,
+        "avg_ccn": 11.0,
+        "max_ccn": 11,
+        "function_count": 1,
+        "avg_function_length": 45.0
+      }
+    },
+    {
+      "problem_id": "p02777",
+      "java_file": "s185792743.java",
+      "functions": [
+        {
+          "nloc": 16,
+          "ccn": 2,
+          "token": 142,
+          "param": 1,
+          "length": 16,
+          "location": "Main::main@3-18@/content/drive/MyDrive/xmainframe_final/p02777/s185792743.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 16,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p02778",
+      "java_file": "s528895902.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 2,
+          "token": 108,
+          "param": 1,
+          "length": 11,
+          "location": "Main::main@6-16@/content/drive/MyDrive/xmainframe_final/p02778/s528895902.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p02783",
+      "java_file": "s215593276.java",
+      "functions": [
+        {
+          "nloc": 12,
+          "ccn": 2,
+          "token": 78,
+          "param": 1,
+          "length": 15,
+          "location": "Atcoder::main@4-18@/content/drive/MyDrive/xmainframe_final/p02783/s215593276.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 12,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 12.0
+      }
+    },
+    {
+      "problem_id": "p02784",
+      "java_file": "s485228749.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 3,
+          "token": 105,
+          "param": 1,
+          "length": 11,
+          "location": "Main::main@4-14@/content/drive/MyDrive/xmainframe_final/p02784/s485228749.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p02789",
+      "java_file": "s066002025.java",
+      "functions": [
+        {
+          "nloc": 12,
+          "ccn": 2,
+          "token": 96,
+          "param": 1,
+          "length": 12,
+          "location": "Main::main@4-15@/content/drive/MyDrive/xmainframe_final/p02789/s066002025.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 12,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 12.0
+      }
+    },
+    {
+      "problem_id": "p02790",
+      "java_file": "s065502436.java",
+      "functions": [
+        {
+          "nloc": 18,
+          "ccn": 3,
+          "token": 135,
+          "param": 1,
+          "length": 18,
+          "location": "Main::main@3-20@/content/drive/MyDrive/xmainframe_final/p02790/s065502436.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 18,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 18.0
+      }
+    },
+    {
+      "problem_id": "p02801",
+      "java_file": "s369699947.java",
+      "functions": [
+        {
+          "nloc": 6,
+          "ccn": 1,
+          "token": 64,
+          "param": 1,
+          "length": 11,
+          "location": "Program_ID::main@6-16@/content/drive/MyDrive/xmainframe_final/p02801/s369699947.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 6,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 6.0
+      }
+    },
+    {
+      "problem_id": "p02811",
+      "java_file": "s062730582.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 2,
+          "token": 73,
+          "param": 1,
+          "length": 11,
+          "location": "Main::main@4-14@/content/drive/MyDrive/xmainframe_final/p02811/s062730582.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p02812",
+      "java_file": "s913560979.java",
+      "functions": [
+        {
+          "nloc": 12,
+          "ccn": 3,
+          "token": 84,
+          "param": 1,
+          "length": 12,
+          "location": "Solution::main@3-14@/content/drive/MyDrive/xmainframe_final/p02812/s913560979.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 12,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 12.0
+      }
+    },
+    {
+      "problem_id": "p02817",
+      "java_file": "s077520124.java",
+      "functions": [
+        {
+          "nloc": 6,
+          "ccn": 1,
+          "token": 51,
+          "param": 1,
+          "length": 6,
+          "location": "Main::main@3-8@/content/drive/MyDrive/xmainframe_final/p02817/s077520124.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 6,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 6.0
+      }
+    },
+    {
+      "problem_id": "p02818",
+      "java_file": "s177785519.java",
+      "functions": [
+        {
+          "nloc": 18,
+          "ccn": 1,
+          "token": 165,
+          "param": 1,
+          "length": 18,
+          "location": "Main::main@4-21@/content/drive/MyDrive/xmainframe_final/p02818/s177785519.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 18,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 18.0
+      }
+    },
+    {
+      "problem_id": "p02829",
+      "java_file": "s256988955.java",
+      "functions": [
+        {
+          "nloc": 7,
+          "ccn": 1,
+          "token": 56,
+          "param": 1,
+          "length": 7,
+          "location": "AtCoder::main@4-10@/content/drive/MyDrive/xmainframe_final/p02829/s256988955.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 7,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 7.0
+      }
+    },
+    {
+      "problem_id": "p02830",
+      "java_file": "s068235724.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 2,
+          "token": 107,
+          "param": 1,
+          "length": 11,
+          "location": "Main::main@3-13@/content/drive/MyDrive/xmainframe_final/p02830/s068235724.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p02835",
+      "java_file": "s127798224.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 2,
+          "token": 154,
+          "param": 1,
+          "length": 14,
+          "location": "Main::main@6-19@/content/drive/MyDrive/xmainframe_final/p02835/s127798224.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p02836",
+      "java_file": "s741947376.java",
+      "functions": [
+        {
+          "nloc": 16,
+          "ccn": 3,
+          "token": 130,
+          "param": 1,
+          "length": 16,
+          "location": "Main::main@3-18@/content/drive/MyDrive/xmainframe_final/p02836/s741947376.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 16,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p02847",
+      "java_file": "s290729556.java",
+      "functions": [
+        {
+          "nloc": 31,
+          "ccn": 8,
+          "token": 121,
+          "param": 1,
+          "length": 31,
+          "location": "Main::main@3-33@/content/drive/MyDrive/xmainframe_final/p02847/s290729556.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 31,
+        "total_ccn": 8,
+        "avg_ccn": 8.0,
+        "max_ccn": 8,
+        "function_count": 1,
+        "avg_function_length": 31.0
+      }
+    },
+    {
+      "problem_id": "p02848",
+      "java_file": "s640322532.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 3,
+          "token": 137,
+          "param": 1,
+          "length": 14,
+          "location": "Main::main@6-19@/content/drive/MyDrive/xmainframe_final/p02848/s640322532.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p02859",
+      "java_file": "s259870705.java",
+      "functions": [
+        {
+          "nloc": 7,
+          "ccn": 1,
+          "token": 65,
+          "param": 1,
+          "length": 7,
+          "location": "Main::main@4-10@/content/drive/MyDrive/xmainframe_final/p02859/s259870705.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 7,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 7.0
+      }
+    },
+    {
+      "problem_id": "p02860",
+      "java_file": "s471292022.java",
+      "functions": [
+        {
+          "nloc": 16,
+          "ccn": 3,
+          "token": 122,
+          "param": 1,
+          "length": 16,
+          "location": "Main::main@3-18@/content/drive/MyDrive/xmainframe_final/p02860/s471292022.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 16,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p02879",
+      "java_file": "s018777192.java",
+      "functions": [
+        {
+          "nloc": 18,
+          "ccn": 6,
+          "token": 146,
+          "param": 1,
+          "length": 18,
+          "location": "Main::main@3-20@/content/drive/MyDrive/xmainframe_final/p02879/s018777192.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 18,
+        "total_ccn": 6,
+        "avg_ccn": 6.0,
+        "max_ccn": 6,
+        "function_count": 1,
+        "avg_function_length": 18.0
+      }
+    },
+    {
+      "problem_id": "p02880",
+      "java_file": "s131381096.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 5,
+          "token": 93,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@3-15@/content/drive/MyDrive/xmainframe_final/p02880/s131381096.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p02881",
+      "java_file": "s402464786.java",
+      "functions": [
+        {
+          "nloc": 16,
+          "ccn": 4,
+          "token": 117,
+          "param": 1,
+          "length": 16,
+          "location": "Main::main@4-19@/content/drive/MyDrive/xmainframe_final/p02881/s402464786.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 16,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p02882",
+      "java_file": "s212715907.java",
+      "functions": [
+        {
+          "nloc": 20,
+          "ccn": 2,
+          "token": 199,
+          "param": 1,
+          "length": 20,
+          "location": "Main::main@7-26@/content/drive/MyDrive/xmainframe_final/p02882/s212715907.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 20,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 20.0
+      }
+    },
+    {
+      "problem_id": "p02885",
+      "java_file": "s414265822.java",
+      "functions": [
+        {
+          "nloc": 12,
+          "ccn": 2,
+          "token": 102,
+          "param": 1,
+          "length": 12,
+          "location": "Main::main@4-15@/content/drive/MyDrive/xmainframe_final/p02885/s414265822.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 12,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 12.0
+      }
+    },
+    {
+      "problem_id": "p02886",
+      "java_file": "s387826284.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 4,
+          "token": 127,
+          "param": 1,
+          "length": 15,
+          "location": "Main::main@4-18@/content/drive/MyDrive/xmainframe_final/p02886/s387826284.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 15,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p02897",
+      "java_file": "s228315274.java",
+      "functions": [
+        {
+          "nloc": 7,
+          "ccn": 1,
+          "token": 61,
+          "param": 1,
+          "length": 7,
+          "location": "Program::main@3-9@/content/drive/MyDrive/xmainframe_final/p02897/s228315274.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 7,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 7.0
+      }
+    },
+    {
+      "problem_id": "p02898",
+      "java_file": "s855856422.java",
+      "functions": [
+        {
+          "nloc": 17,
+          "ccn": 4,
+          "token": 127,
+          "param": 1,
+          "length": 17,
+          "location": "Main::main@4-20@/content/drive/MyDrive/xmainframe_final/p02898/s855856422.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 17,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 17.0
+      }
+    },
+    {
+      "problem_id": "p02909",
+      "java_file": "s502766942.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 4,
+          "token": 91,
+          "param": 1,
+          "length": 11,
+          "location": "Atcoder::main@3-13@/content/drive/MyDrive/xmainframe_final/p02909/s502766942.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p02910",
+      "java_file": "s445136261.java",
+      "functions": [
+        {
+          "nloc": 23,
+          "ccn": 12,
+          "token": 166,
+          "param": 1,
+          "length": 23,
+          "location": "Main::main@3-25@/content/drive/MyDrive/xmainframe_final/p02910/s445136261.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 23,
+        "total_ccn": 12,
+        "avg_ccn": 12.0,
+        "max_ccn": 12,
+        "function_count": 1,
+        "avg_function_length": 23.0
+      }
+    },
+    {
+      "problem_id": "p02915",
+      "java_file": "s005870989.java",
+      "functions": [
+        {
+          "nloc": 6,
+          "ccn": 1,
+          "token": 47,
+          "param": 1,
+          "length": 6,
+          "location": "Main::main@4-9@/content/drive/MyDrive/xmainframe_final/p02915/s005870989.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 6,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 6.0
+      }
+    },
+    {
+      "problem_id": "p02916",
+      "java_file": "s896874253.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 3,
+          "token": 136,
+          "param": 1,
+          "length": 14,
+          "location": "Main::main@5-18@/content/drive/MyDrive/xmainframe_final/p02916/s896874253.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 1,
+          "token": 29,
+          "param": 0,
+          "length": 5,
+          "location": "FastScanner::FastScanner@27-31@/content/drive/MyDrive/xmainframe_final/p02916/s896874253.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 1,
+          "token": 35,
+          "param": 1,
+          "length": 5,
+          "location": "FastScanner::FastScanner@33-37@/content/drive/MyDrive/xmainframe_final/p02916/s896874253.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 2,
+          "token": 24,
+          "param": 0,
+          "length": 5,
+          "location": "FastScanner::read@39-43@/content/drive/MyDrive/xmainframe_final/p02916/s896874253.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 2,
+          "token": 21,
+          "param": 0,
+          "length": 5,
+          "location": "FastScanner::close@45-49@/content/drive/MyDrive/xmainframe_final/p02916/s896874253.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 2,
+          "token": 37,
+          "param": 0,
+          "length": 5,
+          "location": "FastScanner::fillBuffer@51-55@/content/drive/MyDrive/xmainframe_final/p02916/s896874253.java"
+        },
+        {
+          "nloc": 7,
+          "ccn": 2,
+          "token": 37,
+          "param": 0,
+          "length": 7,
+          "location": "FastScanner::nextChar@57-63@/content/drive/MyDrive/xmainframe_final/p02916/s896874253.java"
+        },
+        {
+          "nloc": 13,
+          "ccn": 3,
+          "token": 84,
+          "param": 0,
+          "length": 13,
+          "location": "FastScanner::nextString@65-77@/content/drive/MyDrive/xmainframe_final/p02916/s896874253.java"
+        },
+        {
+          "nloc": 15,
+          "ccn": 6,
+          "token": 91,
+          "param": 0,
+          "length": 15,
+          "location": "FastScanner::nextInt@79-93@/content/drive/MyDrive/xmainframe_final/p02916/s896874253.java"
+        },
+        {
+          "nloc": 15,
+          "ccn": 6,
+          "token": 91,
+          "param": 0,
+          "length": 15,
+          "location": "FastScanner::nextLong@95-109@/content/drive/MyDrive/xmainframe_final/p02916/s896874253.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 89,
+        "total_ccn": 28,
+        "avg_ccn": 2.8,
+        "max_ccn": 6,
+        "function_count": 10,
+        "avg_function_length": 8.9
+      }
+    },
+    {
+      "problem_id": "p02921",
+      "java_file": "s114339096.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 3,
+          "token": 94,
+          "param": 1,
+          "length": 13,
+          "location": "Program::main@3-15@/content/drive/MyDrive/xmainframe_final/p02921/s114339096.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p02922",
+      "java_file": "s627538804.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 2,
+          "token": 95,
+          "param": 1,
+          "length": 11,
+          "location": "Main::main@4-14@/content/drive/MyDrive/xmainframe_final/p02922/s627538804.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p02933",
+      "java_file": "s246223241.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 2,
+          "token": 85,
+          "param": 1,
+          "length": 13,
+          "location": "AtCoder::main@4-16@/content/drive/MyDrive/xmainframe_final/p02933/s246223241.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p02934",
+      "java_file": "s077882121.java",
+      "functions": [
+        {
+          "nloc": 23,
+          "ccn": 4,
+          "token": 197,
+          "param": 1,
+          "length": 23,
+          "location": "Main::main@3-25@/content/drive/MyDrive/xmainframe_final/p02934/s077882121.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 23,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 23.0
+      }
+    },
+    {
+      "problem_id": "p02945",
+      "java_file": "a.java",
+      "functions": [
+        {
+          "nloc": 7,
+          "ccn": 1,
+          "token": 72,
+          "param": 1,
+          "length": 7,
+          "location": "Main::main@4-10@/content/drive/MyDrive/xmainframe_final/p02945/a.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 7,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 7.0
+      }
+    },
+    {
+      "problem_id": "p02946",
+      "java_file": "s149809417.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 4,
+          "token": 114,
+          "param": 1,
+          "length": 14,
+          "location": "Main::main@3-16@/content/drive/MyDrive/xmainframe_final/p02946/s149809417.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p02951",
+      "java_file": "s263155769.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 2,
+          "token": 82,
+          "param": 1,
+          "length": 11,
+          "location": "Main::main@4-14@/content/drive/MyDrive/xmainframe_final/p02951/s263155769.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p02952",
+      "java_file": "s271229314.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 3,
+          "token": 94,
+          "param": 1,
+          "length": 15,
+          "location": "Program::main@4-18@/content/drive/MyDrive/xmainframe_final/p02952/s271229314.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p02957",
+      "java_file": "s518989812.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 2,
+          "token": 112,
+          "param": 1,
+          "length": 14,
+          "location": "Main::main@4-17@/content/drive/MyDrive/xmainframe_final/p02957/s518989812.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p02958",
+      "java_file": "s107709147.java",
+      "functions": [
+        {
+          "nloc": 16,
+          "ccn": 3,
+          "token": 142,
+          "param": 1,
+          "length": 16,
+          "location": "Main::main@4-19@/content/drive/MyDrive/xmainframe_final/p02958/s107709147.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 16,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p02969",
+      "java_file": "s648537227.java",
+      "functions": [
+        {
+          "nloc": 6,
+          "ccn": 1,
+          "token": 46,
+          "param": 1,
+          "length": 6,
+          "location": "AtCoder::main@4-9@/content/drive/MyDrive/xmainframe_final/p02969/s648537227.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 6,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 6.0
+      }
+    },
+    {
+      "problem_id": "p02970",
+      "java_file": "s600763086.java",
+      "functions": [
+        {
+          "nloc": 7,
+          "ccn": 1,
+          "token": 85,
+          "param": 1,
+          "length": 7,
+          "location": "Main::main@4-10@/content/drive/MyDrive/xmainframe_final/p02970/s600763086.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 7,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 7.0
+      }
+    },
+    {
+      "problem_id": "p02981",
+      "java_file": "s145406880.java",
+      "functions": [
+        {
+          "nloc": 7,
+          "ccn": 1,
+          "token": 65,
+          "param": 1,
+          "length": 7,
+          "location": "Main::main@4-10@/content/drive/MyDrive/xmainframe_final/p02981/s145406880.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 7,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 7.0
+      }
+    },
+    {
+      "problem_id": "p02982",
+      "java_file": "s138385023.java",
+      "functions": [
+        {
+          "nloc": 29,
+          "ccn": 7,
+          "token": 280,
+          "param": 1,
+          "length": 29,
+          "location": "Main::main@5-33@/content/drive/MyDrive/xmainframe_final/p02982/s138385023.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 29,
+        "total_ccn": 7,
+        "avg_ccn": 7.0,
+        "max_ccn": 7,
+        "function_count": 1,
+        "avg_function_length": 29.0
+      }
+    },
+    {
+      "problem_id": "p02987",
+      "java_file": "s009314140.java",
+      "functions": [
+        {
+          "nloc": 17,
+          "ccn": 7,
+          "token": 158,
+          "param": 1,
+          "length": 19,
+          "location": "Main::main@4-22@/content/drive/MyDrive/xmainframe_final/p02987/s009314140.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 17,
+        "total_ccn": 7,
+        "avg_ccn": 7.0,
+        "max_ccn": 7,
+        "function_count": 1,
+        "avg_function_length": 17.0
+      }
+    },
+    {
+      "problem_id": "p02988",
+      "java_file": "s580570218.java",
+      "functions": [
+        {
+          "nloc": 23,
+          "ccn": 8,
+          "token": 237,
+          "param": 1,
+          "length": 23,
+          "location": "Main::main@3-25@/content/drive/MyDrive/xmainframe_final/p02988/s580570218.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 23,
+        "total_ccn": 8,
+        "avg_ccn": 8.0,
+        "max_ccn": 8,
+        "function_count": 1,
+        "avg_function_length": 23.0
+      }
+    },
+    {
+      "problem_id": "p02993",
+      "java_file": "s111459231.java",
+      "functions": [
+        {
+          "nloc": 16,
+          "ccn": 4,
+          "token": 130,
+          "param": 1,
+          "length": 16,
+          "location": "Main::main@4-19@/content/drive/MyDrive/xmainframe_final/p02993/s111459231.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 16,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p02994",
+      "java_file": "s191842908.java",
+      "functions": [
+        {
+          "nloc": 23,
+          "ccn": 6,
+          "token": 185,
+          "param": 1,
+          "length": 23,
+          "location": "Main::main@4-26@/content/drive/MyDrive/xmainframe_final/p02994/s191842908.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 23,
+        "total_ccn": 6,
+        "avg_ccn": 6.0,
+        "max_ccn": 6,
+        "function_count": 1,
+        "avg_function_length": 23.0
+      }
+    },
+    {
+      "problem_id": "p02999",
+      "java_file": "s077344104.java",
+      "functions": [
+        {
+          "nloc": 10,
+          "ccn": 2,
+          "token": 67,
+          "param": 1,
+          "length": 11,
+          "location": "Atcoder::main@4-14@/content/drive/MyDrive/xmainframe_final/p02999/s077344104.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 10,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 10.0
+      }
+    },
+    {
+      "problem_id": "p03000",
+      "java_file": "s343466009.java",
+      "functions": [
+        {
+          "nloc": 20,
+          "ccn": 3,
+          "token": 172,
+          "param": 1,
+          "length": 22,
+          "location": "Main::main@7-28@/content/drive/MyDrive/xmainframe_final/p03000/s343466009.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 20,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 20.0
+      }
+    },
+    {
+      "problem_id": "p03011",
+      "java_file": "s057573741.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 1,
+          "token": 96,
+          "param": 1,
+          "length": 11,
+          "location": "Main::main@3-13@/content/drive/MyDrive/xmainframe_final/p03011/s057573741.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p03012",
+      "java_file": "s902668426.java",
+      "functions": [
+        {
+          "nloc": 22,
+          "ccn": 4,
+          "token": 156,
+          "param": 1,
+          "length": 22,
+          "location": "Main::main@6-27@/content/drive/MyDrive/xmainframe_final/p03012/s902668426.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 22,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 22.0
+      }
+    },
+    {
+      "problem_id": "p03029",
+      "java_file": "s018605057.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 1,
+          "token": 106,
+          "param": 1,
+          "length": 13,
+          "location": "Atcoder::main@4-16@/content/drive/MyDrive/xmainframe_final/p03029/s018605057.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p03035",
+      "java_file": "s055220988.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 3,
+          "token": 128,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@6-18@/content/drive/MyDrive/xmainframe_final/p03035/s055220988.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p03041",
+      "java_file": "s402018399.java",
+      "functions": [
+        {
+          "nloc": 7,
+          "ccn": 1,
+          "token": 79,
+          "param": 1,
+          "length": 7,
+          "location": "Main::main@3-9@/content/drive/MyDrive/xmainframe_final/p03041/s402018399.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 7,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 7.0
+      }
+    },
+    {
+      "problem_id": "p03059",
+      "java_file": "s588337479.java",
+      "functions": [
+        {
+          "nloc": 8,
+          "ccn": 1,
+          "token": 94,
+          "param": 1,
+          "length": 8,
+          "location": "Main::main@3-10@/content/drive/MyDrive/xmainframe_final/p03059/s588337479.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 8,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 8.0
+      }
+    },
+    {
+      "problem_id": "p03071",
+      "java_file": "s047948447.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 3,
+          "token": 126,
+          "param": 1,
+          "length": 15,
+          "location": "Main::main@3-17@/content/drive/MyDrive/xmainframe_final/p03071/s047948447.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 15,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p03072",
+      "java_file": "s306129643.java",
+      "functions": [
+        {
+          "nloc": 23,
+          "ccn": 5,
+          "token": 164,
+          "param": 1,
+          "length": 23,
+          "location": "Main::main@6-28@/content/drive/MyDrive/xmainframe_final/p03072/s306129643.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 23,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 23.0
+      }
+    },
+    {
+      "problem_id": "p03073",
+      "java_file": "s453834313.java",
+      "functions": [
+        {
+          "nloc": 19,
+          "ccn": 3,
+          "token": 152,
+          "param": 1,
+          "length": 19,
+          "location": "Main::main@3-21@/content/drive/MyDrive/xmainframe_final/p03073/s453834313.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 19,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 19.0
+      }
+    },
+    {
+      "problem_id": "p03075",
+      "java_file": "s071690090.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 2,
+          "token": 105,
+          "param": 1,
+          "length": 14,
+          "location": "Main::main@3-16@/content/drive/MyDrive/xmainframe_final/p03075/s071690090.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p03076",
+      "java_file": "s827760751.java",
+      "functions": [
+        {
+          "nloc": 26,
+          "ccn": 4,
+          "token": 154,
+          "param": 1,
+          "length": 28,
+          "location": "Main::main@4-31@/content/drive/MyDrive/xmainframe_final/p03076/s827760751.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 26,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 26.0
+      }
+    },
+    {
+      "problem_id": "p03085",
+      "java_file": "s022224853.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 3,
+          "token": 89,
+          "param": 1,
+          "length": 13,
+          "location": "A_DoubleHelix::main@4-16@/content/drive/MyDrive/xmainframe_final/p03085/s022224853.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p03086",
+      "java_file": "s887372711.java",
+      "functions": [
+        {
+          "nloc": 18,
+          "ccn": 4,
+          "token": 114,
+          "param": 1,
+          "length": 18,
+          "location": "Main::main@4-21@/content/drive/MyDrive/xmainframe_final/p03086/s887372711.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 18,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 18.0
+      }
+    },
+    {
+      "problem_id": "p03101",
+      "java_file": "s003914100.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 1,
+          "token": 140,
+          "param": 1,
+          "length": 11,
+          "location": "TEST121::main@4-14@/content/drive/MyDrive/xmainframe_final/p03101/s003914100.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p03105",
+      "java_file": "s999681284.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 2,
+          "token": 122,
+          "param": 1,
+          "length": 14,
+          "location": "Atcoder::main@6-19@/content/drive/MyDrive/xmainframe_final/p03105/s999681284.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p03107",
+      "java_file": "s269184848.java",
+      "functions": [
+        {
+          "nloc": 26,
+          "ccn": 6,
+          "token": 181,
+          "param": 1,
+          "length": 26,
+          "location": "Main::main@4-29@/content/drive/MyDrive/xmainframe_final/p03107/s269184848.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 26,
+        "total_ccn": 6,
+        "avg_ccn": 6.0,
+        "max_ccn": 6,
+        "function_count": 1,
+        "avg_function_length": 26.0
+      }
+    },
+    {
+      "problem_id": "p03125",
+      "java_file": "s802684192.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 2,
+          "token": 82,
+          "param": 1,
+          "length": 15,
+          "location": "Atcoder::main@3-17@/content/drive/MyDrive/xmainframe_final/p03125/s802684192.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 15,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p03145",
+      "java_file": "s555600829.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 1,
+          "token": 110,
+          "param": 1,
+          "length": 11,
+          "location": "Atcoder::main@4-14@/content/drive/MyDrive/xmainframe_final/p03145/s555600829.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p03192",
+      "java_file": "s054342320.java",
+      "functions": [
+        {
+          "nloc": 12,
+          "ccn": 3,
+          "token": 69,
+          "param": 1,
+          "length": 12,
+          "location": "Caddi2018a::main@3-14@/content/drive/MyDrive/xmainframe_final/p03192/s054342320.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 12,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 12.0
+      }
+    },
+    {
+      "problem_id": "p03195",
+      "java_file": "s396873160.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 3,
+          "token": 91,
+          "param": 1,
+          "length": 16,
+          "location": "Caddi2018D::main@4-19@/content/drive/MyDrive/xmainframe_final/p03195/s396873160.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p03206",
+      "java_file": "s274524816.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 5,
+          "token": 100,
+          "param": 1,
+          "length": 14,
+          "location": "Christmas::main@4-17@/content/drive/MyDrive/xmainframe_final/p03206/s274524816.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p03210",
+      "java_file": "s807120571.java",
+      "functions": [
+        {
+          "nloc": 9,
+          "ccn": 4,
+          "token": 66,
+          "param": 1,
+          "length": 9,
+          "location": "Atcoder::main@3-11@/content/drive/MyDrive/xmainframe_final/p03210/s807120571.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 9,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 9.0
+      }
+    },
+    {
+      "problem_id": "p03219",
+      "java_file": "s176100432.java",
+      "functions": [
+        {
+          "nloc": 9,
+          "ccn": 1,
+          "token": 92,
+          "param": 1,
+          "length": 9,
+          "location": "Atcoder::main@4-12@/content/drive/MyDrive/xmainframe_final/p03219/s176100432.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 9,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 9.0
+      }
+    },
+    {
+      "problem_id": "p03238",
+      "java_file": "s210287946.java",
+      "functions": [
+        {
+          "nloc": 18,
+          "ccn": 4,
+          "token": 146,
+          "param": 1,
+          "length": 18,
+          "location": "Main::main@4-21@/content/drive/MyDrive/xmainframe_final/p03238/s210287946.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 18,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 18.0
+      }
+    },
+    {
+      "problem_id": "p03242",
+      "java_file": "s713218331.java",
+      "functions": [
+        {
+          "nloc": 6,
+          "ccn": 1,
+          "token": 55,
+          "param": 1,
+          "length": 6,
+          "location": "Main::main@4-9@/content/drive/MyDrive/xmainframe_final/p03242/s713218331.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 6,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 6.0
+      }
+    },
+    {
+      "problem_id": "p03243",
+      "java_file": "s232998445.java",
+      "functions": [
+        {
+          "nloc": 7,
+          "ccn": 1,
+          "token": 54,
+          "param": 1,
+          "length": 7,
+          "location": "Main::main@4-10@/content/drive/MyDrive/xmainframe_final/p03243/s232998445.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 7,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 7.0
+      }
+    },
+    {
+      "problem_id": "p03246",
+      "java_file": "s028416734.java",
+      "functions": [
+        {
+          "nloc": 40,
+          "ccn": 8,
+          "token": 322,
+          "param": 1,
+          "length": 40,
+          "location": "Main::main@8-47@/content/drive/MyDrive/xmainframe_final/p03246/s028416734.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 40,
+        "total_ccn": 8,
+        "avg_ccn": 8.0,
+        "max_ccn": 8,
+        "function_count": 1,
+        "avg_function_length": 40.0
+      }
+    },
+    {
+      "problem_id": "p03250",
+      "java_file": "s763072177.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 5,
+          "token": 120,
+          "param": 1,
+          "length": 13,
+          "location": "Atcoder::main@3-15@/content/drive/MyDrive/xmainframe_final/p03250/s763072177.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p03251",
+      "java_file": "s755316041.java",
+      "functions": [
+        {
+          "nloc": 22,
+          "ccn": 4,
+          "token": 202,
+          "param": 1,
+          "length": 22,
+          "location": "Main::main@4-25@/content/drive/MyDrive/xmainframe_final/p03251/s755316041.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 22,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 22.0
+      }
+    },
+    {
+      "problem_id": "p03260",
+      "java_file": "s346414249.java",
+      "functions": [
+        {
+          "nloc": 21,
+          "ccn": 3,
+          "token": 144,
+          "param": 1,
+          "length": 21,
+          "location": "Main::main@3-23@/content/drive/MyDrive/xmainframe_final/p03260/s346414249.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 21,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 21.0
+      }
+    },
+    {
+      "problem_id": "p03264",
+      "java_file": "s170480419.java",
+      "functions": [
+        {
+          "nloc": 8,
+          "ccn": 1,
+          "token": 68,
+          "param": 1,
+          "length": 8,
+          "location": "Main::main@4-11@/content/drive/MyDrive/xmainframe_final/p03264/s170480419.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 8,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 8.0
+      }
+    },
+    {
+      "problem_id": "p03265",
+      "java_file": "s303071358.java",
+      "functions": [
+        {
+          "nloc": 37,
+          "ccn": 7,
+          "token": 365,
+          "param": 1,
+          "length": 37,
+          "location": "Main::main@6-42@/content/drive/MyDrive/xmainframe_final/p03265/s303071358.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 37,
+        "total_ccn": 7,
+        "avg_ccn": 7.0,
+        "max_ccn": 7,
+        "function_count": 1,
+        "avg_function_length": 37.0
+      }
+    },
+    {
+      "problem_id": "p03268",
+      "java_file": "s556546034.java",
+      "functions": [
+        {
+          "nloc": 22,
+          "ccn": 3,
+          "token": 186,
+          "param": 1,
+          "length": 22,
+          "location": "Main::main@3-24@/content/drive/MyDrive/xmainframe_final/p03268/s556546034.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 22,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 22.0
+      }
+    },
+    {
+      "problem_id": "p03272",
+      "java_file": "s339563310.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 3,
+          "token": 108,
+          "param": 1,
+          "length": 14,
+          "location": "Main::main@4-17@/content/drive/MyDrive/xmainframe_final/p03272/s339563310.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p03273",
+      "java_file": "s205049758.java",
+      "functions": [
+        {
+          "nloc": 52,
+          "ccn": 14,
+          "token": 400,
+          "param": 1,
+          "length": 52,
+          "location": "Main::main@5-56@/content/drive/MyDrive/xmainframe_final/p03273/s205049758.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 52,
+        "total_ccn": 14,
+        "avg_ccn": 14.0,
+        "max_ccn": 14,
+        "function_count": 1,
+        "avg_function_length": 52.0
+      }
+    },
+    {
+      "problem_id": "p03274",
+      "java_file": "s327968127.java",
+      "functions": [
+        {
+          "nloc": 27,
+          "ccn": 8,
+          "token": 335,
+          "param": 1,
+          "length": 27,
+          "location": "Main::main@7-33@/content/drive/MyDrive/xmainframe_final/p03274/s327968127.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 27,
+        "total_ccn": 8,
+        "avg_ccn": 8.0,
+        "max_ccn": 8,
+        "function_count": 1,
+        "avg_function_length": 27.0
+      }
+    },
+    {
+      "problem_id": "p03276",
+      "java_file": "s036764800.java",
+      "functions": [
+        {
+          "nloc": 29,
+          "ccn": 6,
+          "token": 244,
+          "param": 1,
+          "length": 29,
+          "location": "Main::main@6-34@/content/drive/MyDrive/xmainframe_final/p03276/s036764800.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 29,
+        "total_ccn": 6,
+        "avg_ccn": 6.0,
+        "max_ccn": 6,
+        "function_count": 1,
+        "avg_function_length": 29.0
+      }
+    },
+    {
+      "problem_id": "p03280",
+      "java_file": "s705006988.java",
+      "functions": [
+        {
+          "nloc": 17,
+          "ccn": 3,
+          "token": 139,
+          "param": 1,
+          "length": 17,
+          "location": "Main::main@4-20@/content/drive/MyDrive/xmainframe_final/p03280/s705006988.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 17,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 17.0
+      }
+    },
+    {
+      "problem_id": "p03281",
+      "java_file": "s846469865.java",
+      "functions": [
+        {
+          "nloc": 17,
+          "ccn": 5,
+          "token": 105,
+          "param": 1,
+          "length": 19,
+          "location": "Main::main@4-22@/content/drive/MyDrive/xmainframe_final/p03281/s846469865.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 17,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 17.0
+      }
+    },
+    {
+      "problem_id": "p03282",
+      "java_file": "s199197467.java",
+      "functions": [
+        {
+          "nloc": 12,
+          "ccn": 2,
+          "token": 92,
+          "param": 1,
+          "length": 13,
+          "location": "ABC_106_C::main@4-16@/content/drive/MyDrive/xmainframe_final/p03282/s199197467.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 12,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 12.0
+      }
+    },
+    {
+      "problem_id": "p03283",
+      "java_file": "s242926709.java",
+      "functions": [
+        {
+          "nloc": 37,
+          "ccn": 12,
+          "token": 445,
+          "param": 1,
+          "length": 44,
+          "location": "Main::main@6-49@/content/drive/MyDrive/xmainframe_final/p03283/s242926709.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 37,
+        "total_ccn": 12,
+        "avg_ccn": 12.0,
+        "max_ccn": 12,
+        "function_count": 1,
+        "avg_function_length": 37.0
+      }
+    },
+    {
+      "problem_id": "p03284",
+      "java_file": "s038241548.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 2,
+          "token": 103,
+          "param": 1,
+          "length": 13,
+          "location": "Crackers::main@3-15@/content/drive/MyDrive/xmainframe_final/p03284/s038241548.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p03285",
+      "java_file": "s691231017.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 5,
+          "token": 101,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@3-15@/content/drive/MyDrive/xmainframe_final/p03285/s691231017.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p03286",
+      "java_file": "s027698751.java",
+      "functions": [
+        {
+          "nloc": 20,
+          "ccn": 4,
+          "token": 113,
+          "param": 1,
+          "length": 20,
+          "location": "Main::main@3-22@/content/drive/MyDrive/xmainframe_final/p03286/s027698751.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 20,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 20.0
+      }
+    },
+    {
+      "problem_id": "p03287",
+      "java_file": "s104521550.java",
+      "functions": [
+        {
+          "nloc": 19,
+          "ccn": 3,
+          "token": 169,
+          "param": 1,
+          "length": 19,
+          "location": "Main::main@5-23@/content/drive/MyDrive/xmainframe_final/p03287/s104521550.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 1,
+          "token": 29,
+          "param": 0,
+          "length": 5,
+          "location": "FastScanner::FastScanner@32-36@/content/drive/MyDrive/xmainframe_final/p03287/s104521550.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 1,
+          "token": 35,
+          "param": 1,
+          "length": 5,
+          "location": "FastScanner::FastScanner@38-42@/content/drive/MyDrive/xmainframe_final/p03287/s104521550.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 2,
+          "token": 24,
+          "param": 0,
+          "length": 5,
+          "location": "FastScanner::read@44-48@/content/drive/MyDrive/xmainframe_final/p03287/s104521550.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 2,
+          "token": 21,
+          "param": 0,
+          "length": 5,
+          "location": "FastScanner::close@50-54@/content/drive/MyDrive/xmainframe_final/p03287/s104521550.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 2,
+          "token": 37,
+          "param": 0,
+          "length": 5,
+          "location": "FastScanner::fillBuffer@56-60@/content/drive/MyDrive/xmainframe_final/p03287/s104521550.java"
+        },
+        {
+          "nloc": 7,
+          "ccn": 2,
+          "token": 37,
+          "param": 0,
+          "length": 7,
+          "location": "FastScanner::nextChar@62-68@/content/drive/MyDrive/xmainframe_final/p03287/s104521550.java"
+        },
+        {
+          "nloc": 13,
+          "ccn": 3,
+          "token": 84,
+          "param": 0,
+          "length": 13,
+          "location": "FastScanner::nextString@70-82@/content/drive/MyDrive/xmainframe_final/p03287/s104521550.java"
+        },
+        {
+          "nloc": 15,
+          "ccn": 6,
+          "token": 91,
+          "param": 0,
+          "length": 15,
+          "location": "FastScanner::nextInt@84-98@/content/drive/MyDrive/xmainframe_final/p03287/s104521550.java"
+        },
+        {
+          "nloc": 15,
+          "ccn": 6,
+          "token": 91,
+          "param": 0,
+          "length": 15,
+          "location": "FastScanner::nextLong@100-114@/content/drive/MyDrive/xmainframe_final/p03287/s104521550.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 94,
+        "total_ccn": 28,
+        "avg_ccn": 2.8,
+        "max_ccn": 6,
+        "function_count": 10,
+        "avg_function_length": 9.4
+      }
+    },
+    {
+      "problem_id": "p03288",
+      "java_file": "s228929734.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 3,
+          "token": 76,
+          "param": 1,
+          "length": 12,
+          "location": "Main::main@4-15@/content/drive/MyDrive/xmainframe_final/p03288/s228929734.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p03289",
+      "java_file": "s328755352.java",
+      "functions": [
+        {
+          "nloc": 33,
+          "ccn": 10,
+          "token": 212,
+          "param": 1,
+          "length": 33,
+          "location": "Main::main@3-35@/content/drive/MyDrive/xmainframe_final/p03289/s328755352.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 33,
+        "total_ccn": 10,
+        "avg_ccn": 10.0,
+        "max_ccn": 10,
+        "function_count": 1,
+        "avg_function_length": 33.0
+      }
+    },
+    {
+      "problem_id": "p03291",
+      "java_file": "s240347973.java",
+      "functions": [
+        {
+          "nloc": 27,
+          "ccn": 8,
+          "token": 279,
+          "param": 1,
+          "length": 27,
+          "location": "Main::main@8-34@/content/drive/MyDrive/xmainframe_final/p03291/s240347973.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 27,
+        "total_ccn": 8,
+        "avg_ccn": 8.0,
+        "max_ccn": 8,
+        "function_count": 1,
+        "avg_function_length": 27.0
+      }
+    },
+    {
+      "problem_id": "p03292",
+      "java_file": "s031109456.java",
+      "functions": [
+        {
+          "nloc": 9,
+          "ccn": 2,
+          "token": 87,
+          "param": 1,
+          "length": 9,
+          "location": "Main::main@3-11@/content/drive/MyDrive/xmainframe_final/p03292/s031109456.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 9,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 9.0
+      }
+    },
+    {
+      "problem_id": "p03293",
+      "java_file": "s217934662.java",
+      "functions": [
+        {
+          "nloc": 26,
+          "ccn": 4,
+          "token": 193,
+          "param": 1,
+          "length": 30,
+          "location": "Main::main@4-33@/content/drive/MyDrive/xmainframe_final/p03293/s217934662.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 26,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 26.0
+      }
+    },
+    {
+      "problem_id": "p03294",
+      "java_file": "s528980461.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 2,
+          "token": 108,
+          "param": 1,
+          "length": 11,
+          "location": "Main::main@6-16@/content/drive/MyDrive/xmainframe_final/p03294/s528980461.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p03295",
+      "java_file": "s360290371.java",
+      "functions": [
+        {
+          "nloc": 24,
+          "ccn": 4,
+          "token": 250,
+          "param": 1,
+          "length": 24,
+          "location": "Main::main@9-32@/content/drive/MyDrive/xmainframe_final/p03295/s360290371.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 24,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 24.0
+      }
+    },
+    {
+      "problem_id": "p03296",
+      "java_file": "s359945653.java",
+      "functions": [
+        {
+          "nloc": 20,
+          "ccn": 3,
+          "token": 143,
+          "param": 1,
+          "length": 20,
+          "location": "Main::main@3-22@/content/drive/MyDrive/xmainframe_final/p03296/s359945653.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 20,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 20.0
+      }
+    },
+    {
+      "problem_id": "p03297",
+      "java_file": "s113045862.java",
+      "functions": [
+        {
+          "nloc": 28,
+          "ccn": 6,
+          "token": 222,
+          "param": 1,
+          "length": 28,
+          "location": "Main::main@5-32@/content/drive/MyDrive/xmainframe_final/p03297/s113045862.java"
+        },
+        {
+          "nloc": 4,
+          "ccn": 2,
+          "token": 29,
+          "param": 2,
+          "length": 4,
+          "location": "Main::gcd@34-37@/content/drive/MyDrive/xmainframe_final/p03297/s113045862.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 32,
+        "total_ccn": 8,
+        "avg_ccn": 4.0,
+        "max_ccn": 6,
+        "function_count": 2,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p03307",
+      "java_file": "s432790883.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 3,
+          "token": 114,
+          "param": 1,
+          "length": 15,
+          "location": "Main::main@3-17@/content/drive/MyDrive/xmainframe_final/p03307/s432790883.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 15,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p03308",
+      "java_file": "s530473808.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 2,
+          "token": 120,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@3-15@/content/drive/MyDrive/xmainframe_final/p03308/s530473808.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p03309",
+      "java_file": "s615242390.java",
+      "functions": [
+        {
+          "nloc": 17,
+          "ccn": 3,
+          "token": 158,
+          "param": 1,
+          "length": 17,
+          "location": "Main::main@9-25@/content/drive/MyDrive/xmainframe_final/p03309/s615242390.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 17,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 17.0
+      }
+    },
+    {
+      "problem_id": "p03310",
+      "java_file": "s059758528.java",
+      "functions": [
+        {
+          "nloc": 45,
+          "ccn": 8,
+          "token": 350,
+          "param": 1,
+          "length": 45,
+          "location": "Main::main@35-79@/content/drive/MyDrive/xmainframe_final/p03310/s059758528.java"
+        },
+        {
+          "nloc": 29,
+          "ccn": 8,
+          "token": 187,
+          "param": 0,
+          "length": 29,
+          "location": "Main::f@81-109@/content/drive/MyDrive/xmainframe_final/p03310/s059758528.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 74,
+        "total_ccn": 16,
+        "avg_ccn": 8.0,
+        "max_ccn": 8,
+        "function_count": 2,
+        "avg_function_length": 37.0
+      }
+    },
+    {
+      "problem_id": "p03311",
+      "java_file": "s166722602.java",
+      "functions": [
+        {
+          "nloc": 25,
+          "ccn": 3,
+          "token": 206,
+          "param": 1,
+          "length": 29,
+          "location": "Main::main@7-35@/content/drive/MyDrive/xmainframe_final/p03311/s166722602.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 25,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 25.0
+      }
+    },
+    {
+      "problem_id": "p03315",
+      "java_file": "s158524085.java",
+      "functions": [
+        {
+          "nloc": 19,
+          "ccn": 3,
+          "token": 108,
+          "param": 1,
+          "length": 22,
+          "location": "Main::main@3-24@/content/drive/MyDrive/xmainframe_final/p03315/s158524085.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 19,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 19.0
+      }
+    },
+    {
+      "problem_id": "p03316",
+      "java_file": "s010576817.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 3,
+          "token": 114,
+          "param": 1,
+          "length": 14,
+          "location": "Main::main@3-16@/content/drive/MyDrive/xmainframe_final/p03316/s010576817.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p03317",
+      "java_file": "s422439243.java",
+      "functions": [
+        {
+          "nloc": 8,
+          "ccn": 1,
+          "token": 121,
+          "param": 1,
+          "length": 8,
+          "location": "Main::main@7-14@/content/drive/MyDrive/xmainframe_final/p03317/s422439243.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 8,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 8.0
+      }
+    },
+    {
+      "problem_id": "p03319",
+      "java_file": "s233564082.java",
+      "functions": [
+        {
+          "nloc": 10,
+          "ccn": 1,
+          "token": 101,
+          "param": 1,
+          "length": 10,
+          "location": "Main::main@3-12@/content/drive/MyDrive/xmainframe_final/p03319/s233564082.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 10,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 10.0
+      }
+    },
+    {
+      "problem_id": "p03323",
+      "java_file": "s070261901.java",
+      "functions": [
+        {
+          "nloc": 12,
+          "ccn": 3,
+          "token": 106,
+          "param": 1,
+          "length": 13,
+          "location": "ABirthday::main@7-19@/content/drive/MyDrive/xmainframe_final/p03323/s070261901.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 12,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 12.0
+      }
+    },
+    {
+      "problem_id": "p03324",
+      "java_file": "s693642232.java",
+      "functions": [
+        {
+          "nloc": 23,
+          "ccn": 3,
+          "token": 169,
+          "param": 1,
+          "length": 23,
+          "location": "Main::main@7-29@/content/drive/MyDrive/xmainframe_final/p03324/s693642232.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 23,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 23.0
+      }
+    },
+    {
+      "problem_id": "p03325",
+      "java_file": "s619899213.java",
+      "functions": [
+        {
+          "nloc": 4,
+          "ccn": 1,
+          "token": 23,
+          "param": 0,
+          "length": 4,
+          "location": "Main::readData@10-13@/content/drive/MyDrive/xmainframe_final/p03325/s619899213.java"
+        },
+        {
+          "nloc": 14,
+          "ccn": 4,
+          "token": 107,
+          "param": 0,
+          "length": 14,
+          "location": "Main::solve@15-28@/content/drive/MyDrive/xmainframe_final/p03325/s619899213.java"
+        },
+        {
+          "nloc": 10,
+          "ccn": 2,
+          "token": 48,
+          "param": 0,
+          "length": 10,
+          "location": "Main::run@30-39@/content/drive/MyDrive/xmainframe_final/p03325/s619899213.java"
+        },
+        {
+          "nloc": 3,
+          "ccn": 1,
+          "token": 18,
+          "param": 1,
+          "length": 3,
+          "location": "Main::main@41-43@/content/drive/MyDrive/xmainframe_final/p03325/s619899213.java"
+        },
+        {
+          "nloc": 6,
+          "ccn": 2,
+          "token": 37,
+          "param": 0,
+          "length": 7,
+          "location": "FastScanner::next@49-55@/content/drive/MyDrive/xmainframe_final/p03325/s619899213.java"
+        },
+        {
+          "nloc": 3,
+          "ccn": 1,
+          "token": 17,
+          "param": 0,
+          "length": 3,
+          "location": "FastScanner::nextInt@57-59@/content/drive/MyDrive/xmainframe_final/p03325/s619899213.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 40,
+        "total_ccn": 11,
+        "avg_ccn": 1.8333333333333333,
+        "max_ccn": 4,
+        "function_count": 6,
+        "avg_function_length": 6.666666666666667
+      }
+    },
+    {
+      "problem_id": "p03326",
+      "java_file": "s684869797.java",
+      "functions": [
+        {
+          "nloc": 32,
+          "ccn": 5,
+          "token": 516,
+          "param": 1,
+          "length": 37,
+          "location": "Main::main@5-41@/content/drive/MyDrive/xmainframe_final/p03326/s684869797.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 32,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 32.0
+      }
+    },
+    {
+      "problem_id": "p03327",
+      "java_file": "s060305458.java",
+      "functions": [
+        {
+          "nloc": 9,
+          "ccn": 2,
+          "token": 58,
+          "param": 1,
+          "length": 9,
+          "location": "Main::main@4-12@/content/drive/MyDrive/xmainframe_final/p03327/s060305458.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 9,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 9.0
+      }
+    },
+    {
+      "problem_id": "p03328",
+      "java_file": "s036392141.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 3,
+          "token": 105,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@4-16@/content/drive/MyDrive/xmainframe_final/p03328/s036392141.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p03329",
+      "java_file": "s335763006.java",
+      "functions": [
+        {
+          "nloc": 22,
+          "ccn": 4,
+          "token": 139,
+          "param": 1,
+          "length": 28,
+          "location": "Main::main@4-31@/content/drive/MyDrive/xmainframe_final/p03329/s335763006.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 22,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 22.0
+      }
+    },
+    {
+      "problem_id": "p03331",
+      "java_file": "s251999208.java",
+      "functions": [
+        {
+          "nloc": 24,
+          "ccn": 5,
+          "token": 142,
+          "param": 1,
+          "length": 24,
+          "location": "Main::main@3-26@/content/drive/MyDrive/xmainframe_final/p03331/s251999208.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 24,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 24.0
+      }
+    },
+    {
+      "problem_id": "p03337",
+      "java_file": "s618094240.java",
+      "functions": [
+        {
+          "nloc": 8,
+          "ccn": 2,
+          "token": 105,
+          "param": 1,
+          "length": 8,
+          "location": "Main::main@3-10@/content/drive/MyDrive/xmainframe_final/p03337/s618094240.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 8,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 8.0
+      }
+    },
+    {
+      "problem_id": "p03338",
+      "java_file": "s088969903.java",
+      "functions": [
+        {
+          "nloc": 40,
+          "ccn": 12,
+          "token": 326,
+          "param": 1,
+          "length": 40,
+          "location": "Main::main@3-42@/content/drive/MyDrive/xmainframe_final/p03338/s088969903.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 40,
+        "total_ccn": 12,
+        "avg_ccn": 12.0,
+        "max_ccn": 12,
+        "function_count": 1,
+        "avg_function_length": 40.0
+      }
+    },
+    {
+      "problem_id": "p03341",
+      "java_file": "s073003333.java",
+      "functions": [
+        {
+          "nloc": 20,
+          "ccn": 4,
+          "token": 135,
+          "param": 1,
+          "length": 20,
+          "location": "Main::main@6-25@/content/drive/MyDrive/xmainframe_final/p03341/s073003333.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 20,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 20.0
+      }
+    },
+    {
+      "problem_id": "p03351",
+      "java_file": "s157217516.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 5,
+          "token": 149,
+          "param": 1,
+          "length": 15,
+          "location": "Main::main@3-17@/content/drive/MyDrive/xmainframe_final/p03351/s157217516.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 15,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p03352",
+      "java_file": "s354136278.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 4,
+          "token": 109,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@3-15@/content/drive/MyDrive/xmainframe_final/p03352/s354136278.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p03355",
+      "java_file": "s493677913.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 3,
+          "token": 166,
+          "param": 1,
+          "length": 15,
+          "location": "Main::main@3-17@/content/drive/MyDrive/xmainframe_final/p03355/s493677913.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 15,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p03359",
+      "java_file": "s167049581.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 3,
+          "token": 121,
+          "param": 1,
+          "length": 14,
+          "location": "A::main@4-17@/content/drive/MyDrive/xmainframe_final/p03359/s167049581.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p03360",
+      "java_file": "s495566803.java",
+      "functions": [
+        {
+          "nloc": 23,
+          "ccn": 9,
+          "token": 272,
+          "param": 1,
+          "length": 23,
+          "location": "Main::main@4-26@/content/drive/MyDrive/xmainframe_final/p03360/s495566803.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 23,
+        "total_ccn": 9,
+        "avg_ccn": 9.0,
+        "max_ccn": 9,
+        "function_count": 1,
+        "avg_function_length": 23.0
+      }
+    },
+    {
+      "problem_id": "p03369",
+      "java_file": "s073072560.java",
+      "functions": [
+        {
+          "nloc": 19,
+          "ccn": 5,
+          "token": 114,
+          "param": 1,
+          "length": 21,
+          "location": "Main::main@4-24@/content/drive/MyDrive/xmainframe_final/p03369/s073072560.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 19,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 19.0
+      }
+    },
+    {
+      "problem_id": "p03370",
+      "java_file": "s318369553.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 3,
+          "token": 102,
+          "param": 1,
+          "length": 14,
+          "location": "Main::main@3-16@/content/drive/MyDrive/xmainframe_final/p03370/s318369553.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p03373",
+      "java_file": "s457801430.java",
+      "functions": [
+        {
+          "nloc": 22,
+          "ccn": 3,
+          "token": 219,
+          "param": 1,
+          "length": 22,
+          "location": "Main::main@3-24@/content/drive/MyDrive/xmainframe_final/p03373/s457801430.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 22,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 22.0
+      }
+    },
+    {
+      "problem_id": "p03377",
+      "java_file": "s146845231.java",
+      "functions": [
+        {
+          "nloc": 12,
+          "ccn": 3,
+          "token": 121,
+          "param": 1,
+          "length": 12,
+          "location": "Main::main@6-17@/content/drive/MyDrive/xmainframe_final/p03377/s146845231.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 12,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 12.0
+      }
+    },
+    {
+      "problem_id": "p03378",
+      "java_file": "s590565726.java",
+      "functions": [
+        {
+          "nloc": 25,
+          "ccn": 6,
+          "token": 216,
+          "param": 1,
+          "length": 25,
+          "location": "Main::main@7-31@/content/drive/MyDrive/xmainframe_final/p03378/s590565726.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 25,
+        "total_ccn": 6,
+        "avg_ccn": 6.0,
+        "max_ccn": 6,
+        "function_count": 1,
+        "avg_function_length": 25.0
+      }
+    },
+    {
+      "problem_id": "p03385",
+      "java_file": "s978514305.java",
+      "functions": [
+        {
+          "nloc": 23,
+          "ccn": 7,
+          "token": 175,
+          "param": 1,
+          "length": 25,
+          "location": "Main::main@3-27@/content/drive/MyDrive/xmainframe_final/p03385/s978514305.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 23,
+        "total_ccn": 7,
+        "avg_ccn": 7.0,
+        "max_ccn": 7,
+        "function_count": 1,
+        "avg_function_length": 23.0
+      }
+    },
+    {
+      "problem_id": "p03386",
+      "java_file": "s534029315.java",
+      "functions": [
+        {
+          "nloc": 52,
+          "ccn": 9,
+          "token": 393,
+          "param": 1,
+          "length": 57,
+          "location": "Main::main@4-60@/content/drive/MyDrive/xmainframe_final/p03386/s534029315.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 52,
+        "total_ccn": 9,
+        "avg_ccn": 9.0,
+        "max_ccn": 9,
+        "function_count": 1,
+        "avg_function_length": 52.0
+      }
+    },
+    {
+      "problem_id": "p03399",
+      "java_file": "s852906290.java",
+      "functions": [
+        {
+          "nloc": 12,
+          "ccn": 1,
+          "token": 109,
+          "param": 1,
+          "length": 14,
+          "location": "Main::main@3-16@/content/drive/MyDrive/xmainframe_final/p03399/s852906290.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 12,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 12.0
+      }
+    },
+    {
+      "problem_id": "p03400",
+      "java_file": "s004679718.java",
+      "functions": [
+        {
+          "nloc": 23,
+          "ccn": 6,
+          "token": 204,
+          "param": 1,
+          "length": 23,
+          "location": "Main::main@3-25@/content/drive/MyDrive/xmainframe_final/p03400/s004679718.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 23,
+        "total_ccn": 6,
+        "avg_ccn": 6.0,
+        "max_ccn": 6,
+        "function_count": 1,
+        "avg_function_length": 23.0
+      }
+    },
+    {
+      "problem_id": "p03407",
+      "java_file": "s828037807.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 3,
+          "token": 105,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@3-15@/content/drive/MyDrive/xmainframe_final/p03407/s828037807.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p03408",
+      "java_file": "s211850063.java",
+      "functions": [
+        {
+          "nloc": 30,
+          "ccn": 5,
+          "token": 357,
+          "param": 1,
+          "length": 32,
+          "location": "Main::main@9-40@/content/drive/MyDrive/xmainframe_final/p03408/s211850063.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 30,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 30.0
+      }
+    },
+    {
+      "problem_id": "p03416",
+      "java_file": "s099536646.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 3,
+          "token": 113,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@4-16@/content/drive/MyDrive/xmainframe_final/p03416/s099536646.java"
+        },
+        {
+          "nloc": 4,
+          "ccn": 2,
+          "token": 32,
+          "param": 1,
+          "length": 4,
+          "location": "Main::isPalindrome@18-21@/content/drive/MyDrive/xmainframe_final/p03416/s099536646.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 17,
+        "total_ccn": 5,
+        "avg_ccn": 2.5,
+        "max_ccn": 3,
+        "function_count": 2,
+        "avg_function_length": 8.5
+      }
+    },
+    {
+      "problem_id": "p03417",
+      "java_file": "s495068575.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 5,
+          "token": 141,
+          "param": 1,
+          "length": 15,
+          "location": "Kyopuro::main@3-17@/content/drive/MyDrive/xmainframe_final/p03417/s495068575.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p03418",
+      "java_file": "s965501208.java",
+      "functions": [
+        {
+          "nloc": 21,
+          "ccn": 3,
+          "token": 173,
+          "param": 1,
+          "length": 21,
+          "location": "Kyopuro::main@3-23@/content/drive/MyDrive/xmainframe_final/p03418/s965501208.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 21,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 21.0
+      }
+    },
+    {
+      "problem_id": "p03423",
+      "java_file": "s274294710.java",
+      "functions": [
+        {
+          "nloc": 8,
+          "ccn": 1,
+          "token": 72,
+          "param": 1,
+          "length": 8,
+          "location": "Main::main@4-11@/content/drive/MyDrive/xmainframe_final/p03423/s274294710.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 8,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 8.0
+      }
+    },
+    {
+      "problem_id": "p03424",
+      "java_file": "s069120838.java",
+      "functions": [
+        {
+          "nloc": 16,
+          "ccn": 3,
+          "token": 101,
+          "param": 1,
+          "length": 16,
+          "location": "Main::main@5-20@/content/drive/MyDrive/xmainframe_final/p03424/s069120838.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 16,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p03433",
+      "java_file": "s087370924.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 2,
+          "token": 84,
+          "param": 1,
+          "length": 13,
+          "location": "Atcoder::main@3-15@/content/drive/MyDrive/xmainframe_final/p03433/s087370924.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p03434",
+      "java_file": "s074208092.java",
+      "functions": [
+        {
+          "nloc": 19,
+          "ccn": 4,
+          "token": 137,
+          "param": 1,
+          "length": 19,
+          "location": "Main::main@5-23@/content/drive/MyDrive/xmainframe_final/p03434/s074208092.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 1,
+          "token": 29,
+          "param": 0,
+          "length": 5,
+          "location": "FastScanner::FastScanner@33-37@/content/drive/MyDrive/xmainframe_final/p03434/s074208092.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 1,
+          "token": 35,
+          "param": 1,
+          "length": 5,
+          "location": "FastScanner::FastScanner@39-43@/content/drive/MyDrive/xmainframe_final/p03434/s074208092.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 2,
+          "token": 24,
+          "param": 0,
+          "length": 5,
+          "location": "FastScanner::read@45-49@/content/drive/MyDrive/xmainframe_final/p03434/s074208092.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 2,
+          "token": 21,
+          "param": 0,
+          "length": 5,
+          "location": "FastScanner::close@51-55@/content/drive/MyDrive/xmainframe_final/p03434/s074208092.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 2,
+          "token": 37,
+          "param": 0,
+          "length": 5,
+          "location": "FastScanner::fillBuffer@57-61@/content/drive/MyDrive/xmainframe_final/p03434/s074208092.java"
+        },
+        {
+          "nloc": 7,
+          "ccn": 2,
+          "token": 37,
+          "param": 0,
+          "length": 7,
+          "location": "FastScanner::nextChar@63-69@/content/drive/MyDrive/xmainframe_final/p03434/s074208092.java"
+        },
+        {
+          "nloc": 13,
+          "ccn": 3,
+          "token": 84,
+          "param": 0,
+          "length": 13,
+          "location": "FastScanner::nextString@71-83@/content/drive/MyDrive/xmainframe_final/p03434/s074208092.java"
+        },
+        {
+          "nloc": 15,
+          "ccn": 6,
+          "token": 91,
+          "param": 0,
+          "length": 15,
+          "location": "FastScanner::nextInt@85-99@/content/drive/MyDrive/xmainframe_final/p03434/s074208092.java"
+        },
+        {
+          "nloc": 15,
+          "ccn": 6,
+          "token": 91,
+          "param": 0,
+          "length": 15,
+          "location": "FastScanner::nextLong@101-115@/content/drive/MyDrive/xmainframe_final/p03434/s074208092.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 94,
+        "total_ccn": 29,
+        "avg_ccn": 2.9,
+        "max_ccn": 6,
+        "function_count": 10,
+        "avg_function_length": 9.4
+      }
+    },
+    {
+      "problem_id": "p03448",
+      "java_file": "s191172234.java",
+      "functions": [
+        {
+          "nloc": 18,
+          "ccn": 5,
+          "token": 139,
+          "param": 1,
+          "length": 18,
+          "location": "Main::main@3-20@/content/drive/MyDrive/xmainframe_final/p03448/s191172234.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 18,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 18.0
+      }
+    },
+    {
+      "problem_id": "p03455",
+      "java_file": "s067629639.java",
+      "functions": [
+        {
+          "nloc": 12,
+          "ccn": 3,
+          "token": 97,
+          "param": 1,
+          "length": 12,
+          "location": "Main::main@4-15@/content/drive/MyDrive/xmainframe_final/p03455/s067629639.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 12,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 12.0
+      }
+    },
+    {
+      "problem_id": "p03456",
+      "java_file": "s096056262.java",
+      "functions": [
+        {
+          "nloc": 24,
+          "ccn": 5,
+          "token": 162,
+          "param": 1,
+          "length": 24,
+          "location": "Answer::main@4-27@/content/drive/MyDrive/xmainframe_final/p03456/s096056262.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 24,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 24.0
+      }
+    },
+    {
+      "problem_id": "p03457",
+      "java_file": "s003350529.java",
+      "functions": [
+        {
+          "nloc": 31,
+          "ccn": 7,
+          "token": 260,
+          "param": 1,
+          "length": 31,
+          "location": "Main::main@5-35@/content/drive/MyDrive/xmainframe_final/p03457/s003350529.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 31,
+        "total_ccn": 7,
+        "avg_ccn": 7.0,
+        "max_ccn": 7,
+        "function_count": 1,
+        "avg_function_length": 31.0
+      }
+    },
+    {
+      "problem_id": "p03469",
+      "java_file": "s051044583.java",
+      "functions": [
+        {
+          "nloc": 5,
+          "ccn": 1,
+          "token": 45,
+          "param": 1,
+          "length": 5,
+          "location": "Already::main@3-7@/content/drive/MyDrive/xmainframe_final/p03469/s051044583.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 5,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 5.0
+      }
+    },
+    {
+      "problem_id": "p03470",
+      "java_file": "s107906750.java",
+      "functions": [
+        {
+          "nloc": 16,
+          "ccn": 4,
+          "token": 127,
+          "param": 1,
+          "length": 16,
+          "location": "Main::main@7-22@/content/drive/MyDrive/xmainframe_final/p03470/s107906750.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 16,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p03473",
+      "java_file": "s528559044.java",
+      "functions": [
+        {
+          "nloc": 6,
+          "ccn": 1,
+          "token": 44,
+          "param": 1,
+          "length": 8,
+          "location": "Main::main@4-11@/content/drive/MyDrive/xmainframe_final/p03473/s528559044.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 6,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 6.0
+      }
+    },
+    {
+      "problem_id": "p03474",
+      "java_file": "s560828999.java",
+      "functions": [
+        {
+          "nloc": 18,
+          "ccn": 7,
+          "token": 178,
+          "param": 1,
+          "length": 18,
+          "location": "Main::main@3-20@/content/drive/MyDrive/xmainframe_final/p03474/s560828999.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 18,
+        "total_ccn": 7,
+        "avg_ccn": 7.0,
+        "max_ccn": 7,
+        "function_count": 1,
+        "avg_function_length": 18.0
+      }
+    },
+    {
+      "problem_id": "p03477",
+      "java_file": "s334651441.java",
+      "functions": [
+        {
+          "nloc": 16,
+          "ccn": 3,
+          "token": 148,
+          "param": 1,
+          "length": 17,
+          "location": "Main::main@3-19@/content/drive/MyDrive/xmainframe_final/p03477/s334651441.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 16,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p03478",
+      "java_file": "s041129266.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 4,
+          "token": 154,
+          "param": 1,
+          "length": 14,
+          "location": "Main::main@6-19@/content/drive/MyDrive/xmainframe_final/p03478/s041129266.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p03485",
+      "java_file": "s025676861.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 2,
+          "token": 119,
+          "param": 1,
+          "length": 15,
+          "location": "Main::main@4-18@/content/drive/MyDrive/xmainframe_final/p03485/s025676861.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 15,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p03493",
+      "java_file": "s164196915.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 3,
+          "token": 75,
+          "param": 1,
+          "length": 11,
+          "location": "Main::main@3-13@/content/drive/MyDrive/xmainframe_final/p03493/s164196915.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p03494",
+      "java_file": "s225194042.java",
+      "functions": [
+        {
+          "nloc": 26,
+          "ccn": 5,
+          "token": 219,
+          "param": 1,
+          "length": 26,
+          "location": "Main::main@7-32@/content/drive/MyDrive/xmainframe_final/p03494/s225194042.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 26,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 26.0
+      }
+    },
+    {
+      "problem_id": "p03501",
+      "java_file": "s867762321.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 2,
+          "token": 82,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@3-15@/content/drive/MyDrive/xmainframe_final/p03501/s867762321.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p03502",
+      "java_file": "s279783543.java",
+      "functions": [
+        {
+          "nloc": 16,
+          "ccn": 4,
+          "token": 98,
+          "param": 1,
+          "length": 18,
+          "location": "Main::main@4-21@/content/drive/MyDrive/xmainframe_final/p03502/s279783543.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 16,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p03543",
+      "java_file": "s058600095.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 4,
+          "token": 87,
+          "param": 1,
+          "length": 14,
+          "location": "Main::main@4-17@/content/drive/MyDrive/xmainframe_final/p03543/s058600095.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p03544",
+      "java_file": "s498531048.java",
+      "functions": [
+        {
+          "nloc": 6,
+          "ccn": 1,
+          "token": 46,
+          "param": 1,
+          "length": 6,
+          "location": "Main::main@3-8@/content/drive/MyDrive/xmainframe_final/p03544/s498531048.java"
+        },
+        {
+          "nloc": 15,
+          "ccn": 4,
+          "token": 73,
+          "param": 1,
+          "length": 15,
+          "location": "Main::fibonacci@9-23@/content/drive/MyDrive/xmainframe_final/p03544/s498531048.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 21,
+        "total_ccn": 5,
+        "avg_ccn": 2.5,
+        "max_ccn": 4,
+        "function_count": 2,
+        "avg_function_length": 10.5
+      }
+    },
+    {
+      "problem_id": "p03547",
+      "java_file": "s707971310.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 3,
+          "token": 110,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@3-15@/content/drive/MyDrive/xmainframe_final/p03547/s707971310.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p03548",
+      "java_file": "s373342198.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 1,
+          "token": 116,
+          "param": 1,
+          "length": 11,
+          "location": "Main::main@3-13@/content/drive/MyDrive/xmainframe_final/p03548/s373342198.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p03555",
+      "java_file": "s881376988.java",
+      "functions": [
+        {
+          "nloc": 12,
+          "ccn": 4,
+          "token": 105,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@3-15@/content/drive/MyDrive/xmainframe_final/p03555/s881376988.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 12,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 12.0
+      }
+    },
+    {
+      "problem_id": "p03556",
+      "java_file": "s691198341.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 3,
+          "token": 96,
+          "param": 1,
+          "length": 14,
+          "location": "Main::main@4-17@/content/drive/MyDrive/xmainframe_final/p03556/s691198341.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p03563",
+      "java_file": "s337879094.java",
+      "functions": [
+        {
+          "nloc": 9,
+          "ccn": 1,
+          "token": 76,
+          "param": 1,
+          "length": 9,
+          "location": "Main::main@3-11@/content/drive/MyDrive/xmainframe_final/p03563/s337879094.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 9,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 9.0
+      }
+    },
+    {
+      "problem_id": "p03564",
+      "java_file": "s663902961.java",
+      "functions": [
+        {
+          "nloc": 10,
+          "ccn": 2,
+          "token": 83,
+          "param": 1,
+          "length": 10,
+          "location": "Main::main@4-13@/content/drive/MyDrive/xmainframe_final/p03564/s663902961.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 10,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 10.0
+      }
+    },
+    {
+      "problem_id": "p03573",
+      "java_file": "s236387528.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 3,
+          "token": 127,
+          "param": 1,
+          "length": 15,
+          "location": "Main::main@3-17@/content/drive/MyDrive/xmainframe_final/p03573/s236387528.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 15,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p03574",
+      "java_file": "s214299261.java",
+      "functions": [
+        {
+          "nloc": 35,
+          "ccn": 12,
+          "token": 330,
+          "param": 1,
+          "length": 35,
+          "location": "Main::main@5-39@/content/drive/MyDrive/xmainframe_final/p03574/s214299261.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 1,
+          "token": 29,
+          "param": 0,
+          "length": 5,
+          "location": "FastScanner::FastScanner@49-53@/content/drive/MyDrive/xmainframe_final/p03574/s214299261.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 1,
+          "token": 35,
+          "param": 1,
+          "length": 5,
+          "location": "FastScanner::FastScanner@55-59@/content/drive/MyDrive/xmainframe_final/p03574/s214299261.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 2,
+          "token": 24,
+          "param": 0,
+          "length": 5,
+          "location": "FastScanner::read@61-65@/content/drive/MyDrive/xmainframe_final/p03574/s214299261.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 2,
+          "token": 21,
+          "param": 0,
+          "length": 5,
+          "location": "FastScanner::close@67-71@/content/drive/MyDrive/xmainframe_final/p03574/s214299261.java"
+        },
+        {
+          "nloc": 5,
+          "ccn": 2,
+          "token": 37,
+          "param": 0,
+          "length": 5,
+          "location": "FastScanner::fillBuffer@73-77@/content/drive/MyDrive/xmainframe_final/p03574/s214299261.java"
+        },
+        {
+          "nloc": 7,
+          "ccn": 2,
+          "token": 37,
+          "param": 0,
+          "length": 7,
+          "location": "FastScanner::nextChar@79-85@/content/drive/MyDrive/xmainframe_final/p03574/s214299261.java"
+        },
+        {
+          "nloc": 13,
+          "ccn": 3,
+          "token": 84,
+          "param": 0,
+          "length": 13,
+          "location": "FastScanner::nextString@87-99@/content/drive/MyDrive/xmainframe_final/p03574/s214299261.java"
+        },
+        {
+          "nloc": 15,
+          "ccn": 6,
+          "token": 91,
+          "param": 0,
+          "length": 15,
+          "location": "FastScanner::nextInt@101-115@/content/drive/MyDrive/xmainframe_final/p03574/s214299261.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 95,
+        "total_ccn": 31,
+        "avg_ccn": 3.4444444444444446,
+        "max_ccn": 12,
+        "function_count": 9,
+        "avg_function_length": 10.555555555555555
+      }
+    },
+    {
+      "problem_id": "p03597",
+      "java_file": "s194039918.java",
+      "functions": [
+        {
+          "nloc": 8,
+          "ccn": 1,
+          "token": 72,
+          "param": 1,
+          "length": 10,
+          "location": "Main::main@4-13@/content/drive/MyDrive/xmainframe_final/p03597/s194039918.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 8,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 8.0
+      }
+    },
+    {
+      "problem_id": "p03598",
+      "java_file": "s206150324.java",
+      "functions": [
+        {
+          "nloc": 24,
+          "ccn": 3,
+          "token": 160,
+          "param": 1,
+          "length": 24,
+          "location": "Main::main@3-26@/content/drive/MyDrive/xmainframe_final/p03598/s206150324.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 24,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 24.0
+      }
+    },
+    {
+      "problem_id": "p03605",
+      "java_file": "s265485081.java",
+      "functions": [
+        {
+          "nloc": 9,
+          "ccn": 3,
+          "token": 72,
+          "param": 1,
+          "length": 9,
+          "location": "Main::main@3-11@/content/drive/MyDrive/xmainframe_final/p03605/s265485081.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 9,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 9.0
+      }
+    },
+    {
+      "problem_id": "p03606",
+      "java_file": "s506821698.java",
+      "functions": [
+        {
+          "nloc": 12,
+          "ccn": 2,
+          "token": 111,
+          "param": 1,
+          "length": 12,
+          "location": "Main::main@3-14@/content/drive/MyDrive/xmainframe_final/p03606/s506821698.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 12,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 12.0
+      }
+    },
+    {
+      "problem_id": "p03609",
+      "java_file": "s150651649.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 2,
+          "token": 104,
+          "param": 1,
+          "length": 11,
+          "location": "Main::main@4-14@/content/drive/MyDrive/xmainframe_final/p03609/s150651649.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p03610",
+      "java_file": "s004511584.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 3,
+          "token": 92,
+          "param": 1,
+          "length": 11,
+          "location": "Main::main@3-13@/content/drive/MyDrive/xmainframe_final/p03610/s004511584.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p03623",
+      "java_file": "s498016040.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 2,
+          "token": 117,
+          "param": 1,
+          "length": 15,
+          "location": "Main::main@4-18@/content/drive/MyDrive/xmainframe_final/p03623/s498016040.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 15,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p03624",
+      "java_file": "s173083404.java",
+      "functions": [
+        {
+          "nloc": 24,
+          "ccn": 7,
+          "token": 188,
+          "param": 1,
+          "length": 26,
+          "location": "Main::main@4-29@/content/drive/MyDrive/xmainframe_final/p03624/s173083404.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 24,
+        "total_ccn": 7,
+        "avg_ccn": 7.0,
+        "max_ccn": 7,
+        "function_count": 1,
+        "avg_function_length": 24.0
+      }
+    },
+    {
+      "problem_id": "p03631",
+      "java_file": "s348648098.java",
+      "functions": [
+        {
+          "nloc": 9,
+          "ccn": 2,
+          "token": 68,
+          "param": 1,
+          "length": 10,
+          "location": "Main::main@4-13@/content/drive/MyDrive/xmainframe_final/p03631/s348648098.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 9,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 9.0
+      }
+    },
+    {
+      "problem_id": "p03632",
+      "java_file": "s522385416.java",
+      "functions": [
+        {
+          "nloc": 17,
+          "ccn": 2,
+          "token": 152,
+          "param": 1,
+          "length": 17,
+          "location": "Main::main@3-19@/content/drive/MyDrive/xmainframe_final/p03632/s522385416.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 17,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 17.0
+      }
+    },
+    {
+      "problem_id": "p03635",
+      "java_file": "s376858071.java",
+      "functions": [
+        {
+          "nloc": 12,
+          "ccn": 1,
+          "token": 112,
+          "param": 1,
+          "length": 12,
+          "location": "Main::main@4-15@/content/drive/MyDrive/xmainframe_final/p03635/s376858071.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 12,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 12.0
+      }
+    },
+    {
+      "problem_id": "p03636",
+      "java_file": "s022173867.java",
+      "functions": [
+        {
+          "nloc": 16,
+          "ccn": 3,
+          "token": 117,
+          "param": 1,
+          "length": 19,
+          "location": "Main::main@4-22@/content/drive/MyDrive/xmainframe_final/p03636/s022173867.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 16,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p03643",
+      "java_file": "s543414424.java",
+      "functions": [
+        {
+          "nloc": 5,
+          "ccn": 1,
+          "token": 46,
+          "param": 1,
+          "length": 5,
+          "location": "Main::main@6-10@/content/drive/MyDrive/xmainframe_final/p03643/s543414424.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 5,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 5.0
+      }
+    },
+    {
+      "problem_id": "p03644",
+      "java_file": "s553431056.java",
+      "functions": [
+        {
+          "nloc": 20,
+          "ccn": 5,
+          "token": 116,
+          "param": 1,
+          "length": 20,
+          "location": "Main::main@3-22@/content/drive/MyDrive/xmainframe_final/p03644/s553431056.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 20,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 20.0
+      }
+    },
+    {
+      "problem_id": "p03657",
+      "java_file": "s702302234.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 4,
+          "token": 120,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@3-15@/content/drive/MyDrive/xmainframe_final/p03657/s702302234.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p03671",
+      "java_file": "s750180504.java",
+      "functions": [
+        {
+          "nloc": 12,
+          "ccn": 2,
+          "token": 130,
+          "param": 1,
+          "length": 12,
+          "location": "Main::main@4-15@/content/drive/MyDrive/xmainframe_final/p03671/s750180504.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 12,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 12.0
+      }
+    },
+    {
+      "problem_id": "p03672",
+      "java_file": "s739811867.java",
+      "functions": [
+        {
+          "nloc": 22,
+          "ccn": 5,
+          "token": 152,
+          "param": 1,
+          "length": 22,
+          "location": "Main::main@3-24@/content/drive/MyDrive/xmainframe_final/p03672/s739811867.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 22,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 22.0
+      }
+    },
+    {
+      "problem_id": "p03679",
+      "java_file": "s440675024.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 3,
+          "token": 127,
+          "param": 1,
+          "length": 15,
+          "location": "Main::main@3-17@/content/drive/MyDrive/xmainframe_final/p03679/s440675024.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 15,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p03680",
+      "java_file": "s367463491.java",
+      "functions": [
+        {
+          "nloc": 22,
+          "ccn": 5,
+          "token": 165,
+          "param": 1,
+          "length": 22,
+          "location": "Main::main@3-24@/content/drive/MyDrive/xmainframe_final/p03680/s367463491.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 22,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 22.0
+      }
+    },
+    {
+      "problem_id": "p03694",
+      "java_file": "s519364543.java",
+      "functions": [
+        {
+          "nloc": 9,
+          "ccn": 1,
+          "token": 113,
+          "param": 1,
+          "length": 9,
+          "location": "Main::main@3-11@/content/drive/MyDrive/xmainframe_final/p03694/s519364543.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 9,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 9.0
+      }
+    },
+    {
+      "problem_id": "p03697",
+      "java_file": "s314775125.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 2,
+          "token": 110,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@4-16@/content/drive/MyDrive/xmainframe_final/p03697/s314775125.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p03698",
+      "java_file": "s489528160.java",
+      "functions": [
+        {
+          "nloc": 17,
+          "ccn": 4,
+          "token": 128,
+          "param": 1,
+          "length": 17,
+          "location": "Main::main@4-20@/content/drive/MyDrive/xmainframe_final/p03698/s489528160.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 17,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 17.0
+      }
+    },
+    {
+      "problem_id": "p03711",
+      "java_file": "s322750381.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 2,
+          "token": 112,
+          "param": 1,
+          "length": 16,
+          "location": "Main::main@4-19@/content/drive/MyDrive/xmainframe_final/p03711/s322750381.java"
+        },
+        {
+          "nloc": 16,
+          "ccn": 4,
+          "token": 68,
+          "param": 1,
+          "length": 16,
+          "location": "Main::getClassification@21-36@/content/drive/MyDrive/xmainframe_final/p03711/s322750381.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 30,
+        "total_ccn": 6,
+        "avg_ccn": 3.0,
+        "max_ccn": 4,
+        "function_count": 2,
+        "avg_function_length": 15.0
+      }
+    },
+    {
+      "problem_id": "p03712",
+      "java_file": "s238888380.java",
+      "functions": [
+        {
+          "nloc": 16,
+          "ccn": 3,
+          "token": 164,
+          "param": 1,
+          "length": 16,
+          "location": "Main::main@3-18@/content/drive/MyDrive/xmainframe_final/p03712/s238888380.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 16,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p03719",
+      "java_file": "s681020301.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 3,
+          "token": 113,
+          "param": 1,
+          "length": 14,
+          "location": "Main::main@4-17@/content/drive/MyDrive/xmainframe_final/p03719/s681020301.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p03720",
+      "java_file": "s098875618.java",
+      "functions": [
+        {
+          "nloc": 30,
+          "ccn": 6,
+          "token": 290,
+          "param": 1,
+          "length": 30,
+          "location": "Main::main@8-37@/content/drive/MyDrive/xmainframe_final/p03720/s098875618.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 30,
+        "total_ccn": 6,
+        "avg_ccn": 6.0,
+        "max_ccn": 6,
+        "function_count": 1,
+        "avg_function_length": 30.0
+      }
+    },
+    {
+      "problem_id": "p03729",
+      "java_file": "s327078584.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 3,
+          "token": 136,
+          "param": 1,
+          "length": 15,
+          "location": "Main::main@6-20@/content/drive/MyDrive/xmainframe_final/p03729/s327078584.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p03730",
+      "java_file": "s572313718.java",
+      "functions": [
+        {
+          "nloc": 24,
+          "ccn": 4,
+          "token": 164,
+          "param": 1,
+          "length": 24,
+          "location": "Main::main@3-26@/content/drive/MyDrive/xmainframe_final/p03730/s572313718.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 24,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 24.0
+      }
+    },
+    {
+      "problem_id": "p03737",
+      "java_file": "s387540551.java",
+      "functions": [
+        {
+          "nloc": 9,
+          "ccn": 1,
+          "token": 114,
+          "param": 1,
+          "length": 9,
+          "location": "Main::main@6-14@/content/drive/MyDrive/xmainframe_final/p03737/s387540551.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 9,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 9.0
+      }
+    },
+    {
+      "problem_id": "p03738",
+      "java_file": "s280160985.java",
+      "functions": [
+        {
+          "nloc": 23,
+          "ccn": 5,
+          "token": 204,
+          "param": 1,
+          "length": 23,
+          "location": "Main::main@3-25@/content/drive/MyDrive/xmainframe_final/p03738/s280160985.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 23,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 23.0
+      }
+    },
+    {
+      "problem_id": "p03759",
+      "java_file": "s220155735.java",
+      "functions": [
+        {
+          "nloc": 17,
+          "ccn": 2,
+          "token": 130,
+          "param": 1,
+          "length": 20,
+          "location": "Main::main@4-23@/content/drive/MyDrive/xmainframe_final/p03759/s220155735.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 17,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 17.0
+      }
+    },
+    {
+      "problem_id": "p03760",
+      "java_file": "s950301017.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 2,
+          "token": 114,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@3-15@/content/drive/MyDrive/xmainframe_final/p03760/s950301017.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p03773",
+      "java_file": "s174430499.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 2,
+          "token": 100,
+          "param": 1,
+          "length": 11,
+          "location": "Main::main@4-14@/content/drive/MyDrive/xmainframe_final/p03773/s174430499.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p03774",
+      "java_file": "s108395736.java",
+      "functions": [
+        {
+          "nloc": 41,
+          "ccn": 7,
+          "token": 382,
+          "param": 1,
+          "length": 41,
+          "location": "Main::main@8-48@/content/drive/MyDrive/xmainframe_final/p03774/s108395736.java"
+        },
+        {
+          "nloc": 4,
+          "ccn": 1,
+          "token": 22,
+          "param": 2,
+          "length": 4,
+          "location": "Point::Point@55-58@/content/drive/MyDrive/xmainframe_final/p03774/s108395736.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 45,
+        "total_ccn": 8,
+        "avg_ccn": 4.0,
+        "max_ccn": 7,
+        "function_count": 2,
+        "avg_function_length": 22.5
+      }
+    },
+    {
+      "problem_id": "p03777",
+      "java_file": "s562875340.java",
+      "functions": [
+        {
+          "nloc": 19,
+          "ccn": 4,
+          "token": 133,
+          "param": 1,
+          "length": 20,
+          "location": "Main::main@4-23@/content/drive/MyDrive/xmainframe_final/p03777/s562875340.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 19,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 19.0
+      }
+    },
+    {
+      "problem_id": "p03778",
+      "java_file": "s856499817.java",
+      "functions": [
+        {
+          "nloc": 20,
+          "ccn": 3,
+          "token": 144,
+          "param": 1,
+          "length": 20,
+          "location": "Main::main@3-22@/content/drive/MyDrive/xmainframe_final/p03778/s856499817.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 20,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 20.0
+      }
+    },
+    {
+      "problem_id": "p03795",
+      "java_file": "s249455063.java",
+      "functions": [
+        {
+          "nloc": 11,
+          "ccn": 1,
+          "token": 92,
+          "param": 1,
+          "length": 11,
+          "location": "Main::main@4-14@/content/drive/MyDrive/xmainframe_final/p03795/s249455063.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 11,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 11.0
+      }
+    },
+    {
+      "problem_id": "p03796",
+      "java_file": "s359999427.java",
+      "functions": [
+        {
+          "nloc": 17,
+          "ccn": 4,
+          "token": 117,
+          "param": 1,
+          "length": 21,
+          "location": "Main::main@4-24@/content/drive/MyDrive/xmainframe_final/p03796/s359999427.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 17,
+        "total_ccn": 4,
+        "avg_ccn": 4.0,
+        "max_ccn": 4,
+        "function_count": 1,
+        "avg_function_length": 17.0
+      }
+    },
+    {
+      "problem_id": "p03813",
+      "java_file": "s102841374.java",
+      "functions": [
+        {
+          "nloc": 3,
+          "ccn": 1,
+          "token": 17,
+          "param": 1,
+          "length": 3,
+          "location": "if@4-6@/content/drive/MyDrive/xmainframe_final/p03813/s102841374.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 3,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 3.0
+      }
+    },
+    {
+      "problem_id": "p03814",
+      "java_file": "s941389016.java",
+      "functions": [
+        {
+          "nloc": 21,
+          "ccn": 5,
+          "token": 149,
+          "param": 1,
+          "length": 21,
+          "location": "Main::main@6-26@/content/drive/MyDrive/xmainframe_final/p03814/s941389016.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 21,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 21.0
+      }
+    },
+    {
+      "problem_id": "p03826",
+      "java_file": "s467821232.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 1,
+          "token": 146,
+          "param": 1,
+          "length": 14,
+          "location": "Main::main@4-17@/content/drive/MyDrive/xmainframe_final/p03826/s467821232.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p03827",
+      "java_file": "s948838093.java",
+      "functions": [
+        {
+          "nloc": 16,
+          "ccn": 3,
+          "token": 106,
+          "param": 1,
+          "length": 16,
+          "location": "Main::main@4-19@/content/drive/MyDrive/xmainframe_final/p03827/s948838093.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 16,
+        "total_ccn": 3,
+        "avg_ccn": 3.0,
+        "max_ccn": 3,
+        "function_count": 1,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p03834",
+      "java_file": "s057191388.java",
+      "functions": [
+        {
+          "nloc": 5,
+          "ccn": 1,
+          "token": 45,
+          "param": 1,
+          "length": 5,
+          "location": "ABC051A::main@4-8@/content/drive/MyDrive/xmainframe_final/p03834/s057191388.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 5,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 5.0
+      }
+    },
+    {
+      "problem_id": "p03835",
+      "java_file": "s027126599.java",
+      "functions": [
+        {
+          "nloc": 19,
+          "ccn": 7,
+          "token": 157,
+          "param": 1,
+          "length": 23,
+          "location": "Main::main@4-26@/content/drive/MyDrive/xmainframe_final/p03835/s027126599.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 19,
+        "total_ccn": 7,
+        "avg_ccn": 7.0,
+        "max_ccn": 7,
+        "function_count": 1,
+        "avg_function_length": 19.0
+      }
+    },
+    {
+      "problem_id": "p03844",
+      "java_file": "s364962017.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 2,
+          "token": 115,
+          "param": 1,
+          "length": 14,
+          "location": "Main::main@3-16@/content/drive/MyDrive/xmainframe_final/p03844/s364962017.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p03845",
+      "java_file": "s448658911.java",
+      "functions": [
+        {
+          "nloc": 29,
+          "ccn": 5,
+          "token": 254,
+          "param": 1,
+          "length": 29,
+          "location": "Main::main@3-31@/content/drive/MyDrive/xmainframe_final/p03845/s448658911.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 29,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 29.0
+      }
+    },
+    {
+      "problem_id": "p03852",
+      "java_file": "s168424250.java",
+      "functions": [
+        {
+          "nloc": 9,
+          "ccn": 6,
+          "token": 89,
+          "param": 1,
+          "length": 9,
+          "location": "Main::main@3-11@/content/drive/MyDrive/xmainframe_final/p03852/s168424250.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 9,
+        "total_ccn": 6,
+        "avg_ccn": 6.0,
+        "max_ccn": 6,
+        "function_count": 1,
+        "avg_function_length": 9.0
+      }
+    },
+    {
+      "problem_id": "p03853",
+      "java_file": "s529692143.java",
+      "functions": [
+        {
+          "nloc": 13,
+          "ccn": 2,
+          "token": 122,
+          "param": 1,
+          "length": 13,
+          "location": "Main::main@6-18@/content/drive/MyDrive/xmainframe_final/p03853/s529692143.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 13,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 13.0
+      }
+    },
+    {
+      "problem_id": "p03860",
+      "java_file": "s186086663.java",
+      "functions": [
+        {
+          "nloc": 38,
+          "ccn": 7,
+          "token": 275,
+          "param": 1,
+          "length": 47,
+          "location": "Main::main@4-50@/content/drive/MyDrive/xmainframe_final/p03860/s186086663.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 38,
+        "total_ccn": 7,
+        "avg_ccn": 7.0,
+        "max_ccn": 7,
+        "function_count": 1,
+        "avg_function_length": 38.0
+      }
+    },
+    {
+      "problem_id": "p03861",
+      "java_file": "s533824771.java",
+      "functions": [
+        {
+          "nloc": 16,
+          "ccn": 2,
+          "token": 135,
+          "param": 1,
+          "length": 16,
+          "location": "Main::main@3-18@/content/drive/MyDrive/xmainframe_final/p03861/s533824771.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 16,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 16.0
+      }
+    },
+    {
+      "problem_id": "p03943",
+      "java_file": "s127402962.java",
+      "functions": [
+        {
+          "nloc": 20,
+          "ccn": 5,
+          "token": 160,
+          "param": 1,
+          "length": 20,
+          "location": "Main::main@3-22@/content/drive/MyDrive/xmainframe_final/p03943/s127402962.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 20,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 20.0
+      }
+    },
+    {
+      "problem_id": "p03944",
+      "java_file": "s222899973.java",
+      "functions": [
+        {
+          "nloc": 30,
+          "ccn": 9,
+          "token": 241,
+          "param": 1,
+          "length": 30,
+          "location": "Main::main@3-32@/content/drive/MyDrive/xmainframe_final/p03944/s222899973.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 30,
+        "total_ccn": 9,
+        "avg_ccn": 9.0,
+        "max_ccn": 9,
+        "function_count": 1,
+        "avg_function_length": 30.0
+      }
+    },
+    {
+      "problem_id": "p03962",
+      "java_file": "s031003625.java",
+      "functions": [
+        {
+          "nloc": 18,
+          "ccn": 9,
+          "token": 201,
+          "param": 1,
+          "length": 18,
+          "location": "Main::main@3-20@/content/drive/MyDrive/xmainframe_final/p03962/s031003625.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 18,
+        "total_ccn": 9,
+        "avg_ccn": 9.0,
+        "max_ccn": 9,
+        "function_count": 1,
+        "avg_function_length": 18.0
+      }
+    },
+    {
+      "problem_id": "p03963",
+      "java_file": "s308981732.java",
+      "functions": [
+        {
+          "nloc": 9,
+          "ccn": 1,
+          "token": 104,
+          "param": 1,
+          "length": 9,
+          "location": "Main::main@4-12@/content/drive/MyDrive/xmainframe_final/p03963/s308981732.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 9,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 9.0
+      }
+    },
+    {
+      "problem_id": "p03997",
+      "java_file": "s162261467.java",
+      "functions": [
+        {
+          "nloc": 8,
+          "ccn": 1,
+          "token": 72,
+          "param": 1,
+          "length": 8,
+          "location": "Main::main@4-11@/content/drive/MyDrive/xmainframe_final/p03997/s162261467.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 8,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 8.0
+      }
+    },
+    {
+      "problem_id": "p03998",
+      "java_file": "s276024934.java",
+      "functions": [
+        {
+          "nloc": 36,
+          "ccn": 7,
+          "token": 218,
+          "param": 1,
+          "length": 41,
+          "location": "Main::main@6-46@/content/drive/MyDrive/xmainframe_final/p03998/s276024934.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 36,
+        "total_ccn": 7,
+        "avg_ccn": 7.0,
+        "max_ccn": 7,
+        "function_count": 1,
+        "avg_function_length": 36.0
+      }
+    },
+    {
+      "problem_id": "p04011",
+      "java_file": "s009729033.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 2,
+          "token": 99,
+          "param": 1,
+          "length": 16,
+          "location": "TESTA::main@4-19@/content/drive/MyDrive/xmainframe_final/p04011/s009729033.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 2,
+        "avg_ccn": 2.0,
+        "max_ccn": 2,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p04012",
+      "java_file": "s018053102.java",
+      "functions": [
+        {
+          "nloc": 23,
+          "ccn": 9,
+          "token": 178,
+          "param": 1,
+          "length": 23,
+          "location": "Main::main@3-25@/content/drive/MyDrive/xmainframe_final/p04012/s018053102.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 23,
+        "total_ccn": 9,
+        "avg_ccn": 9.0,
+        "max_ccn": 9,
+        "function_count": 1,
+        "avg_function_length": 23.0
+      }
+    },
+    {
+      "problem_id": "p04029",
+      "java_file": "s018368309.java",
+      "functions": [
+        {
+          "nloc": 6,
+          "ccn": 1,
+          "token": 58,
+          "param": 1,
+          "length": 6,
+          "location": "Main::main@3-8@/content/drive/MyDrive/xmainframe_final/p04029/s018368309.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 6,
+        "total_ccn": 1,
+        "avg_ccn": 1.0,
+        "max_ccn": 1,
+        "function_count": 1,
+        "avg_function_length": 6.0
+      }
+    },
+    {
+      "problem_id": "p04030",
+      "java_file": "s295386615.java",
+      "functions": [
+        {
+          "nloc": 21,
+          "ccn": 5,
+          "token": 157,
+          "param": 1,
+          "length": 21,
+          "location": "Main::main@3-23@/content/drive/MyDrive/xmainframe_final/p04030/s295386615.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 21,
+        "total_ccn": 5,
+        "avg_ccn": 5.0,
+        "max_ccn": 5,
+        "function_count": 1,
+        "avg_function_length": 21.0
+      }
+    },
+    {
+      "problem_id": "p04043",
+      "java_file": "s255407276.java",
+      "functions": [
+        {
+          "nloc": 14,
+          "ccn": 7,
+          "token": 115,
+          "param": 1,
+          "length": 14,
+          "location": "Main::main@3-16@/content/drive/MyDrive/xmainframe_final/p04043/s255407276.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 14,
+        "total_ccn": 7,
+        "avg_ccn": 7.0,
+        "max_ccn": 7,
+        "function_count": 1,
+        "avg_function_length": 14.0
+      }
+    },
+    {
+      "problem_id": "p04044",
+      "java_file": "s357932257.java",
+      "functions": [
+        {
+          "nloc": 15,
+          "ccn": 3,
+          "token": 120,
+          "param": 1,
+          "length": 15,
+          "location": "Main::main@8-22@/content/drive/MyDrive/xmainframe_final/p04044/s357932257.java"
+        },
+        {
+          "nloc": 3,
+          "ccn": 1,
+          "token": 19,
+          "param": 0,
+          "length": 3,
+          "location": "FastScanner::FastScanner@31-33@/content/drive/MyDrive/xmainframe_final/p04044/s357932257.java"
+        },
+        {
+          "nloc": 10,
+          "ccn": 4,
+          "token": 56,
+          "param": 0,
+          "length": 10,
+          "location": "FastScanner::next@35-44@/content/drive/MyDrive/xmainframe_final/p04044/s357932257.java"
+        },
+        {
+          "nloc": 3,
+          "ccn": 1,
+          "token": 15,
+          "param": 0,
+          "length": 3,
+          "location": "FastScanner::nextInt@46-48@/content/drive/MyDrive/xmainframe_final/p04044/s357932257.java"
+        },
+        {
+          "nloc": 3,
+          "ccn": 1,
+          "token": 15,
+          "param": 0,
+          "length": 3,
+          "location": "FastScanner::nextLong@50-52@/content/drive/MyDrive/xmainframe_final/p04044/s357932257.java"
+        },
+        {
+          "nloc": 3,
+          "ccn": 1,
+          "token": 15,
+          "param": 0,
+          "length": 3,
+          "location": "FastScanner::nextDouble@54-56@/content/drive/MyDrive/xmainframe_final/p04044/s357932257.java"
+        },
+        {
+          "nloc": 7,
+          "ccn": 2,
+          "token": 56,
+          "param": 2,
+          "length": 7,
+          "location": "FastScanner::stringArray@58-64@/content/drive/MyDrive/xmainframe_final/p04044/s357932257.java"
+        }
+      ],
+      "file_summary": {
+        "total_nloc": 44,
+        "total_ccn": 13,
+        "avg_ccn": 1.8571428571428572,
+        "max_ccn": 4,
+        "function_count": 7,
+        "avg_function_length": 6.285714285714286
+      }
+    }
+  ]
+}

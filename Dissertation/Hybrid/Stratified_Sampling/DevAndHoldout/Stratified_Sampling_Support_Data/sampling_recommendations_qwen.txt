@@ -1,0 +1,156 @@
+================================================================================
+QWEN BUG TAXONOMY - SAMPLING RECOMMENDATIONS
+================================================================================
+
+Total Failures: 253
+
+--------------------------------------------------------------------------------
+PRIORITY 1: COMPILATION ERRORS (35 total)
+--------------------------------------------------------------------------------
+
+Group: Other (9 files)
+  Common COBOL constructs: data_types.PIC_X, data_types.PIC_9, control_flow.STOP_RUN
+
+  📋 INSPECT THESE 5 FILES:
+    1. p02657 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.STOP_RUN
+    2. p03636 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    3. p03378 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    4. p02583 - Has: data_types.PIC_X, data_types.PIC_9, data_types.COMP
+    5. p03486 - Has: data_types.PIC_X, data_types.PIC_9, data_types.PIC_V9
+
+Group: Undefined Symbol (22 files)
+  Common COBOL constructs: control_flow.STOP_RUN, string_operations.MOVE, io_operations.DISPLAY
+
+  📋 INSPECT THESE 5 FILES:
+    1. p02969 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.STOP_RUN
+    2. p02719 - Has: data_types.PIC_X, data_types.PIC_9, data_types.COMP
+    3. p03331 - Has: data_types.PIC_X, data_types.PIC_9, data_types.PIC_V9
+    4. p03408 - Has: data_types.PIC_X, data_types.PIC_9, data_types.PIC_S9
+    5. p02713 - Has: data_types.PIC_9, data_types.COMP, control_flow.PERFORM
+
+Group: Type Mismatch (4 files)
+  Common COBOL constructs: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+
+  📋 INSPECT THESE 4 FILES:
+    1. p02613 - Has: data_types.PIC_X, data_types.PIC_9, data_types.COMP
+    2. p02691 - Has: data_types.PIC_X, data_types.PIC_9, data_types.COMP
+    3. p02762 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    4. p03309 - Has: data_types.PIC_X, data_types.PIC_9, data_types.PIC_S9
+
+
+--------------------------------------------------------------------------------
+PRIORITY 2: RUNTIME ERRORS (74 total)
+--------------------------------------------------------------------------------
+
+Group: Array Index Exception (15 files)
+  Common COBOL constructs: control_flow.STOP_RUN, io_operations.ACCEPT, io_operations.DISPLAY
+
+  📋 INSPECT THESE 5 FILES:
+    1. p02759 - Has: data_types.PIC_9, control_flow.STOP_RUN, math_operations.COMPUTE
+    2. p02741 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.STOP_RUN
+    3. p02608 - Has: data_types.PIC_9, data_types.COMP, control_flow.PERFORM
+    4. p03658 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    5. p02946 - Has: data_types.PIC_X, data_types.PIC_9, data_types.PIC_S9
+
+Group: Number Format (20 files)
+  Common COBOL constructs: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+
+  📋 INSPECT THESE 5 FILES:
+    1. p03324 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    2. p03609 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    3. p03694 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    4. p03455 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    5. p02683 - Has: data_types.PIC_X, data_types.PIC_9, data_types.PIC_S9
+
+Group: Other Exception (18 files)
+  Common COBOL constructs: data_types.PIC_X, string_operations.MOVE, io_operations.ACCEPT
+
+  📋 INSPECT THESE 5 FILES:
+    1. p03359 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    2. p04043 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    3. p03337 - Has: data_types.PIC_X, data_types.PIC_9, data_types.PIC_S9
+    4. p02958 - Has: data_types.PIC_X, data_types.PIC_9, data_types.COMP
+    5. p02639 - Has: data_types.PIC_X, data_types.PIC_9, data_types.PIC_S9
+
+Group: Arithmetic Exception (1 files)
+  Common COBOL constructs: data_types.PIC_X, data_types.PIC_9, data_types.COMP
+
+  📋 INSPECT THESE 1 FILES:
+    1. p02642 - Has: data_types.PIC_X, data_types.PIC_9, data_types.COMP
+
+Group: Null Pointer (19 files)
+  Common COBOL constructs: data_types.PIC_9, control_flow.STOP_RUN, io_operations.ACCEPT
+
+  📋 INSPECT THESE 5 FILES:
+    1. p03473 - Has: data_types.PIC_9, control_flow.STOP_RUN, math_operations.SUBTRACT
+    2. p03192 - Has: data_types.PIC_9, control_flow.STOP_RUN, string_operations.INSPECT
+    3. p03470 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    4. p03338 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    5. p03012 - Has: data_types.PIC_X, data_types.PIC_9, data_types.PIC_V9
+
+Group: Timeout (1 files)
+  Common COBOL constructs: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+
+  📋 INSPECT THESE 1 FILES:
+    1. p02784 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+
+
+--------------------------------------------------------------------------------
+PRIORITY 3: TEST FAILURES - WRONG OUTPUT (144 total)
+--------------------------------------------------------------------------------
+
+Group: string operations.UNSTRING math operations.COMPUTE (33 files)
+  Common COBOL constructs: data_types.PIC_X, control_flow.STOP_RUN, string_operations.UNSTRING
+
+  📋 INSPECT THESE 5 FILES:
+    1. p03280 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    2. p03597 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    3. p03071 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.EVALUATE
+    4. p02945 - Has: data_types.PIC_X, data_types.PIC_S9, control_flow.STOP_RUN
+    5. p02951 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.IF
+
+Group: string operations.UNSTRING advanced features.FUNCTION (17 files)
+  Common COBOL constructs: data_types.PIC_X, control_flow.STOP_RUN, string_operations.UNSTRING
+
+  📋 INSPECT THESE 5 FILES:
+    1. p03737 - Has: data_types.PIC_X, control_flow.STOP_RUN, string_operations.UNSTRING
+    2. p03272 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    3. p03635 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    4. p03563 - Has: data_types.PIC_X, data_types.PIC_9, data_types.PIC_S9
+    5. p03307 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+
+Group: string operations.UNSTRING (16 files)
+  Common COBOL constructs: data_types.PIC_X, string_operations.UNSTRING, io_operations.ACCEPT
+
+  📋 INSPECT THESE 5 FILES:
+    1. p03547 - Has: data_types.PIC_X, control_flow.IF, control_flow.IF_ELSE
+    2. p03719 - Has: data_types.PIC_X, data_types.PIC_S9, control_flow.IF
+    3. p03679 - Has: data_types.PIC_X, data_types.PIC_9, data_types.PIC_S9
+    4. p02789 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.IF
+    5. p02693 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.IF
+
+Group: basic (14 files)
+  Common COBOL constructs: control_flow.STOP_RUN, io_operations.ACCEPT, io_operations.DISPLAY
+
+  📋 INSPECT THESE 5 FILES:
+    1. p03643 - Has: data_types.PIC_X, control_flow.STOP_RUN, io_operations.ACCEPT
+    2. p03605 - Has: data_types.PIC_X, control_flow.IF, control_flow.IF_ELSE
+    3. p03631 - Has: data_types.PIC_X, control_flow.IF, control_flow.IF_ELSE
+    4. p02552 - Has: data_types.PIC_9, control_flow.IF, control_flow.IF_ELSE
+    5. p02711 - Has: data_types.PIC_X, control_flow.IF, control_flow.IF_ELSE
+
+Group: string operations.UNSTRING control flow.PERFORM UNTIL (13 files)
+  Common COBOL constructs: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+
+  📋 INSPECT THESE 5 FILES:
+    1. p03853 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    2. p02640 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    3. p03281 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    4. p03644 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    5. p03598 - Has: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+
+
+================================================================================
+TOTAL RECOMMENDED SAMPLES: 61 files
+Coverage: 61/253 failures (24.1%)
+================================================================================

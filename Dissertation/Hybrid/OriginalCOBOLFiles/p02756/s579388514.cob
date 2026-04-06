@@ -1,0 +1,55 @@
+IDENTIFICATION DIVISION.
+PROGRAM-ID. 158B.
+
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+01 INP        PIC X(100).
+01 Q          PIC 9(6).
+
+01 POS1       PIC 9(6).
+01 POS2       PIC 9(6).
+01 FORMA.
+   03 FILLER  PIC X(200000).
+   03 S       PIC X(100000).
+   03 FILLER  PIC X(200000).
+01 T          PIC 9(1).
+01 F          PIC 9(1).
+01 C          PIC X(1).
+01 W          PIC X(1).
+01 I          PIC 9(6).
+*> 
+PROCEDURE DIVISION.
+MAIN-001.
+  ACCEPT S.
+  UNSTRING S DELIMITED BY ALL ' '
+      INTO S COUNT POS2.
+  COMPUTE POS1 = 1    + 200000.
+  COMPUTE POS2 = POS2 + 200000.
+*>  
+  ACCEPT Q.
+*>
+  PERFORM VARYING I FROM 1 BY 1
+            UNTIL I > Q
+    ACCEPT INP
+    UNSTRING INP DELIMITED BY ALL ' '
+        INTO T F C
+*>
+    IF (T = 1)
+      MOVE FORMA(POS1:1) TO W
+      MOVE FORMA(POS2:1) TO FORMA(POS1:1)
+      MOVE W             TO FORMA(POS2:1)
+    ELSE
+      IF (F = 1)
+        COMPUTE POS1 = POS1 - 1
+        MOVE C           TO FORMA(POS1:1)
+      ELSE
+        COMPUTE POS2 = POS2 + 1
+        MOVE C           TO FORMA(POS2:1)
+      END-IF
+    END-IF
+  END-PERFORM.
+
+  DISPLAY FORMA(POS1:POS2 - POS1 + 1).
+ 
+MAIN-EXIT.
+  STOP RUN.

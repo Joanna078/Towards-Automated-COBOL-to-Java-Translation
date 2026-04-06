@@ -1,0 +1,30 @@
+```java
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+
+public class ProgramId {
+    public static void main(String[] args) {
+        BigDecimal n = new BigDecimal("1234567890"); // Example value for N
+        BigDecimal dvd = BigDecimal.ONE;
+        BigDecimal c1 = calculate(n, dvd);
+        
+        dvd = BigDecimal.valueOf(3);
+        BigDecimal c3 = calculate(n, dvd);
+        
+        dvd = BigDecimal.valueOf(5);
+        BigDecimal c5 = calculate(n, dvd);
+        
+        dvd = BigDecimal.valueOf(15);
+        BigDecimal c15 = calculate(n, dvd);
+        
+        BigDecimal accum = c1.subtract(c3).subtract(c5).add(c15);
+        String zs = accum.toPlainString();
+        System.out.println(zs);
+    }
+
+    private static BigDecimal calculate(BigDecimal n, BigDecimal dvd) {
+        BigDecimal qt = n.divide(dvd, 0, RoundingMode.DOWN);
+        return (dvd.add(qt.multiply(dvd))).multiply(qt).divide(BigDecimal.valueOf(2), 0, RoundingMode.DOWN);
+    }
+}
+```

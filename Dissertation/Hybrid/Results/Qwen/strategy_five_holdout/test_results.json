@@ -1,0 +1,2966 @@
+[
+  {
+    "problem_id": "p02552",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02584",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 2\n... | got: Enter the input string:\n-000000000000002...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: Enter the input string:\n-2..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: Enter the input string:\n-2..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: Enter the input string:\n-2..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: Enter the input string:\n-000000000000002..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: Enter the input string:\n-000000000000002..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02614",
+    "passed": "Y",
+    "passed_on_iter": 4,
+    "iterations_tried": 4,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"java.io.Console.readLine()\" because the return value of \"java.lang.System.console()\" is null\n\tat Main.main(Main.java:16)"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 5\n... | got: Enter row 1: Enter row 2: 5..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 5\n... | got: Enter row 1: Enter row 2: 5..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02630",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02641",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"your_input_here\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat Main.main(Main.java:6)",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"your_input_here\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat Main.main(Main.java:6)"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"your_input_here\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat Main.main(Main.java:6)"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"your_input_here\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat Main.main(Main.java:6)"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"your_input_here\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat Main.main(Main.java:6)"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"your_input_here\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat Main.main(Main.java:6)"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02657",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02658",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02659",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 217\n... | got: 0000000000000217...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 217\n... | got: 0000000000000218..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 217\n... | got: 0000000000217.80..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 217\n... | got: 0000000000000218..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 217\n... | got: 0000000000000218..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 217\n... | got: 0000000000000217..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02681",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02688",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat ProgramID.main(ProgramID.java:6)",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"input\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat ProgramID.main(ProgramID.java:7)"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"input\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat ProgramID.main(ProgramID.java:7)"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat ProgramID.main(ProgramID.java:6)"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat ProgramID.main(ProgramID.java:6)"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat ProgramID.main(ProgramID.java:6)"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02690",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02700",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: No\n... | got: Enter value for ln: No...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: No\n... | got: Enter value for ln: No..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: No\n... | got: Enter value for ln: No..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: No\n... | got: Enter value for ln: No..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: No\n... | got: Enter value for ln: No..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: No\n... | got: Enter value for ln: No..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02705",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 6.2831... | got: Enter a value for R: 6.2832...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 6.2831... | got: Enter a value for R: 6.2832..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 6.2831... | got: Enter a value for R: 6.2832..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 6.2831... | got: Enter a value for R: 6.2832..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 6.2831... | got: Enter a value for R: 6.2832..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 6.2831... | got: Enter a value for R: 6.2832..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02707",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 2\n2\n0\n0\n0\n... | got: 4\n0\n0\n0\n0...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: offset 8, count 0, length 7\n\tat java.base/java.lang.String.checkBoundsOffCount(String.java:4591)\n\tat java.base/java.lang.String.rangeCheck(String.java:304)\n\tat java.base/java.lang.String.<init>(String.java:300)\n\tat Main.main(Main.java:24)"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n2\n0\n0\n0\n... | got: 4\n0\n0\n0\n0..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n2\n0\n0\n0\n... | got: 4\n0\n0\n0\n0..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n2\n0\n0\n0\n... | got: 4\n0\n0\n0\n0..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n2\n0\n0\n0\n... | got: 4\n0\n0\n0\n0..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02713",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 9\n... | got: 00001249...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: 00001249..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: 00001249..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: 00001249..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: 00001249..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: 00001249..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02714",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 1\n... | got: 00000001...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 1\n... | got: 00000001..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 1\n... | got: 00000001..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 1\n... | got: 00000001..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 1\n... | got: 00000001..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 1\n... | got: 00000001..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02718",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02727",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "compilation_error",
+    "error_details": "/tmp/temp_compile_v5/Main.java:77: error: cannot find symbol\n        while (px1 <= x && i1 < pa.length && pa[i1] >= pcK) {\n                      ^\n  symbol:   variable x\n  location: class Main\n/tmp/temp_compile_v5/Main.java:88: error: cannot find symbol\n        while (py1 <= y && j1 < pb.length && pb[j1] >= pcK) {\n                      ^\n  symbol:   variable y\n  location: class Main\n2 errors",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1\n\tat Main.main(Main.java:49)"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1\n\tat Main.main(Main.java:49)"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/Main.java:77: error: cannot find symbol\n        while (px1 <= x && i1 < pa.length && pa[i1] >= pcK) {\n                      ^\n  symbol:   variable x\n  location: class Main\n/tmp/temp_compile_v5/Main.java:88: error: cannot find symbol\n        while (py1 <= y && j1 < pb.length && pb[j1] >= pcK) {\n                      ^\n  symbol:   variable y\n  location: class Main\n2 errors"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/Main.java:77: error: cannot find symbol\n        while (px1 <= x && i1 < pa.length && pa[i1] >= pcK) {\n                      ^\n  symbol:   variable x\n  location: class Main\n/tmp/temp_compile_v5/Main.java:88: error: cannot find symbol\n        while (py1 <= y && j1 < pb.length && pb[j1] >= pcK) {\n                      ^\n  symbol:   variable y\n  location: class Main\n2 errors"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/Main.java:77: error: cannot find symbol\n        while (px1 <= x && i1 < pa.length && pa[i1] >= pcK) {\n                      ^\n  symbol:   variable x\n  location: class Main\n/tmp/temp_compile_v5/Main.java:88: error: cannot find symbol\n        while (py1 <= y && j1 < pb.length && pb[j1] >= pcK) {\n                      ^\n  symbol:   variable y\n  location: class Main\n2 errors"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02741",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat AKthTerm.main(AKthTerm.java:16)",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat AKthTerm.main(AKthTerm.java:15)"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat AKthTerm.main(AKthTerm.java:15)"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat AKthTerm.main(AKthTerm.java:16)"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat AKthTerm.main(AKthTerm.java:16)"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat AKthTerm.main(AKthTerm.java:16)"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02765",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 0800... | got: Enter value for A: Enter value for RATE: 3719...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 0800... | got: Enter value for A: Enter value for RATE: 3719..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 0800... | got: Enter value for A: Enter value for RATE: 3719..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 0800... | got: Enter value for A: Enter value for RATE: 3719..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 0800... | got: Enter value for A: Enter value for RATE: 3719..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 0800... | got: Enter value for A: Enter value for RATE: 3719..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02777",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 2 4\n... | got: 02 04...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2 4\n... | got: 02 04..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2 4\n... | got: 02 04..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2 4\n... | got: 02 04..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2 4\n... | got: 02 04..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2 4\n... | got: 02 04..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02778",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02784",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: begin 4, end 6, length 5\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)\n\tat java.base/java.lang.String.substring(String.java:2709)\n\tat ProgramId.main(ProgramId.java:31)",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"4 \"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat ProgramId.main(ProgramId.java:31)"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: begin 4, end 6, length 5\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)\n\tat java.base/java.lang.String.substring(String.java:2709)\n\tat ProgramId.main(ProgramId.java:31)"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: begin 4, end 6, length 5\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)\n\tat java.base/java.lang.String.substring(String.java:2709)\n\tat ProgramId.main(ProgramId.java:31)"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: begin 4, end 6, length 5\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)\n\tat java.base/java.lang.String.substring(String.java:2709)\n\tat ProgramId.main(ProgramId.java:31)"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: begin 4, end 6, length 5\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)\n\tat java.base/java.lang.String.substring(String.java:2709)\n\tat ProgramId.main(ProgramId.java:31)"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02885",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 4\n... | got: Enter a string:         4...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 4\n... | got: Enter a string:         4..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 4\n... | got: Enter a string:         4..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 4\n... | got: Enter a string:         4..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 4\n... | got: Enter a string:         4..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 4\n... | got: Enter a string:         4..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02897",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 0.5000000000\n... | got: Enter a number: 0.5000000000...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 0.5000000000\n... | got: Enter a number: Result: 0.5000000000..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 0.5000000000\n... | got: Enter a number: 0.5000000000..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 0.5000000000\n... | got: Enter a number: 0.5000000000..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 0.5000000000\n... | got: Enter a number: 0.5000000000..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 0.5000000000\n... | got: Enter a number: 0.5000000000..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02945",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: -0000000010... | got: -000000010...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: -0000000010... | got: -10..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: -0000000010... | got: -000000010..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: -0000000010... | got: -000000010..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: -0000000010... | got: -000000010..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: -0000000010... | got: -000000010..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02946",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 5 6 7 8 9\n... | got: 5  6  7  8  9  9...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 5 6 7 8 9\n... | got: 5  5  5  5  5  5..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 5 6 7 8 9\n... | got: 5  6  7  8  9  9..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 5 6 7 8 9\n... | got: 5  6  7  8  9  9..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 5 6 7 8 9\n... | got: 5  6  7  8  9  9..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 5 6 7 8 9\n... | got: 5  6  7  8  9  9..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02952",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 9\n... | got: Enter a number: 9...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: Enter a number: 9..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: Enter a number: 9..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: Enter a number: 9..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: Enter a number: 9..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: Enter a number: 9..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03000",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03029",
+    "passed": "Y",
+    "passed_on_iter": 3,
+    "iterations_tried": 3,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"example\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.math.BigInteger.<init>(BigInteger.java:544)\n\tat java.base/java.math.BigInteger.<init>(BigInteger.java:682)\n\tat AtCoder.main(AtCoder.java:10)"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2\n\tat AtCoder.main(AtCoder.java:13)"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03035",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03101",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 1\n... | got: Enter values for H1 W1: Enter values for H2 W2: 0001...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 1\n... | got: Enter values for H1 W1: Enter values for H2 W2: 0001..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 1\n... | got: Enter values for H1 W1: Enter values for H2 W2: 0001..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 1\n... | got: Enter values for H1 W1: Enter values for H2 W2: 0001..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 1\n... | got: Enter values for H1 W1: Enter values for H2 W2: 0001..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 1\n... | got: Enter values for H1 W1: Enter values for H2 W2: 0001..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03206",
+    "passed": "Y",
+    "passed_on_iter": 2,
+    "iterations_tried": 2,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: Christmas\n... | got: Enter a number: Christmas..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03242",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 991\n... | got: Enter a number: 191...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 991\n... | got: Enter a number: 191..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 991\n... | got: Enter a number: 191..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 991\n... | got: Enter a number: 191..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 991\n... | got: Enter a number: 191..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 991\n... | got: Enter a number: 191..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03246",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 1\n... | got: 3...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 1\n... | got: 4..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 1\n... | got: 3..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 1\n... | got: 3..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 1\n... | got: 3..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 1\n... | got: 3..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03251",
+    "passed": "Y",
+    "passed_on_iter": 3,
+    "iterations_tried": 3,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/ABC110B.java:18: error: cannot find symbol\n        int[] array = Arrays.stream(parts).mapToInt(Integer::parseInt).toArray();\n                      ^\n  symbol:   variable Arrays\n  location: class ABC110B\n1 error"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.util.NoSuchElementException: No line found\n\tat java.base/java.util.Scanner.nextLine(Scanner.java:1651)\n\tat ABC110B.main(ABC110B.java:32)"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03268",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 9\n... | got: Enter input: 00000000000000009...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: Enter input: 00000000000000009..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: Enter input: 00000000000000009..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: Enter input: 00000000000000009..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: Enter input: 00000000000000009..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: Enter input: 00000000000000009..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03273",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"example\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat ABC_107_B.main(ABC_107_B.java:7)",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"example\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat ABC_107_B.main(ABC_107_B.java:7)"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"example\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat ABC_107_B.main(ABC_107_B.java:7)"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"example\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat ABC_107_B.main(ABC_107_B.java:7)"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"example\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat ABC_107_B.main(ABC_107_B.java:7)"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"example\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat ABC_107_B.main(ABC_107_B.java:7)"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03284",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03287",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 3\n... | got: 2...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:678)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat ABC_105_D.main(ABC_105_D.java:25)"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 3\n... | got: 2..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 3\n... | got: 2..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 3\n... | got: 2..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 3\n... | got: 2..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03291",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 8\n... | got: ...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 8\n... | got: ..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 8\n... | got: 81..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 8\n... | got: ..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 8\n... | got: ..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 8\n... | got: ..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03296",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 2\n... | got: 1...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: 00..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: 0..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: 1..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: 1..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: 1..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03297",
+    "passed": "Y",
+    "passed_on_iter": 3,
+    "iterations_tried": 3,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/AGC_026_B.java:36: error: cannot find symbol\n        return BigInteger.valueOf(a).gcd(BigInteger.valueOf(b)).intValue();\n               ^\n  symbol:   variable BigInteger\n  location: class AGC_026_B\n/tmp/temp_compile_v5/AGC_026_B.java:36: error: cannot find symbol\n        return BigInteger.valueOf(a).gcd(BigInteger.valueOf(b)).intValue();\n                                         ^\n  symbol:   variable BigInteger\n  location: class AGC_026_B\n2 errors"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"1000000000000000000\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat AGC_026_B.main(AGC_026_B.java:11)"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03308",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 5\n... | got: 3000000000...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 5\n... | got: 3..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 5\n... | got: 3..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 5\n... | got: 3000000000..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 5\n... | got: 3000000000..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 5\n... | got: 3000000000..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03310",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5\n\tat ABC_102_D.f(ABC_102_D.java:82)\n\tat ABC_102_D.main(ABC_102_D.java:49)",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: 4..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5\n\tat ABC_102_D.main(ABC_102_D.java:54)"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5\n\tat ABC_102_D.f(ABC_102_D.java:82)\n\tat ABC_102_D.main(ABC_102_D.java:49)"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5\n\tat ABC_102_D.f(ABC_102_D.java:82)\n\tat ABC_102_D.main(ABC_102_D.java:49)"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5\n\tat ABC_102_D.f(ABC_102_D.java:82)\n\tat ABC_102_D.main(ABC_102_D.java:49)"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03317",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Runtime error: Exception in thread \"main\" java.util.NoSuchElementException: No line found\n\tat java.base/java.util.Scanner.nextLine(Scanner.java:1651)\n\tat ABC_101_C.main(ABC_101_C.java:23)",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/ABC_101_C.java:23: error: no suitable method found for next(char[])\n        scanner.next(inp2);\n               ^\n    method Scanner.next(String) is not applicable\n      (argument mismatch; char[] cannot be converted to String)\n    method Scanner.next(Pattern) is not applicable\n      (argument mismatch; char[] cannot be converted to Pattern)\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output\n1 error"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: begin 0, end 700000, length 6\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)\n\tat java.base/java.lang.String.getChars(String.java:1678)\n\tat ABC_101_C.main(ABC_101_C.java:24)"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.util.NoSuchElementException: No line found\n\tat java.base/java.util.Scanner.nextLine(Scanner.java:1651)\n\tat ABC_101_C.main(ABC_101_C.java:23)"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.util.NoSuchElementException: No line found\n\tat java.base/java.util.Scanner.nextLine(Scanner.java:1651)\n\tat ABC_101_C.main(ABC_101_C.java:23)"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.util.NoSuchElementException: No line found\n\tat java.base/java.util.Scanner.nextLine(Scanner.java:1651)\n\tat ABC_101_C.main(ABC_101_C.java:23)"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03324",
+    "passed": "Y",
+    "passed_on_iter": 5,
+    "iterations_tried": 5,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Long.parseLong(Long.java:721)\n\tat java.base/java.lang.Long.parseLong(Long.java:836)\n\tat ABC_100_B.main(ABC_100_B.java:24)"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Long.parseLong(Long.java:721)\n\tat java.base/java.lang.Long.parseLong(Long.java:836)\n\tat ABC_100_B.main(ABC_100_B.java:25)"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Long.parseLong(Long.java:721)\n\tat java.base/java.lang.Long.parseLong(Long.java:836)\n\tat ABC_100_B.main(ABC_100_B.java:25)"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.NumberFormatException: For input string: \"\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Long.parseLong(Long.java:721)\n\tat java.base/java.lang.Long.parseLong(Long.java:836)\n\tat ABC_100_B.main(ABC_100_B.java:25)"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03338",
+    "passed": "Y",
+    "passed_on_iter": 3,
+    "iterations_tried": 3,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/ABC_098_B.java:10: error: cannot find symbol\n        Arrays.fill(x, ' ');\n        ^\n  symbol:   variable Arrays\n  location: class ABC_098_B\n/tmp/temp_compile_v5/ABC_098_B.java:14: error: cannot find symbol\n        Arrays.fill(y, ' ');\n        ^\n  symbol:   variable Arrays\n  location: class ABC_098_B\n2 errors"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: 3..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03351",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: Yes\n... | got: Enter input string:\nYes...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: Yes\n... | got: Enter input string:\nNo..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: Yes\n... | got: Enter input string:\nNo..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: Yes\n... | got: Enter input string:\nNo..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/ABC_097_B.java:20: error: variable len might not have been initialized\n            while (j <= inp.length() && j - cur < len) {\n                                                  ^\n1 error"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: Yes\n... | got: Enter input string:\nYes..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03355",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100\n\tat Main.main(Main.java:37)",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: b\n... | got: ut_s..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: b\n... | got: ut_s..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: b\n... | got: _..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: b\n... | got: _..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100\n\tat Main.main(Main.java:37)"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03377",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03400",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 8\n... | got: 11...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 8\n... | got: 11..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 8\n... | got: 11..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 8\n... | got: 11..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 8\n... | got: 11..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 8\n... | got: 11..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03423",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 2\n... | got: 002...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: 02..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: 002..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: 002..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: 002..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: 002..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03486",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "compilation_error",
+    "error_details": "/tmp/temp_compile_v5/ABC_082_A.java:48: error: cannot find symbol\n        inp[i - 1] = ' '; // Corrected line\n            ^\n  symbol:   variable i\n  location: class ABC_082_A\n/tmp/temp_compile_v5/ABC_082_A.java:52: error: cannot find symbol\n        inp2[i - 1] = ' '; // Corrected line\n             ^\n  symbol:   variable i\n  location: class ABC_082_A\n2 errors",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/ABC_082_A.java:48: error: cannot find symbol\n        inp[i] = ' ';\n            ^\n  symbol:   variable i\n  location: class ABC_082_A\n/tmp/temp_compile_v5/ABC_082_A.java:52: error: cannot find symbol\n        inp2[i] = ' ';\n             ^\n  symbol:   variable i\n  location: class ABC_082_A\n2 errors"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/ABC_082_A.java:48: error: cannot find symbol\n        inp[i] = ' ';\n            ^\n  symbol:   variable i\n  location: class ABC_082_A\n/tmp/temp_compile_v5/ABC_082_A.java:52: error: cannot find symbol\n        inp2[i] = ' ';\n             ^\n  symbol:   variable i\n  location: class ABC_082_A\n2 errors"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/ABC_082_A.java:48: error: cannot find symbol\n        inp[i] = ' ';\n            ^\n  symbol:   variable i\n  location: class ABC_082_A\n/tmp/temp_compile_v5/ABC_082_A.java:52: error: cannot find symbol\n        inp2[i] = ' ';\n             ^\n  symbol:   variable i\n  location: class ABC_082_A\n2 errors"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/ABC_082_A.java:48: error: cannot find symbol\n        inp[i] = ' '; // Corrected line\n            ^\n  symbol:   variable i\n  location: class ABC_082_A\n/tmp/temp_compile_v5/ABC_082_A.java:52: error: cannot find symbol\n        inp2[i] = ' '; // Corrected line\n             ^\n  symbol:   variable i\n  location: class ABC_082_A\n2 errors"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/ABC_082_A.java:48: error: cannot find symbol\n        inp[i - 1] = ' '; // Corrected line\n            ^\n  symbol:   variable i\n  location: class ABC_082_A\n/tmp/temp_compile_v5/ABC_082_A.java:52: error: cannot find symbol\n        inp2[i - 1] = ' '; // Corrected line\n             ^\n  symbol:   variable i\n  location: class ABC_082_A\n2 errors"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03501",
+    "passed": "Y",
+    "passed_on_iter": 4,
+    "iterations_tried": 4,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 119\n... | got: 0119..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 119\n... | got: 0119..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 119\n... | got: 0119..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03502",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03556",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 9\n... | got: Enter a number: 10...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: Enter a number: 00000000010..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: Enter a number: 10..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: Enter a number: 10..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: begin 0, end 10, length 2\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)\n\tat java.base/java.lang.String.substring(String.java:2709)\n\tat ABC_077_B.main(ABC_077_B.java:20)"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: Enter a number: 10..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03598",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 4\n... | got: 000004...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 4\n... | got: 000004..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 4\n... | got: 000004..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 4\n... | got: 000004..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 4\n... | got: 000000..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 4\n... | got: 000004..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03605",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03635",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 6\n... | got: Enter input (format: XX YY): 6000...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 6\n... | got: Enter input (format: XX YY): 6000..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 6\n... | got: Enter input (format: XX YY): 6000..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 6\n... | got: Enter input (format: XX YY): 6000..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 6\n... | got: Enter input (format: XX YY): 6000..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 6\n... | got: Enter input (format: XX YY): 6000..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03644",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 4\n... | got: 0004...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 4\n... | got: 0004..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 4\n... | got: 0004..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 4\n... | got: 0004..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 4\n... | got: 0004..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 4\n... | got: 0004..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03711",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03737",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03738",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03777",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: H\n... | got: Enter three characters: D...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: H\n... | got: Enter three characters: D..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: H\n... | got: Enter three characters: D..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: H\n... | got: Enter three characters: H..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: H\n... | got: Enter three characters: D..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: H\n... | got: Enter three characters: D..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03814",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 5\n... | got: 000000...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 5\n... | got: 000001..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 5\n... | got: 000001..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 5\n... | got: 000001..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 5\n... | got: 000000..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 5\n... | got: 000000..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03834",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03845",
+    "passed": "Y",
+    "passed_on_iter": 3,
+    "iterations_tried": 3,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 6\n9\n... | got: ..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 6\n9\n... | got: 00000006\n00000009..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03853",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: *.\n*.\n.*\n.*\n... | got: Enter input: Enter string: *.\n*.\nEnter string: .*\n.*...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: *.\n*.\n.*\n.*\n... | got: Enter input: Enter string: *.\n*.\nEnter string: *..*\n*..*..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: *.\n*.\n.*\n.*\n... | got: Enter input: Enter string: *.\n*.\nEnter string: .*\n.*..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: *.\n*.\n.*\n.*\n... | got: Enter input: Enter string: *.\n*.\nEnter string: .*\n.*..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: *.\n*.\n.*\n.*\n... | got: Enter input: Enter string: *.\n*.\nEnter string: .*\n.*..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: *.\n*.\n.*\n.*\n... | got: Enter input: Enter string: *.\n*.\nEnter string: .*\n.*..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03943",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03963",
+    "passed": "Y",
+    "passed_on_iter": 3,
+    "iterations_tried": 3,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: 0000000002..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 2\n... | got: 000000002..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03998",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p04011",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 48000\n... | got: 000048000...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 48000\n... | got: 000048000..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 48000\n... | got: 000048000..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 48000\n... | got: 000048000..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 48000\n... | got: 000048000..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 48000\n... | got: 000048000..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p04029",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 6\n... | got: 0006...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 6\n... | got: 0006..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 6\n... | got: 0006..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 6\n... | got: 0006..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 6\n... | got: 0006..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 6\n... | got: 0006..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p04030",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 00\n... | got: Enter string of length up to 10 characters:\n00...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 00\n... | got: Enter string of length up to 10 characters:\n00..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 00\n... | got: Enter string of length up to 10 characters:\n00..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 00\n... | got: Enter string of length up to 10 characters:\n00..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 00\n... | got: Enter string of length up to 10 characters:\n00..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 00\n... | got: Enter string of length up to 10 characters:\n00..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p04043",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: YES\n... | got: NO...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: YES\n... | got: NO..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: YES\n... | got: NO..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: YES\n... | got: NO..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: YES\n... | got: NO..."
+      }
+    ]
+  }
+]

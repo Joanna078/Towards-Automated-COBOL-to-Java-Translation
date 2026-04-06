@@ -1,0 +1,16 @@
+      IDENTIFICATION DIVISION.
+      PROGRAM-ID. 145A.
+      DATA DIVISION.
+      WORKING-STORAGE SECTION.
+      01 INP PIC X(3).
+      01 R   PIC 9(3).
+      01 ANS PIC ZZZZZZ9.
+
+      PROCEDURE DIVISION.
+      ACCEPT INP.
+      MOVE INP TO R.
+      COMPUTE ANS = R * R
+      
+      DISPLAY FUNCTION TRIM(ANS).
+      
+      STOP RUN.

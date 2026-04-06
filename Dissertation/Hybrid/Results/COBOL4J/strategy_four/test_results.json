@@ -1,0 +1,734 @@
+[
+  {
+    "problem_id": "p02630",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02639",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02642",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "compilation_error",
+    "error_details": "/tmp/temp_compile_v5/_3170D.java:338: error: illegal start of type\n    },\n     ^\n/tmp/temp_compile_v5/_3170D.java:338: error: <identifier> expected\n    },\n      ^\n/tmp/temp_compile_v5/_3170D.java:340: error: invalid method declaration; return type required\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n        ^\n/tmp/temp_compile_v5/_3170D.java:340: error: <identifier> expected\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                            ^\n/tmp/temp_compile_v5/_3170D.java:340: error: <identifier> expected\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                                                          ^\n/tmp/temp_compile_v5/_3170D.java:341: error: illegal start of expression\n      public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {\n      ^\n6 errors",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/_3170D.java:338: error: illegal start of type\n    },\n     ^\n/tmp/temp_compile_v5/_3170D.java:338: error: <identifier> expected\n    },\n      ^\n/tmp/temp_compile_v5/_3170D.java:340: error: invalid method declaration; return type required\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n        ^\n/tmp/temp_compile_v5/_3170D.java:340: error: <identifier> expected\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                            ^\n/tmp/temp_compile_v5/_3170D.java:340: error: <identifier> expected\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                                                          ^\n/tmp/temp_compile_v5/_3170D.java:341: error: illegal start of expression\n      public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {\n      ^\n6 errors"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/_3170D.java:338: error: illegal start of type\n    },\n     ^\n/tmp/temp_compile_v5/_3170D.java:338: error: <identifier> expected\n    },\n      ^\n/tmp/temp_compile_v5/_3170D.java:340: error: invalid method declaration; return type required\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n        ^\n/tmp/temp_compile_v5/_3170D.java:340: error: <identifier> expected\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                            ^\n/tmp/temp_compile_v5/_3170D.java:340: error: <identifier> expected\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                                                          ^\n/tmp/temp_compile_v5/_3170D.java:341: error: illegal start of expression\n      public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {\n      ^\n6 errors"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/_3170D.java:338: error: illegal start of type\n    },\n     ^\n/tmp/temp_compile_v5/_3170D.java:338: error: <identifier> expected\n    },\n      ^\n/tmp/temp_compile_v5/_3170D.java:340: error: invalid method declaration; return type required\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n        ^\n/tmp/temp_compile_v5/_3170D.java:340: error: <identifier> expected\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                            ^\n/tmp/temp_compile_v5/_3170D.java:340: error: <identifier> expected\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                                                          ^\n/tmp/temp_compile_v5/_3170D.java:341: error: illegal start of expression\n      public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {\n      ^\n6 errors"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/_3170D.java:338: error: illegal start of type\n    },\n     ^\n/tmp/temp_compile_v5/_3170D.java:338: error: <identifier> expected\n    },\n      ^\n/tmp/temp_compile_v5/_3170D.java:340: error: invalid method declaration; return type required\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n        ^\n/tmp/temp_compile_v5/_3170D.java:340: error: <identifier> expected\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                            ^\n/tmp/temp_compile_v5/_3170D.java:340: error: <identifier> expected\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                                                          ^\n/tmp/temp_compile_v5/_3170D.java:341: error: illegal start of expression\n      public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {\n      ^\n6 errors"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02658",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "compilation",
+    "error_details": "/content/temp_compile/PROGRAM_ID.java:206: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error",
+    "history": []
+  },
+  {
+    "problem_id": "p02664",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "runtime",
+    "error_details": "Execution timeout (>5s)",
+    "history": []
+  },
+  {
+    "problem_id": "p02688",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "compilation",
+    "error_details": "/content/temp_compile/PROGRAM_ID.java:167: error: incompatible types: possible lossy conversion from long to int\n            for (int n1 = b_maxlen.bswap_64(); n1 > 0; n1--)\n                                           ^\n1 error",
+    "history": []
+  },
+  {
+    "problem_id": "p02691",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "runtime",
+    "error_details": "Execution timeout (>5s)",
+    "history": []
+  },
+  {
+    "problem_id": "p02707",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "runtime",
+    "error_details": "Execution timeout (>5s)",
+    "history": []
+  },
+  {
+    "problem_id": "p02732",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "runtime",
+    "error_details": "Execution timeout (>5s)",
+    "history": []
+  },
+  {
+    "problem_id": "p02784",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "runtime",
+    "error_details": "Execution timeout (>5s)",
+    "history": []
+  },
+  {
+    "problem_id": "p02848",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "runtime",
+    "error_details": "Execution timeout (>5s)",
+    "history": []
+  },
+  {
+    "problem_id": "p02881",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "runtime",
+    "error_details": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"jp.osscons.opensourcecobol.libcobj.data.CobolDecimal.getValue()\" because \"decimal\" is null\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDecimal.setField(CobolDecimal.java:265)\n\tat AtCoder$4$2.run(AtCoder.java:205)\n\tat AtCoder$4.run(AtCoder.java:216)\n\tat AtCoder.execEntry(AtCoder.java:256)\n\tat AtCoder.run_module(AtCoder.java:103)\n\tat AtCoder.AtCoder_(AtCoder.java:44)\n\tat AtCoder.main(AtCoder.java:264)",
+    "history": []
+  },
+  {
+    "problem_id": "p02886",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "compilation",
+    "error_details": "/content/temp_compile/PROGRAM_ID.java:148: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error",
+    "history": []
+  },
+  {
+    "problem_id": "p02898",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "compilation",
+    "error_details": "/content/temp_compile/PROGRAM_ID.java:217: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error",
+    "history": []
+  },
+  {
+    "problem_id": "p02958",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "compilation",
+    "error_details": "/content/temp_compile/PROGRAM_ID.java:144: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error",
+    "history": []
+  },
+  {
+    "problem_id": "p02982",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "compilation",
+    "error_details": "/content/temp_compile/PROGRAM_ID.java:182: error: incompatible types: possible lossy conversion from long to int\n            for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                           ^\n1 error",
+    "history": []
+  },
+  {
+    "problem_id": "p03073",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "runtime",
+    "error_details": "Execution timeout (>5s)",
+    "history": []
+  },
+  {
+    "problem_id": "p03107",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "runtime",
+    "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100000\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _30303A$4.run(_30303A.java:149)\n\tat _30303A.execEntry(_30303A.java:266)\n\tat _30303A.run_module(_30303A.java:99)\n\tat _30303A._30303A_(_30303A.java:44)\n\tat _30303A.main(_30303A.java:274)",
+    "history": []
+  },
+  {
+    "problem_id": "p03246",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "runtime",
+    "error_details": "Execution timeout (>5s)",
+    "history": []
+  },
+  {
+    "problem_id": "p03274",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "runtime",
+    "error_details": "Execution timeout (>5s)",
+    "history": []
+  },
+  {
+    "problem_id": "p03275",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "compilation",
+    "error_details": "/content/temp_compile/ABC_107_D.java:616: error: variable b_RETURN_CODE is already defined in class ABC_107_D\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_107_D.java:617: error: variable b_INF is already defined in class ABC_107_D\n  private CobolDataStorage b_INF;\t/* INF */\n                           ^\n/content/temp_compile/ABC_107_D.java:619: error: variable b_Z is already defined in class ABC_107_D\n  private CobolDataStorage b_Z;\t/* Z */\n                           ^\n/content/temp_compile/ABC_107_D.java:621: error: variable b_RETURN_CODE is already defined in class ABC_107_D\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_107_D.java:622: error: variable b_BNY is already defined in class ABC_107_D\n  private CobolDataStorage b_BNY;\t/* BNY */\n                           ^\n/content/temp_compile/ABC_107_D.java:627: error: variable b_RETURN_CODE is already defined in class ABC_107_D\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_107_D.java:628: error: variable b_N is already defined in class ABC_107_D\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/ABC_107_D.java:629: error: variable b_M is already defined in class ABC_107_D\n  private CobolDataStorage b_M;\t/* M */\n                           ^\n/content/temp_compile/ABC_107_D.java:633: error: variable b_tmp is already defined in class ABC_107_D\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/ABC_107_D.java:634: error: variable b_x is already defined in class ABC_107_D\n  private CobolDataStorage b_x;\t/* x */\n                           ^\n/content/temp_compile/ABC_107_D.java:636: error: variable b_RETURN_CODE is already defined in class ABC_107_D\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_107_D.java:637: error: variable b_N is already defined in class ABC_107_D\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/ABC_107_D.java:638: error: variable b_BT1 is already defined in class ABC_107_D\n  private CobolDataStorage b_BT1;\t/* BT1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:639: error: variable b_BX1 is already defined in class ABC_107_D\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:640: error: variable b_BX2 is already defined in class ABC_107_D\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/ABC_107_D.java:641: error: variable b_tmp is already defined in class ABC_107_D\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/ABC_107_D.java:642: error: variable b_x is already defined in class ABC_107_D\n  private CobolDataStorage b_x;\t/* x */\n                           ^\n/content/temp_compile/ABC_107_D.java:644: error: variable b_RETURN_CODE is already defined in class ABC_107_D\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_107_D.java:645: error: variable b_Z is already defined in class ABC_107_D\n  private CobolDataStorage b_Z;\t/* Z */\n                           ^\n/content/temp_compile/ABC_107_D.java:646: error: variable b_N is already defined in class ABC_107_D\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/ABC_107_D.java:647: error: variable b_M is already defined in class ABC_107_D\n  private CobolDataStorage b_M;\t/* M */\n                           ^\n/content/temp_compile/ABC_107_D.java:648: error: variable b_BT1 is already defined in class ABC_107_D\n  private CobolDataStorage b_BT1;\t/* BT1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:649: error: variable b_BX1 is already defined in class ABC_107_D\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:650: error: variable b_BX2 is already defined in class ABC_107_D\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/ABC_107_D.java:651: error: variable b_x1 is already defined in class ABC_107_D\n  private CobolDataStorage b_x1;\t/* x1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:652: error: variable b_XX1 is already defined in class ABC_107_D\n  private CobolDataStorage b_XX1;\t/* XX1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:653: error: variable b_XX2 is already defined in class ABC_107_D\n  private CobolDataStorage b_XX2;\t/* XX2 */\n                           ^\n/content/temp_compile/ABC_107_D.java:661: error: variable b_RETURN_CODE is already defined in class ABC_107_D\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_107_D.java:662: error: variable b_INF is already defined in class ABC_107_D\n  private CobolDataStorage b_INF;\t/* INF */\n                           ^\n/content/temp_compile/ABC_107_D.java:663: error: variable b_N is already defined in class ABC_107_D\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/ABC_107_D.java:664: error: variable b_tmp is already defined in class ABC_107_D\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/ABC_107_D.java:666: error: variable b_r is already defined in class ABC_107_D\n  private CobolDataStorage b_r;\t/* r */\n                           ^\n/content/temp_compile/ABC_107_D.java:669: error: variable b_BX1 is already defined in class ABC_107_D\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:670: error: variable b_BX2 is already defined in class ABC_107_D\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/ABC_107_D.java:671: error: variable b_d_ret is already defined in class ABC_107_D\n  private CobolDataStorage b_d_ret;\t/* d_ret */\n                           ^\n/content/temp_compile/ABC_107_D.java:690: error: variable f_Z is already defined in class ABC_107_D\n  private AbstractCobolField f_Z;\t/* Z */\n                             ^\n/content/temp_compile/ABC_107_D.java:701: error: variable f_tmp is already defined in class ABC_107_D\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/ABC_107_D.java:702: error: variable f_x is already defined in class ABC_107_D\n  private AbstractCobolField f_x;\t/* x */\n                             ^\n/content/temp_compile/ABC_107_D.java:703: error: variable f_d_ret is already defined in class ABC_107_D\n  private AbstractCobolField f_d_ret;\t/* d_ret */\n                             ^\n/content/temp_compile/ABC_107_D.java:706: error: variable f_x is already defined in class ABC_107_D\n  private AbstractCobolField f_x;\t/* x */\n                             ^\n/content/temp_compile/ABC_107_D.java:707: error: variable f_tmp is already defined in class ABC_107_D\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/ABC_107_D.java:711: error: variable f_INF is already defined in class ABC_107_D\n  private AbstractCobolField f_INF;\t/* INF */\n                             ^\n/content/temp_compile/ABC_107_D.java:712: error: variable f_tmp is already defined in class ABC_107_D\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/ABC_107_D.java:714: error: variable f_r is already defined in class ABC_107_D\n  private AbstractCobolField f_r;\t/* r */\n                             ^\n/content/temp_compile/ABC_107_D.java:717: error: variable f_d_ret is already defined in class ABC_107_D\n  private AbstractCobolField f_d_ret;\t/* d_ret */\n                             ^\n45 errors",
+    "history": []
+  },
+  {
+    "problem_id": "p03276",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "compilation",
+    "error_details": "/content/temp_compile/F.java:401: error: variable b_RETURN_CODE is already defined in class F\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/F.java:403: error: variable b_N is already defined in class F\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/F.java:409: error: variable b_BX1 is already defined in class F\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/F.java:410: error: variable b_BX2 is already defined in class F\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/F.java:453: error: variable f_d_ret is already defined in class F\n  private AbstractCobolField f_d_ret;\n                             ^\n/content/temp_compile/F.java:454: error: variable b_d_ret is already defined in class F\n  private CobolDataStorage b_d_ret;\n                           ^\n6 errors",
+    "history": []
+  },
+  {
+    "problem_id": "p03280",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "runtime",
+    "error_details": "Execution timeout (>5s)",
+    "history": []
+  },
+  {
+    "problem_id": "p03283",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "compilation",
+    "error_details": "/content/temp_compile/BIT_ADD.java:371: error: variable b_RETURN_CODE is already defined in class BIT_ADD\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/BIT_ADD.java:372: error: variable b_N is already defined in class BIT_ADD\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/BIT_ADD.java:373: error: variable b_BT1 is already defined in class BIT_ADD\n  private CobolDataStorage b_BT1;\t/* BT1 */\n                           ^\n/content/temp_compile/BIT_ADD.java:374: error: variable b_BX1 is already defined in class BIT_ADD\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/BIT_ADD.java:375: error: variable b_BX2 is already defined in class BIT_ADD\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/BIT_ADD.java:376: error: variable b_tmp is already defined in class BIT_ADD\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/BIT_ADD.java:377: error: variable b_x is already defined in class BIT_ADD\n  private CobolDataStorage b_x;\t/* x */\n                           ^\n/content/temp_compile/BIT_ADD.java:379: error: variable b_RETURN_CODE is already defined in class BIT_ADD\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/BIT_ADD.java:381: error: variable b_N is already defined in class BIT_ADD\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/BIT_ADD.java:382: error: variable b_M is already defined in class BIT_ADD\n  private CobolDataStorage b_M;\t/* M */\n                           ^\n/content/temp_compile/BIT_ADD.java:383: error: variable b_BT1 is already defined in class BIT_ADD\n  private CobolDataStorage b_BT1;\t/* BT1 */\n                           ^\n/content/temp_compile/BIT_ADD.java:384: error: variable b_BX1 is already defined in class BIT_ADD\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/BIT_ADD.java:385: error: variable b_BX2 is already defined in class BIT_ADD\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/BIT_ADD.java:396: error: variable b_RETURN_CODE is already defined in class BIT_ADD\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/BIT_ADD.java:398: error: variable b_N is already defined in class BIT_ADD\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/BIT_ADD.java:399: error: variable b_tmp is already defined in class BIT_ADD\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/BIT_ADD.java:404: error: variable b_BX1 is already defined in class BIT_ADD\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/BIT_ADD.java:405: error: variable b_BX2 is already defined in class BIT_ADD\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/BIT_ADD.java:423: error: variable f_tmp is already defined in class BIT_ADD\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/BIT_ADD.java:424: error: variable f_x is already defined in class BIT_ADD\n  private AbstractCobolField f_x;\t/* x */\n                             ^\n/content/temp_compile/BIT_ADD.java:428: error: variable f_tmp is already defined in class BIT_ADD\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/BIT_ADD.java:433: error: variable f_d_ret is already defined in class BIT_ADD\n  private AbstractCobolField f_d_ret;\t/* d_ret */\n                             ^\n22 errors",
+    "history": []
+  },
+  {
+    "problem_id": "p03287",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "runtime",
+    "error_details": "Execution timeout (>5s)",
+    "history": []
+  },
+  {
+    "problem_id": "p03290",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "compilation",
+    "error_details": "/content/temp_compile/B_TABLE.java:360: error: variable b_RETURN_CODE is already defined in class B_TABLE\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/B_TABLE.java:363: error: variable b_HXD is already defined in class B_TABLE\n  private CobolDataStorage b_HXD;\t/* HXD */\n                           ^\n/content/temp_compile/B_TABLE.java:364: error: variable b_i is already defined in class B_TABLE\n  private CobolDataStorage b_i;\t/* i */\n                           ^\n/content/temp_compile/B_TABLE.java:365: error: variable b_j is already defined in class B_TABLE\n  private CobolDataStorage b_j;\t/* j */\n                           ^\n/content/temp_compile/B_TABLE.java:368: error: variable b_q is already defined in class B_TABLE\n  private CobolDataStorage b_q;\t/* q */\n                           ^\n/content/temp_compile/B_TABLE.java:369: error: variable b_r is already defined in class B_TABLE\n  private CobolDataStorage b_r;\t/* r */\n                           ^\n/content/temp_compile/B_TABLE.java:370: error: variable b_B_TBL1 is already defined in class B_TABLE\n  private CobolDataStorage b_B_TBL1;\t/* B_TBL1 */\n                           ^\n/content/temp_compile/B_TABLE.java:390: error: variable f_i is already defined in class B_TABLE\n  private AbstractCobolField f_i;\t/* i */\n                             ^\n/content/temp_compile/B_TABLE.java:392: error: variable f_q is already defined in class B_TABLE\n  private AbstractCobolField f_q;\t/* q */\n                             ^\n/content/temp_compile/B_TABLE.java:393: error: variable f_r is already defined in class B_TABLE\n  private AbstractCobolField f_r;\t/* r */\n                             ^\n10 errors",
+    "history": []
+  },
+  {
+    "problem_id": "p03291",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "runtime",
+    "error_details": "Execution timeout (>5s)",
+    "history": []
+  },
+  {
+    "problem_id": "p03309",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 0,
+    "error_type": "compilation",
+    "error_details": "/content/temp_compile/GCD.java:271: error: variable b_RETURN_CODE is already defined in class GCD\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/GCD.java:290: error: variable f_d_ret is already defined in class GCD\n  private AbstractCobolField f_d_ret;\t/* d_ret */\n                             ^\n/content/temp_compile/GCD.java:304: error: variable f_d_b is already defined in class GCD\n  private AbstractCobolField f_d_b;\n                             ^\n/content/temp_compile/GCD.java:306: error: variable f_d_a is already defined in class GCD\n  private AbstractCobolField f_d_a;\n                             ^\n4 errors",
+    "history": []
+  },
+  {
+    "problem_id": "p03310",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 4,
+    "error_type": "exception",
+    "error_details": "CUDA out of memory. Tried to allocate 64.00 MiB. GPU 0 has a total capacity of 15.60 GiB of which 48.06 MiB is free. Including non-PyTorch memory, this process has 15.52 GiB memory in use. Of the allocated memory 15.09 GiB is allocated by PyTorch, and 179.62 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/ABC_102_D.java:118: error: method makeCobolFileInstance in class CobolFileFactory cannot be applied to given types;\n      h_SYSIN = CobolFileFactory.makeCobolFileInstance(\n                                ^\n  required: String,byte[],AbstractCobolField,AbstractCobolField,AbstractCobolField,int,int,int,CobolFileKey[],char,char,char,char,boolean,char,char,boolean,boolean,boolean,char,boolean,char,boolean,boolean,char\n  found:    String,byte[],<null>,AbstractCobolField,<null>,int,int,int,<null>,char,char,char,char,boolean,boolean,boolean,boolean,char,boolean,char,boolean,boolean,char\n  reason: actual and formal argument lists differ in length\n1 error"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/ABC_102_D.java:118: error: method makeCobolFileInstance in class CobolFileFactory cannot be applied to given types;\n      h_SYSIN = CobolFileFactory.makeCobolFileInstance(\n                                ^\n  required: String,byte[],AbstractCobolField,AbstractCobolField,AbstractCobolField,int,int,int,CobolFileKey[],char,char,char,char,boolean,char,char,boolean,boolean,boolean,char,boolean,char,boolean,boolean,char\n  found:    String,byte[],<null>,AbstractCobolField,int,int,int,int,<null>,char,char,char,char,boolean,boolean,boolean,boolean,char,boolean,char,boolean,boolean,char\n  reason: actual and formal argument lists differ in length\n1 error"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/ABC_102_D.java:118: error: method makeCobolFileInstance in class CobolFileFactory cannot be applied to given types;\n      h_SYSIN = CobolFileFactory.makeCobolFileInstance(\n                                ^\n  required: String,byte[],AbstractCobolField,AbstractCobolField,AbstractCobolField,int,int,int,CobolFileKey[],char,char,char,char,boolean,char,char,boolean,boolean,boolean,char,boolean,char,boolean,boolean,char\n  found:    String,byte[],<null>,AbstractCobolField,int,int,int,int,<null>,char,char,char,char,boolean,boolean,boolean,boolean,char,boolean,char,boolean,boolean,char,boolean\n  reason: actual and formal argument lists differ in length\n1 error"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "passed": false,
+        "error_type": "exception",
+        "error_details": "CUDA out of memory. Tried to allocate 64.00 MiB. GPU 0 has a total capacity of 15.60 GiB of which 48.06 MiB is free. Including non-PyTorch memory, this process has 15.52 GiB memory in use. Of the allocated memory 15.09 GiB is allocated by PyTorch, and 179.62 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03315",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03341",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03399",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "compilation_error",
+    "error_details": "/tmp/temp_compile_v5/BISECTION_METHOD.java:165: error: cannot find symbol\n        b_A.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_A of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:169: error: cannot find symbol\n        b_B.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_B of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:173: error: cannot find symbol\n        b_C.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_C of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:177: error: cannot find symbol\n        b_D.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_D of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:183: error: cannot find symbol\n        d0.min(d1);\n          ^\n  symbol:   method min(CobolDecimal)\n  location: variable d0 of type CobolDecimal\n/tmp/temp_compile_v5/BISECTION_METHOD.java:184: error: incompatible types: CobolDataStorage cannot be converted to AbstractCobolField\n        d0.getField(b_X, 4);\n                    ^\n/tmp/temp_compile_v5/BISECTION_METHOD.java:190: error: cannot find symbol\n        d0.min(d1);\n          ^\n  symbol:   method min(CobolDecimal)\n  location: variable d0 of type CobolDecimal\n/tmp/temp_compile_v5/BISECTION_METHOD.java:191: error: incompatible types: CobolDataStorage cannot be converted to AbstractCobolField\n        d0.getField(b_Y, 4);\n                    ^\n/tmp/temp_compile_v5/BISECTION_METHOD.java:197: error: incompatible types: CobolDataStorage cannot be converted to AbstractCobolField\n        d0.getField(b_Y, 4);\n                    ^\n/tmp/temp_compile_v5/BISECTION_METHOD.java:207: error: cannot find symbol\n        System.out.print(b_ans.getString(1, b_ans.getStoredCharLength()));\n                                                 ^\n  symbol:   method getStoredCharLength()\n  location: variable b_ans of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:227: error: cannot find symbol\n    b_ZS.unstring(b_DUMMY, b_ans, ' ');\n        ^\n  symbol:   method unstring(CobolDataStorage,CobolDataStorage,char)\n  location: variable b_ZS of type CobolDataStorage\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output\n11 errors",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/BISECTION_METHOD.java:165: error: cannot find symbol\n        b_A.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_A of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:168: error: cannot find symbol\n        b_B.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_B of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:171: error: cannot find symbol\n        b_C.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_C of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:174: error: cannot find symbol\n        b_D.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_D of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:180: error: cannot find symbol\n        d0.min(d1);\n          ^\n  symbol:   method min(CobolDecimal)\n  location: variable d0 of type CobolDecimal\n/tmp/temp_compile_v5/BISECTION_METHOD.java:181: error: incompatible types: CobolDataStorage cannot be converted to AbstractCobolField\n        d0.getField(b_X, 4);\n                    ^\n/tmp/temp_compile_v5/BISECTION_METHOD.java:187: error: cannot find symbol\n        d0.min(d1);\n          ^\n  symbol:   method min(CobolDecimal)\n  location: variable d0 of type CobolDecimal\n/tmp/temp_compile_v5/BISECTION_METHOD.java:188: error: incompatible types: CobolDataStorage cannot be converted to AbstractCobolField\n        d0.getField(b_Y, 4);\n                    ^\n/tmp/temp_compile_v5/BISECTION_METHOD.java:194: error: incompatible types: CobolDataStorage cannot be converted to AbstractCobolField\n        d0.getField(b_Y, 4);\n                    ^\n/tmp/temp_compile_v5/BISECTION_METHOD.java:204: error: cannot find symbol\n        System.out.print(b_ans.getString(1, b_ans.getStoredCharLength()));\n                                                 ^\n  symbol:   method getStoredCharLength()\n  location: variable b_ans of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:224: error: cannot find symbol\n    b_ZS.unstring(b_DUMMY, b_ans, ' ');\n        ^\n  symbol:   method unstring(CobolDataStorage,CobolDataStorage,char)\n  location: variable b_ZS of type CobolDataStorage\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output\n11 errors"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/BISECTION_METHOD.java:165: error: cannot find symbol\n        b_A.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_A of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:169: error: cannot find symbol\n        b_B.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_B of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:173: error: cannot find symbol\n        b_C.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_C of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:177: error: cannot find symbol\n        b_D.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_D of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:183: error: cannot find symbol\n        d0.min(d1);\n          ^\n  symbol:   method min(CobolDecimal)\n  location: variable d0 of type CobolDecimal\n/tmp/temp_compile_v5/BISECTION_METHOD.java:184: error: incompatible types: CobolDataStorage cannot be converted to AbstractCobolField\n        d0.getField(b_X, 4);\n                    ^\n/tmp/temp_compile_v5/BISECTION_METHOD.java:190: error: cannot find symbol\n        d0.min(d1);\n          ^\n  symbol:   method min(CobolDecimal)\n  location: variable d0 of type CobolDecimal\n/tmp/temp_compile_v5/BISECTION_METHOD.java:191: error: incompatible types: CobolDataStorage cannot be converted to AbstractCobolField\n        d0.getField(b_Y, 4);\n                    ^\n/tmp/temp_compile_v5/BISECTION_METHOD.java:197: error: incompatible types: CobolDataStorage cannot be converted to AbstractCobolField\n        d0.getField(b_Y, 4);\n                    ^\n/tmp/temp_compile_v5/BISECTION_METHOD.java:207: error: cannot find symbol\n        System.out.print(b_ans.getString(1, b_ans.getStoredCharLength()));\n                                                 ^\n  symbol:   method getStoredCharLength()\n  location: variable b_ans of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:227: error: cannot find symbol\n    b_ZS.unstring(b_DUMMY, b_ans, ' ');\n        ^\n  symbol:   method unstring(CobolDataStorage,CobolDataStorage,char)\n  location: variable b_ZS of type CobolDataStorage\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output\n11 errors"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/BISECTION_METHOD.java:165: error: cannot find symbol\n        b_A.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_A of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:169: error: cannot find symbol\n        b_B.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_B of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:173: error: cannot find symbol\n        b_C.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_C of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:177: error: cannot find symbol\n        b_D.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_D of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:183: error: cannot find symbol\n        d0.min(d1);\n          ^\n  symbol:   method min(CobolDecimal)\n  location: variable d0 of type CobolDecimal\n/tmp/temp_compile_v5/BISECTION_METHOD.java:184: error: incompatible types: CobolDataStorage cannot be converted to AbstractCobolField\n        d0.getField(b_X, 4);\n                    ^\n/tmp/temp_compile_v5/BISECTION_METHOD.java:190: error: cannot find symbol\n        d0.min(d1);\n          ^\n  symbol:   method min(CobolDecimal)\n  location: variable d0 of type CobolDecimal\n/tmp/temp_compile_v5/BISECTION_METHOD.java:191: error: incompatible types: CobolDataStorage cannot be converted to AbstractCobolField\n        d0.getField(b_Y, 4);\n                    ^\n/tmp/temp_compile_v5/BISECTION_METHOD.java:197: error: incompatible types: CobolDataStorage cannot be converted to AbstractCobolField\n        d0.getField(b_Y, 4);\n                    ^\n/tmp/temp_compile_v5/BISECTION_METHOD.java:207: error: cannot find symbol\n        System.out.print(b_ans.getString(1, b_ans.getStoredCharLength()));\n                                                 ^\n  symbol:   method getStoredCharLength()\n  location: variable b_ans of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:227: error: cannot find symbol\n    b_ZS.unstring(b_DUMMY, b_ans, ' ');\n        ^\n  symbol:   method unstring(CobolDataStorage,CobolDataStorage,char)\n  location: variable b_ZS of type CobolDataStorage\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output\n11 errors"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/BISECTION_METHOD.java:165: error: cannot find symbol\n        b_A.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_A of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:169: error: cannot find symbol\n        b_B.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_B of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:173: error: cannot find symbol\n        b_C.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_C of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:177: error: cannot find symbol\n        b_D.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_D of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:183: error: cannot find symbol\n        d0.min(d1);\n          ^\n  symbol:   method min(CobolDecimal)\n  location: variable d0 of type CobolDecimal\n/tmp/temp_compile_v5/BISECTION_METHOD.java:184: error: incompatible types: CobolDataStorage cannot be converted to AbstractCobolField\n        d0.getField(b_X, 4);\n                    ^\n/tmp/temp_compile_v5/BISECTION_METHOD.java:190: error: cannot find symbol\n        d0.min(d1);\n          ^\n  symbol:   method min(CobolDecimal)\n  location: variable d0 of type CobolDecimal\n/tmp/temp_compile_v5/BISECTION_METHOD.java:191: error: incompatible types: CobolDataStorage cannot be converted to AbstractCobolField\n        d0.getField(b_Y, 4);\n                    ^\n/tmp/temp_compile_v5/BISECTION_METHOD.java:197: error: incompatible types: CobolDataStorage cannot be converted to AbstractCobolField\n        d0.getField(b_Y, 4);\n                    ^\n/tmp/temp_compile_v5/BISECTION_METHOD.java:207: error: cannot find symbol\n        System.out.print(b_ans.getString(1, b_ans.getStoredCharLength()));\n                                                 ^\n  symbol:   method getStoredCharLength()\n  location: variable b_ans of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:227: error: cannot find symbol\n    b_ZS.unstring(b_DUMMY, b_ans, ' ');\n        ^\n  symbol:   method unstring(CobolDataStorage,CobolDataStorage,char)\n  location: variable b_ZS of type CobolDataStorage\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output\n11 errors"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/BISECTION_METHOD.java:165: error: cannot find symbol\n        b_A.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_A of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:169: error: cannot find symbol\n        b_B.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_B of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:173: error: cannot find symbol\n        b_C.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_C of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:177: error: cannot find symbol\n        b_D.accept();\n           ^\n  symbol:   method accept()\n  location: variable b_D of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:183: error: cannot find symbol\n        d0.min(d1);\n          ^\n  symbol:   method min(CobolDecimal)\n  location: variable d0 of type CobolDecimal\n/tmp/temp_compile_v5/BISECTION_METHOD.java:184: error: incompatible types: CobolDataStorage cannot be converted to AbstractCobolField\n        d0.getField(b_X, 4);\n                    ^\n/tmp/temp_compile_v5/BISECTION_METHOD.java:190: error: cannot find symbol\n        d0.min(d1);\n          ^\n  symbol:   method min(CobolDecimal)\n  location: variable d0 of type CobolDecimal\n/tmp/temp_compile_v5/BISECTION_METHOD.java:191: error: incompatible types: CobolDataStorage cannot be converted to AbstractCobolField\n        d0.getField(b_Y, 4);\n                    ^\n/tmp/temp_compile_v5/BISECTION_METHOD.java:197: error: incompatible types: CobolDataStorage cannot be converted to AbstractCobolField\n        d0.getField(b_Y, 4);\n                    ^\n/tmp/temp_compile_v5/BISECTION_METHOD.java:207: error: cannot find symbol\n        System.out.print(b_ans.getString(1, b_ans.getStoredCharLength()));\n                                                 ^\n  symbol:   method getStoredCharLength()\n  location: variable b_ans of type CobolDataStorage\n/tmp/temp_compile_v5/BISECTION_METHOD.java:227: error: cannot find symbol\n    b_ZS.unstring(b_DUMMY, b_ans, ' ');\n        ^\n  symbol:   method unstring(CobolDataStorage,CobolDataStorage,char)\n  location: variable b_ZS of type CobolDataStorage\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output\n11 errors"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03474",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "compilation_error",
+    "error_details": "/tmp/temp_compile_v5/ABC_104_C.java:494: error: cannot find symbol\n    \tf_BNY.setDataStorage(b_BNY);\n    \t                     ^\n  symbol:   variable b_BNY\n  location: class ABC_104_C\n/tmp/temp_compile_v5/ABC_104_C.java:494: error: cannot find symbol\n    \tf_BNY.setDataStorage(b_BNY);\n    \t^\n  symbol:   variable f_BNY\n  location: class ABC_104_C\n/tmp/temp_compile_v5/ABC_104_C.java:495: error: cannot find symbol\n    \tf_HXD.setDataStorage(b_HXD);\n    \t^\n  symbol:   variable f_HXD\n  location: class ABC_104_C\n3 errors",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/ABC_104_C.java:189: error: cannot find symbol\n              b_n__problem__problem1.getSubDataStorage(10 * (b_i.getNumdisp(4) - 1)).setBytes (b_nm, 3);\n              ^\n  symbol: variable b_n__problem__problem1\n/tmp/temp_compile_v5/ABC_104_C.java:193: error: cannot find symbol\n              b_p__problem__problem1.getSubDataStorage(10 * (b_i.getNumdisp(4) - 1)).setBytes (b_pt, 7);\n              ^\n  symbol: variable b_p__problem__problem1\n/tmp/temp_compile_v5/ABC_104_C.java:280: error: cannot find symbol\n                        f_num.add (CobolFieldFactory.makeCobolField(3, b_n__problem__problem1.getSubDataStorage(10 * (b_j.getNumdisp(2) - 1)), a_8_NumericDisplay_Digits3_Scale0), 4);\n                                                                       ^\n  symbol: variable b_n__problem__problem1\n/tmp/temp_compile_v5/ABC_104_C.java:290: error: cannot find symbol\n                            d2.set (b_n__problem__problem1.getSubDataStorage(10 * (b_j.getNumdisp(2) - 1)).getNumdisp(3));\n                                    ^\n  symbol: variable b_n__problem__problem1\n/tmp/temp_compile_v5/ABC_104_C.java:299: error: cannot find symbol\n                        f_point.add (CobolFieldFactory.makeCobolField(7, b_p__problem__problem1.getSubDataStorage(10 * (b_j.getNumdisp(2) - 1)), a_9_NumericDisplay_Digits7_Scale0), 4);\n                                                                         ^\n  symbol: variable b_p__problem__problem1\n/tmp/temp_compile_v5/ABC_104_C.java:385: error: cannot find symbol\n                          if (((long)b_n__problem__problem1.getSubDataStorage(10 * (b_k.getNumdisp(3) - 1)).cmpNumdisp (3, b_m.getNumdisp(2)) <  0L))\n                                     ^\n  symbol: variable b_n__problem__problem1\n/tmp/temp_compile_v5/ABC_104_C.java:407: error: cannot find symbol\n                              if ((((long)b_m.cmpNumdisp (2, b_n__problem__problem1.getSubDataStorage(10 * (b_k.getNumdisp(3) - 1)).getNumdisp(3)) != 0L) && ((long)b_G.memcmp (b_point, 8) <= 0L)))\n                                                             ^\n  symbol: variable b_n__problem__problem1\n/tmp/temp_compile_v5/ABC_104_C.java:422: error: cannot find symbol\n                                    if (((long)b_m.cmpNumdisp (2, b_n__problem__problem1.getSubDataStorage(10 * (b_k.getNumdisp(3) - 1)).getNumdisp(3)) == 0L))\n                                                                  ^\n  symbol: variable b_n__problem__problem1\n/tmp/temp_compile_v5/ABC_104_C.java:495: error: cannot find symbol\n    \tf_BNY.setDataStorage(b_BNY);\n    \t                     ^\n  symbol:   variable b_BNY\n  location: class ABC_104_C\n/tmp/temp_compile_v5/ABC_104_C.java:495: error: cannot find symbol\n    \tf_BNY.setDataStorage(b_BNY);\n    \t^\n  symbol:   variable f_BNY\n  location: class ABC_104_C\n/tmp/temp_compile_v5/ABC_104_C.java:496: error: cannot find symbol\n    \tf_HXD.setDataStorage(b_HXD);\n    \t^\n  symbol:   variable f_HXD\n  location: class ABC_104_C\n11 errors"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/ABC_104_C.java:494: error: cannot find symbol\n    \tf_BNY.setDataStorage(b_BNY);\n    \t                     ^\n  symbol:   variable b_BNY\n  location: class ABC_104_C\n/tmp/temp_compile_v5/ABC_104_C.java:494: error: cannot find symbol\n    \tf_BNY.setDataStorage(b_BNY);\n    \t^\n  symbol:   variable f_BNY\n  location: class ABC_104_C\n/tmp/temp_compile_v5/ABC_104_C.java:495: error: cannot find symbol\n    \tf_HXD.setDataStorage(b_HXD);\n    \t^\n  symbol:   variable f_HXD\n  location: class ABC_104_C\n3 errors"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/ABC_104_C.java:494: error: cannot find symbol\n    \tf_BNY.setDataStorage(b_BNY);\n    \t                     ^\n  symbol:   variable b_BNY\n  location: class ABC_104_C\n/tmp/temp_compile_v5/ABC_104_C.java:494: error: cannot find symbol\n    \tf_BNY.setDataStorage(b_BNY);\n    \t^\n  symbol:   variable f_BNY\n  location: class ABC_104_C\n/tmp/temp_compile_v5/ABC_104_C.java:495: error: cannot find symbol\n    \tf_HXD.setDataStorage(b_HXD);\n    \t^\n  symbol:   variable f_HXD\n  location: class ABC_104_C\n3 errors"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/ABC_104_C.java:494: error: cannot find symbol\n    \tf_BNY.setDataStorage(b_BNY);\n    \t                     ^\n  symbol:   variable b_BNY\n  location: class ABC_104_C\n/tmp/temp_compile_v5/ABC_104_C.java:494: error: cannot find symbol\n    \tf_BNY.setDataStorage(b_BNY);\n    \t^\n  symbol:   variable f_BNY\n  location: class ABC_104_C\n/tmp/temp_compile_v5/ABC_104_C.java:495: error: cannot find symbol\n    \tf_HXD.setDataStorage(b_HXD);\n    \t^\n  symbol:   variable f_HXD\n  location: class ABC_104_C\n3 errors"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_compile_v5/ABC_104_C.java:494: error: cannot find symbol\n    \tf_BNY.setDataStorage(b_BNY);\n    \t                     ^\n  symbol:   variable b_BNY\n  location: class ABC_104_C\n/tmp/temp_compile_v5/ABC_104_C.java:494: error: cannot find symbol\n    \tf_BNY.setDataStorage(b_BNY);\n    \t^\n  symbol:   variable f_BNY\n  location: class ABC_104_C\n/tmp/temp_compile_v5/ABC_104_C.java:495: error: cannot find symbol\n    \tf_HXD.setDataStorage(b_HXD);\n    \t^\n  symbol:   variable f_HXD\n  location: class ABC_104_C\n3 errors"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03556",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "output_mismatch",
+    "error_details": "expected: 9\n... | got: No...",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: No..."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: No..."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: No..."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: No..."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "output_mismatch",
+        "error_details": "expected: 9\n... | got: No..."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03610",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03814",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  }
+]

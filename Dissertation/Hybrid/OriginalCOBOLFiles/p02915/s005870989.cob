@@ -1,0 +1,14 @@
+	  IDENTIFICATION DIVISION.
+      PROGRAM-ID. 140A.
+      DATA DIVISION.
+      WORKING-STORAGE SECTION.
+      01 N PIC 9(1).
+      01 ANS PIC 9(3).
+      01 ANSS PIC Z(3).
+      
+      PROCEDURE DIVISION.
+      ACCEPT N.
+      COMPUTE ANS = N * N * N.
+      MOVE ANS TO ANSS.
+      DISPLAY ANSS.
+      STOP RUN.

@@ -1,0 +1,50 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class ABC_103_D {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Input handling
+        String inp = scanner.nextLine();
+        String[] parts = inp.split(" ");
+        int n = Integer.parseInt(parts[0]);
+        int m = Integer.parseInt(parts[1]);
+
+        // Array initialization
+        int[][] ab = new int[m][2];
+        for (int i = 0; i < m; i++) {
+            inp = scanner.nextLine();
+            parts = inp.split(" ");
+            ab[i][0] = Integer.parseInt(parts[0]);
+            ab[i][1] = Integer.parseInt(parts[1]);
+        }
+
+        // Sorting based on the second column of the array
+        Arrays.sort(ab, (a, b) -> Integer.compare(a[1], b[1]));
+
+        // Logic to find the count
+        int done = 0;
+        int cnt = 0;
+        for (int i = 0; i < m; i++) {
+            if (done < ab[i][0]) {
+                cnt++;
+                done = ab[i][1];
+                done--;
+            }
+        }
+
+        // Output formatting
+        String ans = String.format("%06d", cnt);
+
+        System.out.println(ans.substring(0, ans.length()));
+    }
+}
+```
+
+### Explanation of the Code:
+1. **Input Handling**: The input is read from `System.in` and split into parts using spaces as delimiters.
+2. **Array Initialization**: An array `ab` is initialized to store pairs of integers.
+3. **Sorting**: The array `ab` is sorted based on the second element of each pair.
+4. **Logic to Find Count**: A loop iterates through the sorted array to count how many non-overlapping intervals can be selected.
+5. **Output Formatting**: The result is formatted to ensure it has exactly six digits and printed to the console.

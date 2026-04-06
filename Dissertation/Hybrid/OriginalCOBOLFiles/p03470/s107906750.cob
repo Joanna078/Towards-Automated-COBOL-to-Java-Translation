@@ -1,0 +1,44 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. test1.
+       ENVIRONMENT DIVISION.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 INP PIC X(11000).
+       01 A-REC.
+      	02 A-DATA OCCURS 100.
+      	 03 A PIC 999.
+       01 B PIC 999.
+       01 C PIC 999.
+       01 D PIC 999.
+       01 ALICE PIC 999999.
+       01 BOB PIC 999999.
+       01 REN PIC 9999999999.
+       01 RE PIC ZZZZZZZZZZ9.
+       01 temp1 PIC 9999999.
+       01 temp2 PIC 9999999.
+       01 temp3 PIC 9999999.
+       01 NOW PIC 9999999.
+       01 N PIC 999.
+       01 MAX PIC 999.
+       PROCEDURE DIVISION.
+       MAIN.
+      	PERFORM VARYING N FROM 1 BY 1 UNTIL N = 101
+      		MOVE 0 TO A(N)
+      	END-PERFORM.
+       	ACCEPT B.
+      	ADD 1 TO B.
+      	PERFORM VARYING N FROM 1 BY 1 UNTIL N = B
+      		ACCEPT C
+      		ADD 1 TO A(C)
+      	END-PERFORM.
+      	MOVE 0 TO D.
+      	PERFORM VARYING N FROM 1 BY 1 UNTIL N = 101
+      		IF A(N) > 000 THEN
+      			ADD 1 TO D
+      		END-IF
+      	END-PERFORM.
+      	MOVE D TO RE.
+      	DISPLAY RE.
+      	STOP RUN.
+
+

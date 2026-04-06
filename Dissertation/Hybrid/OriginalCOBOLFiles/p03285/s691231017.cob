@@ -1,0 +1,28 @@
+PROGRAM-ID.                      ABC_105_B.
+DATA                             DIVISION.
+WORKING-STORAGE                  SECTION.
+    01 N       PIC 9(3).
+    01 i       PIC 9(3).
+    01 j       PIC 9(3).
+    01 flg     PIC 9(1).
+
+PROCEDURE                        DIVISION.
+    ACCEPT N.
+
+    MOVE ZERO TO flg.
+
+    PERFORM VARYING i FROM 0 BY 1 UNTIL N < 4 * i
+        PERFORM VARYING j FROM 0 BY 1 UNTIL N < 7 * j
+            IF 4 * i + 7 * j = N
+                MOVE 1 TO flg
+            END-IF
+        END-PERFORM
+    END-PERFORM.
+
+    IF 1 = flg
+        DISPLAY "Yes"
+    ELSE
+        DISPLAY "No"
+    END-IF.
+
+    STOP RUN.

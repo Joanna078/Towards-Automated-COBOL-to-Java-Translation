@@ -1,0 +1,26 @@
+      IDENTIFICATION DIVISION.
+      PROGRAM-ID. 135A.
+      DATA DIVISION.
+      WORKING-STORAGE SECTION.
+      01 INP PIC X(100).
+      01 A   PIC 9(10).
+      01 B   PIC 9(10).
+      01 SHO PIC 9(10).
+      01 AMA PIC 9(1).
+      01 ANS PIC 9(11).
+      01 DISP PIC ZZZZZZZZZ9.
+
+      PROCEDURE DIVISION.
+      ACCEPT INP.
+      UNSTRING INP DELIMITED BY " "
+      INTO A B.
+      COMPUTE ANS = A + B
+      DIVIDE ANS BY 2 GIVING SHO REMAINDER AMA.
+      MOVE SHO TO DISP.
+      IF AMA = 1
+      	DISPLAY "IMPOSSIBLE"
+      ELSE
+        DISPLAY DISP
+      END-IF.
+      STOP RUN.
+      

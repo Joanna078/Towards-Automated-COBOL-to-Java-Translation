@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+public class SortNum {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Read the number of inputs
+        int n = Integer.parseInt(scanner.nextLine());
+        
+        int cnt = 0;
+        
+        for (int i = 0; i < n; i++) {
+            // Read the integer input
+            String intStr = scanner.nextLine();
+            
+            // Split the string into two parts
+            String[] parts = intStr.split(" ");
+            if (parts.length != 2) continue;
+            
+            int d1 = Integer.parseInt(parts[0]);
+            int d2 = Integer.parseInt(parts[1]);
+            
+            // Check if the digits are equal
+            if (d1 == d2) {
+                cnt++;
+                
+                // If three pairs are found, display "Yes" and exit
+                if (cnt == 3) {
+                    System.out.println("Yes");
+                    return;
+                }
+            } else {
+                cnt = 0;
+            }
+        }
+        
+        // If not three pairs are found, display "No"
+        if (cnt != 3) {
+            System.out.println("No");
+        }
+        
+        scanner.close();
+    }
+}
+```
+
+### Explanation:
+1. **Input Handling**: The `Scanner` class is used to read input from the user.
+2. **Looping**: A `for` loop iterates `n` times, where `n` is the number of inputs.
+3. **String Splitting**: Each input line is split into two parts using the `split` method.
+4. **Digit Comparison**: The digits are compared, and if they are equal, the counter `cnt` is incremented.
+5. **Early Exit**: If three pairs of equal digits are found, the program prints "Yes" and exits.
+6. **Final Output**: If the loop completes without finding three pairs, the program prints "No".

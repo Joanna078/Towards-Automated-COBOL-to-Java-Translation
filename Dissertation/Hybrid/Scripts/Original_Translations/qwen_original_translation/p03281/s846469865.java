@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class ABC_106_B {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Input
+        int n = scanner.nextInt();
+        
+        int cnt = 0;
+        
+        for (int i = 1; i <= n; i += 2) {
+            int tmp = 0;
+            for (int j = 1; j < i; j++) {
+                if (i % j == 0) {
+                    tmp++;
+                }
+            }
+            if (tmp == 8) {
+                cnt++;
+            }
+        }
+        
+        String ans = String.format("%03d", cnt);
+        
+        // Output
+        System.out.println(ans.trim());
+    }
+}

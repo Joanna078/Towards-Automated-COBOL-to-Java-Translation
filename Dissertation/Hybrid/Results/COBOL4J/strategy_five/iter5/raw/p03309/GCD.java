@@ -1,0 +1,313 @@
+```java
+import java.io.UnsupportedEncodingException;
+import jp.osscons.opensourcecobol.libcobj.*;
+import jp.osscons.opensourcecobol.libcobj.common.*;
+import jp.osscons.opensourcecobol.libcobj.data.*;
+import jp.osscons.opensourcecobol.libcobj.exceptions.*;
+import jp.osscons.opensourcecobol.libcobj.termio.*;
+import jp.osscons.opensourcecobol.libcobj.call.*;
+import jp.osscons.opensourcecobol.libcobj.file.*;
+import jp.osscons.opensourcecobol.libcobj.ui.*;
+import java.util.Optional;
+
+public class GCD implements CobolRunnable {
+
+  private boolean initialized = false;
+  private CobolModule module;
+  private int entry;
+
+  private CobolRunnable cob_unifunc;
+
+  @Override
+  public int run(CobolDataStorage... argStorages) {
+    return GCD_(0, argStorages);
+  }
+
+  @Override
+  public void cancel() {
+    GCD_(-1);
+  }
+
+  @Override
+  public boolean isActive() {
+    return false;
+  }
+
+  public CobolResultSet execute (int d_a, int d_b, int d_ret) {
+    this.f_d_a.setDataStorage(new CobolDataStorage(19));
+    this.f_d_a.moveFrom(d_a);
+    this.b_d_a = this.f_d_a.getDataStorage();
+    this.f_d_b.setDataStorage(new CobolDataStorage(19));
+    this.f_d_b.moveFrom(d_b);
+    this.b_d_b = this.f_d_b.getDataStorage();
+    this.f_d_ret.setDataStorage(new CobolDataStorage(19));
+    this.f_d_ret.moveFrom(d_ret);
+    this.b_d_ret = this.f_d_ret.getDataStorage();
+    int returnCode = run_module(0);
+    return new CobolResultSet(returnCode,
+      new CobolResultInt(f_d_a.getInt()),
+      new CobolResultInt(f_d_b.getInt()),
+      new CobolResultInt(f_d_ret.getInt())
+    );
+  }
+
+  public int GCD_ (int entry, CobolDataStorage ...argStorages) {
+    this.entry = entry;
+    this.b_d_a = 0 < argStorages.length ? argStorages[0] : null;
+    this.b_d_b = 1 < argStorages.length ? argStorages[1] : null;
+    this.b_d_ret = 2 < argStorages.length ? argStorages[2] : null;
+    return this.run_module(entry);
+  }
+
+  int run_module (int entry) {
+    this.module = new CobolModule(null, null, null, null, 0, '.', '$', ',', 1, 1, 1, 0, null );
+
+    /* Start of function code */
+
+    /* CANCEL callback handling */
+    if (entry < 0) {
+    	if (!this.initialized) {
+    		CobolDecimal.cobInitNumeric();
+    		return 0;
+    	}
+    	this.initialized = false;
+    	return 0;
+    }
+
+    /* Push module stack */
+    CobolModule.push (module);
+    CobolResolve.pushCallStackList ("GCD");
+
+    /* Initialize program */
+    if (!this.initialized) {
+      module.setProgramId("GCD");
+
+      b_RETURN_CODE.set((int)0);
+      b_d.fillBytes('0', 19);
+      b_r.fillBytes('0', 19);
+      b_x.fillBytes('0', 19);
+      /* init_extern */
+      this.initExternProc();
+      this.initialized = true;
+    }
+    /* PROCEDURE DIVISION */
+    try{
+      /* Entry dispatch */
+      execEntry(l_GCD);
+
+    } catch(CobolStopRunException e) {
+      CobolStopRunException.stopRun();
+      System.exit(e.getReturnCode());
+    }
+    /* Pop module stack */
+    CobolResolve.popCallStackList();
+    CobolModule.pop();
+
+    /* Program return */
+    return b_RETURN_CODE.intValue();
+  }
+  public CobolControl[] contList = {
+    new CobolControl(0, CobolControl.LabelType.label) {
+      public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
+
+        return Optional.of(contList[l_GCD]);
+      }
+    },
+    /* Entry GCD */
+    new CobolControl(l_GCD, CobolControl.LabelType.label) {
+      public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
+
+        return Optional.of(contList[l_MAIN]);
+      }
+    },
+    /* MAIN SECTION */
+    new CobolControl(l_MAIN, CobolControl.LabelType.section) {
+      public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
+
+        return Optional.of(contList[l_MAIN_SECTION__DEFAULT_PARAGRAPH]);
+      }
+    },
+    /* MAIN_SECTION__DEFAULT_PARAGRAPH */
+    new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
+      public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
+        /* /content/temp_cobol/AGC_026_B_fixed.cob:96: MOVE */
+        if (b_d_ret != null) {
+          b_d_ret.setBytes (b_d_a, 19);
+        }
+        /* /content/temp_cobol/AGC_026_B_fixed.cob:97: MOVE */
+        {
+          b_r.fillBytes (48, 19);
+        }
+        /* /content/temp_cobol/AGC_026_B_fixed.cob:98: MOVE */
+        {
+          b_x.setBytes (b_d_b, 19);
+        }
+        /* /content/temp_cobol/AGC_026_B_fixed.cob:101: PERFORM */
+        for (;;)
+        {
+          {
+            /* /content/temp_cobol/AGC_026_B_fixed.cob:102: DIVIDE */
+            {
+              new GetAbstractCobolField() {
+                public AbstractCobolField run() {
+                  f_d_ret.setDataStorage(b_d_ret);
+                  return f_d_ret;
+                }
+              }.run().divQuotient (f_x, f_d, 4);
+              f_r.divRemainder (4);
+            }
+            /* /content/temp_cobol/AGC_026_B_fixed.cob:103: MOVE */
+            {
+              b_d_ret.setBytes (b_x, 19);
+            }
+            /* /content/temp_cobol/AGC_026_B_fixed.cob:104: MOVE */
+            {
+              b_x.setBytes (b_r, 19);
+            }
+          }
+          if (((long)CobolConstant.zero.compareTo (f_r) == 0L))
+            break;
+        }
+        return Optional.of(CobolControl.pure());
+      }
+    },
+    CobolControl.pure()
+  };
+  public void execEntry(int start) throws CobolRuntimeException, CobolStopRunException {
+    Optional<CobolControl> nextLabel = Optional.of(contList[start]);
+    while(nextLabel.isPresent()) {
+      CobolControl section = nextLabel.get();
+      nextLabel = section.run();
+    }
+  }
+
+  /* EXTERNAL data initialization */
+  private void initExternProc () {
+  };
+
+  public static void main(String[] args)
+  {
+    CobolUtil.cob_init(args, false);
+    CobolDecimal.cobInitNumeric();
+    new GCD().GCD_(0);
+    CobolStopRunException.stopRun();
+  }
+
+  public GCD()
+  {
+    init();
+  }
+
+  public void init() 
+  {
+    /* Data storage */
+
+    cob_unifunc = null;
+
+    /* PROGRAM-ID : GCD */
+    b_RETURN_CODE = new CobolDataStorage(4);	/* RETURN-CODE */
+    b_d = new CobolDataStorage(19);	/* d */
+    b_r = new CobolDataStorage(19);	/* r */
+    b_x = new CobolDataStorage(19);	/* x */
+    /* PROGRAM-ID : LCM */
+    b_RETURN_CODE_LCM = new CobolDataStorage(4);	/* RETURN-CODE */
+    b_g = new CobolDataStorage(19);	/* g */
+    b_t = new CobolDataStorage(10);	/* t */
+
+    /* End of data storage */
+
+
+    initAttr();
+
+    /* Fields */
+
+    /* PROGRAM-ID : GCD */
+    f_d	= CobolFieldFactory.makeCobolField(19, b_d, a_1_NumericDisplay_Digits19_Scale0);	/* d */
+    f_r	= CobolFieldFactory.makeCobolField(19, b_r, a_1_NumericDisplay_Digits19_Scale0);	/* r */
+    f_x	= CobolFieldFactory.makeCobolField(19, b_x, a_1_NumericDisplay_Digits19_Scale0);	/* x */
+    f_d_ret	= CobolFieldFactory.makeCobolField(19, b_d_ret, a_1_NumericDisplay_Digits19_Scale0);	/* d_ret */
+    /* PROGRAM-ID : LCM */
+    f_g	= CobolFieldFactory.makeCobolField(19, b_g, a_1_NumericDisplay_Digits19_Scale0);	/* g */
+    f_t	= CobolFieldFactory.makeCobolField(10, b_t, a_2_NumericDisplay_Digits10_Scale0);	/* t */
+    f_d_a	= CobolFieldFactory.makeCobolField(19, b_d_a, a_1_NumericDisplay_Digits19_Scale0);	/* d_a */
+    f_d_b	= CobolFieldFactory.makeCobolField(19, b_d_b, a_1_NumericDisplay_Digits19_Scale0);	/* d_b */
+
+    /* End of fields */
+
+
+    /* Call parameters */
+    f_d_b_param = CobolFieldFactory.makeCobolField(19, b_d_b, a_1_NumericDisplay_Digits19_Scale0);
+    f_d_a_param = CobolFieldFactory.makeCobolField(19, b_d_a, a_1_NumericDisplay_Digits19_Scale0);
+  }
+
+  private void initAttr() {
+    /* Attributes */
+
+    a_1_NumericDisplay_Digits19_Scale0 = new CobolFieldAttribute(
+      CobolFieldAttribute.COB_TYPE_NUMERIC_DISPLAY,
+      /* digits= */ 19,
+      /* scale= */ 0,
+      CobolFieldAttribute.COB_FLAG_NOT_SPECIFIED,
+      /* pic= */ null);
+    a_2_NumericDisplay_Digits10_Scale0 = new CobolFieldAttribute(
+      CobolFieldAttribute.COB_TYPE_NUMERIC_DISPLAY,
+      /* digits= */ 10,
+      /* scale= */ 0,
+      CobolFieldAttribute.COB_FLAG_NOT_SPECIFIED,
+      /* pic= */ null);
+
+  }
+
+  /* Data storage */
+
+  /* PROGRAM-ID : GCD */
+  public CobolDataStorage b_RETURN_CODE;	/* RETURN-CODE */
+  private CobolDataStorage b_d;	/* d */
+  private CobolDataStorage b_r;	/* r */
+  private CobolDataStorage b_x;	/* x */
+  /* PROGRAM-ID : LCM */
+  public CobolDataStorage b_RETURN_CODE_LCM;	/* RETURN-CODE */
+  private CobolDataStorage b_g;	/* g */
+  private CobolDataStorage b_t;	/* t */
+
+  /* End of data storage */
+
+
+  /* Fields */
+
+  /* PROGRAM-ID : GCD */
+  private AbstractCobolField f_d;	/* d */
+  private AbstractCobolField f_r;	/* r */
+  private AbstractCobolField f_x;	/* x */
+  private AbstractCobolField f_d_ret;	/* d_ret */
+  /* PROGRAM-ID : LCM */
+  private AbstractCobolField f_g;	/* g */
+  private AbstractCobolField f_t;	/* t */
+  private AbstractCobolField f_d_a;	/* d_a */
+  private AbstractCobolField f_d_b;	/* d_b */
+
+  /* End of fields */
+
+
+  private static AbstractCobolField f_native;
+
+  /* Attributes */
+
+  private CobolFieldAttribute a_2_NumericDisplay_Digits10_Scale0;
+  private CobolFieldAttribute a_1_NumericDisplay_Digits19_Scale0;
+
+  /* Call parameters */
+  private CobolDataStorage b_d_ret;
+  private AbstractCobolField f_d_b_param;
+  private CobolDataStorage b_d_b;
+  private AbstractCobolField f_d_a_param;
+  private CobolDataStorage b_d_a;
+
+  /* Sections and Labels */
+  private final static int l_GCD = 1;
+  private final static int l_MAIN = 2;
+  private final static int l_MAIN_SECTION__DEFAULT_PARAGRAPH = 3;
+  private final static int l_Default_Error_Handler = 4;
+
+}
+```

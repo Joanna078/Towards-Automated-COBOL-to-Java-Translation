@@ -1,0 +1,31 @@
+IDENTIFICATION DIVISION.
+PROGRAM-ID. aising-A.
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+01 INP        PIC X(12).
+01 L          PIC 9(03).
+01 R          PIC 9(03).
+01 D          PIC 9(03).
+01 I          PIC 9(03).
+01 CNT        PIC 9(03).
+01 OUT        PIC ZZ9.
+*>
+PROCEDURE DIVISION.
+  ACCEPT INP.
+  UNSTRING INP DELIMITED BY ' '
+      INTO L R D.
+*>
+  IF (D = 1)
+    COMPUTE CNT = R - D + 1
+  ELSE 
+    MOVE 0 TO CNT
+    PERFORM VARYING I FROM 1 BY 1 UNTIL D * I > R
+      IF (D * I >= L AND D * I <= R)
+        ADD 1 TO CNT
+      END-IF
+    END-PERFORM
+  END-IF.
+*>
+  MOVE CNT TO OUT.
+  DISPLAY FUNCTION TRIM(OUT).
+  STOP RUN.

@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class ProgramID {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Input
+        System.out.print("Enter a string: ");
+        String ln = scanner.nextLine();
+        
+        // Processing
+        int n = Integer.parseInt(ln.split(" ")[0]);
+        int k = Integer.parseInt(ln.split(" ")[1]);
+        int cnt = 0;
+        
+        while (n >= k * cnt) {
+            cnt++;
+        }
+        
+        // Output
+        System.out.println(cnt - 1);
+        
+        scanner.close();
+    }
+}

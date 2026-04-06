@@ -1,0 +1,99 @@
+{
+  "p02597": {
+    "problem_id": "p02597",
+    "java_file": "_3174D.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02628": {
+    "problem_id": "p02628",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:221: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+  },
+  "p02684": {
+    "problem_id": "p02684",
+    "java_file": "_3167D.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02689": {
+    "problem_id": "p02689",
+    "java_file": "_3166C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02718": {
+    "problem_id": "p02718",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:160: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+  },
+  "p02725": {
+    "problem_id": "p02725",
+    "java_file": "_3160C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02727": {
+    "problem_id": "p02727",
+    "java_file": "_3160E.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02916": {
+    "problem_id": "p02916",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:161: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n/content/temp_compile/PROGRAM_ID.java:217: error: incompatible types: possible lossy conversion from long to int\n        for (int n1 = b_maxlen.bswap_64(); n1 > 0; n1--)\n                                       ^\n/content/temp_compile/PROGRAM_ID.java:288: error: incompatible types: possible lossy conversion from long to int\n        for (int n2 = b_maxlen.bswap_64(); n2 > 0; n2--)\n                                       ^\n3 errors"
+  },
+  "p03282": {
+    "problem_id": "p03282",
+    "java_file": "BIT_QUERY.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/BIT_QUERY.java:383: error: variable b_RETURN_CODE is already defined in class BIT_QUERY\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/BIT_QUERY.java:385: error: variable b_N is already defined in class BIT_QUERY\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/BIT_QUERY.java:387: error: variable b_BT1 is already defined in class BIT_QUERY\n  private CobolDataStorage b_BT1;\t/* BT1 */\n                           ^\n/content/temp_compile/BIT_QUERY.java:388: error: variable b_BX1 is already defined in class BIT_QUERY\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/BIT_QUERY.java:389: error: variable b_BX2 is already defined in class BIT_QUERY\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/BIT_QUERY.java:400: error: variable b_RETURN_CODE is already defined in class BIT_QUERY\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/BIT_QUERY.java:402: error: variable b_N is already defined in class BIT_QUERY\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/BIT_QUERY.java:403: error: variable b_tmp is already defined in class BIT_QUERY\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/BIT_QUERY.java:408: error: variable b_BX1 is already defined in class BIT_QUERY\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/BIT_QUERY.java:409: error: variable b_BX2 is already defined in class BIT_QUERY\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/BIT_QUERY.java:429: error: variable f_tmp is already defined in class BIT_QUERY\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/BIT_QUERY.java:434: error: variable f_d_ret is already defined in class BIT_QUERY\n  private AbstractCobolField f_d_ret;\t/* d_ret */\n                             ^\n/content/temp_compile/BIT_QUERY.java:455: error: variable b_d_ret is already defined in class BIT_QUERY\n  private CobolDataStorage b_d_ret;\n                           ^\n13 errors"
+  },
+  "p03285": {
+    "problem_id": "p03285",
+    "java_file": "ABC_106_A.java",
+    "error_type": "test_validation",
+    "error_message": "Expected 1 lines, got 1 lines.\nExpected:\nYes\n\nActual:\n10",
+    "actual_output": "10"
+  },
+  "p03294": {
+    "problem_id": "p03294",
+    "java_file": "LOWEST_BIT_VAL.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/LOWEST_BIT_VAL.java:380: error: variable b_RETURN_CODE is already defined in class LOWEST_BIT_VAL\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/LOWEST_BIT_VAL.java:386: error: variable b_tmp is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/LOWEST_BIT_VAL.java:387: error: variable b_x is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_x;\t/* x */\n                           ^\n/content/temp_compile/LOWEST_BIT_VAL.java:389: error: variable b_RETURN_CODE is already defined in class LOWEST_BIT_VAL\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/LOWEST_BIT_VAL.java:390: error: variable b_N is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/LOWEST_BIT_VAL.java:391: error: variable b_BT1 is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_BT1;\t/* BT1 */\n                           ^\n/content/temp_compile/LOWEST_BIT_VAL.java:392: error: variable b_BX1 is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/LOWEST_BIT_VAL.java:393: error: variable b_BX2 is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/LOWEST_BIT_VAL.java:394: error: variable b_tmp is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/LOWEST_BIT_VAL.java:395: error: variable b_x is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_x;\t/* x */\n                           ^\n/content/temp_compile/LOWEST_BIT_VAL.java:397: error: variable b_RETURN_CODE is already defined in class LOWEST_BIT_VAL\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/LOWEST_BIT_VAL.java:399: error: variable b_N is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/LOWEST_BIT_VAL.java:400: error: variable b_M is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_M;\t/* M */\n                           ^\n/content/temp_compile/LOWEST_BIT_VAL.java:401: error: variable b_BT1 is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_BT1;\t/* BT1 */\n                           ^\n/content/temp_compile/LOWEST_BIT_VAL.java:402: error: variable b_BX1 is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/LOWEST_BIT_VAL.java:403: error: variable b_BX2 is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/LOWEST_BIT_VAL.java:414: error: variable b_RETURN_CODE is already defined in class LOWEST_BIT_VAL\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/LOWEST_BIT_VAL.java:416: error: variable b_N is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/LOWEST_BIT_VAL.java:417: error: variable b_tmp is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/LOWEST_BIT_VAL.java:419: error: variable b_r is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_r;\t/* r */\n                           ^\n/content/temp_compile/LOWEST_BIT_VAL.java:422: error: variable b_BX1 is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/LOWEST_BIT_VAL.java:423: error: variable b_BX2 is already defined in class LOWEST_BIT_VAL\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/LOWEST_BIT_VAL.java:440: error: variable f_tmp is already defined in class LOWEST_BIT_VAL\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/LOWEST_BIT_VAL.java:441: error: variable f_x is already defined in class LOWEST_BIT_VAL\n  private AbstractCobolField f_x;\t/* x */\n                             ^\n/content/temp_compile/LOWEST_BIT_VAL.java:445: error: variable f_x is already defined in class LOWEST_BIT_VAL\n  private AbstractCobolField f_x;\t/* x */\n                             ^\n/content/temp_compile/LOWEST_BIT_VAL.java:446: error: variable f_tmp is already defined in class LOWEST_BIT_VAL\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/LOWEST_BIT_VAL.java:451: error: variable f_tmp is already defined in class LOWEST_BIT_VAL\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/LOWEST_BIT_VAL.java:453: error: variable f_r is already defined in class LOWEST_BIT_VAL\n  private AbstractCobolField f_r;\t/* r */\n                             ^\n/content/temp_compile/LOWEST_BIT_VAL.java:456: error: variable f_d_ret is already defined in class LOWEST_BIT_VAL\n  private AbstractCobolField f_d_ret;\t/* d_ret */\n                             ^\n29 errors"
+  },
+  "p03297": {
+    "problem_id": "p03297",
+    "java_file": "LCM.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(int)\" because \"buf\" is null\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.memcpy(CobolDataStorage.java:248)\n\tat LCM$4.run(LCM.java:145)\n\tat LCM.execEntry(LCM.java:212)\n\tat LCM.run_module(LCM.java:104)\n\tat LCM.LCM_(LCM.java:60)\n\tat LCM.main(LCM.java:224)"
+  },
+  "p03311": {
+    "problem_id": "p03311",
+    "java_file": "AGC_026_B.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/AGC_026_B.java:381: error: variable b_RETURN_CODE is already defined in class AGC_026_B\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/AGC_026_B.java:384: error: variable b_x is already defined in class AGC_026_B\n  private CobolDataStorage b_x;\t/* x */\n                           ^\n/content/temp_compile/AGC_026_B.java:386: error: variable b_RETURN_CODE is already defined in class AGC_026_B\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/AGC_026_B.java:387: error: variable b_g is already defined in class AGC_026_B\n  private CobolDataStorage b_g;\t/* g */\n                           ^\n/content/temp_compile/AGC_026_B.java:405: error: variable f_d_ret is already defined in class AGC_026_B\n  private AbstractCobolField f_d_ret;\t/* d_ret */\n                             ^\n/content/temp_compile/AGC_026_B.java:413: error: variable f_g is already defined in class AGC_026_B\n  private AbstractCobolField f_g;\t/* g */\n                             ^\n/content/temp_compile/AGC_026_B.java:416: error: variable f_x is already defined in class AGC_026_B\n  private AbstractCobolField f_x;\t/* x */\n                             ^\n7 errors"
+  },
+  "p03325": {
+    "problem_id": "p03325",
+    "java_file": "ABC_999_A.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03327": {
+    "problem_id": "p03327",
+    "java_file": "_3100C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03636": {
+    "problem_id": "p03636",
+    "java_file": "_3069B.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _3069B$4.run(_3069B.java:138)\n\tat _3069B.execEntry(_3069B.java:186)\n\tat _3069B.run_module(_3069B.java:90)\n\tat _3069B._3069B_(_3069B.java:44)\n\tat _3069B.main(_3069B.java:194)"
+  }
+}
