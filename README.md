@@ -18,11 +18,11 @@ This repository contains the code and results for the dissertation "Towards Full
    
 7. Hybrid Scripts: Contains scripts for the five hybrid strategies, organised by tool.
 
-  - COBOL4Jscripts: v1.py through v5.py, one per strategy.
-  - qwenscripts: v1.py through v5.py, one per strategy.
-  - xmainframescripts: v1.py through v5.py, one per strategy.
-  - Original_Translations: Contains the original tool outputs passed in as context during the hybrid experiments.
-
+     - COBOL4Jscripts: v1.py through v5.py, one per strategy.
+     - qwenscripts: v1.py through v5.py, one per strategy.
+     - xmainframescripts: v1.py through v5.py, one per strategy.
+     - Original_Translations: Contains the original tool outputs passed in as context during the hybrid experiments.
+   
 
 
 
@@ -31,8 +31,8 @@ This repository contains the code and results for the dissertation "Towards Full
 1. Functional: Contains the translation results for each tool, organised by tool name, for RQ1.
    
 2. Static: Contains two subfolders.
-        - static_analysis_all: Lizard JSON results for all translations per tool.
-        - static_analysis_compile: Lizard JSON results for only those translations that at least compiled per tool. This is the              value reported in the paper for RQ2.
+      - static_analysis_all: Lizard JSON results for all translations per tool.
+      - static_analysis_compile: Lizard JSON results for only those translations that at least compiled per tool. This is the              value reported in the paper for RQ2.
 
 
 3. Bug Taxonomy: Contains a spreadsheet detailing the manual bug taxonomy carried out for RQ3, including the identified bug category and root cause for each sampled program.
