@@ -1,26 +1,47 @@
-# Towards-Automated-COBOL-to-Java-Translation
+**Towards Automated COBOL-to-Java Translation
+This repository contains the code and results for the dissertation "Towards Fully Automated COBOL-To-Java Translation". It is organised into two sections: Python_Scripts and Results.
 
-This repository provides the code and supporting results for the Dissertation titled "Towards Fully Automated COBOL-To-Java Translation". It is organized into two sections:
+---------------------------------------------------------------------------
+Python_Scripts**
 
-Python_Scripts which contains all the .py scripts run to produce the results:
+1. CodeNet.ipynb: Loads Project CodeNet from IBM and extracts the COBOL and Java focused dataset used throughout the dissertation.
 
-- CodeNet.ipynb - This notebook contains the code segments used to load Project CodeNet from IBM and extract the COBOL and Java focused dataset that we use.
-  
-  - Translations.ipynb - This notebook contains the code segments used to perform the translations for 3 translators - opensource COBOL4J, XMAiNframe-instruct-7b and Qwen2.5-Coder-7B-Instruc.
-    
-  - Tests.ipynb - This notebook contains the code segments to construct our testing pipeline to assess functional correctness using compilation / runtime / test pass rates, and code maintainability using Lizard.
-    
-  - BugTaxonomy.ipynb - This notebook contains the code segments used to build the stratified samples for manual bug inspection, and support functions that help in the analysis process by printing COBOL code, translated Java, and error messages together.
- 
-  - Hybrid Scripts: This folder contains the scripts used for the hybrid experiments across Strategy 1-5.
-    
-        - COBOL4Jscripts - v1.py to v5.py scripts for each strategy
-        - qwenscripts - v1.py to v5.py scripts for each strategy
-        - xmainframescripts - v1.py to v5.py scripts for each strategy
-        - Original_Translations - Contains the original translations for each tool for passing in as context in the hybrid                   experiments
-  
-  - HybridPromptFinetuning.ipynb - This notebook contains the functional tests for the results of the hybrid experiments, and getting statistics like how many tests passed per iteration.
-    
-  - java_and_cobol.txt - This is a text file containing the Problem IDs (PIDs) of CodeNet problems that have at least one COBOL and one Java submission, along with their input and output test values.
+2. Translations.ipynb: Contains the code used to run translations across three tools: opensource COBOL4J, XMAiNframe-instruct-7b, and Qwen2.5-Coder-7B-Instruct.
 
-Results which contain the code translations obtained for each experiment.
+3. Tests.ipynb: Constructs the testing pipeline used to assess functional correctness via compilation, runtime, and test pass rates, as well as code maintainability using Lizard.
+   
+4. BugTaxonomy.ipynb: Builds the stratified samples for manual bug inspection and includes support functions that print COBOL source, translated Java, and error messages together for analysis.
+
+5. HybridPromptFinetuning.ipynb: Runs functional tests on the hybrid experiment outputs and computes per-iteration statistics such as the number of tests passed per iteration.
+   
+6. java_and_cobol.txt: Lists the Problem IDs (PIDs) of CodeNet problems that have at least one COBOL and one Java submission, along with their input and output test values.
+   
+7. Hybrid Scripts: Contains scripts for the five hybrid strategies, organised by tool.
+
+  - COBOL4Jscripts: v1.py through v5.py, one per strategy.
+  - qwenscripts: v1.py through v5.py, one per strategy.
+  - xmainframescripts: v1.py through v5.py, one per strategy.
+  - Original_Translations: Contains the original tool outputs passed in as context during the hybrid experiments.
+
+
+
+
+**Results**
+
+1. Functional: Contains the translation results for each tool, organised by tool name, for RQ1.
+   
+2. Static: Contains two subfolders.
+  - static_analysis_all: Lizard JSON results for all translations per tool.
+  - static_analysis_compile: Lizard JSON results for only those translations that at least compiled per tool. This is the value     reported in the paper for RQ2.
+
+
+3. Bug Taxonomy: Contains a spreadsheet detailing the manual bug taxonomy carried out for RQ3, including the identified bug category and root cause for each sampled program.
+   
+4. Hybrid: Contains all results and supporting data for the hybrid experiments.
+
+    - Results: Organised by tool, with each tool folder containing subfolders for strategy_one through strategy_five, plus              strategyfive_holdout for the holdout set run of the best strategy.
+      
+    - Stratified_Sampling: Contains all data related to the stratified sampling process.
+         - DevAndHoldout: Contains errors_dev_tool.json and errors_holdout_tool.json with error details from functional testing,             and a stratified_sampling_support_data subfolder with sampling_recommendation_tool.txt and taxonomy_tool.json files per            tool, generated by BugTaxonomy.ipynb.
+         - Original_Translation_Errors: Contains errors_tool.json with the detailed error type and message observed from the RQ1             functional tests.
+         - cobol_constructs_for_each_PID.json: Lists the main COBOL constructs extracted for each problem in the dataset.
