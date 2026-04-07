@@ -1,5 +1,4 @@
-**Towards Automated COBOL-to-Java Translation
-This repository contains the code and results for the dissertation "Towards Fully Automated COBOL-To-Java Translation". It is organised into two sections: Python_Scripts and Results.**
+**This repository contains the code and results for the dissertation "Towards Fully Automated COBOL-To-Java Translation". It is organised into two sections: Python_Scripts and Results.**
 
 ------------------------------------------------------------------------------------------------------------------------
 **Python_Scripts**
