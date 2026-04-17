@@ -1,0 +1,33 @@
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter input: ");
+        String inp = scanner.nextLine().trim();
+
+        if (inp.length() != 2) {
+            System.out.println("Invalid input. Please enter exactly two characters.");
+            return;
+        }
+
+        char a = inp.charAt(0);
+        char b = inp.charAt(1);
+
+        if (a == 'H') {
+            if (b == 'H') {
+                System.out.println("H");
+            } else {
+                System.out.println("D");
+            }
+        } else {
+            if (b == 'H') {
+                System.out.println("D");
+            } else {
+                System.out.println("H");
+            }
+        }
+    }
+}
+```

@@ -1,0 +1,43 @@
+```java
+import java.util.Scanner;
+
+public class PROGRAM_ID {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read first line
+        String ln = scanner.nextLine();
+        String[] parts = ln.split("\\s+");
+        String s = parts[0];
+        String t = parts[1];
+
+        // Read second line
+        ln = scanner.nextLine();
+        parts = ln.split("\\s+");
+        int a = Integer.parseInt(parts[0]);
+        int b = Integer.parseInt(parts[1]);
+
+        // Read third line
+        String u = scanner.nextLine();
+
+        // Adjust A or B based on comparison
+        if (s.equals(u)) {
+            a--;
+        } else {
+            b--;
+        }
+
+        // Convert A to string
+        String ans = String.format("%02d", a);
+        String z = ans;
+
+        // Convert B to string
+        ans = String.format("%02d", b);
+        z += " " + ans;
+
+        // Output the result
+        System.out.println(z);
+    }
+}
+```

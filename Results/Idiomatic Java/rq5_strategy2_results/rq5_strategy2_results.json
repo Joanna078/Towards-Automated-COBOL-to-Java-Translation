@@ -1,0 +1,957 @@
+[
+  {
+    "problem_id": "p02756",
+    "java_file": "_3158B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02613",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03272",
+    "java_file": "ABC_107_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03125",
+    "java_file": "ATCODER.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03035",
+    "java_file": "AtCoder.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02789",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02742",
+    "java_file": "B__Bishop.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02720",
+    "java_file": "_3161D.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03609",
+    "java_file": "test1.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02629",
+    "java_file": "_3171C.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02627",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02726",
+    "java_file": "_3160D.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03011",
+    "java_file": "TEST129.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03075",
+    "java_file": "AtCoder.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03854",
+    "java_file": "test1.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02614",
+    "java_file": "_3173C.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02957",
+    "java_file": "_3135A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03605",
+    "java_file": "ABC_073_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02755",
+    "java_file": "_3158B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p04012",
+    "java_file": "ABC_044_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03296",
+    "java_file": "ABC_026_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p04011",
+    "java_file": "TESTA.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03555",
+    "java_file": "ABC_077_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03643",
+    "java_file": "ABC_068_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02548",
+    "java_file": "SORTNUM.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03473",
+    "java_file": "ABC_084_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03548",
+    "java_file": "ABC_078_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02713",
+    "java_file": "_3162C.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03407",
+    "java_file": "ABC_091_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02994",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02882",
+    "java_file": "AtCoder.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03827",
+    "java_file": "ABC_052_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02712",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02754",
+    "java_file": "_3158B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03477",
+    "java_file": "ABC_083_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02880",
+    "java_file": "AtCoder.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02682",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02676",
+    "java_file": "_3168B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02945",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02677",
+    "java_file": "_3168C.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02910",
+    "java_file": "_3141B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03963",
+    "java_file": "ABC046__B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02885",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03317",
+    "java_file": "ABC_101_C.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02773",
+    "java_file": "A__BEGINNER.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03778",
+    "java_file": "ABC_056_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02612",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03433",
+    "java_file": "ATCODER.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03071",
+    "java_file": "_3124A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03260",
+    "java_file": "_3180908A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02693",
+    "java_file": "_3165A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02934",
+    "java_file": "_3138B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02659",
+    "java_file": "abc169c.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03273",
+    "java_file": "ABC_107_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02812",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03597",
+    "java_file": "ABC_074_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03329",
+    "java_file": "ABC_099_C.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03326",
+    "java_file": "ABC_100_D.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02915",
+    "java_file": "_3140A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03292",
+    "java_file": "ABC_103_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02730",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03415",
+    "java_file": "A__Diagonal.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02640",
+    "java_file": "_3170B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03671",
+    "java_file": "ABC_066_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03360",
+    "java_file": "ABC_096_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02759",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03485",
+    "java_file": "_3082A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02811",
+    "java_file": "ABC150a.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03632",
+    "java_file": "ABC_070_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02760",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02681",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03712",
+    "java_file": "ABC_062_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03759",
+    "java_file": "_3058A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03059",
+    "java_file": "AtCoder.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03332",
+    "java_file": "AGC_025_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02921",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02714",
+    "java_file": "_3162D.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02922",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02909",
+    "java_file": "ATCODER.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02743",
+    "java_file": "ATCODER.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03370",
+    "java_file": "ABC_095_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02777",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03408",
+    "java_file": "ABC_091_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03378",
+    "java_file": "ABC_094_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03351",
+    "java_file": "ABC_097_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02641",
+    "java_file": "_3170C.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03319",
+    "java_file": "_3099C.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03486",
+    "java_file": "ABC_082_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02719",
+    "java_file": "_3161C.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03251",
+    "java_file": "ABC110B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02765",
+    "java_file": "test156.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03478",
+    "java_file": "test1.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03072",
+    "java_file": "_3124B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03501",
+    "java_file": "ABC_080_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02778",
+    "java_file": "_3154B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03337",
+    "java_file": "ABC_098_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03386",
+    "java_file": "ABC_093_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03281",
+    "java_file": "ABC_106_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03844",
+    "java_file": "ABC_050_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02859",
+    "java_file": "_3145A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02621",
+    "java_file": "_3172A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03826",
+    "java_file": "ABC_052_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02606",
+    "java_file": "aising__A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02835",
+    "java_file": "ABC150_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02969",
+    "java_file": "AtCoder.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03457",
+    "java_file": "test1.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03962",
+    "java_file": "test1.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02753",
+    "java_file": "_3158A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03288",
+    "java_file": "ABC_104_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03563",
+    "java_file": "ABC_076_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03448",
+    "java_file": "Answer.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03192",
+    "java_file": "caddi2018a.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03852",
+    "java_file": "_3049A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03657",
+    "java_file": "ABC_067_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02701",
+    "java_file": "_3164C.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03679",
+    "java_file": "ABC_065_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02700",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02766",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03284",
+    "java_file": "Crackers.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03644",
+    "java_file": "ABC_068_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03324",
+    "java_file": "ABC_100_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03295",
+    "java_file": "ABC_103_D.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02999",
+    "java_file": "ATCODER.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03307",
+    "java_file": "ABC_102_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03359",
+    "java_file": "a.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03845",
+    "java_file": "ABC_050_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03455",
+    "java_file": "ABC_086_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03323",
+    "java_file": "A__Birthday.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03210",
+    "java_file": "ATCODER.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03145",
+    "java_file": "ATCODER.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03719",
+    "java_file": "ABC_061_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p04043",
+    "java_file": "ABC_042_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02687",
+    "java_file": "_3166A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03738",
+    "java_file": "ABC_059_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03777",
+    "java_file": "_3056A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03773",
+    "java_file": "ABC_057_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03352",
+    "java_file": "ABC_097_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02946",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03456",
+    "java_file": "Answer.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03860",
+    "java_file": "test1.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02767",
+    "java_file": "A__BEGINNER.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02552",
+    "java_file": "SORTNUM.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02690",
+    "java_file": "_3166D.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03355",
+    "java_file": "_3097C.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03760",
+    "java_file": "ABC_058_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p04030",
+    "java_file": "ABC_043_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02705",
+    "java_file": "_3163A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03737",
+    "java_file": "ABC_059_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03544",
+    "java_file": "ABC_079_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03469",
+    "java_file": "ALREADY.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02547",
+    "java_file": "SORTNUM.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03598",
+    "java_file": "ABC_074_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03012",
+    "java_file": "_3129B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03085",
+    "java_file": "A__DoubleHelix.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02696",
+    "java_file": "_3165D.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03238",
+    "java_file": "Main.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03243",
+    "java_file": "ABC111B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02675",
+    "java_file": "PracticeA.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03328",
+    "java_file": "ABC_099_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03853",
+    "java_file": "ABC_049_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03861",
+    "java_file": "ABC_048_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03400",
+    "java_file": "ABC_092_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02711",
+    "java_file": "_3162A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02993",
+    "java_file": "AtCoder.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02836",
+    "java_file": "_3147B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03835",
+    "java_file": "ABC_051_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02818",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03502",
+    "java_file": "ABC_080_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02657",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03943",
+    "java_file": "ABC_047_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03493",
+    "java_file": "ABC_081_A.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03105",
+    "java_file": "ATCODER.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03774",
+    "java_file": "ABC_057_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02951",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03308",
+    "java_file": "ABC_102_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03086",
+    "java_file": "_3122B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02817",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03416",
+    "java_file": "Answer.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03417",
+    "java_file": "kyopuro.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03219",
+    "java_file": "ATCODER.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03373",
+    "java_file": "_3096C.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02724",
+    "java_file": "_3160B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03268",
+    "java_file": "_3102C.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02692",
+    "java_file": "_3166F.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02595",
+    "java_file": "_3174B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02897",
+    "java_file": "PROGRAM_ID.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02790",
+    "java_file": "_3152B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02608",
+    "java_file": "aising__C.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p02879",
+    "java_file": "AtCoder.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03730",
+    "java_file": "ABC_060_B.java",
+    "status": "refactored"
+  },
+  {
+    "problem_id": "p03369",
+    "java_file": "test1.java",
+    "status": "refactored"
+  }
+]

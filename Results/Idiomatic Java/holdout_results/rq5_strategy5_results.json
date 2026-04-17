@@ -1,0 +1,4978 @@
+[
+  {
+    "problem_id": "p03206",
+    "java_file": "christmas.java",
+    "status": "processed",
+    "baseline_score": 24.0,
+    "best_score": 5.0,
+    "improvement": 19.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 23,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 23.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 12,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 12.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03418",
+    "java_file": "kyopuro.java",
+    "status": "processed",
+    "baseline_score": 22.0,
+    "best_score": 3.0,
+    "improvement": 19.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 25,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 25.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 24,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 24.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03076",
+    "java_file": "_3123B.java",
+    "status": "processed",
+    "baseline_score": 24.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 24,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 24.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 24,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 24.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 24,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 24.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 24,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 24.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 24,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 24.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02761",
+    "java_file": "GUESSNUM.java",
+    "status": "processed",
+    "baseline_score": 34.0,
+    "best_score": 13.0,
+    "improvement": 21.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 41,
+          "avg_ccn": 13.0,
+          "max_ccn": 13,
+          "avg_nloc": 41.0
+        },
+        "lizard_score": 13.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02783",
+    "java_file": "ATCODER.java",
+    "status": "processed",
+    "baseline_score": 21.0,
+    "best_score": 2.0,
+    "improvement": 19.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 15,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 15.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 15,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 15.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 12,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 12.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02663",
+    "java_file": "NOMURA__A.java",
+    "status": "processed",
+    "baseline_score": 20.0,
+    "best_score": 1.0,
+    "improvement": 19.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 15,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 15.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 15,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 15.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 14,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 14.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03574",
+    "java_file": "ABC_075_B.java",
+    "status": "processed",
+    "baseline_score": 34.0,
+    "best_score": 11.0,
+    "improvement": 23.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 31,
+          "avg_ccn": 11.0,
+          "max_ccn": 11,
+          "avg_nloc": 31.0
+        },
+        "lizard_score": 11.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03250",
+    "java_file": "ATCODER.java",
+    "status": "processed",
+    "baseline_score": 24.0,
+    "best_score": 5.0,
+    "improvement": 19.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03424",
+    "java_file": "Answer.java",
+    "status": "processed",
+    "baseline_score": 27.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 17,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 17.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 17,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 17.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 17,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 17.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 17,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 17.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 17,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 17.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02683",
+    "java_file": "_3167C.java",
+    "status": "processed",
+    "baseline_score": null,
+    "best_score": 13.0,
+    "improvement": null,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 51,
+          "avg_ccn": 13.0,
+          "max_ccn": 13,
+          "avg_nloc": 51.0
+        },
+        "lizard_score": 13.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02952",
+    "java_file": "PROGRAM_ID.java",
+    "status": "processed",
+    "baseline_score": 23.0,
+    "best_score": 3.0,
+    "improvement": 20.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 17,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 17.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 16,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 16.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 16,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 16.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 14,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 14.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02987",
+    "java_file": "_3132A.java",
+    "status": "processed",
+    "baseline_score": 26.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03795",
+    "java_file": "ABC_055_A.java",
+    "status": "processed",
+    "baseline_score": 22.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02741",
+    "java_file": "A__KthTerm.java",
+    "status": "processed",
+    "baseline_score": 20.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 9,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 9.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 9,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 9.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 9,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 9.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 9,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 9.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 9,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 9.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02970",
+    "java_file": "PROGRAM_ID.java",
+    "status": "processed",
+    "baseline_score": 20.0,
+    "best_score": 1.0,
+    "improvement": 19.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03289",
+    "java_file": "ABC_100_B.java",
+    "status": "processed",
+    "baseline_score": 32.0,
+    "best_score": 9.0,
+    "improvement": 23.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 35,
+          "avg_ccn": 9.0,
+          "max_ccn": 9,
+          "avg_nloc": 35.0
+        },
+        "lizard_score": 9.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 34,
+          "avg_ccn": 9.0,
+          "max_ccn": 9,
+          "avg_nloc": 34.0
+        },
+        "lizard_score": 9.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p04044",
+    "java_file": "ABC_042_B.java",
+    "status": "processed",
+    "baseline_score": 24.0,
+    "best_score": 3.0,
+    "improvement": 21.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03944",
+    "java_file": "ABC_047_B.java",
+    "status": "processed",
+    "baseline_score": 30.0,
+    "best_score": 8.0,
+    "improvement": 22.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 36,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 36.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 36,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 36.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03813",
+    "java_file": "ABC_053_A.java",
+    "status": "processed",
+    "baseline_score": 21.0,
+    "best_score": 2.0,
+    "improvement": 19.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 11,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 11.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 11,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 11.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03242",
+    "java_file": "ABC111A.java",
+    "status": "processed",
+    "baseline_score": 20.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 12,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 12.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 13,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 13.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 13,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 13.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 13,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 13.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 13,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 13.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02583",
+    "java_file": "_3175B.java",
+    "status": "processed",
+    "baseline_score": null,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 49,
+          "avg_ccn": 14.0,
+          "max_ccn": 14,
+          "avg_nloc": 49.0
+        },
+        "lizard_score": 14.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 49,
+          "avg_ccn": 14.0,
+          "max_ccn": 14,
+          "avg_nloc": 49.0
+        },
+        "lizard_score": 14.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 49,
+          "avg_ccn": 14.0,
+          "max_ccn": 14,
+          "avg_nloc": 49.0
+        },
+        "lizard_score": 14.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 49,
+          "avg_ccn": 14.0,
+          "max_ccn": 14,
+          "avg_nloc": 49.0
+        },
+        "lizard_score": 14.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 49,
+          "avg_ccn": 14.0,
+          "max_ccn": 14,
+          "avg_nloc": 49.0
+        },
+        "lizard_score": 14.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03635",
+    "java_file": "ABC_069_A.java",
+    "status": "processed",
+    "baseline_score": 22.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 12,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 12.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 11,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 11.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 11,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 11.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 11,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 11.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "compilation_error"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 11,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 11.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03796",
+    "java_file": "ABC_055_B.java",
+    "status": "processed",
+    "baseline_score": 24.0,
+    "best_score": 2.0,
+    "improvement": 22.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 12,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 12.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 15,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 15.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 11,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 11.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03680",
+    "java_file": "ABC_065_A.java",
+    "status": "processed",
+    "baseline_score": 31.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 27,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 27.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 26,
+          "avg_ccn": 6.0,
+          "max_ccn": 6,
+          "avg_nloc": 26.0
+        },
+        "lizard_score": 6.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 26,
+          "avg_ccn": 6.0,
+          "max_ccn": 6,
+          "avg_nloc": 26.0
+        },
+        "lizard_score": 6.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 26,
+          "avg_ccn": 6.0,
+          "max_ccn": 6,
+          "avg_nloc": 26.0
+        },
+        "lizard_score": 6.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 26,
+          "avg_ccn": 6.0,
+          "max_ccn": 6,
+          "avg_nloc": 26.0
+        },
+        "lizard_score": 6.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03338",
+    "java_file": "ABC_098_B.java",
+    "status": "processed",
+    "baseline_score": null,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 25,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 25.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 25,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 25.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 27,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 27.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 27,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 27.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 27,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 27.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03377",
+    "java_file": "ABC_094_A.java",
+    "status": "processed",
+    "baseline_score": 26.0,
+    "best_score": 9.0,
+    "improvement": 17.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 27,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 27.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 26,
+          "avg_ccn": 9.0,
+          "max_ccn": 9,
+          "avg_nloc": 26.0
+        },
+        "lizard_score": 9.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03101",
+    "java_file": "TEST121.java",
+    "status": "processed",
+    "baseline_score": 20.0,
+    "best_score": 1.0,
+    "improvement": 19.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 12,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 12.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 12,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 12.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02772",
+    "java_file": "A__BEGINNER.java",
+    "status": "processed",
+    "baseline_score": 35.0,
+    "best_score": 11.0,
+    "improvement": 24.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 36,
+          "avg_ccn": 11.0,
+          "max_ccn": 11,
+          "avg_nloc": 36.0
+        },
+        "lizard_score": 11.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03293",
+    "java_file": "_3103B.java",
+    "status": "processed",
+    "baseline_score": 26.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 23,
+          "avg_ccn": 6.0,
+          "max_ccn": 6,
+          "avg_nloc": 23.0
+        },
+        "lizard_score": 6.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 25,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 25.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 25,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 25.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 25,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 25.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 25,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 25.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02762",
+    "java_file": "D__Friend.java",
+    "status": "processed",
+    "baseline_score": null,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 5,
+          "total_nloc": 100,
+          "avg_ccn": 6.0,
+          "max_ccn": 11,
+          "avg_nloc": 20.0
+        },
+        "lizard_score": 30.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 5,
+          "total_nloc": 100,
+          "avg_ccn": 6.0,
+          "max_ccn": 11,
+          "avg_nloc": 20.0
+        },
+        "lizard_score": 30.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 4,
+          "total_nloc": 68,
+          "avg_ccn": 5.0,
+          "max_ccn": 11,
+          "avg_nloc": 17.0
+        },
+        "lizard_score": 20.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 4,
+          "total_nloc": 68,
+          "avg_ccn": 5.0,
+          "max_ccn": 11,
+          "avg_nloc": 17.0
+        },
+        "lizard_score": 20.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 4,
+          "total_nloc": 68,
+          "avg_ccn": 5.0,
+          "max_ccn": 11,
+          "avg_nloc": 17.0
+        },
+        "lizard_score": 20.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02723",
+    "java_file": "_3160B.java",
+    "status": "processed",
+    "baseline_score": 22.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 14,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 14.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 14,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 14.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 14,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 14.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 14,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 14.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 14,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 14.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03264",
+    "java_file": "_3108A.java",
+    "status": "processed",
+    "baseline_score": 20.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 9,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 9.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 9,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 9.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 9,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 9.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 9,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 9.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02582",
+    "java_file": "_3175A.java",
+    "status": "processed",
+    "baseline_score": 26.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 21,
+          "avg_ccn": 3.5,
+          "max_ccn": 6,
+          "avg_nloc": 10.5
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 21,
+          "avg_ccn": 3.5,
+          "max_ccn": 5,
+          "avg_nloc": 10.5
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 21,
+          "avg_ccn": 3.5,
+          "max_ccn": 5,
+          "avg_nloc": 10.5
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 21,
+          "avg_ccn": 3.5,
+          "max_ccn": 5,
+          "avg_nloc": 10.5
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 21,
+          "avg_ccn": 3.0,
+          "max_ccn": 4,
+          "avg_nloc": 10.5
+        },
+        "lizard_score": 6.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02801",
+    "java_file": "PROGRAM_ID.java",
+    "status": "processed",
+    "baseline_score": 20.0,
+    "best_score": 2.0,
+    "improvement": 18.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 9,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 9.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03998",
+    "java_file": "ABC_045_B.java",
+    "status": "processed",
+    "baseline_score": 30.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 44,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 44.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 40,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 40.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 40,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 40.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 40,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 40.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 40,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 40.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03672",
+    "java_file": "ABC_066_B.java",
+    "status": "processed",
+    "baseline_score": 28.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 30,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 30.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 29,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 29.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "compilation_error"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 29,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 29.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 29,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 29.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 29,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 29.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02829",
+    "java_file": "AtCoder.java",
+    "status": "processed",
+    "baseline_score": 20.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03547",
+    "java_file": "ABC_078_A.java",
+    "status": "processed",
+    "baseline_score": 22.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02694",
+    "java_file": "_3165B.java",
+    "status": "processed",
+    "baseline_score": 24.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 21,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 21.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 21,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 21.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 21,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 21.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 21,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 21.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 21,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 21.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03834",
+    "java_file": "ABC051A.java",
+    "status": "processed",
+    "baseline_score": 20.0,
+    "best_score": 1.0,
+    "improvement": 19.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 8,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 8.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 7,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 7.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03573",
+    "java_file": "ABC_075_A.java",
+    "status": "processed",
+    "baseline_score": 24.0,
+    "best_score": 3.0,
+    "improvement": 21.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 19,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 19.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03658",
+    "java_file": "ABC_067_B.java",
+    "status": "processed",
+    "baseline_score": 43.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 3,
+          "total_nloc": 71,
+          "avg_ccn": 4.333333333333333,
+          "max_ccn": 6,
+          "avg_nloc": 23.666666666666668
+        },
+        "lizard_score": 13.0,
+        "passed_tests": false,
+        "error_type": "compilation_error"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 3,
+          "total_nloc": 71,
+          "avg_ccn": 4.333333333333333,
+          "max_ccn": 6,
+          "avg_nloc": 23.666666666666668
+        },
+        "lizard_score": 13.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 3,
+          "total_nloc": 71,
+          "avg_ccn": 4.333333333333333,
+          "max_ccn": 6,
+          "avg_nloc": 23.666666666666668
+        },
+        "lizard_score": 13.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 3,
+          "total_nloc": 71,
+          "avg_ccn": 4.333333333333333,
+          "max_ccn": 6,
+          "avg_nloc": 23.666666666666668
+        },
+        "lizard_score": 13.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 3,
+          "total_nloc": 71,
+          "avg_ccn": 4.333333333333333,
+          "max_ccn": 6,
+          "avg_nloc": 23.666666666666668
+        },
+        "lizard_score": 13.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03029",
+    "java_file": "ATCODER.java",
+    "status": "processed",
+    "baseline_score": 20.0,
+    "best_score": 3.0,
+    "improvement": 17.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 12,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 12.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 2,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 15,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 15.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02699",
+    "java_file": "PROGRAM_ID.java",
+    "status": "processed",
+    "baseline_score": 21.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 22,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 22.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 22,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 22.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 22,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 22.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 22,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 22.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 22,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 22.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02847",
+    "java_file": "AtCoder.java",
+    "status": "processed",
+    "baseline_score": 27.0,
+    "best_score": 8.0,
+    "improvement": 19.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 30,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 30.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03606",
+    "java_file": "ABC_073_B.java",
+    "status": "processed",
+    "baseline_score": 24.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03195",
+    "java_file": "caddi2018d.java",
+    "status": "processed",
+    "baseline_score": 24.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 20,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 20.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 20,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 20.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 20,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 20.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 20,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 20.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 20,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 20.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02717",
+    "java_file": "PROGRAM_ID.java",
+    "status": "processed",
+    "baseline_score": 20.0,
+    "best_score": 3.0,
+    "improvement": 17.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 22,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 22.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 20,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 20.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02771",
+    "java_file": "PROGRAM_ID.java",
+    "status": "processed",
+    "baseline_score": 28.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 20,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 20.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 20,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 20.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 20,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 20.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 20,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 20.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 16,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 16.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03720",
+    "java_file": "ABC_061_B.java",
+    "status": "processed",
+    "baseline_score": 27.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 20,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 20.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 19,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 19.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 19,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 19.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 19,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 19.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 19,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 19.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03631",
+    "java_file": "ABC_105_B.java",
+    "status": "processed",
+    "baseline_score": 29.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 16,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 16.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 16,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 16.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 16,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 16.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 16,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 16.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03623",
+    "java_file": "ABC_071_A.java",
+    "status": "processed",
+    "baseline_score": 21.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 17,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 17.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 17,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 17.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 17,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 17.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 17,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 17.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 16,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 16.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03624",
+    "java_file": "ABC_071_B.java",
+    "status": "processed",
+    "baseline_score": 31.000000000000004,
+    "best_score": 9.0,
+    "improvement": 22.000000000000004,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 30,
+          "avg_ccn": 4.5,
+          "max_ccn": 6,
+          "avg_nloc": 15.0
+        },
+        "lizard_score": 9.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03316",
+    "java_file": "ABC_101_B.java",
+    "status": "processed",
+    "baseline_score": 23.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 19,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 19.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 19,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 19.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 19,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 19.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 19,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 19.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 19,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 19.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03494",
+    "java_file": "test1.java",
+    "status": "processed",
+    "baseline_score": 30.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 38,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 38.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 37,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 37.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "compilation_error"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 38,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 38.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 38,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 38.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 38,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 38.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03564",
+    "java_file": "ABC_076_B.java",
+    "status": "processed",
+    "baseline_score": 24.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 14,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 14.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 13,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 13.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 13,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 13.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 12,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 12.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 12,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 12.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03729",
+    "java_file": "ABC_060_A.java",
+    "status": "processed",
+    "baseline_score": 22.0,
+    "best_score": 3.0,
+    "improvement": 19.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 15,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 15.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 14,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 14.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02988",
+    "java_file": "_3132B.java",
+    "status": "processed",
+    "baseline_score": 30.0,
+    "best_score": 9.0,
+    "improvement": 21.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 26,
+          "avg_ccn": 9.0,
+          "max_ccn": 9,
+          "avg_nloc": 26.0
+        },
+        "lizard_score": 9.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 2,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 25,
+          "avg_ccn": 9.0,
+          "max_ccn": 9,
+          "avg_nloc": 25.0
+        },
+        "lizard_score": 9.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02729",
+    "java_file": "PROGRAM_ID.java",
+    "status": "processed",
+    "baseline_score": 20.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 13,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 6.5
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 13,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 6.5
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 13,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 6.5
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 13,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 6.5
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 13,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 6.5
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03543",
+    "java_file": "ABC_079_A.java",
+    "status": "processed",
+    "baseline_score": 24.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 23,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 23.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 22,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 22.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 22,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 22.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 22,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 22.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 22,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 22.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03331",
+    "java_file": "AGC_025_A.java",
+    "status": "processed",
+    "baseline_score": 29.0,
+    "best_score": 5.0,
+    "improvement": 24.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 29,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 29.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 27,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 27.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 27,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 27.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 26,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 26.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03697",
+    "java_file": "ABC_063_A.java",
+    "status": "processed",
+    "baseline_score": 23.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 25,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 25.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 23,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 23.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 23,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 23.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 23,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 23.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 23,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 23.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03286",
+    "java_file": "ABC_105_C.java",
+    "status": "processed",
+    "baseline_score": 26.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 19,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 19.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03041",
+    "java_file": "AtCoder.java",
+    "status": "processed",
+    "baseline_score": 27.0,
+    "best_score": 8.0,
+    "improvement": 19.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 29,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 29.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 2,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 30,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 30.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02731",
+    "java_file": "_3159C.java",
+    "status": "processed",
+    "baseline_score": 20.0,
+    "best_score": 1.0,
+    "improvement": 19.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 9,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 9.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 8,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 8.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02860",
+    "java_file": "_3145B.java",
+    "status": "processed",
+    "baseline_score": 22.0,
+    "best_score": 3.0,
+    "improvement": 19.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 3.0,
+          "max_ccn": 3,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 3.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02981",
+    "java_file": "PROGRAM_ID.java",
+    "status": "processed",
+    "baseline_score": 20.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 11,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 11.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 11,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 11.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 11,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 11.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 11,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 11.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 11,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 11.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03000",
+    "java_file": "_3130B.java",
+    "status": "processed",
+    "baseline_score": 27.0,
+    "best_score": 6.0,
+    "improvement": 21.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 27,
+          "avg_ccn": 6.0,
+          "max_ccn": 6,
+          "avg_nloc": 27.0
+        },
+        "lizard_score": 6.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03385",
+    "java_file": "ABC_093_A.java",
+    "status": "processed",
+    "baseline_score": 27.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 27,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 27.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 26,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 26.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 26,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 26.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 26,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 26.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 27,
+          "avg_ccn": 7.0,
+          "max_ccn": 7,
+          "avg_nloc": 27.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03711",
+    "java_file": "_3062A.java",
+    "status": "processed",
+    "baseline_score": null,
+    "best_score": 16.0,
+    "improvement": null,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 40,
+          "avg_ccn": 8.0,
+          "max_ccn": 13,
+          "avg_nloc": 20.0
+        },
+        "lizard_score": 16.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 40,
+          "avg_ccn": 8.0,
+          "max_ccn": 13,
+          "avg_nloc": 20.0
+        },
+        "lizard_score": 16.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 39,
+          "avg_ccn": 8.0,
+          "max_ccn": 13,
+          "avg_nloc": 19.5
+        },
+        "lizard_score": 16.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p04029",
+    "java_file": "ABC043__A.java",
+    "status": "processed",
+    "baseline_score": 20.0,
+    "best_score": 1.0,
+    "improvement": 19.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 9,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 9.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 8,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 8.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 8,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 8.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 7,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 7.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03694",
+    "java_file": "ABC_064_B.java",
+    "status": "processed",
+    "baseline_score": 25.0,
+    "best_score": 5.0,
+    "improvement": 20.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 27,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 27.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03698",
+    "java_file": "ABC_063_B.java",
+    "status": "processed",
+    "baseline_score": 31.000000000000004,
+    "best_score": 7.0,
+    "improvement": 24.000000000000004,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 25,
+          "avg_ccn": 3.5,
+          "max_ccn": 5,
+          "avg_nloc": 12.5
+        },
+        "lizard_score": 7.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 22,
+          "avg_ccn": 3.5,
+          "max_ccn": 5,
+          "avg_nloc": 11.0
+        },
+        "lizard_score": 7.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02594",
+    "java_file": "_3174A.java",
+    "status": "processed",
+    "baseline_score": 21.0,
+    "best_score": 2.0,
+    "improvement": 19.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 11,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 11.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 11,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 11.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02607",
+    "java_file": "aising__B.java",
+    "status": "processed",
+    "baseline_score": 26.0,
+    "best_score": 6.0,
+    "improvement": 20.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 24,
+          "avg_ccn": 6.0,
+          "max_ccn": 6,
+          "avg_nloc": 24.0
+        },
+        "lizard_score": 6.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02830",
+    "java_file": "_3148B.java",
+    "status": "processed",
+    "baseline_score": 22.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 17,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 17.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 17,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 17.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 22,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 22.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 22,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 22.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 21,
+          "avg_ccn": 5.0,
+          "max_ccn": 5,
+          "avg_nloc": 21.0
+        },
+        "lizard_score": 5.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02933",
+    "java_file": "ATCODER.java",
+    "status": "processed",
+    "baseline_score": 21.0,
+    "best_score": 2.0,
+    "improvement": 19.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 13,
+          "avg_ccn": 2.0,
+          "max_ccn": 2,
+          "avg_nloc": 13.0
+        },
+        "lizard_score": 2.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03434",
+    "java_file": "ABC_088_B.java",
+    "status": "processed",
+    "baseline_score": 41.0,
+    "best_score": 16.0,
+    "improvement": 25.0,
+    "stopped_early": true,
+    "saved": "best",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 4,
+          "total_nloc": 78,
+          "avg_ccn": 4.0,
+          "max_ccn": 10,
+          "avg_nloc": 19.5
+        },
+        "lizard_score": 16.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 4,
+          "total_nloc": 75,
+          "avg_ccn": 4.0,
+          "max_ccn": 10,
+          "avg_nloc": 18.75
+        },
+        "lizard_score": 16.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "best",
+        "lizard": {
+          "function_count": 4,
+          "total_nloc": 75,
+          "avg_ccn": 4.0,
+          "max_ccn": 10,
+          "avg_nloc": 18.75
+        },
+        "lizard_score": 16.0,
+        "passed_tests": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03470",
+    "java_file": "test1.java",
+    "status": "processed",
+    "baseline_score": 27.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 18,
+          "avg_ccn": 4.0,
+          "max_ccn": 4,
+          "avg_nloc": 18.0
+        },
+        "lizard_score": 4.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 20,
+          "avg_ccn": 6.0,
+          "max_ccn": 6,
+          "avg_nloc": 20.0
+        },
+        "lizard_score": 6.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 20,
+          "avg_ccn": 6.0,
+          "max_ccn": 6,
+          "avg_nloc": 20.0
+        },
+        "lizard_score": 6.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 20,
+          "avg_ccn": 6.0,
+          "max_ccn": 6,
+          "avg_nloc": 20.0
+        },
+        "lizard_score": 6.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 20,
+          "avg_ccn": 6.0,
+          "max_ccn": 6,
+          "avg_nloc": 20.0
+        },
+        "lizard_score": 6.0,
+        "passed_tests": false,
+        "error_type": "runtime_error"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03997",
+    "java_file": "_3045A.java",
+    "status": "processed",
+    "baseline_score": 20.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 13,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 6.5
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 13,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 6.5
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 13,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 6.5
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 13,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 6.5
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 2,
+          "total_nloc": 13,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 6.5
+        },
+        "lizard_score": 2.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02584",
+    "java_file": "_3175C.java",
+    "status": "processed",
+    "baseline_score": 27.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 50,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 50.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 50,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 50.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 50,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 50.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 46,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 46.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 46,
+          "avg_ccn": 8.0,
+          "max_ccn": 8,
+          "avg_nloc": 46.0
+        },
+        "lizard_score": 8.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03423",
+    "java_file": "ABC_089_A.java",
+    "status": "processed",
+    "baseline_score": 22.0,
+    "best_score": null,
+    "improvement": null,
+    "stopped_early": false,
+    "saved": "last_iter",
+    "history": [
+      {
+        "iteration": 1,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 2,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 3,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 4,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      },
+      {
+        "iteration": 5,
+        "outcome": "tests_failed",
+        "lizard": {
+          "function_count": 1,
+          "total_nloc": 10,
+          "avg_ccn": 1.0,
+          "max_ccn": 1,
+          "avg_nloc": 10.0
+        },
+        "lizard_score": 1.0,
+        "passed_tests": false,
+        "error_type": "output_mismatch"
+      }
+    ]
+  }
+]

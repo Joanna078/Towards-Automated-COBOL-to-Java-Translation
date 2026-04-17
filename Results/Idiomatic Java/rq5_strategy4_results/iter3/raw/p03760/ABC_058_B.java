@@ -1,0 +1,30 @@
+```java
+import java.util.Scanner;
+
+public class ABC_058_B {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Accept input strings O and E
+        String O = scanner.nextLine();
+        String E = scanner.nextLine();
+
+        // Calculate length of O
+        int len = Math.min(O.length(), E.length());
+
+        // Initialize result string
+        StringBuilder ans = new StringBuilder();
+
+        // Perform the string manipulation
+        for (int i = 0; i < len; i++) {
+            ans.append(O.charAt(i)).append(E.charAt(i));
+        }
+
+        // Display the result
+        System.out.println(ans.toString());
+
+        scanner.close();
+    }
+}
+```

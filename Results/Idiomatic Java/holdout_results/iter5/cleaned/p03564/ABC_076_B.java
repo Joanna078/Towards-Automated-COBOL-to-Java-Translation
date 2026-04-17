@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class ABC_076_B {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter N: ");
+        int N = scanner.nextInt();
+
+        System.out.print("Enter K: ");
+        int K = scanner.nextInt();
+
+        int board = 1;
+
+        for (int i = 1; i <= N; i++) {
+            board = Math.min(board * 2, board + K);
+        }
+
+        System.out.printf("%010d%n", board);
+    }
+}
