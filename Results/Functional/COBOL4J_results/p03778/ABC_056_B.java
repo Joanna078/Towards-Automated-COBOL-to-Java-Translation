@@ -118,11 +118,11 @@ public class ABC_056_B implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ABC_056_B_fixed.cob:19: ACCEPT */
+        /* /content/temp_cobol/input.cob:19: ACCEPT */
         {
           CobolTerminal.accept (f_INP);
         }
-        /* /content/temp_cobol/ABC_056_B_fixed.cob:21: UNSTRING */
+        /* /content/temp_cobol/input.cob:21: UNSTRING */
         {
           CobolString.unstringInit (f_INP, 0, 1);
           CobolString.unstringDelimited (CobolConstant.space, 0);
@@ -131,57 +131,57 @@ public class ABC_056_B implements CobolRunnable {
           CobolString.unstringInto (f_b, 0, 0);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_cobol/ABC_056_B_fixed.cob:25: IF */
+        /* /content/temp_cobol/input.cob:25: IF */
         {
           if (((long)b_b.memcmp (b_a, 6) <  0L))
             {
-              /* /content/temp_cobol/ABC_056_B_fixed.cob:26: MOVE */
+              /* /content/temp_cobol/input.cob:26: MOVE */
               {
                 b_tmp.setBytes (b_b, 6);
               }
-              /* /content/temp_cobol/ABC_056_B_fixed.cob:27: MOVE */
+              /* /content/temp_cobol/input.cob:27: MOVE */
               {
                 b_b.setBytes (b_a, 6);
               }
-              /* /content/temp_cobol/ABC_056_B_fixed.cob:28: MOVE */
+              /* /content/temp_cobol/input.cob:28: MOVE */
               {
                 b_a.setBytes (b_tmp, 6);
               }
             }
         }
-        /* /content/temp_cobol/ABC_056_B_fixed.cob:31: ADD */
+        /* /content/temp_cobol/input.cob:31: ADD */
         {
           f_a.add (f_W, 4);
         }
-        /* /content/temp_cobol/ABC_056_B_fixed.cob:33: IF */
+        /* /content/temp_cobol/input.cob:33: IF */
         {
           if (((long)b_b.memcmp (b_a, 6) <  0L))
             {
-              /* /content/temp_cobol/ABC_056_B_fixed.cob:34: DISPLAY */
+              /* /content/temp_cobol/input.cob:34: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, CobolConstant.zero);
               }
             }
           else
             {
-              /* /content/temp_cobol/ABC_056_B_fixed.cob:36: SUBTRACT */
+              /* /content/temp_cobol/input.cob:36: SUBTRACT */
               {
                 f_b.sub (f_a, 4);
               }
-              /* /content/temp_cobol/ABC_056_B_fixed.cob:37: MOVE */
+              /* /content/temp_cobol/input.cob:37: MOVE */
               {
                 f_ZS.moveFrom (f_b);
               }
-              /* /content/temp_cobol/ABC_056_B_fixed.cob:38: PERFORM */
+              /* /content/temp_cobol/input.cob:38: PERFORM */
               /* PERFORM UNANS */
               CobolControl.perform(contList, l_UNANS).run();
-              /* /content/temp_cobol/ABC_056_B_fixed.cob:39: DISPLAY */
+              /* /content/temp_cobol/input.cob:39: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, CobolFieldFactory.makeCobolField(CobolIntrinsic.funcStoredCharLength (f_ans).getInt(), b_ans.getSubDataStorage(0), a_2_Alphanumeric));
               }
             }
         }
-        /* /content/temp_cobol/ABC_056_B_fixed.cob:42: STOP */
+        /* /content/temp_cobol/input.cob:42: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }
@@ -199,7 +199,7 @@ public class ABC_056_B implements CobolRunnable {
     /* UNANS_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_UNANS_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ABC_056_B_fixed.cob:45: UNSTRING */
+        /* /content/temp_cobol/input.cob:45: UNSTRING */
         {
           CobolString.unstringInit (f_ZS, 0, 1);
           CobolString.unstringDelimited (CobolConstant.space, 1);

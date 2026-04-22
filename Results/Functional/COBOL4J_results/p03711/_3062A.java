@@ -115,11 +115,11 @@ public class _3062A implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/062A_fixed.cob:13: ACCEPT */
+        /* /content/temp_cobol/input.cob:13: ACCEPT */
         {
           CobolTerminal.accept (f_INP);
         }
-        /* /content/temp_cobol/062A_fixed.cob:14: UNSTRING */
+        /* /content/temp_cobol/input.cob:14: UNSTRING */
         {
           CobolString.unstringInit (f_INP, 0, 1);
           CobolString.unstringDelimited (c_1, 0);
@@ -127,11 +127,11 @@ public class _3062A implements CobolRunnable {
           CobolString.unstringInto (f_B, 0, 0);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_cobol/062A_fixed.cob:17: EVALUATE */
+        /* /content/temp_cobol/input.cob:17: EVALUATE */
         {
           if (((((((((long)f_A.compareTo (c_2_1) == 0L) || ((long)f_A.compareTo (c_3_3) == 0L)) || ((long)f_A.compareTo (c_4_5) == 0L)) || ((long)f_A.compareTo (c_5_7) == 0L)) || ((long)f_A.compareTo (c_6_8) == 0L)) || ((long)b_A.memcmp (str_0_10, 2) == 0L)) || ((long)b_A.memcmp (str_1_12, 2) == 0L)))
             {
-              /* /content/temp_cobol/062A_fixed.cob:25: MOVE */
+              /* /content/temp_cobol/input.cob:25: MOVE */
               {
                 b_CLASSA.setByte(49);
               }
@@ -139,7 +139,7 @@ public class _3062A implements CobolRunnable {
           else
             if ((((((long)f_A.compareTo (c_7_4) == 0L) || ((long)f_A.compareTo (c_8_6) == 0L)) || ((long)f_A.compareTo (c_9_9) == 0L)) || ((long)b_A.memcmp (str_2_11, 2) == 0L)))
               {
-                /* /content/temp_cobol/062A_fixed.cob:30: MOVE */
+                /* /content/temp_cobol/input.cob:30: MOVE */
                 {
                   b_CLASSA.setByte(50);
                 }
@@ -147,17 +147,17 @@ public class _3062A implements CobolRunnable {
             else
               if (((long)f_A.compareTo (c_10_2) == 0L))
                 {
-                  /* /content/temp_cobol/062A_fixed.cob:32: MOVE */
+                  /* /content/temp_cobol/input.cob:32: MOVE */
                   {
                     b_CLASSA.setByte(51);
                   }
                 }
         }
-        /* /content/temp_cobol/062A_fixed.cob:35: EVALUATE */
+        /* /content/temp_cobol/input.cob:35: EVALUATE */
         {
           if (((((((((long)f_B.compareTo (c_2_1) == 0L) || ((long)f_B.compareTo (c_3_3) == 0L)) || ((long)f_B.compareTo (c_4_5) == 0L)) || ((long)f_B.compareTo (c_5_7) == 0L)) || ((long)f_B.compareTo (c_6_8) == 0L)) || ((long)b_B.memcmp (str_3_10, 2) == 0L)) || ((long)b_B.memcmp (str_4_12, 2) == 0L)))
             {
-              /* /content/temp_cobol/062A_fixed.cob:43: MOVE */
+              /* /content/temp_cobol/input.cob:43: MOVE */
               {
                 b_CLASSB.setByte(49);
               }
@@ -165,7 +165,7 @@ public class _3062A implements CobolRunnable {
           else
             if ((((((long)f_B.compareTo (c_7_4) == 0L) || ((long)f_B.compareTo (c_8_6) == 0L)) || ((long)f_B.compareTo (c_9_9) == 0L)) || ((long)b_B.memcmp (str_5_11, 2) == 0L)))
               {
-                /* /content/temp_cobol/062A_fixed.cob:48: MOVE */
+                /* /content/temp_cobol/input.cob:48: MOVE */
                 {
                   b_CLASSB.setByte(50);
                 }
@@ -173,30 +173,30 @@ public class _3062A implements CobolRunnable {
             else
               if (((long)f_B.compareTo (c_10_2) == 0L))
                 {
-                  /* /content/temp_cobol/062A_fixed.cob:50: MOVE */
+                  /* /content/temp_cobol/input.cob:50: MOVE */
                   {
                     b_CLASSB.setByte(51);
                   }
                 }
         }
-        /* /content/temp_cobol/062A_fixed.cob:53: IF */
+        /* /content/temp_cobol/input.cob:53: IF */
         {
           if (((long)(Byte.toUnsignedInt(b_CLASSA.getByte(0)) - Byte.toUnsignedInt(b_CLASSB.getByte(0))) == 0L))
             {
-              /* /content/temp_cobol/062A_fixed.cob:54: DISPLAY */
+              /* /content/temp_cobol/input.cob:54: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_11_YES);
               }
             }
           else
             {
-              /* /content/temp_cobol/062A_fixed.cob:56: DISPLAY */
+              /* /content/temp_cobol/input.cob:56: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_12_NO);
               }
             }
         }
-        /* /content/temp_cobol/062A_fixed.cob:59: STOP */
+        /* /content/temp_cobol/input.cob:59: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

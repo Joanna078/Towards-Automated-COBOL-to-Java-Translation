@@ -111,44 +111,44 @@ public class _3132A implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/132A_fixed.cob:13: ACCEPT */
+        /* /content/temp_cobol/input.cob:13: ACCEPT */
         {
           CobolTerminal.accept (f_INP);
         }
-        /* /content/temp_cobol/132A_fixed.cob:15: IF */
+        /* /content/temp_cobol/input.cob:15: IF */
         {
           if ((((long)(Byte.toUnsignedInt(b_A__INP.getByte(0)) - Byte.toUnsignedInt(b_B__INP.getByte(0))) == 0L) || ((long)(Byte.toUnsignedInt(b_C__INP.getByte(0)) - Byte.toUnsignedInt(b_D__INP.getByte(0))) == 0L)))
             {
-              /* /content/temp_cobol/132A_fixed.cob:16: DISPLAY */
+              /* /content/temp_cobol/input.cob:16: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_1_YES);
               }
             }
           else
             {
-              /* /content/temp_cobol/132A_fixed.cob:18: IF */
+              /* /content/temp_cobol/input.cob:18: IF */
               {
                 if ((((long)(Byte.toUnsignedInt(b_A__INP.getByte(0)) - Byte.toUnsignedInt(b_C__INP.getByte(0))) == 0L) || ((long)(Byte.toUnsignedInt(b_B__INP.getByte(0)) - Byte.toUnsignedInt(b_D__INP.getByte(0))) == 0L)))
                   {
-                    /* /content/temp_cobol/132A_fixed.cob:19: DISPLAY */
+                    /* /content/temp_cobol/input.cob:19: DISPLAY */
                     {
                       CobolTerminal.display (0, 1, 1, c_1_YES);
                     }
                   }
                 else
                   {
-                    /* /content/temp_cobol/132A_fixed.cob:21: IF */
+                    /* /content/temp_cobol/input.cob:21: IF */
                     {
                       if ((((long)(Byte.toUnsignedInt(b_A__INP.getByte(0)) - Byte.toUnsignedInt(b_D__INP.getByte(0))) == 0L) || ((long)(Byte.toUnsignedInt(b_B__INP.getByte(0)) - Byte.toUnsignedInt(b_C__INP.getByte(0))) == 0L)))
                         {
-                          /* /content/temp_cobol/132A_fixed.cob:22: DISPLAY */
+                          /* /content/temp_cobol/input.cob:22: DISPLAY */
                           {
                             CobolTerminal.display (0, 1, 1, c_1_YES);
                           }
                         }
                       else
                         {
-                          /* /content/temp_cobol/132A_fixed.cob:24: DISPLAY */
+                          /* /content/temp_cobol/input.cob:24: DISPLAY */
                           {
                             CobolTerminal.display (0, 1, 1, c_2_NO);
                           }
@@ -158,7 +158,7 @@ public class _3132A implements CobolRunnable {
               }
             }
         }
-        /* /content/temp_cobol/132A_fixed.cob:29: STOP */
+        /* /content/temp_cobol/input.cob:29: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

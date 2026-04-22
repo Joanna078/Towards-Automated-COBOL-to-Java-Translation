@@ -115,11 +115,11 @@ public class Crackers implements CobolRunnable {
     /* MAIN-001 */
     new CobolControl(l_MAIN_SECTION__MAIN_001, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/Crackers_fixed.cob:14: ACCEPT */
+        /* /content/temp_cobol/input.cob:14: ACCEPT */
         {
           CobolTerminal.accept (f_INP);
         }
-        /* /content/temp_cobol/Crackers_fixed.cob:15: UNSTRING */
+        /* /content/temp_cobol/input.cob:15: UNSTRING */
         {
           CobolString.unstringInit (f_INP, 0, 1);
           CobolString.unstringDelimited (c_1, 1);
@@ -127,23 +127,23 @@ public class Crackers implements CobolRunnable {
           CobolString.unstringInto (f_IN_K, 0, 0);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_cobol/Crackers_fixed.cob:18: DIVIDE */
+        /* /content/temp_cobol/input.cob:18: DIVIDE */
         {
           f_IN_N.divQuotient (f_IN_K, f_MAISU, 4);
           f_AMARI.divRemainder (4);
         }
-        /* /content/temp_cobol/Crackers_fixed.cob:20: IF */
+        /* /content/temp_cobol/input.cob:20: IF */
         {
           if (((long)b_AMARI.cmpNumdisp (2, 0) == 0L))
             {
-              /* /content/temp_cobol/Crackers_fixed.cob:21: DISPLAY */
+              /* /content/temp_cobol/input.cob:21: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_2_0);
               }
             }
           else
             {
-              /* /content/temp_cobol/Crackers_fixed.cob:23: DISPLAY */
+              /* /content/temp_cobol/input.cob:23: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_3_1);
               }
@@ -156,7 +156,7 @@ public class Crackers implements CobolRunnable {
     /* MAIN-EXIT */
     new CobolControl(l_MAIN_SECTION__MAIN_EXIT, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/Crackers_fixed.cob:27: STOP */
+        /* /content/temp_cobol/input.cob:27: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

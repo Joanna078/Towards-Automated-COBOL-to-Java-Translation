@@ -111,28 +111,28 @@ public class ABC_073_A implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_translate/s265485081.cob:10: ACCEPT */
+        /* /content/temp_cobol/input.cob:10: ACCEPT */
         {
           CobolTerminal.accept (f_INP);
         }
-        /* /content/temp_translate/s265485081.cob:12: IF */
+        /* /content/temp_cobol/input.cob:12: IF */
         {
           if ((((long)(Byte.toUnsignedInt(b_INP.getSubDataStorage(0).getByte(0)) - (int)57) == 0L) || ((long)(Byte.toUnsignedInt(b_INP.getSubDataStorage(1).getByte(0)) - (int)57) == 0L)))
             {
-              /* /content/temp_translate/s265485081.cob:13: DISPLAY */
+              /* /content/temp_cobol/input.cob:13: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_1_Yes);
               }
             }
           else
             {
-              /* /content/temp_translate/s265485081.cob:15: DISPLAY */
+              /* /content/temp_cobol/input.cob:15: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_2_No);
               }
             }
         }
-        /* /content/temp_translate/s265485081.cob:18: STOP */
+        /* /content/temp_cobol/input.cob:18: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

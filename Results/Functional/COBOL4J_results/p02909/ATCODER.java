@@ -111,41 +111,41 @@ public class ATCODER implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ATCODER_fixed.cob:7: ACCEPT */
+        /* /content/temp_cobol/input.cob:7: ACCEPT */
         {
           CobolTerminal.accept (f_indata);
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:9: IF */
+        /* /content/temp_cobol/input.cob:9: IF */
         {
           if (((long)f_indata.compareTo (c_1_Sunny) == 0L))
             {
-              /* /content/temp_cobol/ATCODER_fixed.cob:10: DISPLAY */
+              /* /content/temp_cobol/input.cob:10: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_2_Cloudy);
               }
             }
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:12: IF */
+        /* /content/temp_cobol/input.cob:12: IF */
         {
           if (((long)f_indata.compareTo (c_2_Cloudy) == 0L))
             {
-              /* /content/temp_cobol/ATCODER_fixed.cob:13: DISPLAY */
+              /* /content/temp_cobol/input.cob:13: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_3_Rainy);
               }
             }
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:15: IF */
+        /* /content/temp_cobol/input.cob:15: IF */
         {
           if (((long)f_indata.compareTo (c_3_Rainy) == 0L))
             {
-              /* /content/temp_cobol/ATCODER_fixed.cob:16: DISPLAY */
+              /* /content/temp_cobol/input.cob:16: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_1_Sunny);
               }
             }
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:20: STOP */
+        /* /content/temp_cobol/input.cob:20: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

@@ -124,27 +124,27 @@ public class _3069B implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/069B_fixed.cob:17: ACCEPT */
+        /* /content/temp_cobol/input.cob:17: ACCEPT */
         {
           CobolTerminal.accept (f_INP);
         }
-        /* /content/temp_cobol/069B_fixed.cob:18: MOVE */
+        /* /content/temp_cobol/input.cob:18: MOVE */
         {
           b_WK_INP.setBytes (b_INP, 100);
         }
-        /* /content/temp_cobol/069B_fixed.cob:20: PERFORM */
+        /* /content/temp_cobol/input.cob:20: PERFORM */
         for (;;)
         {
           if (((long)(Byte.toUnsignedInt(b_WK_TBL__WK_INP.getSubDataStorage((b_IDX.getNumdisp(3) - 1)).getByte(0)) - (int)' ') == 0L))
             break;
           {
-            /* /content/temp_cobol/069B_fixed.cob:21: ADD */
+            /* /content/temp_cobol/input.cob:21: ADD */
             {
               f_IDX.add (c_1_1, 4);
             }
           }
         }
-        /* /content/temp_cobol/069B_fixed.cob:24: COMPUTE */
+        /* /content/temp_cobol/input.cob:24: COMPUTE */
         {
           {
             {
@@ -155,7 +155,7 @@ public class _3069B implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/069B_fixed.cob:25: COMPUTE */
+        /* /content/temp_cobol/input.cob:25: COMPUTE */
         {
           {
             {
@@ -166,11 +166,11 @@ public class _3069B implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/069B_fixed.cob:27: DISPLAY */
+        /* /content/temp_cobol/input.cob:27: DISPLAY */
         {
           CobolTerminal.display (0, 1, 3, CobolFieldFactory.makeCobolField(1, b_WK_TBL__WK_INP.getSubDataStorage(0), a_2_Alphanumeric), CobolIntrinsic.funcTrim (0, 0, f_IDX3, 0), CobolFieldFactory.makeCobolField(1, b_WK_TBL__WK_INP.getSubDataStorage((b_IDX2.getNumdisp(3) - 1)), a_2_Alphanumeric));
         }
-        /* /content/temp_cobol/069B_fixed.cob:28: STOP */
+        /* /content/temp_cobol/input.cob:28: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

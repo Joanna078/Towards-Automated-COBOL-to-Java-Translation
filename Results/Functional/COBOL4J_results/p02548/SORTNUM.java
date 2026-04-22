@@ -129,32 +129,32 @@ public class SORTNUM implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_translate/s996086821.cob:26: ACCEPT */
+        /* /content/temp_cobol/input.cob:26: ACCEPT */
         {
           CobolTerminal.accept (f_N);
         }
-        /* /content/temp_translate/s996086821.cob:28: PERFORM */
+        /* /content/temp_cobol/input.cob:28: PERFORM */
         b_A.setBytes (str_4_000001, 6);
         for(;;f_A.addInt (1))
         {
           if (((long)b_A.memcmp (b_N, 6) == 0L))
             break;
           {
-            /* /content/temp_translate/s996086821.cob:31: PERFORM */
+            /* /content/temp_cobol/input.cob:31: PERFORM */
             b_B.setBytes (str_5_000001, 6);
             for(;;f_B.addInt (1))
             {
               if (((long)b_B.memcmp (b_N, 6) == 0L))
                 break;
               {
-                /* /content/temp_translate/s996086821.cob:34: PERFORM */
+                /* /content/temp_cobol/input.cob:34: PERFORM */
                 b_C.setBytes (str_6_000001, 6);
                 for(;;f_C.addInt (1))
                 {
                   if (((long)b_C.memcmp (b_N, 6) == 0L))
                     break;
                   {
-                    /* /content/temp_translate/s996086821.cob:37: COMPUTE */
+                    /* /content/temp_cobol/input.cob:37: COMPUTE */
                     {
                       {
                         {
@@ -167,25 +167,25 @@ public class SORTNUM implements CobolRunnable {
                         }
                       }
                     }
-                    /* /content/temp_translate/s996086821.cob:39: IF */
+                    /* /content/temp_cobol/input.cob:39: IF */
                     {
                       if (((long)b_RES.memcmp (b_N, 6) >  0L))
                         {
-                          /* /content/temp_translate/s996086821.cob:40: EXIT */
+                          /* /content/temp_cobol/input.cob:40: EXIT */
                           {
                             if(true) break;
                           }
                         }
                     }
-                    /* /content/temp_translate/s996086821.cob:43: IF */
+                    /* /content/temp_cobol/input.cob:43: IF */
                     {
                       if (((long)b_RES.memcmp (b_N, 6) == 0L))
                         {
-                          /* /content/temp_translate/s996086821.cob:45: ADD */
+                          /* /content/temp_cobol/input.cob:45: ADD */
                           {
                             f_CNT.add (c_1_1, 4);
                           }
-                          /* /content/temp_translate/s996086821.cob:46: EXIT */
+                          /* /content/temp_cobol/input.cob:46: EXIT */
                           {
                             if(true) break;
                           }
@@ -197,15 +197,15 @@ public class SORTNUM implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_translate/s996086821.cob:52: MOVE */
+        /* /content/temp_cobol/input.cob:52: MOVE */
         {
           f_OUT.moveFrom (f_CNT);
         }
-        /* /content/temp_translate/s996086821.cob:53: DISPLAY */
+        /* /content/temp_cobol/input.cob:53: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, CobolIntrinsic.funcTrim (0, 0, f_OUT, 0));
         }
-        /* /content/temp_translate/s996086821.cob:56: STOP */
+        /* /content/temp_cobol/input.cob:56: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

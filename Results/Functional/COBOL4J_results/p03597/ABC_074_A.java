@@ -123,15 +123,15 @@ public class ABC_074_A implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ABC_074_A_fixed.cob:15: ACCEPT */
+        /* /content/temp_cobol/input.cob:15: ACCEPT */
         {
           CobolTerminal.accept (f_N);
         }
-        /* /content/temp_cobol/ABC_074_A_fixed.cob:16: ACCEPT */
+        /* /content/temp_cobol/input.cob:16: ACCEPT */
         {
           CobolTerminal.accept (f_A);
         }
-        /* /content/temp_cobol/ABC_074_A_fixed.cob:18: COMPUTE */
+        /* /content/temp_cobol/input.cob:18: COMPUTE */
         {
           {
             {
@@ -142,22 +142,22 @@ public class ABC_074_A implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/ABC_074_A_fixed.cob:19: SUBTRACT */
+        /* /content/temp_cobol/input.cob:19: SUBTRACT */
         {
           f_N.sub (f_A, 4);
         }
-        /* /content/temp_cobol/ABC_074_A_fixed.cob:21: MOVE */
+        /* /content/temp_cobol/input.cob:21: MOVE */
         {
           f_ZS.moveFrom (f_N);
         }
-        /* /content/temp_cobol/ABC_074_A_fixed.cob:23: PERFORM */
+        /* /content/temp_cobol/input.cob:23: PERFORM */
         /* PERFORM UNANS */
         CobolControl.perform(contList, l_UNANS).run();
-        /* /content/temp_cobol/ABC_074_A_fixed.cob:25: DISPLAY */
+        /* /content/temp_cobol/input.cob:25: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, CobolFieldFactory.makeCobolField(CobolIntrinsic.funcStoredCharLength (f_ans).getInt(), b_ans.getSubDataStorage(0), a_3_Alphanumeric));
         }
-        /* /content/temp_cobol/ABC_074_A_fixed.cob:26: STOP */
+        /* /content/temp_cobol/input.cob:26: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }
@@ -175,7 +175,7 @@ public class ABC_074_A implements CobolRunnable {
     /* UNANS_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_UNANS_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ABC_074_A_fixed.cob:29: UNSTRING */
+        /* /content/temp_cobol/input.cob:29: UNSTRING */
         {
           CobolString.unstringInit (f_ZS, 0, 1);
           CobolString.unstringDelimited (CobolConstant.space, 1);

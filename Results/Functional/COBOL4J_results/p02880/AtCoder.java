@@ -129,29 +129,29 @@ public class AtCoder implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/AtCoder_fixed.cob:19: ACCEPT */
+        /* /content/temp_cobol/input.cob:19: ACCEPT */
         {
           CobolTerminal.accept (f_A);
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:20: MOVE */
+        /* /content/temp_cobol/input.cob:20: MOVE */
         {
           b_t.fillBytes (48, 10);
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:21: PERFORM */
+        /* /content/temp_cobol/input.cob:21: PERFORM */
         b_B.setBytes (str_0_0000000001, 10);
         for(;;f_B.addInt (1))
         {
           if (((long)b_B.cmpLongNumdisp (10, 10) == 0L))
             break;
           {
-            /* /content/temp_cobol/AtCoder_fixed.cob:22: PERFORM */
+            /* /content/temp_cobol/input.cob:22: PERFORM */
             b_C.setBytes (str_1_0000000001, 10);
             for(;;f_C.addInt (1))
             {
               if (((long)b_C.cmpLongNumdisp (10, 10) == 0L))
                 break;
               {
-                /* /content/temp_cobol/AtCoder_fixed.cob:23: IF */
+                /* /content/temp_cobol/input.cob:23: IF */
                 {
                   if (((long)                  (new GetInt() {
                     public int run() throws CobolStopRunException {
@@ -164,7 +164,7 @@ public class AtCoder implements CobolRunnable {
                   }
                 }).run() == 0L))
                   {
-                    /* /content/temp_cobol/AtCoder_fixed.cob:24: MOVE */
+                    /* /content/temp_cobol/input.cob:24: MOVE */
                     {
                       b_t.setBytes (str_2_0000000001, 10);
                     }
@@ -174,24 +174,24 @@ public class AtCoder implements CobolRunnable {
           }
         }
       }
-      /* /content/temp_cobol/AtCoder_fixed.cob:28: IF */
+      /* /content/temp_cobol/input.cob:28: IF */
       {
         if (((long)b_t.cmpLongNumdisp (10, 1) == 0L))
           {
-            /* /content/temp_cobol/AtCoder_fixed.cob:29: DISPLAY */
+            /* /content/temp_cobol/input.cob:29: DISPLAY */
             {
               CobolTerminal.display (0, 1, 1, c_1_Yes);
             }
           }
         else
           {
-            /* /content/temp_cobol/AtCoder_fixed.cob:31: DISPLAY */
+            /* /content/temp_cobol/input.cob:31: DISPLAY */
             {
               CobolTerminal.display (0, 1, 1, c_2_No);
             }
           }
       }
-      /* /content/temp_cobol/AtCoder_fixed.cob:33: STOP */
+      /* /content/temp_cobol/input.cob:33: STOP */
       {
         CobolStopRunException.throwException (b_RETURN_CODE.intValue());
       }

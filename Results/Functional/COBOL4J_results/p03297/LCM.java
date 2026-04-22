@@ -138,7 +138,7 @@ public class LCM implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/AGC_026_B_fixed.cob:125: CALL */
+        /* /content/temp_cobol_rerun/input.cob:125: CALL */
         {
           CobolDataStorage content_1 = new CobolDataStorage (19);
           CobolDataStorage content_2 = new CobolDataStorage (19);
@@ -159,7 +159,7 @@ public class LCM implements CobolRunnable {
           call_GCD = CobolResolve.resolve(null, "GCD", call_GCD);
           b_RETURN_CODE.set (call_GCD.run (content_1, content_2, b_g));
         }
-        /* /content/temp_cobol/AGC_026_B_fixed.cob:130: DIVIDE */
+        /* /content/temp_cobol_rerun/input.cob:130: DIVIDE */
         {
           {
             {
@@ -175,7 +175,7 @@ public class LCM implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/AGC_026_B_fixed.cob:131: MULTIPLY */
+        /* /content/temp_cobol_rerun/input.cob:131: MULTIPLY */
         {
           {
             {
@@ -191,7 +191,7 @@ public class LCM implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/AGC_026_B_fixed.cob:133: MOVE */
+        /* /content/temp_cobol_rerun/input.cob:133: MOVE */
         {
           new GetAbstractCobolField() {
             public AbstractCobolField run() {

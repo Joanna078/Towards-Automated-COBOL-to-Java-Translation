@@ -112,32 +112,32 @@ public class ABC_077_A implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ABC_077_A_fixed.cob:10: ACCEPT */
+        /* /content/temp_cobol/input.cob:10: ACCEPT */
         {
           CobolTerminal.accept (f_C1);
         }
-        /* /content/temp_cobol/ABC_077_A_fixed.cob:11: ACCEPT */
+        /* /content/temp_cobol/input.cob:11: ACCEPT */
         {
           CobolTerminal.accept (f_C2);
         }
-        /* /content/temp_cobol/ABC_077_A_fixed.cob:13: IF */
+        /* /content/temp_cobol/input.cob:13: IF */
         {
           if (((((long)(Byte.toUnsignedInt(b_C1.getSubDataStorage(0).getByte(0)) - Byte.toUnsignedInt(b_C2.getSubDataStorage(2).getByte(0))) == 0L) && ((long)(Byte.toUnsignedInt(b_C1.getSubDataStorage(1).getByte(0)) - Byte.toUnsignedInt(b_C2.getSubDataStorage(1).getByte(0))) == 0L)) && ((long)(Byte.toUnsignedInt(b_C1.getSubDataStorage(2).getByte(0)) - Byte.toUnsignedInt(b_C2.getSubDataStorage(0).getByte(0))) == 0L)))
             {
-              /* /content/temp_cobol/ABC_077_A_fixed.cob:15: DISPLAY */
+              /* /content/temp_cobol/input.cob:15: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_1_YES);
               }
             }
           else
             {
-              /* /content/temp_cobol/ABC_077_A_fixed.cob:17: DISPLAY */
+              /* /content/temp_cobol/input.cob:17: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_2_NO);
               }
             }
         }
-        /* /content/temp_cobol/ABC_077_A_fixed.cob:20: STOP */
+        /* /content/temp_cobol/input.cob:20: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

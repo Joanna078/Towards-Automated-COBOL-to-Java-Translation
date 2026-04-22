@@ -125,11 +125,11 @@ public class PROGRAM_ID implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:16: ACCEPT */
+        /* /content/temp_cobol/input.cob:16: ACCEPT */
         {
           CobolTerminal.accept (f_S);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:17: COMPUTE */
+        /* /content/temp_cobol/input.cob:17: COMPUTE */
         {
           {
             {
@@ -138,22 +138,22 @@ public class PROGRAM_ID implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:18: MOVE */
+        /* /content/temp_cobol/input.cob:18: MOVE */
         {
           b_m.setBytes (b_n, 10);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:19: PERFORM */
+        /* /content/temp_cobol/input.cob:19: PERFORM */
         /* PERFORM REVERSESTR */
         CobolControl.perform(contList, l_REVERSESTR).run();
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:20: IF */
+        /* /content/temp_cobol/input.cob:20: IF */
         {
           if (((long)b_S.memcmp (b_cur, 100) == 0L))
             {
-              /* /content/temp_cobol/PROGRAM_ID_fixed.cob:21: MOVE */
+              /* /content/temp_cobol/input.cob:21: MOVE */
               {
                 b_cur.fillBytes (32, 100);
               }
-              /* /content/temp_cobol/PROGRAM_ID_fixed.cob:22: DIVIDE */
+              /* /content/temp_cobol/input.cob:22: DIVIDE */
               {
                 {
                   {
@@ -164,25 +164,25 @@ public class PROGRAM_ID implements CobolRunnable {
                   }
                 }
               }
-              /* /content/temp_cobol/PROGRAM_ID_fixed.cob:23: MOVE */
+              /* /content/temp_cobol/input.cob:23: MOVE */
               {
                 f_X.moveFrom (CobolFieldFactory.makeCobolField(f_m.getInt(), b_S.getSubDataStorage(0), a_1_Alphanumeric));
               }
-              /* /content/temp_cobol/PROGRAM_ID_fixed.cob:24: PERFORM */
+              /* /content/temp_cobol/input.cob:24: PERFORM */
               /* PERFORM REVERSESTR */
               CobolControl.perform(contList, l_REVERSESTR).run();
-              /* /content/temp_cobol/PROGRAM_ID_fixed.cob:25: IF */
+              /* /content/temp_cobol/input.cob:25: IF */
               {
                 if (((long)b_X.memcmp (b_cur, 100) == 0L))
                   {
-                    /* /content/temp_cobol/PROGRAM_ID_fixed.cob:26: DISPLAY */
+                    /* /content/temp_cobol/input.cob:26: DISPLAY */
                     {
                       CobolTerminal.display (0, 1, 1, c_1_Yes);
                     }
                   }
                 else
                   {
-                    /* /content/temp_cobol/PROGRAM_ID_fixed.cob:28: DISPLAY */
+                    /* /content/temp_cobol/input.cob:28: DISPLAY */
                     {
                       CobolTerminal.display (0, 1, 1, c_2_No);
                     }
@@ -191,13 +191,13 @@ public class PROGRAM_ID implements CobolRunnable {
             }
           else
             {
-              /* /content/temp_cobol/PROGRAM_ID_fixed.cob:31: DISPLAY */
+              /* /content/temp_cobol/input.cob:31: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_2_No);
               }
             }
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:33: STOP */
+        /* /content/temp_cobol/input.cob:33: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }
@@ -215,14 +215,14 @@ public class PROGRAM_ID implements CobolRunnable {
     /* REVERSESTR_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_REVERSESTR_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:36: PERFORM */
+        /* /content/temp_cobol/input.cob:36: PERFORM */
         b_i.setBytes (str_0_0000000001, 10);
         for(;;f_i.addInt (1))
         {
           if (((long)b_m.memcmp (b_i, 10) <  0L))
             break;
           {
-            /* /content/temp_cobol/PROGRAM_ID_fixed.cob:37: MOVE */
+            /* /content/temp_cobol/input.cob:37: MOVE */
             {
               b_cur.getSubDataStorage((f_i.getInt() - 1)).setByte(b_S.getSubDataStorage((((f_m.getInt() - f_i.getInt()) + 1) - 1)).getByte(0));
             }

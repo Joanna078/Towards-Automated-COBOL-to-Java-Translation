@@ -111,48 +111,48 @@ public class christmas implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_translate/s274524816.cob:9: ACCEPT */
+        /* /content/temp_cobol/input.cob:9: ACCEPT */
         {
           CobolTerminal.accept (f_NUM);
         }
-        /* /content/temp_translate/s274524816.cob:10: IF */
+        /* /content/temp_cobol/input.cob:10: IF */
         {
           if (((long)b_NUM.cmpNumdisp (2, 25) == 0L))
             {
-              /* /content/temp_translate/s274524816.cob:11: DISPLAY */
+              /* /content/temp_cobol/input.cob:11: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_1_Christmas);
               }
             }
           else
             {
-              /* /content/temp_translate/s274524816.cob:12: IF */
+              /* /content/temp_cobol/input.cob:12: IF */
               {
                 if (((long)b_NUM.cmpNumdisp (2, 24) == 0L))
                   {
-                    /* /content/temp_translate/s274524816.cob:13: DISPLAY */
+                    /* /content/temp_cobol/input.cob:13: DISPLAY */
                     {
                       CobolTerminal.display (0, 1, 1, c_2_Christmas);
                     }
                   }
                 else
                   {
-                    /* /content/temp_translate/s274524816.cob:14: IF */
+                    /* /content/temp_cobol/input.cob:14: IF */
                     {
                       if (((long)b_NUM.cmpNumdisp (2, 23) == 0L))
                         {
-                          /* /content/temp_translate/s274524816.cob:15: DISPLAY */
+                          /* /content/temp_cobol/input.cob:15: DISPLAY */
                           {
                             CobolTerminal.display (0, 1, 1, c_3_Christmas);
                           }
                         }
                       else
                         {
-                          /* /content/temp_translate/s274524816.cob:16: IF */
+                          /* /content/temp_cobol/input.cob:16: IF */
                           {
                             if (((long)b_NUM.cmpNumdisp (2, 22) == 0L))
                               {
-                                /* /content/temp_translate/s274524816.cob:17: DISPLAY */
+                                /* /content/temp_cobol/input.cob:17: DISPLAY */
                                 {
                                   CobolTerminal.display (0, 1, 1, c_4_Christmas);
                                 }
@@ -164,7 +164,7 @@ public class christmas implements CobolRunnable {
               }
             }
         }
-        /* /content/temp_translate/s274524816.cob:21: STOP */
+        /* /content/temp_cobol/input.cob:21: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

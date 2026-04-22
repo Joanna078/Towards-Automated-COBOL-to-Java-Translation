@@ -121,81 +121,81 @@ public class AtCoder implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/AtCoder_fixed.cob:22: ACCEPT */
+        /* /content/temp_cobol/input.cob:22: ACCEPT */
         {
           CobolTerminal.accept (f_INP);
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:23: IF */
+        /* /content/temp_cobol/input.cob:23: IF */
         {
           if (((long)b_INP.getSubDataStorage(0).memcmp (str_0_SUN, 3) == 0L))
             {
-              /* /content/temp_cobol/AtCoder_fixed.cob:24: DISPLAY */
+              /* /content/temp_cobol/input.cob:24: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_1_7);
               }
             }
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:26: IF */
+        /* /content/temp_cobol/input.cob:26: IF */
         {
           if (((long)b_INP.getSubDataStorage(0).memcmp (str_1_MON, 3) == 0L))
             {
-              /* /content/temp_cobol/AtCoder_fixed.cob:27: DISPLAY */
+              /* /content/temp_cobol/input.cob:27: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_2_6);
               }
             }
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:29: IF */
+        /* /content/temp_cobol/input.cob:29: IF */
         {
           if (((long)b_INP.getSubDataStorage(0).memcmp (str_2_TUE, 3) == 0L))
             {
-              /* /content/temp_cobol/AtCoder_fixed.cob:30: DISPLAY */
+              /* /content/temp_cobol/input.cob:30: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_3_5);
               }
             }
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:32: IF */
+        /* /content/temp_cobol/input.cob:32: IF */
         {
           if (((long)b_INP.getSubDataStorage(0).memcmp (str_3_WED, 3) == 0L))
             {
-              /* /content/temp_cobol/AtCoder_fixed.cob:33: DISPLAY */
+              /* /content/temp_cobol/input.cob:33: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_4_4);
               }
             }
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:35: IF */
+        /* /content/temp_cobol/input.cob:35: IF */
         {
           if (((long)b_INP.getSubDataStorage(0).memcmp (str_4_THU, 3) == 0L))
             {
-              /* /content/temp_cobol/AtCoder_fixed.cob:36: DISPLAY */
+              /* /content/temp_cobol/input.cob:36: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_5_3);
               }
             }
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:38: IF */
+        /* /content/temp_cobol/input.cob:38: IF */
         {
           if (((long)b_INP.getSubDataStorage(0).memcmp (str_5_FRI, 3) == 0L))
             {
-              /* /content/temp_cobol/AtCoder_fixed.cob:39: DISPLAY */
+              /* /content/temp_cobol/input.cob:39: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_6_2);
               }
             }
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:41: IF */
+        /* /content/temp_cobol/input.cob:41: IF */
         {
           if (((long)b_INP.getSubDataStorage(0).memcmp (str_6_SAT, 3) == 0L))
             {
-              /* /content/temp_cobol/AtCoder_fixed.cob:42: DISPLAY */
+              /* /content/temp_cobol/input.cob:42: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_7_1);
               }
             }
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:44: STOP */
+        /* /content/temp_cobol/input.cob:44: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

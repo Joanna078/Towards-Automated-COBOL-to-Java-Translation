@@ -126,15 +126,15 @@ public class ATCODER implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ATCODER_fixed.cob:14: ACCEPT */
+        /* /content/temp_cobol/input.cob:14: ACCEPT */
         {
           CobolTerminal.accept (f_indata);
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:16: MOVE */
+        /* /content/temp_cobol/input.cob:16: MOVE */
         {
           b_RES.fillBytes (48, 8);
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:18: UNSTRING */
+        /* /content/temp_cobol/input.cob:18: UNSTRING */
         {
           CobolString.unstringInit (f_indata, 0, 1);
           CobolString.unstringDelimited (CobolConstant.space, 0);
@@ -142,20 +142,20 @@ public class ATCODER implements CobolRunnable {
           CobolString.unstringInto (f_m, 0, 0);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:20: DIVIDE */
+        /* /content/temp_cobol/input.cob:20: DIVIDE */
         {
           f_n.divQuotient (f_m, f_g, 4);
           f_d.divRemainder (4);
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:22: ADD */
+        /* /content/temp_cobol/input.cob:22: ADD */
         {
           f_RES.add (f_g, 4);
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:24: IF */
+        /* /content/temp_cobol/input.cob:24: IF */
         {
           if (((long)b_d.cmpNumdisp (8, 0) >  0L))
             {
-              /* /content/temp_cobol/ATCODER_fixed.cob:25: ADD */
+              /* /content/temp_cobol/input.cob:25: ADD */
               {
                 {
                   {
@@ -168,15 +168,15 @@ public class ATCODER implements CobolRunnable {
               }
             }
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:28: MOVE */
+        /* /content/temp_cobol/input.cob:28: MOVE */
         {
           f_disp.moveFrom (CobolIntrinsic.funcTrim (0, 0, f_RES, 0));
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:29: DISPLAY */
+        /* /content/temp_cobol/input.cob:29: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, f_disp);
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:31: STOP */
+        /* /content/temp_cobol/input.cob:31: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

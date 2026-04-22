@@ -132,31 +132,31 @@ public class AtCoder implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/AtCoder_fixed.cob:22: ACCEPT */
+        /* /content/temp_cobol/input.cob:22: ACCEPT */
         {
           CobolTerminal.accept (f_A);
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:23: ACCEPT */
+        /* /content/temp_cobol/input.cob:23: ACCEPT */
         {
           CobolTerminal.accept (f_B);
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:24: ACCEPT */
+        /* /content/temp_cobol/input.cob:24: ACCEPT */
         {
           CobolTerminal.accept (f_C);
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:25: ACCEPT */
+        /* /content/temp_cobol/input.cob:25: ACCEPT */
         {
           CobolTerminal.accept (f_D);
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:26: ACCEPT */
+        /* /content/temp_cobol/input.cob:26: ACCEPT */
         {
           CobolTerminal.accept (f_E);
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:27: ACCEPT */
+        /* /content/temp_cobol/input.cob:27: ACCEPT */
         {
           CobolTerminal.accept (f_F);
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:28: IF */
+        /* /content/temp_cobol/input.cob:28: IF */
         {
           if (((long)          (new GetInt() {
             public int run() throws CobolStopRunException {
@@ -169,20 +169,20 @@ public class AtCoder implements CobolRunnable {
           }
         }).run() >  0L))
           {
-            /* /content/temp_cobol/AtCoder_fixed.cob:29: DISPLAY */
+            /* /content/temp_cobol/input.cob:29: DISPLAY */
             {
               CobolTerminal.display (0, 1, 1, c_1);
             }
           }
         else
           {
-            /* /content/temp_cobol/AtCoder_fixed.cob:31: DISPLAY */
+            /* /content/temp_cobol/input.cob:31: DISPLAY */
             {
               CobolTerminal.display (0, 1, 1, c_2_Yay);
             }
           }
       }
-      /* /content/temp_cobol/AtCoder_fixed.cob:33: STOP */
+      /* /content/temp_cobol/input.cob:33: STOP */
       {
         CobolStopRunException.throwException (b_RETURN_CODE.intValue());
       }

@@ -111,33 +111,33 @@ public class ABC_104_A implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ABC_104_A_fixed.cob:7: ACCEPT */
+        /* /content/temp_cobol/input.cob:7: ACCEPT */
         {
           CobolTerminal.accept (f_R);
         }
-        /* /content/temp_cobol/ABC_104_A_fixed.cob:9: IF */
+        /* /content/temp_cobol/input.cob:9: IF */
         {
           if (((long)b_R.cmpNumdisp (4, 1200) <  0L))
             {
-              /* /content/temp_cobol/ABC_104_A_fixed.cob:10: DISPLAY */
+              /* /content/temp_cobol/input.cob:10: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_1_ABC);
               }
             }
           else
             {
-              /* /content/temp_cobol/ABC_104_A_fixed.cob:12: IF */
+              /* /content/temp_cobol/input.cob:12: IF */
               {
                 if (((long)b_R.cmpNumdisp (4, 2800) <  0L))
                   {
-                    /* /content/temp_cobol/ABC_104_A_fixed.cob:13: DISPLAY */
+                    /* /content/temp_cobol/input.cob:13: DISPLAY */
                     {
                       CobolTerminal.display (0, 1, 1, c_2_ARC);
                     }
                   }
                 else
                   {
-                    /* /content/temp_cobol/ABC_104_A_fixed.cob:15: DISPLAY */
+                    /* /content/temp_cobol/input.cob:15: DISPLAY */
                     {
                       CobolTerminal.display (0, 1, 1, c_3_AGC);
                     }
@@ -145,7 +145,7 @@ public class ABC_104_A implements CobolRunnable {
               }
             }
         }
-        /* /content/temp_cobol/ABC_104_A_fixed.cob:19: STOP */
+        /* /content/temp_cobol/input.cob:19: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

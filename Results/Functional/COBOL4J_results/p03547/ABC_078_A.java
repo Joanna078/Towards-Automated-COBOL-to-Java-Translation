@@ -113,11 +113,11 @@ public class ABC_078_A implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_translate/s707971310.cob:12: ACCEPT */
+        /* /content/temp_cobol/input.cob:12: ACCEPT */
         {
           CobolTerminal.accept (f_INP);
         }
-        /* /content/temp_translate/s707971310.cob:14: UNSTRING */
+        /* /content/temp_cobol/input.cob:14: UNSTRING */
         {
           CobolString.unstringInit (f_INP, 0, 1);
           CobolString.unstringDelimited (CobolConstant.space, 0);
@@ -125,29 +125,29 @@ public class ABC_078_A implements CobolRunnable {
           CobolString.unstringInto (f_Y, 0, 0);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_translate/s707971310.cob:18: IF */
+        /* /content/temp_cobol/input.cob:18: IF */
         {
           if (((long)(Byte.toUnsignedInt(b_X.getByte(0)) - Byte.toUnsignedInt(b_Y.getByte(0))) <  0L))
             {
-              /* /content/temp_translate/s707971310.cob:19: DISPLAY */
+              /* /content/temp_cobol/input.cob:19: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_1);
               }
             }
           else
             {
-              /* /content/temp_translate/s707971310.cob:21: IF */
+              /* /content/temp_cobol/input.cob:21: IF */
               {
                 if (((long)(Byte.toUnsignedInt(b_X.getByte(0)) - Byte.toUnsignedInt(b_Y.getByte(0))) == 0L))
                   {
-                    /* /content/temp_translate/s707971310.cob:22: DISPLAY */
+                    /* /content/temp_cobol/input.cob:22: DISPLAY */
                     {
                       CobolTerminal.display (0, 1, 1, c_2);
                     }
                   }
                 else
                   {
-                    /* /content/temp_translate/s707971310.cob:24: DISPLAY */
+                    /* /content/temp_cobol/input.cob:24: DISPLAY */
                     {
                       CobolTerminal.display (0, 1, 1, c_3);
                     }
@@ -155,7 +155,7 @@ public class ABC_078_A implements CobolRunnable {
               }
             }
         }
-        /* /content/temp_translate/s707971310.cob:28: STOP */
+        /* /content/temp_cobol/input.cob:28: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

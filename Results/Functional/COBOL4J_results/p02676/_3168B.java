@@ -113,39 +113,39 @@ public class _3168B implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/168B_fixed.cob:10: ACCEPT */
+        /* /content/temp_cobol/input.cob:10: ACCEPT */
         {
           CobolTerminal.accept (f_K);
         }
-        /* /content/temp_cobol/168B_fixed.cob:11: ACCEPT */
+        /* /content/temp_cobol/input.cob:11: ACCEPT */
         {
           CobolTerminal.accept (f_S);
         }
-        /* /content/temp_cobol/168B_fixed.cob:12: UNSTRING */
+        /* /content/temp_cobol/input.cob:12: UNSTRING */
         {
           CobolString.unstringInit (f_S, 0, 1);
           CobolString.unstringDelimited (c_1, 0);
           CobolString.unstringInto (f_S, 0, f_LEN);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_cobol/168B_fixed.cob:15: IF */
+        /* /content/temp_cobol/input.cob:15: IF */
         {
           if (((long)b_LEN.memcmp (b_K, 3) <= 0L))
             {
-              /* /content/temp_cobol/168B_fixed.cob:16: DISPLAY */
+              /* /content/temp_cobol/input.cob:16: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, CobolIntrinsic.funcTrim (0, 0, f_S, 0));
               }
             }
           else
             {
-              /* /content/temp_cobol/168B_fixed.cob:18: DISPLAY */
+              /* /content/temp_cobol/input.cob:18: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 2, CobolFieldFactory.makeCobolField(b_K.getNumdisp(3), b_S.getSubDataStorage(0), a_2_Alphanumeric), c_2);
               }
             }
         }
-        /* /content/temp_cobol/168B_fixed.cob:21: STOP */
+        /* /content/temp_cobol/input.cob:21: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

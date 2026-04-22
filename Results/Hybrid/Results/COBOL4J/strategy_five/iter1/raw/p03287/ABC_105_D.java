@@ -1,3 +1,0 @@
-```java
-// Corrected Java Code
-```

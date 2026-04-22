@@ -122,11 +122,11 @@ public class ABC111B implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ABC111B_fixed.cob:9: ACCEPT */
+        /* /content/temp_cobol/input.cob:9: ACCEPT */
         {
           CobolTerminal.accept (f_N);
         }
-        /* /content/temp_cobol/ABC111B_fixed.cob:10: COMPUTE */
+        /* /content/temp_cobol/input.cob:10: COMPUTE */
         {
           {
             {
@@ -139,7 +139,7 @@ public class ABC111B implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/ABC111B_fixed.cob:11: COMPUTE */
+        /* /content/temp_cobol/input.cob:11: COMPUTE */
         {
           {
             {
@@ -150,11 +150,11 @@ public class ABC111B implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/ABC111B_fixed.cob:12: DISPLAY */
+        /* /content/temp_cobol/input.cob:12: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, f_N);
         }
-        /* /content/temp_cobol/ABC111B_fixed.cob:13: STOP */
+        /* /content/temp_cobol/input.cob:13: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

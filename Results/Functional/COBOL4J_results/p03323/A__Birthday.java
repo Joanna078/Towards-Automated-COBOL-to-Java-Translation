@@ -113,11 +113,11 @@ public class A__Birthday implements CobolRunnable {
     /* MAIN-001 */
     new CobolControl(l_MAIN_SECTION__MAIN_001, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/A-Birthday_fixed.cob:12: ACCEPT */
+        /* /content/temp_cobol/input.cob:12: ACCEPT */
         {
           CobolTerminal.accept (f_INP);
         }
-        /* /content/temp_cobol/A-Birthday_fixed.cob:13: UNSTRING */
+        /* /content/temp_cobol/input.cob:13: UNSTRING */
         {
           CobolString.unstringInit (f_INP, 0, 1);
           CobolString.unstringDelimited (c_1, 1);
@@ -125,18 +125,18 @@ public class A__Birthday implements CobolRunnable {
           CobolString.unstringInto (f_IN_B, 0, 0);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_cobol/A-Birthday_fixed.cob:16: IF */
+        /* /content/temp_cobol/input.cob:16: IF */
         {
           if ((((long)b_IN_A.cmpNumdisp (2, 8) <= 0L) && ((long)b_IN_B.cmpNumdisp (2, 8) <= 0L)))
             {
-              /* /content/temp_cobol/A-Birthday_fixed.cob:17: DISPLAY */
+              /* /content/temp_cobol/input.cob:17: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_2_Yay);
               }
             }
           else
             {
-              /* /content/temp_cobol/A-Birthday_fixed.cob:19: DISPLAY */
+              /* /content/temp_cobol/input.cob:19: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_3);
               }
@@ -149,7 +149,7 @@ public class A__Birthday implements CobolRunnable {
     /* MAIN-EXIT */
     new CobolControl(l_MAIN_SECTION__MAIN_EXIT, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/A-Birthday_fixed.cob:23: STOP */
+        /* /content/temp_cobol/input.cob:23: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

@@ -114,11 +114,11 @@ public class PROGRAM_ID implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:12: ACCEPT */
+        /* /content/temp_cobol/input.cob:12: ACCEPT */
         {
           CobolTerminal.accept (f_ln);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:13: UNSTRING */
+        /* /content/temp_cobol/input.cob:13: UNSTRING */
         {
           CobolString.unstringInit (f_ln, 0, 1);
           CobolString.unstringDelimited (CobolConstant.space, 0);
@@ -126,7 +126,7 @@ public class PROGRAM_ID implements CobolRunnable {
           CobolString.unstringInto (f_T, 0, 0);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:14: STRING */
+        /* /content/temp_cobol/input.cob:14: STRING */
         {
           CobolString.stringInit (f_ans, 0);
           CobolString.stringDelimited (0);
@@ -134,11 +134,11 @@ public class PROGRAM_ID implements CobolRunnable {
           CobolString.stringAppend (CobolIntrinsic.funcTrim (0, 0, f_S, 0));
           CobolString.stringFinish ();
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:15: DISPLAY */
+        /* /content/temp_cobol/input.cob:15: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, CobolIntrinsic.funcTrim (0, 0, f_ans, 0));
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:16: STOP */
+        /* /content/temp_cobol/input.cob:16: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

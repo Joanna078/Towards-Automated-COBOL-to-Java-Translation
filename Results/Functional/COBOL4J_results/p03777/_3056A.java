@@ -113,11 +113,11 @@ public class _3056A implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_translate/s562875340.cob:10: ACCEPT */
+        /* /content/temp_cobol/input.cob:10: ACCEPT */
         {
           CobolTerminal.accept (f_INP);
         }
-        /* /content/temp_translate/s562875340.cob:11: UNSTRING */
+        /* /content/temp_cobol/input.cob:11: UNSTRING */
         {
           CobolString.unstringInit (f_INP, 0, 1);
           CobolString.unstringDelimited (c_1, 0);
@@ -125,22 +125,22 @@ public class _3056A implements CobolRunnable {
           CobolString.unstringInto (f_B, 0, 0);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_translate/s562875340.cob:15: IF */
+        /* /content/temp_cobol/input.cob:15: IF */
         {
           if (((long)(Byte.toUnsignedInt(b_A.getByte(0)) - (int)72) == 0L))
             {
-              /* /content/temp_translate/s562875340.cob:16: IF */
+              /* /content/temp_cobol/input.cob:16: IF */
               {
                 if (((long)(Byte.toUnsignedInt(b_B.getByte(0)) - (int)72) == 0L))
                   {
-                    /* /content/temp_translate/s562875340.cob:17: DISPLAY */
+                    /* /content/temp_cobol/input.cob:17: DISPLAY */
                     {
                       CobolTerminal.display (0, 1, 1, c_2_H);
                     }
                   }
                 else
                   {
-                    /* /content/temp_translate/s562875340.cob:19: DISPLAY */
+                    /* /content/temp_cobol/input.cob:19: DISPLAY */
                     {
                       CobolTerminal.display (0, 1, 1, c_3_D);
                     }
@@ -149,18 +149,18 @@ public class _3056A implements CobolRunnable {
             }
           else
             {
-              /* /content/temp_translate/s562875340.cob:22: IF */
+              /* /content/temp_cobol/input.cob:22: IF */
               {
                 if (((long)(Byte.toUnsignedInt(b_B.getByte(0)) - (int)72) == 0L))
                   {
-                    /* /content/temp_translate/s562875340.cob:23: DISPLAY */
+                    /* /content/temp_cobol/input.cob:23: DISPLAY */
                     {
                       CobolTerminal.display (0, 1, 1, c_3_D);
                     }
                   }
                 else
                   {
-                    /* /content/temp_translate/s562875340.cob:25: DISPLAY */
+                    /* /content/temp_cobol/input.cob:25: DISPLAY */
                     {
                       CobolTerminal.display (0, 1, 1, c_2_H);
                     }
@@ -168,7 +168,7 @@ public class _3056A implements CobolRunnable {
               }
             }
         }
-        /* /content/temp_translate/s562875340.cob:29: STOP */
+        /* /content/temp_cobol/input.cob:29: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

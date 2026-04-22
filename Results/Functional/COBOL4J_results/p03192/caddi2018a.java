@@ -112,22 +112,22 @@ public class caddi2018a implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/caddi2018a_fixed.cob:12: ACCEPT */
+        /* /content/temp_cobol/input.cob:12: ACCEPT */
         {
           CobolTerminal.accept (f_n);
         }
-        /* /content/temp_cobol/caddi2018a_fixed.cob:13: INSPECT */
+        /* /content/temp_cobol/input.cob:13: INSPECT */
         {
           CobolInspect.init (f_n, 0);
           CobolInspect.start ();
           CobolInspect.all (f_c, c_1_2);
           CobolInspect.finish ();
         }
-        /* /content/temp_cobol/caddi2018a_fixed.cob:14: DISPLAY */
+        /* /content/temp_cobol/input.cob:14: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, f_c);
         }
-        /* /content/temp_cobol/caddi2018a_fixed.cob:15: STOP */
+        /* /content/temp_cobol/input.cob:15: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

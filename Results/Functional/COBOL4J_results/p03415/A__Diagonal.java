@@ -113,23 +113,23 @@ public class A__Diagonal implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/A-Diagonal_fixed.cob:11: ACCEPT */
+        /* /content/temp_cobol/input.cob:11: ACCEPT */
         {
           CobolTerminal.accept (f_C1);
         }
-        /* /content/temp_cobol/A-Diagonal_fixed.cob:12: ACCEPT */
+        /* /content/temp_cobol/input.cob:12: ACCEPT */
         {
           CobolTerminal.accept (f_C2);
         }
-        /* /content/temp_cobol/A-Diagonal_fixed.cob:13: ACCEPT */
+        /* /content/temp_cobol/input.cob:13: ACCEPT */
         {
           CobolTerminal.accept (f_C3);
         }
-        /* /content/temp_cobol/A-Diagonal_fixed.cob:15: DISPLAY */
+        /* /content/temp_cobol/input.cob:15: DISPLAY */
         {
           CobolTerminal.display (0, 1, 3, CobolFieldFactory.makeCobolField(1, b_C1.getSubDataStorage(0), a_1_Alphanumeric), CobolFieldFactory.makeCobolField(1, b_C2.getSubDataStorage(1), a_1_Alphanumeric), CobolFieldFactory.makeCobolField(1, b_C3.getSubDataStorage(2), a_1_Alphanumeric));
         }
-        /* /content/temp_cobol/A-Diagonal_fixed.cob:17: STOP */
+        /* /content/temp_cobol/input.cob:17: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

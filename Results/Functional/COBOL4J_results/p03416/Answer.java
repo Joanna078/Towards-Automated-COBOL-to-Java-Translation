@@ -117,15 +117,15 @@ public class Answer implements CobolRunnable {
     /* 000-Start */
     new CobolControl(l_AnswerMain__000_Start, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/Answer_fixed.cob:26: ACCEPT */
+        /* /content/temp_cobol/input.cob:26: ACCEPT */
         {
           CobolTerminal.accept (f_Input_Values);
         }
-        /* /content/temp_cobol/Answer_fixed.cob:27: MOVE */
+        /* /content/temp_cobol/input.cob:27: MOVE */
         {
           f_a__Calc_Values.moveFrom (f_a_str__Input_Values);
         }
-        /* /content/temp_cobol/Answer_fixed.cob:28: MOVE */
+        /* /content/temp_cobol/input.cob:28: MOVE */
         {
           f_b__Calc_Values.moveFrom (f_b_str__Input_Values);
         }
@@ -136,35 +136,35 @@ public class Answer implements CobolRunnable {
     /* 001-LoopHead */
     new CobolControl(l_AnswerMain__001_LoopHead, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/Answer_fixed.cob:31: MOVE */
+        /* /content/temp_cobol/input.cob:31: MOVE */
         {
           f_a_str__Input_Values.moveFrom (f_a__Calc_Values);
         }
-        /* /content/temp_cobol/Answer_fixed.cob:32: IF */
+        /* /content/temp_cobol/input.cob:32: IF */
         {
           if ((((long)(Byte.toUnsignedInt(b_a_str__Input_Values.getSubDataStorage(0).getByte(0)) - Byte.toUnsignedInt(b_a_str__Input_Values.getSubDataStorage(4).getByte(0))) == 0L) && ((long)(Byte.toUnsignedInt(b_a_str__Input_Values.getSubDataStorage(1).getByte(0)) - Byte.toUnsignedInt(b_a_str__Input_Values.getSubDataStorage(3).getByte(0))) == 0L)))
             {
-              /* /content/temp_cobol/Answer_fixed.cob:34: ADD */
+              /* /content/temp_cobol/input.cob:34: ADD */
               {
                 b_ans__Answer_Values.set((int)(b_ans__Answer_Values.intValue() + 1));
               }
             }
         }
-        /* /content/temp_cobol/Answer_fixed.cob:36: ADD */
+        /* /content/temp_cobol/input.cob:36: ADD */
         {
           b_a__Calc_Values.set((int)(b_a__Calc_Values.intValue() + 1));
         }
-        /* /content/temp_cobol/Answer_fixed.cob:37: IF */
+        /* /content/temp_cobol/input.cob:37: IF */
         {
           if (((long)f_a__Calc_Values.cmpInteger (b_b__Calc_Values.intValue()) >  0L))
             {
-              /* /content/temp_cobol/Answer_fixed.cob:38: GO TO */
+              /* /content/temp_cobol/input.cob:38: GO TO */
               {
                 if(true) return Optional.of(contList[l_AnswerMain__002_OutputAnswer]);
               }
             }
         }
-        /* /content/temp_cobol/Answer_fixed.cob:40: GO TO */
+        /* /content/temp_cobol/input.cob:40: GO TO */
         {
           if(true) return Optional.of(contList[l_AnswerMain__001_LoopHead]);
         }
@@ -175,11 +175,11 @@ public class Answer implements CobolRunnable {
     /* 002-OutputAnswer */
     new CobolControl(l_AnswerMain__002_OutputAnswer, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/Answer_fixed.cob:43: MOVE */
+        /* /content/temp_cobol/input.cob:43: MOVE */
         {
           f_disp__Answer_Values.moveFrom (f_ans__Answer_Values);
         }
-        /* /content/temp_cobol/Answer_fixed.cob:44: DISPLAY */
+        /* /content/temp_cobol/input.cob:44: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, CobolIntrinsic.funcTrim (0, 0, f_disp__Answer_Values, 0));
         }

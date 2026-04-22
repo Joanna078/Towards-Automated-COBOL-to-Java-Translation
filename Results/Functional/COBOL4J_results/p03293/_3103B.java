@@ -116,76 +116,76 @@ public class _3103B implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_translate/s217934662.cob:20: ACCEPT */
+        /* /content/temp_cobol/input.cob:20: ACCEPT */
         {
           CobolTerminal.accept (f_INP);
         }
-        /* /content/temp_translate/s217934662.cob:21: MOVE */
+        /* /content/temp_cobol/input.cob:21: MOVE */
         {
           b_S.setBytes (b_INP, 100);
         }
-        /* /content/temp_translate/s217934662.cob:23: ACCEPT */
+        /* /content/temp_cobol/input.cob:23: ACCEPT */
         {
           CobolTerminal.accept (f_INP);
         }
-        /* /content/temp_translate/s217934662.cob:24: MOVE */
+        /* /content/temp_cobol/input.cob:24: MOVE */
         {
           b_T.setBytes (b_INP, 100);
         }
-        /* /content/temp_translate/s217934662.cob:26: PERFORM */
+        /* /content/temp_cobol/input.cob:26: PERFORM */
         for (;;)
         {
           if (((long)(Byte.toUnsignedInt(b_S99__S9__S.getSubDataStorage((b_IDX.getNumdisp(3) - 1)).getByte(0)) - (int)' ') == 0L))
             break;
           {
-            /* /content/temp_translate/s217934662.cob:27: ADD */
+            /* /content/temp_cobol/input.cob:27: ADD */
             {
               f_IDX.add (c_1_1, 4);
             }
           }
         }
-        /* /content/temp_translate/s217934662.cob:30: PERFORM */
+        /* /content/temp_cobol/input.cob:30: PERFORM */
         for (;;)
         {
           if ((((long)b_T.memcmp (b_S, 100) == 0L) || ((long)b_IDX.memcmp (b_CNT, 3) == 0L)))
             break;
           {
-            /* /content/temp_translate/s217934662.cob:31: MOVE */
+            /* /content/temp_cobol/input.cob:31: MOVE */
             {
               f_WK_S.moveFrom (f_S9__S);
             }
-            /* /content/temp_translate/s217934662.cob:32: MOVE */
+            /* /content/temp_cobol/input.cob:32: MOVE */
             {
               b_WK_S100__WK_S.getSubDataStorage((b_IDX.getNumdisp(3) - 1)).setByte(b_S1__S.getByte(0));
             }
-            /* /content/temp_translate/s217934662.cob:33: MOVE */
+            /* /content/temp_cobol/input.cob:33: MOVE */
             {
               b_S.setBytes (b_WK_S, 100);
             }
-            /* /content/temp_translate/s217934662.cob:34: ADD */
+            /* /content/temp_cobol/input.cob:34: ADD */
             {
               f_CNT.add (c_1_1, 4);
             }
           }
         }
-        /* /content/temp_translate/s217934662.cob:37: IF */
+        /* /content/temp_cobol/input.cob:37: IF */
         {
           if (((long)b_T.memcmp (b_S, 100) == 0L))
             {
-              /* /content/temp_translate/s217934662.cob:38: DISPLAY */
+              /* /content/temp_cobol/input.cob:38: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_2_Yes);
               }
             }
           else
             {
-              /* /content/temp_translate/s217934662.cob:40: DISPLAY */
+              /* /content/temp_cobol/input.cob:40: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_3_No);
               }
             }
         }
-        /* /content/temp_translate/s217934662.cob:43: STOP */
+        /* /content/temp_cobol/input.cob:43: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

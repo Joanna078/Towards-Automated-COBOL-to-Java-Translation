@@ -127,11 +127,11 @@ public class kyopuro implements CobolRunnable {
     /* main */
     new CobolControl(l_MAIN_SECTION__main, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/kyopuro_fixed.cob:15: ACCEPT */
+        /* /content/temp_cobol/input.cob:15: ACCEPT */
         {
           CobolTerminal.accept (f_in_str);
         }
-        /* /content/temp_cobol/kyopuro_fixed.cob:16: UNSTRING */
+        /* /content/temp_cobol/input.cob:16: UNSTRING */
         {
           CobolString.unstringInit (f_in_str, 0, 1);
           CobolString.unstringDelimited (CobolConstant.space, 1);
@@ -139,22 +139,22 @@ public class kyopuro implements CobolRunnable {
           CobolString.unstringInto (f_m, 0, 0);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_cobol/kyopuro_fixed.cob:19: IF */
+        /* /content/temp_cobol/input.cob:19: IF */
         {
           if ((((long)b_n.cmpLongNumdisp (10, 1) == 0L) && ((long)b_m.cmpLongNumdisp (10, 1) == 0L)))
             {
-              /* /content/temp_cobol/kyopuro_fixed.cob:21: MOVE */
+              /* /content/temp_cobol/input.cob:21: MOVE */
               {
                 f_view_res.moveFrom (c_1_1);
               }
             }
           else
             {
-              /* /content/temp_cobol/kyopuro_fixed.cob:22: IF */
+              /* /content/temp_cobol/input.cob:22: IF */
               {
                 if ((((long)b_n.cmpLongNumdisp (10, 1) == 0L) || ((long)b_m.cmpLongNumdisp (10, 1) == 0L)))
                   {
-                    /* /content/temp_cobol/kyopuro_fixed.cob:24: COMPUTE */
+                    /* /content/temp_cobol/input.cob:24: COMPUTE */
                     {
                       {
                         {
@@ -168,7 +168,7 @@ public class kyopuro implements CobolRunnable {
                   }
                 else
                   {
-                    /* /content/temp_cobol/kyopuro_fixed.cob:26: COMPUTE */
+                    /* /content/temp_cobol/input.cob:26: COMPUTE */
                     {
                       {
                         {
@@ -187,11 +187,11 @@ public class kyopuro implements CobolRunnable {
               }
             }
         }
-        /* /content/temp_cobol/kyopuro_fixed.cob:30: DISPLAY */
+        /* /content/temp_cobol/input.cob:30: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, f_view_res);
         }
-        /* /content/temp_cobol/kyopuro_fixed.cob:31: STOP */
+        /* /content/temp_cobol/input.cob:31: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

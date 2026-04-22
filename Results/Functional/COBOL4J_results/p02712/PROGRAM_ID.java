@@ -137,55 +137,55 @@ public class PROGRAM_ID implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:18: ACCEPT */
+        /* /content/temp_cobol/input.cob:18: ACCEPT */
         {
           CobolTerminal.accept (f_N);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:19: MOVE */
+        /* /content/temp_cobol/input.cob:19: MOVE */
         {
           b_dvd.setBytes (str_0_0000000001, 10);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:20: PERFORM */
+        /* /content/temp_cobol/input.cob:20: PERFORM */
         /* PERFORM CALC */
         CobolControl.perform(contList, l_CALC).run();
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:21: MOVE */
+        /* /content/temp_cobol/input.cob:21: MOVE */
         {
           b_c1.setBytes (b_c, 19);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:22: MOVE */
+        /* /content/temp_cobol/input.cob:22: MOVE */
         {
           b_dvd.setBytes (str_1_0000000003, 10);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:23: PERFORM */
+        /* /content/temp_cobol/input.cob:23: PERFORM */
         /* PERFORM CALC */
         CobolControl.perform(contList, l_CALC).run();
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:24: MOVE */
+        /* /content/temp_cobol/input.cob:24: MOVE */
         {
           b_c3.setBytes (b_c, 19);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:25: MOVE */
+        /* /content/temp_cobol/input.cob:25: MOVE */
         {
           b_dvd.setBytes (str_2_0000000005, 10);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:26: PERFORM */
+        /* /content/temp_cobol/input.cob:26: PERFORM */
         /* PERFORM CALC */
         CobolControl.perform(contList, l_CALC).run();
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:27: MOVE */
+        /* /content/temp_cobol/input.cob:27: MOVE */
         {
           b_c5.setBytes (b_c, 19);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:28: MOVE */
+        /* /content/temp_cobol/input.cob:28: MOVE */
         {
           b_dvd.setBytes (str_3_0000000015, 10);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:29: PERFORM */
+        /* /content/temp_cobol/input.cob:29: PERFORM */
         /* PERFORM CALC */
         CobolControl.perform(contList, l_CALC).run();
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:30: MOVE */
+        /* /content/temp_cobol/input.cob:30: MOVE */
         {
           b_c15.setBytes (b_c, 19);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:31: COMPUTE */
+        /* /content/temp_cobol/input.cob:31: COMPUTE */
         {
           {
             {
@@ -200,15 +200,15 @@ public class PROGRAM_ID implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:32: MOVE */
+        /* /content/temp_cobol/input.cob:32: MOVE */
         {
           f_zs.moveFrom (f_accum);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:33: DISPLAY */
+        /* /content/temp_cobol/input.cob:33: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, CobolIntrinsic.funcTrim (0, 0, f_zs, 0));
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:34: STOP */
+        /* /content/temp_cobol/input.cob:34: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }
@@ -226,7 +226,7 @@ public class PROGRAM_ID implements CobolRunnable {
     /* CALC_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_CALC_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:37: DIVIDE */
+        /* /content/temp_cobol/input.cob:37: DIVIDE */
         {
           {
             {
@@ -237,7 +237,7 @@ public class PROGRAM_ID implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:38: COMPUTE */
+        /* /content/temp_cobol/input.cob:38: COMPUTE */
         {
           {
             {

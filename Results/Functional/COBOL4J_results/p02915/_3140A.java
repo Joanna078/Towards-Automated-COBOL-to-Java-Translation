@@ -124,11 +124,11 @@ public class _3140A implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/140A_fixed.cob:10: ACCEPT */
+        /* /content/temp_cobol/input.cob:10: ACCEPT */
         {
           CobolTerminal.accept (f_N);
         }
-        /* /content/temp_cobol/140A_fixed.cob:11: COMPUTE */
+        /* /content/temp_cobol/input.cob:11: COMPUTE */
         {
           {
             {
@@ -141,15 +141,15 @@ public class _3140A implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/140A_fixed.cob:12: MOVE */
+        /* /content/temp_cobol/input.cob:12: MOVE */
         {
           f_ANSS.moveFrom (f_ANS);
         }
-        /* /content/temp_cobol/140A_fixed.cob:13: DISPLAY */
+        /* /content/temp_cobol/input.cob:13: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, f_ANSS);
         }
-        /* /content/temp_cobol/140A_fixed.cob:14: STOP */
+        /* /content/temp_cobol/input.cob:14: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

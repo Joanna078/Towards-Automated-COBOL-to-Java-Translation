@@ -131,11 +131,11 @@ public class AtCoder implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_translate/s111459231.cob:21: ACCEPT */
+        /* /content/temp_cobol/input.cob:21: ACCEPT */
         {
           CobolTerminal.accept (f_A);
         }
-        /* /content/temp_translate/s111459231.cob:22: COMPUTE */
+        /* /content/temp_cobol/input.cob:22: COMPUTE */
         {
           {
             {
@@ -146,7 +146,7 @@ public class AtCoder implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_translate/s111459231.cob:23: COMPUTE */
+        /* /content/temp_cobol/input.cob:23: COMPUTE */
         {
           {
             {
@@ -159,7 +159,7 @@ public class AtCoder implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_translate/s111459231.cob:24: COMPUTE */
+        /* /content/temp_cobol/input.cob:24: COMPUTE */
         {
           {
             {
@@ -172,7 +172,7 @@ public class AtCoder implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_translate/s111459231.cob:25: COMPUTE */
+        /* /content/temp_cobol/input.cob:25: COMPUTE */
         {
           {
             {
@@ -183,7 +183,7 @@ public class AtCoder implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_translate/s111459231.cob:26: COMPUTE */
+        /* /content/temp_cobol/input.cob:26: COMPUTE */
         {
           {
             {
@@ -196,7 +196,7 @@ public class AtCoder implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_translate/s111459231.cob:27: COMPUTE */
+        /* /content/temp_cobol/input.cob:27: COMPUTE */
         {
           {
             {
@@ -209,7 +209,7 @@ public class AtCoder implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_translate/s111459231.cob:28: COMPUTE */
+        /* /content/temp_cobol/input.cob:28: COMPUTE */
         {
           {
             {
@@ -220,7 +220,7 @@ public class AtCoder implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_translate/s111459231.cob:29: COMPUTE */
+        /* /content/temp_cobol/input.cob:29: COMPUTE */
         {
           {
             {
@@ -233,7 +233,7 @@ public class AtCoder implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_translate/s111459231.cob:30: COMPUTE */
+        /* /content/temp_cobol/input.cob:30: COMPUTE */
         {
           {
             {
@@ -246,28 +246,28 @@ public class AtCoder implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_translate/s111459231.cob:31: MOVE */
+        /* /content/temp_cobol/input.cob:31: MOVE */
         {
           b_E.setBytes (b_A, 15);
         }
-        /* /content/temp_translate/s111459231.cob:32: IF */
+        /* /content/temp_cobol/input.cob:32: IF */
         {
           if (((((long)b_B.memcmp (b_C, 15) == 0L) || ((long)b_C.memcmp (b_D, 15) == 0L)) || ((long)b_E.memcmp (b_D, 15) == 0L)))
             {
-              /* /content/temp_translate/s111459231.cob:33: DISPLAY */
+              /* /content/temp_cobol/input.cob:33: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_1_Bad);
               }
             }
           else
             {
-              /* /content/temp_translate/s111459231.cob:35: DISPLAY */
+              /* /content/temp_cobol/input.cob:35: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_2_Good);
               }
             }
         }
-        /* /content/temp_translate/s111459231.cob:37: STOP */
+        /* /content/temp_cobol/input.cob:37: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

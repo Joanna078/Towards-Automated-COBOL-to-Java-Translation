@@ -137,15 +137,15 @@ public class AtCoder implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/AtCoder_fixed.cob:20: ACCEPT */
+        /* /content/temp_cobol/input.cob:20: ACCEPT */
         {
           CobolTerminal.accept (f_A);
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:21: MOVE */
+        /* /content/temp_cobol/input.cob:21: MOVE */
         {
           f_ans.moveFrom (c_1_2000000000000);
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:22: COMPUTE */
+        /* /content/temp_cobol/input.cob:22: COMPUTE */
         {
           {
             {
@@ -156,7 +156,7 @@ public class AtCoder implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:23: PERFORM */
+        /* /content/temp_cobol/input.cob:23: PERFORM */
         b_t.setBytes (str_0_000000000000001, 15);
         for(;;f_t.addInt (1))
         {
@@ -172,7 +172,7 @@ public class AtCoder implements CobolRunnable {
         }).run() == 0L))
           break;
         {
-          /* /content/temp_cobol/AtCoder_fixed.cob:24: COMPUTE */
+          /* /content/temp_cobol/input.cob:24: COMPUTE */
           {
             {
               {
@@ -183,7 +183,7 @@ public class AtCoder implements CobolRunnable {
               }
             }
           }
-          /* /content/temp_cobol/AtCoder_fixed.cob:25: COMPUTE */
+          /* /content/temp_cobol/input.cob:25: COMPUTE */
           {
             {
               {
@@ -194,11 +194,11 @@ public class AtCoder implements CobolRunnable {
               }
             }
           }
-          /* /content/temp_cobol/AtCoder_fixed.cob:26: IF */
+          /* /content/temp_cobol/input.cob:26: IF */
           {
             if (((long)b_C.memcmp (b_A, 15) == 0L))
               {
-                /* /content/temp_cobol/AtCoder_fixed.cob:27: IF */
+                /* /content/temp_cobol/input.cob:27: IF */
                 {
                   if (((long)                  (new GetInt() {
                     public int run() throws CobolStopRunException {
@@ -215,7 +215,7 @@ public class AtCoder implements CobolRunnable {
                   }
                 }).run() >  0L))
                   {
-                    /* /content/temp_cobol/AtCoder_fixed.cob:28: COMPUTE */
+                    /* /content/temp_cobol/input.cob:28: COMPUTE */
                     {
                       {
                         {
@@ -236,11 +236,11 @@ public class AtCoder implements CobolRunnable {
         }
       }
     }
-    /* /content/temp_cobol/AtCoder_fixed.cob:32: DISPLAY */
+    /* /content/temp_cobol/input.cob:32: DISPLAY */
     {
       CobolTerminal.display (0, 1, 1, f_ans);
     }
-    /* /content/temp_cobol/AtCoder_fixed.cob:33: STOP */
+    /* /content/temp_cobol/input.cob:33: STOP */
     {
       CobolStopRunException.throwException (b_RETURN_CODE.intValue());
     }

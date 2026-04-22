@@ -116,19 +116,19 @@ public class A__KthTerm implements CobolRunnable {
     /* MAIN-001 */
     new CobolControl(l_MAIN_SECTION__MAIN_001, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/A-KthTerm_fixed.cob:15: ACCEPT */
+        /* /content/temp_cobol/input.cob:15: ACCEPT */
         {
           CobolTerminal.accept (f_K);
         }
-        /* /content/temp_cobol/A-KthTerm_fixed.cob:16: MOVE */
+        /* /content/temp_cobol/input.cob:16: MOVE */
         {
           f_OUT.moveFrom (CobolFieldFactory.makeCobolField(2, b_T_R__TBL_R.getSubDataStorage(2 * (b_K.getNumdisp(2) - 1)), a_2_NumericDisplay_Digits2_Scale0));
         }
-        /* /content/temp_cobol/A-KthTerm_fixed.cob:17: DISPLAY */
+        /* /content/temp_cobol/input.cob:17: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, CobolIntrinsic.funcTrim (0, 0, f_OUT, 0));
         }
-        /* /content/temp_cobol/A-KthTerm_fixed.cob:19: STOP */
+        /* /content/temp_cobol/input.cob:19: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

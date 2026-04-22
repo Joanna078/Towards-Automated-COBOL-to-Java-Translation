@@ -114,35 +114,35 @@ public class _3145B implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/145B_fixed.cob:11: ACCEPT */
+        /* /content/temp_cobol/input.cob:11: ACCEPT */
         {
           CobolTerminal.accept (f_N);
         }
-        /* /content/temp_cobol/145B_fixed.cob:12: ACCEPT */
+        /* /content/temp_cobol/input.cob:12: ACCEPT */
         {
           CobolTerminal.accept (f_S);
         }
-        /* /content/temp_cobol/145B_fixed.cob:14: DIVIDE */
+        /* /content/temp_cobol/input.cob:14: DIVIDE */
         {
           f_N.divQuotient (c_1_2, f_H, 4);
           f_A.divRemainder (4);
         }
-        /* /content/temp_cobol/145B_fixed.cob:15: IF */
+        /* /content/temp_cobol/input.cob:15: IF */
         {
           if (((long)b_A.cmpNumdisp (1, 0) == 0L))
             {
-              /* /content/temp_cobol/145B_fixed.cob:16: IF */
+              /* /content/temp_cobol/input.cob:16: IF */
               {
                 if (((long)CobolFieldFactory.makeCobolField(b_H.getNumdisp(2), b_S.getSubDataStorage(0), a_2_Alphanumeric).compareTo (CobolFieldFactory.makeCobolField(b_H.getNumdisp(2), b_S.getSubDataStorage(((b_H.getNumdisp(2) + 1) - 1)), a_2_Alphanumeric)) == 0L))
                   {
-                    /* /content/temp_cobol/145B_fixed.cob:17: DISPLAY */
+                    /* /content/temp_cobol/input.cob:17: DISPLAY */
                     {
                       CobolTerminal.display (0, 1, 1, c_2_Yes);
                     }
                   }
                 else
                   {
-                    /* /content/temp_cobol/145B_fixed.cob:19: DISPLAY */
+                    /* /content/temp_cobol/input.cob:19: DISPLAY */
                     {
                       CobolTerminal.display (0, 1, 1, c_3_No);
                     }
@@ -151,13 +151,13 @@ public class _3145B implements CobolRunnable {
             }
           else
             {
-              /* /content/temp_cobol/145B_fixed.cob:22: DISPLAY */
+              /* /content/temp_cobol/input.cob:22: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_3_No);
               }
             }
         }
-        /* /content/temp_cobol/145B_fixed.cob:25: STOP */
+        /* /content/temp_cobol/input.cob:25: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

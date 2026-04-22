@@ -113,66 +113,66 @@ public class test1 implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/test1_fixed.cob:11: MOVE */
+        /* /content/temp_cobol/input.cob:11: MOVE */
         {
           b_PRICE.setBytes (str_0_0700, 4);
         }
-        /* /content/temp_cobol/test1_fixed.cob:12: ACCEPT */
+        /* /content/temp_cobol/input.cob:12: ACCEPT */
         {
           CobolTerminal.accept (f_TOPPING);
         }
-        /* /content/temp_cobol/test1_fixed.cob:13: IF */
+        /* /content/temp_cobol/input.cob:13: IF */
         {
           if (((long)(Byte.toUnsignedInt(b_TOPPING.getSubDataStorage(0).getByte(0)) - (int)111) == 0L))
             {
-              /* /content/temp_cobol/test1_fixed.cob:14: ADD */
+              /* /content/temp_cobol/input.cob:14: ADD */
               {
                 f_PRICE.add (c_1_100, 4);
               }
             }
         }
-        /* /content/temp_cobol/test1_fixed.cob:16: IF */
+        /* /content/temp_cobol/input.cob:16: IF */
         {
           if (((long)(Byte.toUnsignedInt(b_TOPPING.getSubDataStorage(1).getByte(0)) - (int)111) == 0L))
             {
-              /* /content/temp_cobol/test1_fixed.cob:17: ADD */
+              /* /content/temp_cobol/input.cob:17: ADD */
               {
                 f_PRICE.add (c_1_100, 4);
               }
             }
         }
-        /* /content/temp_cobol/test1_fixed.cob:19: IF */
+        /* /content/temp_cobol/input.cob:19: IF */
         {
           if (((long)(Byte.toUnsignedInt(b_TOPPING.getSubDataStorage(2).getByte(0)) - (int)111) == 0L))
             {
-              /* /content/temp_cobol/test1_fixed.cob:20: ADD */
+              /* /content/temp_cobol/input.cob:20: ADD */
               {
                 f_PRICE.add (c_1_100, 4);
               }
             }
         }
-        /* /content/temp_cobol/test1_fixed.cob:22: IF */
+        /* /content/temp_cobol/input.cob:22: IF */
         {
           if (((long)b_PRICE.cmpNumdisp (4, 1000) == 0L))
             {
-              /* /content/temp_cobol/test1_fixed.cob:23: DISPLAY */
+              /* /content/temp_cobol/input.cob:23: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_2_1000);
               }
             }
           else
             {
-              /* /content/temp_cobol/test1_fixed.cob:25: MOVE */
+              /* /content/temp_cobol/input.cob:25: MOVE */
               {
                 f_RESULT.moveFrom (f_PRICE);
               }
-              /* /content/temp_cobol/test1_fixed.cob:26: DISPLAY */
+              /* /content/temp_cobol/input.cob:26: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, f_RESULT);
               }
             }
         }
-        /* /content/temp_cobol/test1_fixed.cob:28: STOP */
+        /* /content/temp_cobol/input.cob:28: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

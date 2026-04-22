@@ -121,54 +121,54 @@ public class ABC_068_B implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ABC_068_B_fixed.cob:23: ACCEPT */
+        /* /content/temp_cobol/input.cob:23: ACCEPT */
         {
           CobolTerminal.accept (f_N);
         }
-        /* /content/temp_cobol/ABC_068_B_fixed.cob:25: MOVE */
+        /* /content/temp_cobol/input.cob:25: MOVE */
         {
           b_mxv.setBytes (str_0_001, 3);
         }
-        /* /content/temp_cobol/ABC_068_B_fixed.cob:26: MOVE */
+        /* /content/temp_cobol/input.cob:26: MOVE */
         {
           b_mxt.fillBytes (48, 3);
         }
-        /* /content/temp_cobol/ABC_068_B_fixed.cob:28: PERFORM */
+        /* /content/temp_cobol/input.cob:28: PERFORM */
         b_i.setBytes (str_1_002, 3);
         for(;;f_i.addInt (1))
         {
           if (((long)b_N.memcmp (b_i, 3) <  0L))
             break;
           {
-            /* /content/temp_cobol/ABC_068_B_fixed.cob:29: MOVE */
+            /* /content/temp_cobol/input.cob:29: MOVE */
             {
               b_t.fillBytes (48, 3);
             }
-            /* /content/temp_cobol/ABC_068_B_fixed.cob:30: MOVE */
+            /* /content/temp_cobol/input.cob:30: MOVE */
             {
               b_tmp.setBytes (b_i, 3);
             }
-            /* /content/temp_cobol/ABC_068_B_fixed.cob:32: PERFORM */
+            /* /content/temp_cobol/input.cob:32: PERFORM */
             b_j.setBytes (str_2_001, 3);
             for(;;f_j.addInt (1))
             {
               if (((long)b_tmp.cmpNumdisp (3, 0) == 0L))
                 break;
               {
-                /* /content/temp_cobol/ABC_068_B_fixed.cob:33: ADD */
+                /* /content/temp_cobol/input.cob:33: ADD */
                 {
                   f_t.add (c_1_1, 4);
                 }
-                /* /content/temp_cobol/ABC_068_B_fixed.cob:34: DIVIDE */
+                /* /content/temp_cobol/input.cob:34: DIVIDE */
                 {
                   f_tmp.divQuotient (c_2_2, f_tmp, 4);
                   f_R.divRemainder (4);
                 }
-                /* /content/temp_cobol/ABC_068_B_fixed.cob:35: IF */
+                /* /content/temp_cobol/input.cob:35: IF */
                 {
                   if (((long)b_R.cmpNumdisp (3, 1) == 0L))
                     {
-                      /* /content/temp_cobol/ABC_068_B_fixed.cob:36: EXIT */
+                      /* /content/temp_cobol/input.cob:36: EXIT */
                       {
                         if(true) break;
                       }
@@ -176,15 +176,15 @@ public class ABC_068_B implements CobolRunnable {
                 }
               }
             }
-            /* /content/temp_cobol/ABC_068_B_fixed.cob:40: IF */
+            /* /content/temp_cobol/input.cob:40: IF */
             {
               if (((long)b_mxt.memcmp (b_t, 3) <  0L))
                 {
-                  /* /content/temp_cobol/ABC_068_B_fixed.cob:41: MOVE */
+                  /* /content/temp_cobol/input.cob:41: MOVE */
                   {
                     b_mxv.setBytes (b_i, 3);
                   }
-                  /* /content/temp_cobol/ABC_068_B_fixed.cob:42: MOVE */
+                  /* /content/temp_cobol/input.cob:42: MOVE */
                   {
                     b_mxt.setBytes (b_t, 3);
                   }
@@ -192,18 +192,18 @@ public class ABC_068_B implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/ABC_068_B_fixed.cob:46: MOVE */
+        /* /content/temp_cobol/input.cob:46: MOVE */
         {
           f_ZS.moveFrom (f_mxv);
         }
-        /* /content/temp_cobol/ABC_068_B_fixed.cob:48: PERFORM */
+        /* /content/temp_cobol/input.cob:48: PERFORM */
         /* PERFORM UNANS */
         CobolControl.perform(contList, l_UNANS).run();
-        /* /content/temp_cobol/ABC_068_B_fixed.cob:50: DISPLAY */
+        /* /content/temp_cobol/input.cob:50: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, CobolFieldFactory.makeCobolField(CobolIntrinsic.funcStoredCharLength (f_ans).getInt(), b_ans.getSubDataStorage(0), a_3_Alphanumeric));
         }
-        /* /content/temp_cobol/ABC_068_B_fixed.cob:51: STOP */
+        /* /content/temp_cobol/input.cob:51: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }
@@ -221,7 +221,7 @@ public class ABC_068_B implements CobolRunnable {
     /* UNANS_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_UNANS_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ABC_068_B_fixed.cob:54: UNSTRING */
+        /* /content/temp_cobol/input.cob:54: UNSTRING */
         {
           CobolString.unstringInit (f_ZS, 0, 1);
           CobolString.unstringDelimited (CobolConstant.space, 1);

@@ -113,11 +113,11 @@ public class A__DoubleHelix implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/A-DoubleHelix_fixed.cob:11: ACCEPT */
+        /* /content/temp_cobol/input.cob:11: ACCEPT */
         {
           CobolTerminal.accept (f_B);
         }
-        /* /content/temp_cobol/A-DoubleHelix_fixed.cob:13: PERFORM */
+        /* /content/temp_cobol/input.cob:13: PERFORM */
         b_I.setByte(49);
         for(;;f_I.addInt (1))
         {
@@ -125,11 +125,11 @@ public class A__DoubleHelix implements CobolRunnable {
             break;
           ;
         }
-        /* /content/temp_cobol/A-DoubleHelix_fixed.cob:17: DISPLAY */
+        /* /content/temp_cobol/input.cob:17: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, CobolFieldFactory.makeCobolField(1, b_ENKI.getSubDataStorage(((5 - b_I.getNumdisp(1)) - 1)), a_1_Alphanumeric));
         }
-        /* /content/temp_cobol/A-DoubleHelix_fixed.cob:19: STOP */
+        /* /content/temp_cobol/input.cob:19: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

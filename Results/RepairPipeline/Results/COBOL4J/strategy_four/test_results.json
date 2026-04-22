@@ -1,0 +1,1232 @@
+[
+  {
+    "problem_id": "p02642",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "compilation_error",
+    "error_details": "/tmp/temp_4/_3170D.java:338: error: illegal start of type\n    },\n     ^\n/tmp/temp_4/_3170D.java:338: error: <identifier> expected\n    },\n      ^\n/tmp/temp_4/_3170D.java:340: error: invalid method declaration; return type required\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n        ^\n/tmp/temp_4/_3170D.java:340: error: <identifier> expected\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                            ^\n/tmp/temp_4/_3170D.java:340: error: <identifier> expected\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                                                          ^\n/tmp/temp_4/_3170D.java:341: error: illegal start of expression\n      public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {\n      ^\n6 errors",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_4/_3170D.java:338: error: illegal start of type\n    },\n     ^\n/tmp/temp_4/_3170D.java:338: error: <identifier> expected\n    },\n      ^\n/tmp/temp_4/_3170D.java:340: error: invalid method declaration; return type required\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n        ^\n/tmp/temp_4/_3170D.java:340: error: <identifier> expected\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                            ^\n/tmp/temp_4/_3170D.java:340: error: <identifier> expected\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                                                          ^\n/tmp/temp_4/_3170D.java:341: error: illegal start of expression\n      public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {\n      ^\n6 errors"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_4/_3170D.java:338: error: illegal start of type\n    },\n     ^\n/tmp/temp_4/_3170D.java:338: error: <identifier> expected\n    },\n      ^\n/tmp/temp_4/_3170D.java:340: error: invalid method declaration; return type required\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n        ^\n/tmp/temp_4/_3170D.java:340: error: <identifier> expected\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                            ^\n/tmp/temp_4/_3170D.java:340: error: <identifier> expected\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                                                          ^\n/tmp/temp_4/_3170D.java:341: error: illegal start of expression\n      public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {\n      ^\n6 errors"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_4/_3170D.java:338: error: illegal start of type\n    },\n     ^\n/tmp/temp_4/_3170D.java:338: error: <identifier> expected\n    },\n      ^\n/tmp/temp_4/_3170D.java:340: error: invalid method declaration; return type required\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n        ^\n/tmp/temp_4/_3170D.java:340: error: <identifier> expected\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                            ^\n/tmp/temp_4/_3170D.java:340: error: <identifier> expected\n    new CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                                                          ^\n/tmp/temp_4/_3170D.java:341: error: illegal start of expression\n      public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {\n      ^\n6 errors"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02658",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": false,
+        "passed": false,
+        "error_type": "extraction_failed",
+        "error_details": "Could not extract valid Java from LLM output."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02684",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02689",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02691",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "compilation_error",
+    "error_details": "/tmp/temp_4/_3164C.java:296: error: illegal start of type\n    },\n     ^\n/tmp/temp_4/_3164C.java:296: error: <identifier> expected\n    },\n      ^\n/tmp/temp_4/_3164C.java:298: error: invalid method declaration; return type required\n    new CobolControl(l__3164C, CobolControl.LabelType.label) {\n        ^\n/tmp/temp_4/_3164C.java:298: error: <identifier> expected\n    new CobolControl(l__3164C, CobolControl.LabelType.label) {\n                             ^\n/tmp/temp_4/_3164C.java:298: error: <identifier> expected\n    new CobolControl(l__3164C, CobolControl.LabelType.label) {\n                                                           ^\n/tmp/temp_4/_3164C.java:299: error: illegal start of expression\n      public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {\n      ^\n6 errors",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_4/_3164C.java:313: error: illegal start of type\n    return Optional.of(CobolControl.pure());\n    ^\n/tmp/temp_4/_3164C.java:313: error: <identifier> expected\n    return Optional.of(CobolControl.pure());\n                      ^\n/tmp/temp_4/_3164C.java:313: error: <identifier> expected\n    return Optional.of(CobolControl.pure());\n                                        ^\n/tmp/temp_4/_3164C.java:315: error: <identifier> expected\n},\n  ^\n/tmp/temp_4/_3164C.java:317: error: invalid method declaration; return type required\nnew CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n    ^\n/tmp/temp_4/_3164C.java:317: error: <identifier> expected\nnew CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                        ^\n/tmp/temp_4/_3164C.java:317: error: <identifier> expected\nnew CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                                                      ^\n/tmp/temp_4/_3164C.java:318: error: illegal start of expression\n  public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {\n  ^\n/tmp/temp_4/_3164C.java:327: error: class, interface, enum, or record expected\n},\n ^\n/tmp/temp_4/_3164C.java:330: error: class, interface, enum, or record expected\npublic void execEntry(int start) throws CobolRuntimeException, CobolStopRunException {\n       ^\n/tmp/temp_4/_3164C.java:332: error: class, interface, enum, or record expected\nwhile(nextLabel.isPresent()) {\n^\n/tmp/temp_4/_3164C.java:334: error: class, interface, enum, or record expected\n  nextLabel = section.run();\n  ^\n/tmp/temp_4/_3164C.java:335: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/_3164C.java:338: error: class, interface, enum, or record expected\npublic static void main(String[] args)\n              ^\n/tmp/temp_4/_3164C.java:341: error: class, interface, enum, or record expected\nCobolDecimal.cobInitNumeric();\n^\n/tmp/temp_4/_3164C.java:342: error: class, interface, enum, or record expected\nnew _3164C()._3164C_(0);\n^\n/tmp/temp_4/_3164C.java:343: error: class, interface, enum, or record expected\nCobolStopRunException.stopRun();\n^\n/tmp/temp_4/_3164C.java:344: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/_3164C.java:346: error: class, interface, enum, or record expected\npublic _3164C()\n       ^\n/tmp/temp_4/_3164C.java:349: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/_3164C.java:351: error: class, interface, enum, or record expected\npublic void init() \n       ^\n/tmp/temp_4/_3164C.java:356: error: class, interface, enum, or record expected\nd1 = new CobolDecimal();\n^\n/tmp/temp_4/_3164C.java:357: error: class, interface, enum, or record expected\nd2 = new CobolDecimal();\n^\n/tmp/temp_4/_3164C.java:361: error: class, interface, enum, or record expected\ncob_unifunc = null;\n^\n/tmp/temp_4/_3164C.java:364: error: class, interface, enum, or record expected\nb_RETURN_CODE = new CobolDataStorage(4);\t/* RETURN-CODE */\n^\n/tmp/temp_4/_3164C.java:365: error: class, interface, enum, or record expected\nb_STDIO_record = new CobolDataStorage(2200000);\t/* STDIO_record */\n^\n/tmp/temp_4/_3164C.java:366: error: class, interface, enum, or record expected\nb_N = new CobolDataStorage(4);\t/* N */\n^\n/tmp/temp_4/_3164C.java:367: error: class, interface, enum, or record expected\nb_TBL1 = new CobolDataStorage(1600000);\t/* TBL1 */\n^\n/tmp/temp_4/_3164C.java:368: error: class, interface, enum, or record expected\nb_TBL2 = new CobolDataStorage(1800000);\t/* TBL2 */\n^\n/tmp/temp_4/_3164C.java:369: error: class, interface, enum, or record expected\nb_P1 = new CobolDataStorage(4);\t/* P1 */\n^\n/tmp/temp_4/_3164C.java:370: error: class, interface, enum, or record expected\nb_P2 = new CobolDataStorage(4);\t/* P2 */\n^\n/tmp/temp_4/_3164C.java:371: error: class, interface, enum, or record expected\nb_I = new CobolDataStorage(4);\t/* I */\n^\n/tmp/temp_4/_3164C.java:372: error: class, interface, enum, or record expected\nb_CNT = new CobolDataStorage(8);\t/* CNT */\n^\n/tmp/temp_4/_3164C.java:373: error: class, interface, enum, or record expected\nb_OUT = new CobolDataStorage(18);\t/* OUT */\n^\n/tmp/temp_4/_3164C.java:374: error: class, interface, enum, or record expected\nb_INP = b_STDIO_record;\n^\n/tmp/temp_4/_3164C.java:375: error: class, interface, enum, or record expected\nb_A__TBL1 = b_TBL1;\n^\n/tmp/temp_4/_3164C.java:376: error: class, interface, enum, or record expected\nb_SA__TBL2 = b_TBL2;\n^\n/tmp/temp_4/_3164C.java:381: error: class, interface, enum, or record expected\ninitAttr();\n^\n/tmp/temp_4/_3164C.java:386: error: class, interface, enum, or record expected\nf_STDIO_record\t= CobolFieldFactory.makeCobolField(2200000, b_STDIO_record, a_2_Alphanumeric);\t/* STDIO_record */\n^\n/tmp/temp_4/_3164C.java:387: error: class, interface, enum, or record expected\nf_N\t= CobolFieldFactory.makeCobolField(4, b_N, a_3_NumericBinary_Digits6_Scale0_BinarySwap);\t/* N */\n^\n/tmp/temp_4/_3164C.java:388: error: class, interface, enum, or record expected\nf_P1\t= CobolFieldFactory.makeCobolField(4, b_P1, a_6_NumericBinary_Digits7_Scale0_BinarySwap);\t/* P1 */\n^\n/tmp/temp_4/_3164C.java:389: error: class, interface, enum, or record expected\nf_I\t= CobolFieldFactory.makeCobolField(4, b_I, a_3_NumericBinary_Digits6_Scale0_BinarySwap);\t/* I */\n^\n/tmp/temp_4/_3164C.java:390: error: class, interface, enum, or record expected\nf_CNT\t= CobolFieldFactory.makeCobolField(8, b_CNT, a_7_NumericBinary_Digits18_Scale0_BinarySwap);\t/* CNT */\n^\n/tmp/temp_4/_3164C.java:391: error: class, interface, enum, or record expected\nf_OUT\t= CobolFieldFactory.makeCobolField(18, b_OUT, a_1_NumericEdited_Digits18_Scale0);\t/* OUT */\n^\n/tmp/temp_4/_3164C.java:398: error: class, interface, enum, or record expected\nc_1_1\t= CobolFieldFactory.makeCobolField(1, \"1\", a_8_NumericDisplay_Digits1_Scale0);\n^\n/tmp/temp_4/_3164C.java:400: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/_3164C.java:411: error: class, interface, enum, or record expected\na_2_Alphanumeric = new CobolFieldAttribute(\n^\n/tmp/temp_4/_3164C.java:417: error: class, interface, enum, or record expected\na_3_NumericBinary_Digits6_Scale0_BinarySwap = new CobolFieldAttribute(\n^\n/tmp/temp_4/_3164C.java:423: error: class, interface, enum, or record expected\na_4_NumericBinary_Digits10_Scale0_BinarySwap = new CobolFieldAttribute(\n^\n/tmp/temp_4/_3164C.java:429: error: class, interface, enum, or record expected\na_5_NumericDisplay_Digits9_Scale0 = new CobolFieldAttribute(\n^\n/tmp/temp_4/_3164C.java:435: error: class, interface, enum, or record expected\na_6_NumericBinary_Digits7_Scale0_BinarySwap = new CobolFieldAttribute(\n^\n/tmp/temp_4/_3164C.java:441: error: class, interface, enum, or record expected\na_7_NumericBinary_Digits18_Scale0_BinarySwap = new CobolFieldAttribute(\n^\n/tmp/temp_4/_3164C.java:447: error: class, interface, enum, or record expected\na_8_NumericDisplay_Digits1_Scale0 = new CobolFieldAttribute(\n^\n/tmp/temp_4/_3164C.java:454: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/_3164C.java:459: error: class, interface, enum, or record expected\nprivate CobolDecimal d1;\n        ^\n/tmp/temp_4/_3164C.java:460: error: class, interface, enum, or record expected\nprivate CobolDecimal d2;\n        ^\n/tmp/temp_4/_3164C.java:465: error: class, interface, enum, or record expected\npublic CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n       ^\n/tmp/temp_4/_3164C.java:466: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_STDIO_record;\t/* STDIO_record */\n        ^\n/tmp/temp_4/_3164C.java:467: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_N;\t/* N */\n        ^\n/tmp/temp_4/_3164C.java:468: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_TBL1;\t/* TBL1 */\n        ^\n/tmp/temp_4/_3164C.java:469: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_TBL2;\t/* TBL2 */\n        ^\n/tmp/temp_4/_3164C.java:470: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_P1;\t/* P1 */\n        ^\n/tmp/temp_4/_3164C.java:471: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_P2;\t/* P2 */\n        ^\n/tmp/temp_4/_3164C.java:472: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_I;\t/* I */\n        ^\n/tmp/temp_4/_3164C.java:473: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_CNT;\t/* CNT */\n        ^\n/tmp/temp_4/_3164C.java:474: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_OUT;\t/* OUT */\n        ^\n/tmp/temp_4/_3164C.java:475: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_INP;\n        ^\n/tmp/temp_4/_3164C.java:476: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_A__TBL1;\n        ^\n/tmp/temp_4/_3164C.java:477: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_SA__TBL2;\n        ^\n/tmp/temp_4/_3164C.java:485: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_STDIO_record;\t/* STDIO_record */\n        ^\n/tmp/temp_4/_3164C.java:486: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_N;\t/* N */\n        ^\n/tmp/temp_4/_3164C.java:487: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_P1;\t/* P1 */\n        ^\n/tmp/temp_4/_3164C.java:488: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_I;\t/* I */\n        ^\n/tmp/temp_4/_3164C.java:489: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_CNT;\t/* CNT */\n        ^\n/tmp/temp_4/_3164C.java:490: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_OUT;\t/* OUT */\n        ^\n/tmp/temp_4/_3164C.java:495: error: class, interface, enum, or record expected\nprivate static AbstractCobolField f_native;\n               ^\n/tmp/temp_4/_3164C.java:499: error: class, interface, enum, or record expected\nprivate AbstractCobolField c_1_1;\n        ^\n/tmp/temp_4/_3164C.java:503: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_8_NumericDisplay_Digits1_Scale0;\n        ^\n/tmp/temp_4/_3164C.java:504: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_7_NumericBinary_Digits18_Scale0_BinarySwap;\n        ^\n/tmp/temp_4/_3164C.java:505: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_6_NumericBinary_Digits7_Scale0_BinarySwap;\n        ^\n/tmp/temp_4/_3164C.java:506: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_5_NumericDisplay_Digits9_Scale0;\n        ^\n/tmp/temp_4/_3164C.java:507: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_4_NumericBinary_Digits10_Scale0_BinarySwap;\n        ^\n/tmp/temp_4/_3164C.java:508: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_3_NumericBinary_Digits6_Scale0_BinarySwap;\n        ^\n/tmp/temp_4/_3164C.java:509: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_2_Alphanumeric;\n        ^\n/tmp/temp_4/_3164C.java:510: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_1_NumericEdited_Digits18_Scale0;\n        ^\n/tmp/temp_4/_3164C.java:515: error: class, interface, enum, or record expected\nprivate CobolFile\t\th_STDIO = null;\n        ^\n/tmp/temp_4/_3164C.java:516: error: class, interface, enum, or record expected\nprivate byte[]\th_STDIO_status = new byte[4];\n        ^\n/tmp/temp_4/_3164C.java:519: error: class, interface, enum, or record expected\nprivate final static int l__3164C = 1;\n                     ^\n/tmp/temp_4/_3164C.java:520: error: class, interface, enum, or record expected\nprivate final static int l_MAIN = 2;\n                     ^\n/tmp/temp_4/_3164C.java:521: error: class, interface, enum, or record expected\nprivate final static int l_MAIN_SECTION__DEFAULT_PARAGRAPH = 3;\n                     ^\n/tmp/temp_4/_3164C.java:522: error: class, interface, enum, or record expected\nprivate final static int l_Default_Error_Handler = 4;\n                     ^\n/tmp/temp_4/_3164C.java:524: error: class, interface, enum, or record expected\n}\n^\n92 errors"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_4/_3164C.java:296: error: illegal start of type\n    },\n     ^\n/tmp/temp_4/_3164C.java:296: error: <identifier> expected\n    },\n      ^\n/tmp/temp_4/_3164C.java:300: error: illegal start of type\n    },\n     ^\n/tmp/temp_4/_3164C.java:300: error: <identifier> expected\n    },\n      ^\n/tmp/temp_4/_3164C.java:304: error: illegal start of type\n    },\n     ^\n/tmp/temp_4/_3164C.java:304: error: <identifier> expected\n    },\n      ^\n/tmp/temp_4/_3164C.java:309: error: illegal start of type\n    return Optional.of(CobolControl.pure());\n    ^\n/tmp/temp_4/_3164C.java:309: error: <identifier> expected\n    return Optional.of(CobolControl.pure());\n                      ^\n/tmp/temp_4/_3164C.java:309: error: <identifier> expected\n    return Optional.of(CobolControl.pure());\n                                        ^\n/tmp/temp_4/_3164C.java:311: error: <identifier> expected\n},\n  ^\n/tmp/temp_4/_3164C.java:313: error: invalid method declaration; return type required\nnew CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n    ^\n/tmp/temp_4/_3164C.java:313: error: <identifier> expected\nnew CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                        ^\n/tmp/temp_4/_3164C.java:313: error: <identifier> expected\nnew CobolControl(l_Default_Error_Handler, CobolControl.LabelType.label) {\n                                                                      ^\n/tmp/temp_4/_3164C.java:314: error: illegal start of expression\n  public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {\n  ^\n/tmp/temp_4/_3164C.java:321: error: class, interface, enum, or record expected\n},\n ^\n/tmp/temp_4/_3164C.java:325: error: class, interface, enum, or record expected\npublic void execEntry(int start) throws CobolRuntimeException, CobolStopRunException {\n       ^\n/tmp/temp_4/_3164C.java:327: error: class, interface, enum, or record expected\n  while(nextLabel.isPresent()) {\n  ^\n/tmp/temp_4/_3164C.java:329: error: class, interface, enum, or record expected\n    nextLabel = section.run();\n    ^\n/tmp/temp_4/_3164C.java:330: error: class, interface, enum, or record expected\n  }\n  ^\n/tmp/temp_4/_3164C.java:333: error: class, interface, enum, or record expected\npublic static void main(String[] args)\n              ^\n/tmp/temp_4/_3164C.java:336: error: class, interface, enum, or record expected\n  CobolDecimal.cobInitNumeric();\n  ^\n/tmp/temp_4/_3164C.java:337: error: class, interface, enum, or record expected\n  new _3164C()._3164C_(0);\n  ^\n/tmp/temp_4/_3164C.java:338: error: class, interface, enum, or record expected\n  CobolStopRunException.stopRun();\n  ^\n/tmp/temp_4/_3164C.java:339: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/_3164C.java:341: error: class, interface, enum, or record expected\npublic _3164C()\n       ^\n/tmp/temp_4/_3164C.java:344: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/_3164C.java:346: error: class, interface, enum, or record expected\npublic void init() \n       ^\n/tmp/temp_4/_3164C.java:350: error: class, interface, enum, or record expected\n  d1 = new CobolDecimal();\n  ^\n/tmp/temp_4/_3164C.java:351: error: class, interface, enum, or record expected\n  d2 = new CobolDecimal();\n  ^\n/tmp/temp_4/_3164C.java:354: error: class, interface, enum, or record expected\n  cob_unifunc = null;\n  ^\n/tmp/temp_4/_3164C.java:357: error: class, interface, enum, or record expected\n  b_RETURN_CODE = new CobolDataStorage(4);\t/* RETURN-CODE */\n  ^\n/tmp/temp_4/_3164C.java:358: error: class, interface, enum, or record expected\n  b_STDIO_record = new CobolDataStorage(2200000);\t/* STDIO_record */\n  ^\n/tmp/temp_4/_3164C.java:359: error: class, interface, enum, or record expected\n  b_N = new CobolDataStorage(4);\t/* N */\n  ^\n/tmp/temp_4/_3164C.java:360: error: class, interface, enum, or record expected\n  b_TBL1 = new CobolDataStorage(1600000);\t/* TBL1 */\n  ^\n/tmp/temp_4/_3164C.java:361: error: class, interface, enum, or record expected\n  b_TBL2 = new CobolDataStorage(1800000);\t/* TBL2 */\n  ^\n/tmp/temp_4/_3164C.java:362: error: class, interface, enum, or record expected\n  b_P1 = new CobolDataStorage(4);\t/* P1 */\n  ^\n/tmp/temp_4/_3164C.java:363: error: class, interface, enum, or record expected\n  b_P2 = new CobolDataStorage(4);\t/* P2 */\n  ^\n/tmp/temp_4/_3164C.java:364: error: class, interface, enum, or record expected\n  b_I = new CobolDataStorage(4);\t/* I */\n  ^\n/tmp/temp_4/_3164C.java:365: error: class, interface, enum, or record expected\n  b_CNT = new CobolDataStorage(8);\t/* CNT */\n  ^\n/tmp/temp_4/_3164C.java:366: error: class, interface, enum, or record expected\n  b_OUT = new CobolDataStorage(18);\t/* OUT */\n  ^\n/tmp/temp_4/_3164C.java:367: error: class, interface, enum, or record expected\n  b_INP = b_STDIO_record;\n  ^\n/tmp/temp_4/_3164C.java:368: error: class, interface, enum, or record expected\n  b_A__TBL1 = b_TBL1;\n  ^\n/tmp/temp_4/_3164C.java:369: error: class, interface, enum, or record expected\n  b_SA__TBL2 = b_TBL2;\n  ^\n/tmp/temp_4/_3164C.java:373: error: class, interface, enum, or record expected\n  initAttr();\n  ^\n/tmp/temp_4/_3164C.java:378: error: class, interface, enum, or record expected\n  f_STDIO_record\t= CobolFieldFactory.makeCobolField(2200000, b_STDIO_record, a_2_Alphanumeric);\t/* STDIO_record */\n  ^\n/tmp/temp_4/_3164C.java:379: error: class, interface, enum, or record expected\n  f_N\t= CobolFieldFactory.makeCobolField(4, b_N, a_3_NumericBinary_Digits6_Scale0_BinarySwap);\t/* N */\n  ^\n/tmp/temp_4/_3164C.java:380: error: class, interface, enum, or record expected\n  f_P1\t= CobolFieldFactory.makeCobolField(4, b_P1, a_6_NumericBinary_Digits7_Scale0_BinarySwap);\t/* P1 */\n  ^\n/tmp/temp_4/_3164C.java:381: error: class, interface, enum, or record expected\n  f_I\t= CobolFieldFactory.makeCobolField(4, b_I, a_3_NumericBinary_Digits6_Scale0_BinarySwap);\t/* I */\n  ^\n/tmp/temp_4/_3164C.java:382: error: class, interface, enum, or record expected\n  f_CNT\t= CobolFieldFactory.makeCobolField(8, b_CNT, a_7_NumericBinary_Digits18_Scale0_BinarySwap);\t/* CNT */\n  ^\n/tmp/temp_4/_3164C.java:383: error: class, interface, enum, or record expected\n  f_OUT\t= CobolFieldFactory.makeCobolField(18, b_OUT, a_1_NumericEdited_Digits18_Scale0);\t/* OUT */\n  ^\n/tmp/temp_4/_3164C.java:388: error: class, interface, enum, or record expected\n  c_1_1\t= CobolFieldFactory.makeCobolField(1, \"1\", a_8_NumericDisplay_Digits1_Scale0);\n  ^\n/tmp/temp_4/_3164C.java:389: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/_3164C.java:399: error: class, interface, enum, or record expected\n  a_2_Alphanumeric = new CobolFieldAttribute(\n  ^\n/tmp/temp_4/_3164C.java:405: error: class, interface, enum, or record expected\n  a_3_NumericBinary_Digits6_Scale0_BinarySwap = new CobolFieldAttribute(\n  ^\n/tmp/temp_4/_3164C.java:411: error: class, interface, enum, or record expected\n  a_4_NumericBinary_Digits10_Scale0_BinarySwap = new CobolFieldAttribute(\n  ^\n/tmp/temp_4/_3164C.java:417: error: class, interface, enum, or record expected\n  a_5_NumericDisplay_Digits9_Scale0 = new CobolFieldAttribute(\n  ^\n/tmp/temp_4/_3164C.java:423: error: class, interface, enum, or record expected\n  a_6_NumericBinary_Digits7_Scale0_BinarySwap = new CobolFieldAttribute(\n  ^\n/tmp/temp_4/_3164C.java:429: error: class, interface, enum, or record expected\n  a_7_NumericBinary_Digits18_Scale0_BinarySwap = new CobolFieldAttribute(\n  ^\n/tmp/temp_4/_3164C.java:435: error: class, interface, enum, or record expected\n  a_8_NumericDisplay_Digits1_Scale0 = new CobolFieldAttribute(\n  ^\n/tmp/temp_4/_3164C.java:441: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/_3164C.java:445: error: class, interface, enum, or record expected\nprivate CobolDecimal d1;\n        ^\n/tmp/temp_4/_3164C.java:446: error: class, interface, enum, or record expected\nprivate CobolDecimal d2;\n        ^\n/tmp/temp_4/_3164C.java:450: error: class, interface, enum, or record expected\npublic CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n       ^\n/tmp/temp_4/_3164C.java:451: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_STDIO_record;\t/* STDIO_record */\n        ^\n/tmp/temp_4/_3164C.java:452: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_N;\t/* N */\n        ^\n/tmp/temp_4/_3164C.java:453: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_TBL1;\t/* TBL1 */\n        ^\n/tmp/temp_4/_3164C.java:454: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_TBL2;\t/* TBL2 */\n        ^\n/tmp/temp_4/_3164C.java:455: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_P1;\t/* P1 */\n        ^\n/tmp/temp_4/_3164C.java:456: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_P2;\t/* P2 */\n        ^\n/tmp/temp_4/_3164C.java:457: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_I;\t/* I */\n        ^\n/tmp/temp_4/_3164C.java:458: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_CNT;\t/* CNT */\n        ^\n/tmp/temp_4/_3164C.java:459: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_OUT;\t/* OUT */\n        ^\n/tmp/temp_4/_3164C.java:460: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_INP;\n        ^\n/tmp/temp_4/_3164C.java:461: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_A__TBL1;\n        ^\n/tmp/temp_4/_3164C.java:462: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_SA__TBL2;\n        ^\n/tmp/temp_4/_3164C.java:468: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_STDIO_record;\t/* STDIO_record */\n        ^\n/tmp/temp_4/_3164C.java:469: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_N;\t/* N */\n        ^\n/tmp/temp_4/_3164C.java:470: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_P1;\t/* P1 */\n        ^\n/tmp/temp_4/_3164C.java:471: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_I;\t/* I */\n        ^\n/tmp/temp_4/_3164C.java:472: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_CNT;\t/* CNT */\n        ^\n/tmp/temp_4/_3164C.java:473: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_OUT;\t/* OUT */\n        ^\n/tmp/temp_4/_3164C.java:477: error: class, interface, enum, or record expected\nprivate static AbstractCobolField f_native;\n               ^\n/tmp/temp_4/_3164C.java:480: error: class, interface, enum, or record expected\nprivate AbstractCobolField c_1_1;\n        ^\n/tmp/temp_4/_3164C.java:483: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_8_NumericDisplay_Digits1_Scale0;\n        ^\n/tmp/temp_4/_3164C.java:484: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_7_NumericBinary_Digits18_Scale0_BinarySwap;\n        ^\n/tmp/temp_4/_3164C.java:485: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_6_NumericBinary_Digits7_Scale0_BinarySwap;\n        ^\n/tmp/temp_4/_3164C.java:486: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_5_NumericDisplay_Digits9_Scale0;\n        ^\n/tmp/temp_4/_3164C.java:487: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_4_NumericBinary_Digits10_Scale0_BinarySwap;\n        ^\n/tmp/temp_4/_3164C.java:488: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_3_NumericBinary_Digits6_Scale0_BinarySwap;\n        ^\n/tmp/temp_4/_3164C.java:489: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_2_Alphanumeric;\n        ^\n/tmp/temp_4/_3164C.java:490: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_1_NumericEdited_Digits18_Scale0;\n        ^\n/tmp/temp_4/_3164C.java:493: error: class, interface, enum, or record expected\nprivate CobolFile\t\th_STDIO = null;\n        ^\n/tmp/temp_4/_3164C.java:494: error: class, interface, enum, or record expected\nprivate byte[]\th_STDIO_status = new byte[4];\n        ^\n/tmp/temp_4/_3164C.java:497: error: class, interface, enum, or record expected\nprivate final static int l__3164C = 1;\n                     ^\n/tmp/temp_4/_3164C.java:498: error: class, interface, enum, or record expected\nprivate final static int l_MAIN = 2;\n                     ^\n/tmp/temp_4/_3164C.java:499: error: class, interface, enum, or record expected\nprivate final static int l_MAIN_SECTION__DEFAULT_PARAGRAPH = 3;\n                     ^\n/tmp/temp_4/_3164C.java:500: error: class, interface, enum, or record expected\nprivate final static int l_Default_Error_Handler = 4;\n                     ^\n/tmp/temp_4/_3164C.java:501: error: class, interface, enum, or record expected\n}\n^\n98 errors"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_4/_3164C.java:296: error: illegal start of type\n    },\n     ^\n/tmp/temp_4/_3164C.java:296: error: <identifier> expected\n    },\n      ^\n/tmp/temp_4/_3164C.java:298: error: invalid method declaration; return type required\n    new CobolControl(l__3164C, CobolControl.LabelType.label) {\n        ^\n/tmp/temp_4/_3164C.java:298: error: <identifier> expected\n    new CobolControl(l__3164C, CobolControl.LabelType.label) {\n                             ^\n/tmp/temp_4/_3164C.java:298: error: <identifier> expected\n    new CobolControl(l__3164C, CobolControl.LabelType.label) {\n                                                           ^\n/tmp/temp_4/_3164C.java:299: error: illegal start of expression\n      public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {\n      ^\n6 errors"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_4/_3164C.java:296: error: illegal start of type\n    },\n     ^\n/tmp/temp_4/_3164C.java:296: error: <identifier> expected\n    },\n      ^\n/tmp/temp_4/_3164C.java:298: error: invalid method declaration; return type required\n    new CobolControl(l__3164C, CobolControl.LabelType.label) {\n        ^\n/tmp/temp_4/_3164C.java:298: error: <identifier> expected\n    new CobolControl(l__3164C, CobolControl.LabelType.label) {\n                             ^\n/tmp/temp_4/_3164C.java:298: error: <identifier> expected\n    new CobolControl(l__3164C, CobolControl.LabelType.label) {\n                                                           ^\n/tmp/temp_4/_3164C.java:299: error: illegal start of expression\n      public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {\n      ^\n6 errors"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02718",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02727",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02732",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02784",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02848",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02881",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "compilation_error",
+    "error_details": "/tmp/temp_4/AtCoder.java:247: error: illegal start of type\n    return Optional.of(CobolControl.pure());\n    ^\n/tmp/temp_4/AtCoder.java:247: error: <identifier> expected\n    return Optional.of(CobolControl.pure());\n                      ^\n/tmp/temp_4/AtCoder.java:247: error: <identifier> expected\n    return Optional.of(CobolControl.pure());\n                                        ^\n/tmp/temp_4/AtCoder.java:250: error: ';' expected\nCobolControl.pure()\n            ^\n/tmp/temp_4/AtCoder.java:250: error: invalid method declaration; return type required\nCobolControl.pure()\n             ^\n/tmp/temp_4/AtCoder.java:250: error: ';' expected\nCobolControl.pure()\n                   ^\n/tmp/temp_4/AtCoder.java:252: error: class, interface, enum, or record expected\npublic void execEntry(int start) throws CobolRuntimeException, CobolStopRunException {\n       ^\n/tmp/temp_4/AtCoder.java:254: error: class, interface, enum, or record expected\nwhile(nextLabel.isPresent()) {\n^\n/tmp/temp_4/AtCoder.java:256: error: class, interface, enum, or record expected\n  nextLabel = section.run();\n  ^\n/tmp/temp_4/AtCoder.java:257: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:260: error: class, interface, enum, or record expected\npublic static void main(String[] args)\n              ^\n/tmp/temp_4/AtCoder.java:263: error: class, interface, enum, or record expected\nCobolDecimal.cobInitNumeric();\n^\n/tmp/temp_4/AtCoder.java:264: error: class, interface, enum, or record expected\nnew AtCoder().AtCoder_(0);\n^\n/tmp/temp_4/AtCoder.java:265: error: class, interface, enum, or record expected\nCobolStopRunException.stopRun();\n^\n/tmp/temp_4/AtCoder.java:266: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:268: error: class, interface, enum, or record expected\npublic AtCoder()\n       ^\n/tmp/temp_4/AtCoder.java:271: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:273: error: class, interface, enum, or record expected\npublic void init() \n       ^\n/tmp/temp_4/AtCoder.java:278: error: class, interface, enum, or record expected\nd1 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:279: error: class, interface, enum, or record expected\nd2 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:280: error: class, interface, enum, or record expected\nd3 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:281: error: class, interface, enum, or record expected\nd4 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:285: error: class, interface, enum, or record expected\ncob_unifunc = null;\n^\n/tmp/temp_4/AtCoder.java:288: error: class, interface, enum, or record expected\nb_RETURN_CODE = new CobolDataStorage(4);\t/* RETURN-CODE */\n^\n/tmp/temp_4/AtCoder.java:289: error: class, interface, enum, or record expected\nb_INP = new CobolDataStorage(100);\t/* INP */\n^\n/tmp/temp_4/AtCoder.java:290: error: class, interface, enum, or record expected\nb_A = new CobolDataStorage(15);\t/* A */\n^\n/tmp/temp_4/AtCoder.java:291: error: class, interface, enum, or record expected\nb_B = new CobolDataStorage(15);\t/* B */\n^\n/tmp/temp_4/AtCoder.java:292: error: class, interface, enum, or record expected\nb_C = new CobolDataStorage(15);\t/* C */\n^\n/tmp/temp_4/AtCoder.java:293: error: class, interface, enum, or record expected\nb_D = new CobolDataStorage(15);\t/* D */\n^\n/tmp/temp_4/AtCoder.java:294: error: class, interface, enum, or record expected\nb_ans = new CobolDataStorage(14);\t/* ans */\n^\n/tmp/temp_4/AtCoder.java:295: error: class, interface, enum, or record expected\nb_t = new CobolDataStorage(15);\t/* t */\n^\n/tmp/temp_4/AtCoder.java:296: error: class, interface, enum, or record expected\nb_temp1 = new CobolDataStorage(15);\t/* temp1 */\n^\n/tmp/temp_4/AtCoder.java:297: error: class, interface, enum, or record expected\nb_temp2 = new CobolDataStorage(15);\t/* temp2 */\n^\n/tmp/temp_4/AtCoder.java:298: error: class, interface, enum, or record expected\nb_N = new CobolDataStorage(15);\t/* N */\n^\n/tmp/temp_4/AtCoder.java:303: error: class, interface, enum, or record expected\ninitAttr();\n^\n/tmp/temp_4/AtCoder.java:308: error: class, interface, enum, or record expected\nf_A\t= CobolFieldFactory.makeCobolField(15, b_A, a_2_NumericDisplay_Digits15_Scale0);\t/* A */\n^\n/tmp/temp_4/AtCoder.java:309: error: class, interface, enum, or record expected\nf_B\t= CobolFieldFactory.makeCobolField(15, b_B, a_2_NumericDisplay_Digits15_Scale0);\t/* B */\n^\n/tmp/temp_4/AtCoder.java:310: error: class, interface, enum, or record expected\nf_C\t= CobolFieldFactory.makeCobolField(15, b_C, a_2_NumericDisplay_Digits15_Scale0);\t/* C */\n^\n/tmp/temp_4/AtCoder.java:311: error: class, interface, enum, or record expected\nf_ans\t= CobolFieldFactory.makeCobolField(14, b_ans, a_1_NumericEdited_Digits14_Scale0);\t/* ans */\n^\n/tmp/temp_4/AtCoder.java:312: error: class, interface, enum, or record expected\nf_t\t= CobolFieldFactory.makeCobolField(15, b_t, a_2_NumericDisplay_Digits15_Scale0);\t/* t */\n^\n/tmp/temp_4/AtCoder.java:319: error: class, interface, enum, or record expected\nc_1_2000000000000\t= CobolFieldFactory.makeCobolField(13, \"2000000000000\", a_3_NumericDisplay_Digits13_Scale0);\n^\n/tmp/temp_4/AtCoder.java:321: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:332: error: class, interface, enum, or record expected\na_2_NumericDisplay_Digits15_Scale0 = new CobolFieldAttribute(\n^\n/tmp/temp_4/AtCoder.java:338: error: class, interface, enum, or record expected\na_3_NumericDisplay_Digits13_Scale0 = new CobolFieldAttribute(\n^\n/tmp/temp_4/AtCoder.java:345: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:350: error: class, interface, enum, or record expected\nprivate CobolDecimal d1;\n        ^\n/tmp/temp_4/AtCoder.java:351: error: class, interface, enum, or record expected\nprivate CobolDecimal d2;\n        ^\n/tmp/temp_4/AtCoder.java:352: error: class, interface, enum, or record expected\nprivate CobolDecimal d3;\n        ^\n/tmp/temp_4/AtCoder.java:353: error: class, interface, enum, or record expected\nprivate CobolDecimal d4;\n        ^\n/tmp/temp_4/AtCoder.java:358: error: class, interface, enum, or record expected\npublic CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n       ^\n/tmp/temp_4/AtCoder.java:359: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_INP;\t/* INP */\n        ^\n/tmp/temp_4/AtCoder.java:360: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_A;\t/* A */\n        ^\n/tmp/temp_4/AtCoder.java:361: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_B;\t/* B */\n        ^\n/tmp/temp_4/AtCoder.java:362: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_C;\t/* C */\n        ^\n/tmp/temp_4/AtCoder.java:363: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_D;\t/* D */\n        ^\n/tmp/temp_4/AtCoder.java:364: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_ans;\t/* ans */\n        ^\n/tmp/temp_4/AtCoder.java:365: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_t;\t/* t */\n        ^\n/tmp/temp_4/AtCoder.java:366: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_temp1;\t/* temp1 */\n        ^\n/tmp/temp_4/AtCoder.java:367: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_temp2;\t/* temp2 */\n        ^\n/tmp/temp_4/AtCoder.java:368: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_N;\t/* N */\n        ^\n/tmp/temp_4/AtCoder.java:376: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_A;\t/* A */\n        ^\n/tmp/temp_4/AtCoder.java:377: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_B;\t/* B */\n        ^\n/tmp/temp_4/AtCoder.java:378: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_C;\t/* C */\n        ^\n/tmp/temp_4/AtCoder.java:379: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_ans;\t/* ans */\n        ^\n/tmp/temp_4/AtCoder.java:380: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_t;\t/* t */\n        ^\n/tmp/temp_4/AtCoder.java:385: error: class, interface, enum, or record expected\nprivate static AbstractCobolField f_native;\n               ^\n/tmp/temp_4/AtCoder.java:389: error: class, interface, enum, or record expected\nprivate AbstractCobolField c_1_2000000000000;\n        ^\n/tmp/temp_4/AtCoder.java:393: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_3_NumericDisplay_Digits13_Scale0;\n        ^\n/tmp/temp_4/AtCoder.java:394: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_2_NumericDisplay_Digits15_Scale0;\n        ^\n/tmp/temp_4/AtCoder.java:395: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_1_NumericEdited_Digits14_Scale0;\n        ^\n/tmp/temp_4/AtCoder.java:400: error: class, interface, enum, or record expected\npublic static final byte[] str_0_000000000000001 = CobolUtil.stringToBytes(\"000000000000001\");\n                    ^\n/tmp/temp_4/AtCoder.java:403: error: class, interface, enum, or record expected\nprivate final static int l_AtCoder = 1;\n                     ^\n/tmp/temp_4/AtCoder.java:404: error: class, interface, enum, or record expected\nprivate final static int l_MAIN_SECTION = 2;\n                     ^\n/tmp/temp_4/AtCoder.java:405: error: class, interface, enum, or record expected\nprivate final static int l_MAIN_SECTION__MAIN = 3;\n                     ^\n/tmp/temp_4/AtCoder.java:406: error: class, interface, enum, or record expected\nprivate final static int l_Default_Error_Handler = 4;\n                     ^\n/tmp/temp_4/AtCoder.java:408: error: class, interface, enum, or record expected\n}\n^\n76 errors",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_4/AtCoder.java:247: error: illegal start of type\n    return Optional.of(CobolControl.pure());\n    ^\n/tmp/temp_4/AtCoder.java:247: error: <identifier> expected\n    return Optional.of(CobolControl.pure());\n                      ^\n/tmp/temp_4/AtCoder.java:247: error: <identifier> expected\n    return Optional.of(CobolControl.pure());\n                                        ^\n/tmp/temp_4/AtCoder.java:250: error: ';' expected\nCobolControl.pure()\n            ^\n/tmp/temp_4/AtCoder.java:250: error: invalid method declaration; return type required\nCobolControl.pure()\n             ^\n/tmp/temp_4/AtCoder.java:250: error: ';' expected\nCobolControl.pure()\n                   ^\n/tmp/temp_4/AtCoder.java:252: error: class, interface, enum, or record expected\npublic void execEntry(int start) throws CobolRuntimeException, CobolStopRunException {\n       ^\n/tmp/temp_4/AtCoder.java:254: error: class, interface, enum, or record expected\nwhile(nextLabel.isPresent()) {\n^\n/tmp/temp_4/AtCoder.java:256: error: class, interface, enum, or record expected\n  nextLabel = section.run();\n  ^\n/tmp/temp_4/AtCoder.java:257: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:260: error: class, interface, enum, or record expected\npublic static void main(String[] args)\n              ^\n/tmp/temp_4/AtCoder.java:263: error: class, interface, enum, or record expected\nCobolDecimal.cobInitNumeric();\n^\n/tmp/temp_4/AtCoder.java:264: error: class, interface, enum, or record expected\nnew AtCoder().AtCoder_(0);\n^\n/tmp/temp_4/AtCoder.java:265: error: class, interface, enum, or record expected\nCobolStopRunException.stopRun();\n^\n/tmp/temp_4/AtCoder.java:266: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:268: error: class, interface, enum, or record expected\npublic AtCoder()\n       ^\n/tmp/temp_4/AtCoder.java:271: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:273: error: class, interface, enum, or record expected\npublic void init() \n       ^\n/tmp/temp_4/AtCoder.java:278: error: class, interface, enum, or record expected\nd1 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:279: error: class, interface, enum, or record expected\nd2 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:280: error: class, interface, enum, or record expected\nd3 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:281: error: class, interface, enum, or record expected\nd4 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:285: error: class, interface, enum, or record expected\ncob_unifunc = null;\n^\n/tmp/temp_4/AtCoder.java:288: error: class, interface, enum, or record expected\nb_RETURN_CODE = new CobolDataStorage(4);\t/* RETURN-CODE */\n^\n/tmp/temp_4/AtCoder.java:289: error: class, interface, enum, or record expected\nb_INP = new CobolDataStorage(100);\t/* INP */\n^\n/tmp/temp_4/AtCoder.java:290: error: class, interface, enum, or record expected\nb_A = new CobolDataStorage(15);\t/* A */\n^\n/tmp/temp_4/AtCoder.java:291: error: class, interface, enum, or record expected\nb_B = new CobolDataStorage(15);\t/* B */\n^\n/tmp/temp_4/AtCoder.java:292: error: class, interface, enum, or record expected\nb_C = new CobolDataStorage(15);\t/* C */\n^\n/tmp/temp_4/AtCoder.java:293: error: class, interface, enum, or record expected\nb_D = new CobolDataStorage(15);\t/* D */\n^\n/tmp/temp_4/AtCoder.java:294: error: class, interface, enum, or record expected\nb_ans = new CobolDataStorage(14);\t/* ans */\n^\n/tmp/temp_4/AtCoder.java:295: error: class, interface, enum, or record expected\nb_t = new CobolDataStorage(15);\t/* t */\n^\n/tmp/temp_4/AtCoder.java:296: error: class, interface, enum, or record expected\nb_temp1 = new CobolDataStorage(15);\t/* temp1 */\n^\n/tmp/temp_4/AtCoder.java:297: error: class, interface, enum, or record expected\nb_temp2 = new CobolDataStorage(15);\t/* temp2 */\n^\n/tmp/temp_4/AtCoder.java:298: error: class, interface, enum, or record expected\nb_N = new CobolDataStorage(15);\t/* N */\n^\n/tmp/temp_4/AtCoder.java:303: error: class, interface, enum, or record expected\ninitAttr();\n^\n/tmp/temp_4/AtCoder.java:308: error: class, interface, enum, or record expected\nf_A\t= CobolFieldFactory.makeCobolField(15, b_A, a_2_NumericDisplay_Digits15_Scale0);\t/* A */\n^\n/tmp/temp_4/AtCoder.java:309: error: class, interface, enum, or record expected\nf_B\t= CobolFieldFactory.makeCobolField(15, b_B, a_2_NumericDisplay_Digits15_Scale0);\t/* B */\n^\n/tmp/temp_4/AtCoder.java:310: error: class, interface, enum, or record expected\nf_C\t= CobolFieldFactory.makeCobolField(15, b_C, a_2_NumericDisplay_Digits15_Scale0);\t/* C */\n^\n/tmp/temp_4/AtCoder.java:311: error: class, interface, enum, or record expected\nf_ans\t= CobolFieldFactory.makeCobolField(14, b_ans, a_1_NumericEdited_Digits14_Scale0);\t/* ans */\n^\n/tmp/temp_4/AtCoder.java:312: error: class, interface, enum, or record expected\nf_t\t= CobolFieldFactory.makeCobolField(15, b_t, a_2_NumericDisplay_Digits15_Scale0);\t/* t */\n^\n/tmp/temp_4/AtCoder.java:319: error: class, interface, enum, or record expected\nc_1_2000000000000\t= CobolFieldFactory.makeCobolField(13, \"2000000000000\", a_3_NumericDisplay_Digits13_Scale0);\n^\n/tmp/temp_4/AtCoder.java:321: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:332: error: class, interface, enum, or record expected\na_2_NumericDisplay_Digits15_Scale0 = new CobolFieldAttribute(\n^\n/tmp/temp_4/AtCoder.java:338: error: class, interface, enum, or record expected\na_3_NumericDisplay_Digits13_Scale0 = new CobolFieldAttribute(\n^\n/tmp/temp_4/AtCoder.java:345: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:350: error: class, interface, enum, or record expected\nprivate CobolDecimal d1;\n        ^\n/tmp/temp_4/AtCoder.java:351: error: class, interface, enum, or record expected\nprivate CobolDecimal d2;\n        ^\n/tmp/temp_4/AtCoder.java:352: error: class, interface, enum, or record expected\nprivate CobolDecimal d3;\n        ^\n/tmp/temp_4/AtCoder.java:353: error: class, interface, enum, or record expected\nprivate CobolDecimal d4;\n        ^\n/tmp/temp_4/AtCoder.java:358: error: class, interface, enum, or record expected\npublic CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n       ^\n/tmp/temp_4/AtCoder.java:359: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_INP;\t/* INP */\n        ^\n/tmp/temp_4/AtCoder.java:360: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_A;\t/* A */\n        ^\n/tmp/temp_4/AtCoder.java:361: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_B;\t/* B */\n        ^\n/tmp/temp_4/AtCoder.java:362: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_C;\t/* C */\n        ^\n/tmp/temp_4/AtCoder.java:363: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_D;\t/* D */\n        ^\n/tmp/temp_4/AtCoder.java:364: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_ans;\t/* ans */\n        ^\n/tmp/temp_4/AtCoder.java:365: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_t;\t/* t */\n        ^\n/tmp/temp_4/AtCoder.java:366: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_temp1;\t/* temp1 */\n        ^\n/tmp/temp_4/AtCoder.java:367: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_temp2;\t/* temp2 */\n        ^\n/tmp/temp_4/AtCoder.java:368: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_N;\t/* N */\n        ^\n/tmp/temp_4/AtCoder.java:376: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_A;\t/* A */\n        ^\n/tmp/temp_4/AtCoder.java:377: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_B;\t/* B */\n        ^\n/tmp/temp_4/AtCoder.java:378: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_C;\t/* C */\n        ^\n/tmp/temp_4/AtCoder.java:379: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_ans;\t/* ans */\n        ^\n/tmp/temp_4/AtCoder.java:380: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_t;\t/* t */\n        ^\n/tmp/temp_4/AtCoder.java:385: error: class, interface, enum, or record expected\nprivate static AbstractCobolField f_native;\n               ^\n/tmp/temp_4/AtCoder.java:389: error: class, interface, enum, or record expected\nprivate AbstractCobolField c_1_2000000000000;\n        ^\n/tmp/temp_4/AtCoder.java:393: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_3_NumericDisplay_Digits13_Scale0;\n        ^\n/tmp/temp_4/AtCoder.java:394: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_2_NumericDisplay_Digits15_Scale0;\n        ^\n/tmp/temp_4/AtCoder.java:395: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_1_NumericEdited_Digits14_Scale0;\n        ^\n/tmp/temp_4/AtCoder.java:400: error: class, interface, enum, or record expected\npublic static final byte[] str_0_000000000000001 = CobolUtil.stringToBytes(\"000000000000001\");\n                    ^\n/tmp/temp_4/AtCoder.java:403: error: class, interface, enum, or record expected\nprivate final static int l_AtCoder = 1;\n                     ^\n/tmp/temp_4/AtCoder.java:404: error: class, interface, enum, or record expected\nprivate final static int l_MAIN_SECTION = 2;\n                     ^\n/tmp/temp_4/AtCoder.java:405: error: class, interface, enum, or record expected\nprivate final static int l_MAIN_SECTION__MAIN = 3;\n                     ^\n/tmp/temp_4/AtCoder.java:406: error: class, interface, enum, or record expected\nprivate final static int l_Default_Error_Handler = 4;\n                     ^\n/tmp/temp_4/AtCoder.java:408: error: class, interface, enum, or record expected\n}\n^\n76 errors"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_4/AtCoder.java:247: error: illegal start of type\n    return Optional.of(CobolControl.pure());\n    ^\n/tmp/temp_4/AtCoder.java:247: error: <identifier> expected\n    return Optional.of(CobolControl.pure());\n                      ^\n/tmp/temp_4/AtCoder.java:247: error: <identifier> expected\n    return Optional.of(CobolControl.pure());\n                                        ^\n/tmp/temp_4/AtCoder.java:250: error: ';' expected\nCobolControl.pure()\n            ^\n/tmp/temp_4/AtCoder.java:250: error: invalid method declaration; return type required\nCobolControl.pure()\n             ^\n/tmp/temp_4/AtCoder.java:250: error: ';' expected\nCobolControl.pure()\n                   ^\n/tmp/temp_4/AtCoder.java:252: error: class, interface, enum, or record expected\npublic void execEntry(int start) throws CobolRuntimeException, CobolStopRunException {\n       ^\n/tmp/temp_4/AtCoder.java:254: error: class, interface, enum, or record expected\nwhile(nextLabel.isPresent()) {\n^\n/tmp/temp_4/AtCoder.java:256: error: class, interface, enum, or record expected\n  nextLabel = section.run();\n  ^\n/tmp/temp_4/AtCoder.java:257: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:260: error: class, interface, enum, or record expected\npublic static void main(String[] args)\n              ^\n/tmp/temp_4/AtCoder.java:263: error: class, interface, enum, or record expected\nCobolDecimal.cobInitNumeric();\n^\n/tmp/temp_4/AtCoder.java:264: error: class, interface, enum, or record expected\nnew AtCoder().AtCoder_(0);\n^\n/tmp/temp_4/AtCoder.java:265: error: class, interface, enum, or record expected\nCobolStopRunException.stopRun();\n^\n/tmp/temp_4/AtCoder.java:266: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:268: error: class, interface, enum, or record expected\npublic AtCoder()\n       ^\n/tmp/temp_4/AtCoder.java:271: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:273: error: class, interface, enum, or record expected\npublic void init() \n       ^\n/tmp/temp_4/AtCoder.java:278: error: class, interface, enum, or record expected\nd1 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:279: error: class, interface, enum, or record expected\nd2 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:280: error: class, interface, enum, or record expected\nd3 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:281: error: class, interface, enum, or record expected\nd4 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:285: error: class, interface, enum, or record expected\ncob_unifunc = null;\n^\n/tmp/temp_4/AtCoder.java:288: error: class, interface, enum, or record expected\nb_RETURN_CODE = new CobolDataStorage(4);\t/* RETURN-CODE */\n^\n/tmp/temp_4/AtCoder.java:289: error: class, interface, enum, or record expected\nb_INP = new CobolDataStorage(100);\t/* INP */\n^\n/tmp/temp_4/AtCoder.java:290: error: class, interface, enum, or record expected\nb_A = new CobolDataStorage(15);\t/* A */\n^\n/tmp/temp_4/AtCoder.java:291: error: class, interface, enum, or record expected\nb_B = new CobolDataStorage(15);\t/* B */\n^\n/tmp/temp_4/AtCoder.java:292: error: class, interface, enum, or record expected\nb_C = new CobolDataStorage(15);\t/* C */\n^\n/tmp/temp_4/AtCoder.java:293: error: class, interface, enum, or record expected\nb_D = new CobolDataStorage(15);\t/* D */\n^\n/tmp/temp_4/AtCoder.java:294: error: class, interface, enum, or record expected\nb_ans = new CobolDataStorage(14);\t/* ans */\n^\n/tmp/temp_4/AtCoder.java:295: error: class, interface, enum, or record expected\nb_t = new CobolDataStorage(15);\t/* t */\n^\n/tmp/temp_4/AtCoder.java:296: error: class, interface, enum, or record expected\nb_temp1 = new CobolDataStorage(15);\t/* temp1 */\n^\n/tmp/temp_4/AtCoder.java:297: error: class, interface, enum, or record expected\nb_temp2 = new CobolDataStorage(15);\t/* temp2 */\n^\n/tmp/temp_4/AtCoder.java:298: error: class, interface, enum, or record expected\nb_N = new CobolDataStorage(15);\t/* N */\n^\n/tmp/temp_4/AtCoder.java:303: error: class, interface, enum, or record expected\ninitAttr();\n^\n/tmp/temp_4/AtCoder.java:308: error: class, interface, enum, or record expected\nf_A\t= CobolFieldFactory.makeCobolField(15, b_A, a_2_NumericDisplay_Digits15_Scale0);\t/* A */\n^\n/tmp/temp_4/AtCoder.java:309: error: class, interface, enum, or record expected\nf_B\t= CobolFieldFactory.makeCobolField(15, b_B, a_2_NumericDisplay_Digits15_Scale0);\t/* B */\n^\n/tmp/temp_4/AtCoder.java:310: error: class, interface, enum, or record expected\nf_C\t= CobolFieldFactory.makeCobolField(15, b_C, a_2_NumericDisplay_Digits15_Scale0);\t/* C */\n^\n/tmp/temp_4/AtCoder.java:311: error: class, interface, enum, or record expected\nf_ans\t= CobolFieldFactory.makeCobolField(14, b_ans, a_1_NumericEdited_Digits14_Scale0);\t/* ans */\n^\n/tmp/temp_4/AtCoder.java:312: error: class, interface, enum, or record expected\nf_t\t= CobolFieldFactory.makeCobolField(15, b_t, a_2_NumericDisplay_Digits15_Scale0);\t/* t */\n^\n/tmp/temp_4/AtCoder.java:319: error: class, interface, enum, or record expected\nc_1_2000000000000\t= CobolFieldFactory.makeCobolField(13, \"2000000000000\", a_3_NumericDisplay_Digits13_Scale0);\n^\n/tmp/temp_4/AtCoder.java:321: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:332: error: class, interface, enum, or record expected\na_2_NumericDisplay_Digits15_Scale0 = new CobolFieldAttribute(\n^\n/tmp/temp_4/AtCoder.java:338: error: class, interface, enum, or record expected\na_3_NumericDisplay_Digits13_Scale0 = new CobolFieldAttribute(\n^\n/tmp/temp_4/AtCoder.java:345: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:350: error: class, interface, enum, or record expected\nprivate CobolDecimal d1;\n        ^\n/tmp/temp_4/AtCoder.java:351: error: class, interface, enum, or record expected\nprivate CobolDecimal d2;\n        ^\n/tmp/temp_4/AtCoder.java:352: error: class, interface, enum, or record expected\nprivate CobolDecimal d3;\n        ^\n/tmp/temp_4/AtCoder.java:353: error: class, interface, enum, or record expected\nprivate CobolDecimal d4;\n        ^\n/tmp/temp_4/AtCoder.java:358: error: class, interface, enum, or record expected\npublic CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n       ^\n/tmp/temp_4/AtCoder.java:359: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_INP;\t/* INP */\n        ^\n/tmp/temp_4/AtCoder.java:360: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_A;\t/* A */\n        ^\n/tmp/temp_4/AtCoder.java:361: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_B;\t/* B */\n        ^\n/tmp/temp_4/AtCoder.java:362: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_C;\t/* C */\n        ^\n/tmp/temp_4/AtCoder.java:363: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_D;\t/* D */\n        ^\n/tmp/temp_4/AtCoder.java:364: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_ans;\t/* ans */\n        ^\n/tmp/temp_4/AtCoder.java:365: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_t;\t/* t */\n        ^\n/tmp/temp_4/AtCoder.java:366: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_temp1;\t/* temp1 */\n        ^\n/tmp/temp_4/AtCoder.java:367: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_temp2;\t/* temp2 */\n        ^\n/tmp/temp_4/AtCoder.java:368: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_N;\t/* N */\n        ^\n/tmp/temp_4/AtCoder.java:376: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_A;\t/* A */\n        ^\n/tmp/temp_4/AtCoder.java:377: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_B;\t/* B */\n        ^\n/tmp/temp_4/AtCoder.java:378: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_C;\t/* C */\n        ^\n/tmp/temp_4/AtCoder.java:379: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_ans;\t/* ans */\n        ^\n/tmp/temp_4/AtCoder.java:380: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_t;\t/* t */\n        ^\n/tmp/temp_4/AtCoder.java:385: error: class, interface, enum, or record expected\nprivate static AbstractCobolField f_native;\n               ^\n/tmp/temp_4/AtCoder.java:389: error: class, interface, enum, or record expected\nprivate AbstractCobolField c_1_2000000000000;\n        ^\n/tmp/temp_4/AtCoder.java:393: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_3_NumericDisplay_Digits13_Scale0;\n        ^\n/tmp/temp_4/AtCoder.java:394: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_2_NumericDisplay_Digits15_Scale0;\n        ^\n/tmp/temp_4/AtCoder.java:395: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_1_NumericEdited_Digits14_Scale0;\n        ^\n/tmp/temp_4/AtCoder.java:400: error: class, interface, enum, or record expected\npublic static final byte[] str_0_000000000000001 = CobolUtil.stringToBytes(\"000000000000001\");\n                    ^\n/tmp/temp_4/AtCoder.java:403: error: class, interface, enum, or record expected\nprivate final static int l_AtCoder = 1;\n                     ^\n/tmp/temp_4/AtCoder.java:404: error: class, interface, enum, or record expected\nprivate final static int l_MAIN_SECTION = 2;\n                     ^\n/tmp/temp_4/AtCoder.java:405: error: class, interface, enum, or record expected\nprivate final static int l_MAIN_SECTION__MAIN = 3;\n                     ^\n/tmp/temp_4/AtCoder.java:406: error: class, interface, enum, or record expected\nprivate final static int l_Default_Error_Handler = 4;\n                     ^\n/tmp/temp_4/AtCoder.java:408: error: class, interface, enum, or record expected\n}\n^\n76 errors"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_4/AtCoder.java:247: error: illegal start of type\n    return Optional.of(CobolControl.pure());\n    ^\n/tmp/temp_4/AtCoder.java:247: error: <identifier> expected\n    return Optional.of(CobolControl.pure());\n                      ^\n/tmp/temp_4/AtCoder.java:247: error: <identifier> expected\n    return Optional.of(CobolControl.pure());\n                                        ^\n/tmp/temp_4/AtCoder.java:250: error: ';' expected\nCobolControl.pure()\n            ^\n/tmp/temp_4/AtCoder.java:250: error: invalid method declaration; return type required\nCobolControl.pure()\n             ^\n/tmp/temp_4/AtCoder.java:250: error: ';' expected\nCobolControl.pure()\n                   ^\n/tmp/temp_4/AtCoder.java:252: error: class, interface, enum, or record expected\npublic void execEntry(int start) throws CobolRuntimeException, CobolStopRunException {\n       ^\n/tmp/temp_4/AtCoder.java:254: error: class, interface, enum, or record expected\nwhile(nextLabel.isPresent()) {\n^\n/tmp/temp_4/AtCoder.java:256: error: class, interface, enum, or record expected\n  nextLabel = section.run();\n  ^\n/tmp/temp_4/AtCoder.java:257: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:260: error: class, interface, enum, or record expected\npublic static void main(String[] args)\n              ^\n/tmp/temp_4/AtCoder.java:263: error: class, interface, enum, or record expected\nCobolDecimal.cobInitNumeric();\n^\n/tmp/temp_4/AtCoder.java:264: error: class, interface, enum, or record expected\nnew AtCoder().AtCoder_(0);\n^\n/tmp/temp_4/AtCoder.java:265: error: class, interface, enum, or record expected\nCobolStopRunException.stopRun();\n^\n/tmp/temp_4/AtCoder.java:266: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:268: error: class, interface, enum, or record expected\npublic AtCoder()\n       ^\n/tmp/temp_4/AtCoder.java:271: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:273: error: class, interface, enum, or record expected\npublic void init() \n       ^\n/tmp/temp_4/AtCoder.java:278: error: class, interface, enum, or record expected\nd1 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:279: error: class, interface, enum, or record expected\nd2 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:280: error: class, interface, enum, or record expected\nd3 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:281: error: class, interface, enum, or record expected\nd4 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:285: error: class, interface, enum, or record expected\ncob_unifunc = null;\n^\n/tmp/temp_4/AtCoder.java:288: error: class, interface, enum, or record expected\nb_RETURN_CODE = new CobolDataStorage(4);\t/* RETURN-CODE */\n^\n/tmp/temp_4/AtCoder.java:289: error: class, interface, enum, or record expected\nb_INP = new CobolDataStorage(100);\t/* INP */\n^\n/tmp/temp_4/AtCoder.java:290: error: class, interface, enum, or record expected\nb_A = new CobolDataStorage(15);\t/* A */\n^\n/tmp/temp_4/AtCoder.java:291: error: class, interface, enum, or record expected\nb_B = new CobolDataStorage(15);\t/* B */\n^\n/tmp/temp_4/AtCoder.java:292: error: class, interface, enum, or record expected\nb_C = new CobolDataStorage(15);\t/* C */\n^\n/tmp/temp_4/AtCoder.java:293: error: class, interface, enum, or record expected\nb_D = new CobolDataStorage(15);\t/* D */\n^\n/tmp/temp_4/AtCoder.java:294: error: class, interface, enum, or record expected\nb_ans = new CobolDataStorage(14);\t/* ans */\n^\n/tmp/temp_4/AtCoder.java:295: error: class, interface, enum, or record expected\nb_t = new CobolDataStorage(15);\t/* t */\n^\n/tmp/temp_4/AtCoder.java:296: error: class, interface, enum, or record expected\nb_temp1 = new CobolDataStorage(15);\t/* temp1 */\n^\n/tmp/temp_4/AtCoder.java:297: error: class, interface, enum, or record expected\nb_temp2 = new CobolDataStorage(15);\t/* temp2 */\n^\n/tmp/temp_4/AtCoder.java:298: error: class, interface, enum, or record expected\nb_N = new CobolDataStorage(15);\t/* N */\n^\n/tmp/temp_4/AtCoder.java:303: error: class, interface, enum, or record expected\ninitAttr();\n^\n/tmp/temp_4/AtCoder.java:308: error: class, interface, enum, or record expected\nf_A\t= CobolFieldFactory.makeCobolField(15, b_A, a_2_NumericDisplay_Digits15_Scale0);\t/* A */\n^\n/tmp/temp_4/AtCoder.java:309: error: class, interface, enum, or record expected\nf_B\t= CobolFieldFactory.makeCobolField(15, b_B, a_2_NumericDisplay_Digits15_Scale0);\t/* B */\n^\n/tmp/temp_4/AtCoder.java:310: error: class, interface, enum, or record expected\nf_C\t= CobolFieldFactory.makeCobolField(15, b_C, a_2_NumericDisplay_Digits15_Scale0);\t/* C */\n^\n/tmp/temp_4/AtCoder.java:311: error: class, interface, enum, or record expected\nf_ans\t= CobolFieldFactory.makeCobolField(14, b_ans, a_1_NumericEdited_Digits14_Scale0);\t/* ans */\n^\n/tmp/temp_4/AtCoder.java:312: error: class, interface, enum, or record expected\nf_t\t= CobolFieldFactory.makeCobolField(15, b_t, a_2_NumericDisplay_Digits15_Scale0);\t/* t */\n^\n/tmp/temp_4/AtCoder.java:319: error: class, interface, enum, or record expected\nc_1_2000000000000\t= CobolFieldFactory.makeCobolField(13, \"2000000000000\", a_3_NumericDisplay_Digits13_Scale0);\n^\n/tmp/temp_4/AtCoder.java:321: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:332: error: class, interface, enum, or record expected\na_2_NumericDisplay_Digits15_Scale0 = new CobolFieldAttribute(\n^\n/tmp/temp_4/AtCoder.java:338: error: class, interface, enum, or record expected\na_3_NumericDisplay_Digits13_Scale0 = new CobolFieldAttribute(\n^\n/tmp/temp_4/AtCoder.java:345: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:350: error: class, interface, enum, or record expected\nprivate CobolDecimal d1;\n        ^\n/tmp/temp_4/AtCoder.java:351: error: class, interface, enum, or record expected\nprivate CobolDecimal d2;\n        ^\n/tmp/temp_4/AtCoder.java:352: error: class, interface, enum, or record expected\nprivate CobolDecimal d3;\n        ^\n/tmp/temp_4/AtCoder.java:353: error: class, interface, enum, or record expected\nprivate CobolDecimal d4;\n        ^\n/tmp/temp_4/AtCoder.java:358: error: class, interface, enum, or record expected\npublic CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n       ^\n/tmp/temp_4/AtCoder.java:359: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_INP;\t/* INP */\n        ^\n/tmp/temp_4/AtCoder.java:360: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_A;\t/* A */\n        ^\n/tmp/temp_4/AtCoder.java:361: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_B;\t/* B */\n        ^\n/tmp/temp_4/AtCoder.java:362: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_C;\t/* C */\n        ^\n/tmp/temp_4/AtCoder.java:363: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_D;\t/* D */\n        ^\n/tmp/temp_4/AtCoder.java:364: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_ans;\t/* ans */\n        ^\n/tmp/temp_4/AtCoder.java:365: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_t;\t/* t */\n        ^\n/tmp/temp_4/AtCoder.java:366: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_temp1;\t/* temp1 */\n        ^\n/tmp/temp_4/AtCoder.java:367: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_temp2;\t/* temp2 */\n        ^\n/tmp/temp_4/AtCoder.java:368: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_N;\t/* N */\n        ^\n/tmp/temp_4/AtCoder.java:376: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_A;\t/* A */\n        ^\n/tmp/temp_4/AtCoder.java:377: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_B;\t/* B */\n        ^\n/tmp/temp_4/AtCoder.java:378: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_C;\t/* C */\n        ^\n/tmp/temp_4/AtCoder.java:379: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_ans;\t/* ans */\n        ^\n/tmp/temp_4/AtCoder.java:380: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_t;\t/* t */\n        ^\n/tmp/temp_4/AtCoder.java:385: error: class, interface, enum, or record expected\nprivate static AbstractCobolField f_native;\n               ^\n/tmp/temp_4/AtCoder.java:389: error: class, interface, enum, or record expected\nprivate AbstractCobolField c_1_2000000000000;\n        ^\n/tmp/temp_4/AtCoder.java:393: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_3_NumericDisplay_Digits13_Scale0;\n        ^\n/tmp/temp_4/AtCoder.java:394: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_2_NumericDisplay_Digits15_Scale0;\n        ^\n/tmp/temp_4/AtCoder.java:395: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_1_NumericEdited_Digits14_Scale0;\n        ^\n/tmp/temp_4/AtCoder.java:400: error: class, interface, enum, or record expected\npublic static final byte[] str_0_000000000000001 = CobolUtil.stringToBytes(\"000000000000001\");\n                    ^\n/tmp/temp_4/AtCoder.java:403: error: class, interface, enum, or record expected\nprivate final static int l_AtCoder = 1;\n                     ^\n/tmp/temp_4/AtCoder.java:404: error: class, interface, enum, or record expected\nprivate final static int l_MAIN_SECTION = 2;\n                     ^\n/tmp/temp_4/AtCoder.java:405: error: class, interface, enum, or record expected\nprivate final static int l_MAIN_SECTION__MAIN = 3;\n                     ^\n/tmp/temp_4/AtCoder.java:406: error: class, interface, enum, or record expected\nprivate final static int l_Default_Error_Handler = 4;\n                     ^\n/tmp/temp_4/AtCoder.java:408: error: class, interface, enum, or record expected\n}\n^\n76 errors"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_4/AtCoder.java:247: error: illegal start of type\n    return Optional.of(CobolControl.pure());\n    ^\n/tmp/temp_4/AtCoder.java:247: error: <identifier> expected\n    return Optional.of(CobolControl.pure());\n                      ^\n/tmp/temp_4/AtCoder.java:247: error: <identifier> expected\n    return Optional.of(CobolControl.pure());\n                                        ^\n/tmp/temp_4/AtCoder.java:250: error: ';' expected\nCobolControl.pure()\n            ^\n/tmp/temp_4/AtCoder.java:250: error: invalid method declaration; return type required\nCobolControl.pure()\n             ^\n/tmp/temp_4/AtCoder.java:250: error: ';' expected\nCobolControl.pure()\n                   ^\n/tmp/temp_4/AtCoder.java:252: error: class, interface, enum, or record expected\npublic void execEntry(int start) throws CobolRuntimeException, CobolStopRunException {\n       ^\n/tmp/temp_4/AtCoder.java:254: error: class, interface, enum, or record expected\nwhile(nextLabel.isPresent()) {\n^\n/tmp/temp_4/AtCoder.java:256: error: class, interface, enum, or record expected\n  nextLabel = section.run();\n  ^\n/tmp/temp_4/AtCoder.java:257: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:260: error: class, interface, enum, or record expected\npublic static void main(String[] args)\n              ^\n/tmp/temp_4/AtCoder.java:263: error: class, interface, enum, or record expected\nCobolDecimal.cobInitNumeric();\n^\n/tmp/temp_4/AtCoder.java:264: error: class, interface, enum, or record expected\nnew AtCoder().AtCoder_(0);\n^\n/tmp/temp_4/AtCoder.java:265: error: class, interface, enum, or record expected\nCobolStopRunException.stopRun();\n^\n/tmp/temp_4/AtCoder.java:266: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:268: error: class, interface, enum, or record expected\npublic AtCoder()\n       ^\n/tmp/temp_4/AtCoder.java:271: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:273: error: class, interface, enum, or record expected\npublic void init() \n       ^\n/tmp/temp_4/AtCoder.java:278: error: class, interface, enum, or record expected\nd1 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:279: error: class, interface, enum, or record expected\nd2 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:280: error: class, interface, enum, or record expected\nd3 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:281: error: class, interface, enum, or record expected\nd4 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:285: error: class, interface, enum, or record expected\ncob_unifunc = null;\n^\n/tmp/temp_4/AtCoder.java:288: error: class, interface, enum, or record expected\nb_RETURN_CODE = new CobolDataStorage(4);\t/* RETURN-CODE */\n^\n/tmp/temp_4/AtCoder.java:289: error: class, interface, enum, or record expected\nb_INP = new CobolDataStorage(100);\t/* INP */\n^\n/tmp/temp_4/AtCoder.java:290: error: class, interface, enum, or record expected\nb_A = new CobolDataStorage(15);\t/* A */\n^\n/tmp/temp_4/AtCoder.java:291: error: class, interface, enum, or record expected\nb_B = new CobolDataStorage(15);\t/* B */\n^\n/tmp/temp_4/AtCoder.java:292: error: class, interface, enum, or record expected\nb_C = new CobolDataStorage(15);\t/* C */\n^\n/tmp/temp_4/AtCoder.java:293: error: class, interface, enum, or record expected\nb_D = new CobolDataStorage(15);\t/* D */\n^\n/tmp/temp_4/AtCoder.java:294: error: class, interface, enum, or record expected\nb_ans = new CobolDataStorage(14);\t/* ans */\n^\n/tmp/temp_4/AtCoder.java:295: error: class, interface, enum, or record expected\nb_t = new CobolDataStorage(15);\t/* t */\n^\n/tmp/temp_4/AtCoder.java:296: error: class, interface, enum, or record expected\nb_temp1 = new CobolDataStorage(15);\t/* temp1 */\n^\n/tmp/temp_4/AtCoder.java:297: error: class, interface, enum, or record expected\nb_temp2 = new CobolDataStorage(15);\t/* temp2 */\n^\n/tmp/temp_4/AtCoder.java:298: error: class, interface, enum, or record expected\nb_N = new CobolDataStorage(15);\t/* N */\n^\n/tmp/temp_4/AtCoder.java:303: error: class, interface, enum, or record expected\ninitAttr();\n^\n/tmp/temp_4/AtCoder.java:308: error: class, interface, enum, or record expected\nf_A\t= CobolFieldFactory.makeCobolField(15, b_A, a_2_NumericDisplay_Digits15_Scale0);\t/* A */\n^\n/tmp/temp_4/AtCoder.java:309: error: class, interface, enum, or record expected\nf_B\t= CobolFieldFactory.makeCobolField(15, b_B, a_2_NumericDisplay_Digits15_Scale0);\t/* B */\n^\n/tmp/temp_4/AtCoder.java:310: error: class, interface, enum, or record expected\nf_C\t= CobolFieldFactory.makeCobolField(15, b_C, a_2_NumericDisplay_Digits15_Scale0);\t/* C */\n^\n/tmp/temp_4/AtCoder.java:311: error: class, interface, enum, or record expected\nf_ans\t= CobolFieldFactory.makeCobolField(14, b_ans, a_1_NumericEdited_Digits14_Scale0);\t/* ans */\n^\n/tmp/temp_4/AtCoder.java:312: error: class, interface, enum, or record expected\nf_t\t= CobolFieldFactory.makeCobolField(15, b_t, a_2_NumericDisplay_Digits15_Scale0);\t/* t */\n^\n/tmp/temp_4/AtCoder.java:319: error: class, interface, enum, or record expected\nc_1_2000000000000\t= CobolFieldFactory.makeCobolField(13, \"2000000000000\", a_3_NumericDisplay_Digits13_Scale0);\n^\n/tmp/temp_4/AtCoder.java:321: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:332: error: class, interface, enum, or record expected\na_2_NumericDisplay_Digits15_Scale0 = new CobolFieldAttribute(\n^\n/tmp/temp_4/AtCoder.java:338: error: class, interface, enum, or record expected\na_3_NumericDisplay_Digits13_Scale0 = new CobolFieldAttribute(\n^\n/tmp/temp_4/AtCoder.java:345: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:350: error: class, interface, enum, or record expected\nprivate CobolDecimal d1;\n        ^\n/tmp/temp_4/AtCoder.java:351: error: class, interface, enum, or record expected\nprivate CobolDecimal d2;\n        ^\n/tmp/temp_4/AtCoder.java:352: error: class, interface, enum, or record expected\nprivate CobolDecimal d3;\n        ^\n/tmp/temp_4/AtCoder.java:353: error: class, interface, enum, or record expected\nprivate CobolDecimal d4;\n        ^\n/tmp/temp_4/AtCoder.java:358: error: class, interface, enum, or record expected\npublic CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n       ^\n/tmp/temp_4/AtCoder.java:359: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_INP;\t/* INP */\n        ^\n/tmp/temp_4/AtCoder.java:360: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_A;\t/* A */\n        ^\n/tmp/temp_4/AtCoder.java:361: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_B;\t/* B */\n        ^\n/tmp/temp_4/AtCoder.java:362: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_C;\t/* C */\n        ^\n/tmp/temp_4/AtCoder.java:363: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_D;\t/* D */\n        ^\n/tmp/temp_4/AtCoder.java:364: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_ans;\t/* ans */\n        ^\n/tmp/temp_4/AtCoder.java:365: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_t;\t/* t */\n        ^\n/tmp/temp_4/AtCoder.java:366: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_temp1;\t/* temp1 */\n        ^\n/tmp/temp_4/AtCoder.java:367: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_temp2;\t/* temp2 */\n        ^\n/tmp/temp_4/AtCoder.java:368: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_N;\t/* N */\n        ^\n/tmp/temp_4/AtCoder.java:376: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_A;\t/* A */\n        ^\n/tmp/temp_4/AtCoder.java:377: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_B;\t/* B */\n        ^\n/tmp/temp_4/AtCoder.java:378: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_C;\t/* C */\n        ^\n/tmp/temp_4/AtCoder.java:379: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_ans;\t/* ans */\n        ^\n/tmp/temp_4/AtCoder.java:380: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_t;\t/* t */\n        ^\n/tmp/temp_4/AtCoder.java:385: error: class, interface, enum, or record expected\nprivate static AbstractCobolField f_native;\n               ^\n/tmp/temp_4/AtCoder.java:389: error: class, interface, enum, or record expected\nprivate AbstractCobolField c_1_2000000000000;\n        ^\n/tmp/temp_4/AtCoder.java:393: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_3_NumericDisplay_Digits13_Scale0;\n        ^\n/tmp/temp_4/AtCoder.java:394: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_2_NumericDisplay_Digits15_Scale0;\n        ^\n/tmp/temp_4/AtCoder.java:395: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_1_NumericEdited_Digits14_Scale0;\n        ^\n/tmp/temp_4/AtCoder.java:400: error: class, interface, enum, or record expected\npublic static final byte[] str_0_000000000000001 = CobolUtil.stringToBytes(\"000000000000001\");\n                    ^\n/tmp/temp_4/AtCoder.java:403: error: class, interface, enum, or record expected\nprivate final static int l_AtCoder = 1;\n                     ^\n/tmp/temp_4/AtCoder.java:404: error: class, interface, enum, or record expected\nprivate final static int l_MAIN_SECTION = 2;\n                     ^\n/tmp/temp_4/AtCoder.java:405: error: class, interface, enum, or record expected\nprivate final static int l_MAIN_SECTION__MAIN = 3;\n                     ^\n/tmp/temp_4/AtCoder.java:406: error: class, interface, enum, or record expected\nprivate final static int l_Default_Error_Handler = 4;\n                     ^\n/tmp/temp_4/AtCoder.java:408: error: class, interface, enum, or record expected\n}\n^\n76 errors"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_4/AtCoder.java:247: error: illegal start of type\n    return Optional.of(CobolControl.pure());\n    ^\n/tmp/temp_4/AtCoder.java:247: error: <identifier> expected\n    return Optional.of(CobolControl.pure());\n                      ^\n/tmp/temp_4/AtCoder.java:247: error: <identifier> expected\n    return Optional.of(CobolControl.pure());\n                                        ^\n/tmp/temp_4/AtCoder.java:250: error: ';' expected\nCobolControl.pure()\n            ^\n/tmp/temp_4/AtCoder.java:250: error: invalid method declaration; return type required\nCobolControl.pure()\n             ^\n/tmp/temp_4/AtCoder.java:250: error: ';' expected\nCobolControl.pure()\n                   ^\n/tmp/temp_4/AtCoder.java:252: error: class, interface, enum, or record expected\npublic void execEntry(int start) throws CobolRuntimeException, CobolStopRunException {\n       ^\n/tmp/temp_4/AtCoder.java:254: error: class, interface, enum, or record expected\nwhile(nextLabel.isPresent()) {\n^\n/tmp/temp_4/AtCoder.java:256: error: class, interface, enum, or record expected\n  nextLabel = section.run();\n  ^\n/tmp/temp_4/AtCoder.java:257: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:260: error: class, interface, enum, or record expected\npublic static void main(String[] args)\n              ^\n/tmp/temp_4/AtCoder.java:263: error: class, interface, enum, or record expected\nCobolDecimal.cobInitNumeric();\n^\n/tmp/temp_4/AtCoder.java:264: error: class, interface, enum, or record expected\nnew AtCoder().AtCoder_(0);\n^\n/tmp/temp_4/AtCoder.java:265: error: class, interface, enum, or record expected\nCobolStopRunException.stopRun();\n^\n/tmp/temp_4/AtCoder.java:266: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:268: error: class, interface, enum, or record expected\npublic AtCoder()\n       ^\n/tmp/temp_4/AtCoder.java:271: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:273: error: class, interface, enum, or record expected\npublic void init() \n       ^\n/tmp/temp_4/AtCoder.java:278: error: class, interface, enum, or record expected\nd1 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:279: error: class, interface, enum, or record expected\nd2 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:280: error: class, interface, enum, or record expected\nd3 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:281: error: class, interface, enum, or record expected\nd4 = new CobolDecimal();\n^\n/tmp/temp_4/AtCoder.java:285: error: class, interface, enum, or record expected\ncob_unifunc = null;\n^\n/tmp/temp_4/AtCoder.java:288: error: class, interface, enum, or record expected\nb_RETURN_CODE = new CobolDataStorage(4);\t/* RETURN-CODE */\n^\n/tmp/temp_4/AtCoder.java:289: error: class, interface, enum, or record expected\nb_INP = new CobolDataStorage(100);\t/* INP */\n^\n/tmp/temp_4/AtCoder.java:290: error: class, interface, enum, or record expected\nb_A = new CobolDataStorage(15);\t/* A */\n^\n/tmp/temp_4/AtCoder.java:291: error: class, interface, enum, or record expected\nb_B = new CobolDataStorage(15);\t/* B */\n^\n/tmp/temp_4/AtCoder.java:292: error: class, interface, enum, or record expected\nb_C = new CobolDataStorage(15);\t/* C */\n^\n/tmp/temp_4/AtCoder.java:293: error: class, interface, enum, or record expected\nb_D = new CobolDataStorage(15);\t/* D */\n^\n/tmp/temp_4/AtCoder.java:294: error: class, interface, enum, or record expected\nb_ans = new CobolDataStorage(14);\t/* ans */\n^\n/tmp/temp_4/AtCoder.java:295: error: class, interface, enum, or record expected\nb_t = new CobolDataStorage(15);\t/* t */\n^\n/tmp/temp_4/AtCoder.java:296: error: class, interface, enum, or record expected\nb_temp1 = new CobolDataStorage(15);\t/* temp1 */\n^\n/tmp/temp_4/AtCoder.java:297: error: class, interface, enum, or record expected\nb_temp2 = new CobolDataStorage(15);\t/* temp2 */\n^\n/tmp/temp_4/AtCoder.java:298: error: class, interface, enum, or record expected\nb_N = new CobolDataStorage(15);\t/* N */\n^\n/tmp/temp_4/AtCoder.java:303: error: class, interface, enum, or record expected\ninitAttr();\n^\n/tmp/temp_4/AtCoder.java:308: error: class, interface, enum, or record expected\nf_A\t= CobolFieldFactory.makeCobolField(15, b_A, a_2_NumericDisplay_Digits15_Scale0);\t/* A */\n^\n/tmp/temp_4/AtCoder.java:309: error: class, interface, enum, or record expected\nf_B\t= CobolFieldFactory.makeCobolField(15, b_B, a_2_NumericDisplay_Digits15_Scale0);\t/* B */\n^\n/tmp/temp_4/AtCoder.java:310: error: class, interface, enum, or record expected\nf_C\t= CobolFieldFactory.makeCobolField(15, b_C, a_2_NumericDisplay_Digits15_Scale0);\t/* C */\n^\n/tmp/temp_4/AtCoder.java:311: error: class, interface, enum, or record expected\nf_ans\t= CobolFieldFactory.makeCobolField(14, b_ans, a_1_NumericEdited_Digits14_Scale0);\t/* ans */\n^\n/tmp/temp_4/AtCoder.java:312: error: class, interface, enum, or record expected\nf_t\t= CobolFieldFactory.makeCobolField(15, b_t, a_2_NumericDisplay_Digits15_Scale0);\t/* t */\n^\n/tmp/temp_4/AtCoder.java:319: error: class, interface, enum, or record expected\nc_1_2000000000000\t= CobolFieldFactory.makeCobolField(13, \"2000000000000\", a_3_NumericDisplay_Digits13_Scale0);\n^\n/tmp/temp_4/AtCoder.java:321: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:332: error: class, interface, enum, or record expected\na_2_NumericDisplay_Digits15_Scale0 = new CobolFieldAttribute(\n^\n/tmp/temp_4/AtCoder.java:338: error: class, interface, enum, or record expected\na_3_NumericDisplay_Digits13_Scale0 = new CobolFieldAttribute(\n^\n/tmp/temp_4/AtCoder.java:345: error: class, interface, enum, or record expected\n}\n^\n/tmp/temp_4/AtCoder.java:350: error: class, interface, enum, or record expected\nprivate CobolDecimal d1;\n        ^\n/tmp/temp_4/AtCoder.java:351: error: class, interface, enum, or record expected\nprivate CobolDecimal d2;\n        ^\n/tmp/temp_4/AtCoder.java:352: error: class, interface, enum, or record expected\nprivate CobolDecimal d3;\n        ^\n/tmp/temp_4/AtCoder.java:353: error: class, interface, enum, or record expected\nprivate CobolDecimal d4;\n        ^\n/tmp/temp_4/AtCoder.java:358: error: class, interface, enum, or record expected\npublic CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n       ^\n/tmp/temp_4/AtCoder.java:359: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_INP;\t/* INP */\n        ^\n/tmp/temp_4/AtCoder.java:360: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_A;\t/* A */\n        ^\n/tmp/temp_4/AtCoder.java:361: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_B;\t/* B */\n        ^\n/tmp/temp_4/AtCoder.java:362: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_C;\t/* C */\n        ^\n/tmp/temp_4/AtCoder.java:363: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_D;\t/* D */\n        ^\n/tmp/temp_4/AtCoder.java:364: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_ans;\t/* ans */\n        ^\n/tmp/temp_4/AtCoder.java:365: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_t;\t/* t */\n        ^\n/tmp/temp_4/AtCoder.java:366: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_temp1;\t/* temp1 */\n        ^\n/tmp/temp_4/AtCoder.java:367: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_temp2;\t/* temp2 */\n        ^\n/tmp/temp_4/AtCoder.java:368: error: class, interface, enum, or record expected\nprivate CobolDataStorage b_N;\t/* N */\n        ^\n/tmp/temp_4/AtCoder.java:376: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_A;\t/* A */\n        ^\n/tmp/temp_4/AtCoder.java:377: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_B;\t/* B */\n        ^\n/tmp/temp_4/AtCoder.java:378: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_C;\t/* C */\n        ^\n/tmp/temp_4/AtCoder.java:379: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_ans;\t/* ans */\n        ^\n/tmp/temp_4/AtCoder.java:380: error: class, interface, enum, or record expected\nprivate AbstractCobolField f_t;\t/* t */\n        ^\n/tmp/temp_4/AtCoder.java:385: error: class, interface, enum, or record expected\nprivate static AbstractCobolField f_native;\n               ^\n/tmp/temp_4/AtCoder.java:389: error: class, interface, enum, or record expected\nprivate AbstractCobolField c_1_2000000000000;\n        ^\n/tmp/temp_4/AtCoder.java:393: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_3_NumericDisplay_Digits13_Scale0;\n        ^\n/tmp/temp_4/AtCoder.java:394: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_2_NumericDisplay_Digits15_Scale0;\n        ^\n/tmp/temp_4/AtCoder.java:395: error: class, interface, enum, or record expected\nprivate CobolFieldAttribute a_1_NumericEdited_Digits14_Scale0;\n        ^\n/tmp/temp_4/AtCoder.java:400: error: class, interface, enum, or record expected\npublic static final byte[] str_0_000000000000001 = CobolUtil.stringToBytes(\"000000000000001\");\n                    ^\n/tmp/temp_4/AtCoder.java:403: error: class, interface, enum, or record expected\nprivate final static int l_AtCoder = 1;\n                     ^\n/tmp/temp_4/AtCoder.java:404: error: class, interface, enum, or record expected\nprivate final static int l_MAIN_SECTION = 2;\n                     ^\n/tmp/temp_4/AtCoder.java:405: error: class, interface, enum, or record expected\nprivate final static int l_MAIN_SECTION__MAIN = 3;\n                     ^\n/tmp/temp_4/AtCoder.java:406: error: class, interface, enum, or record expected\nprivate final static int l_Default_Error_Handler = 4;\n                     ^\n/tmp/temp_4/AtCoder.java:408: error: class, interface, enum, or record expected\n}\n^\n76 errors"
+      }
+    ]
+  },
+  {
+    "problem_id": "p02886",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02898",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02916",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02958",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03073",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03107",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100000\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _30303A$4.run(_30303A.java:149)\n\tat _30303A.execEntry(_30303A.java:266)\n\tat _30303A.run_module(_30303A.java:99)\n\tat _30303A._30303A_(_30303A.java:44)\n\tat _30303A.main(_30303A.java:274)",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100000\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _30303A$4.run(_30303A.java:149)\n\tat _30303A.execEntry(_30303A.java:266)\n\tat _30303A.run_module(_30303A.java:99)\n\tat _30303A._30303A_(_30303A.java:44)\n\tat _30303A.main(_30303A.java:274)"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100000\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _30303A$4.run(_30303A.java:149)\n\tat _30303A.execEntry(_30303A.java:266)\n\tat _30303A.run_module(_30303A.java:99)\n\tat _30303A._30303A_(_30303A.java:44)\n\tat _30303A.main(_30303A.java:274)"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100000\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _30303A$4.run(_30303A.java:149)\n\tat _30303A.execEntry(_30303A.java:266)\n\tat _30303A.run_module(_30303A.java:99)\n\tat _30303A._30303A_(_30303A.java:44)\n\tat _30303A.main(_30303A.java:274)"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100000\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _30303A$4.run(_30303A.java:149)\n\tat _30303A.execEntry(_30303A.java:266)\n\tat _30303A.run_module(_30303A.java:99)\n\tat _30303A._30303A_(_30303A.java:44)\n\tat _30303A.main(_30303A.java:274)"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100000\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _30303A$4.run(_30303A.java:149)\n\tat _30303A.execEntry(_30303A.java:266)\n\tat _30303A.run_module(_30303A.java:99)\n\tat _30303A._30303A_(_30303A.java:44)\n\tat _30303A.main(_30303A.java:274)"
+      }
+    ]
+  },
+  {
+    "problem_id": "p03246",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03282",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03287",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03294",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_4/ABC_103_C.java:223: error: cannot find symbol\n              if (f_j.getInt() > b_INP.getSize())\n                                      ^\n  symbol:   method getSize()\n  location: variable b_INP of type CobolDataStorage\n1 error"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03309",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "compilation_error",
+        "error_details": "/tmp/temp_4/ABC_102_C.java:224: error: constructor CobolRuntimeException in class CobolRuntimeException cannot be applied to given types;\n                throw new CobolRuntimeException(\"Infinite loop detected\");\n                      ^\n  required: int,String\n  found:    String\n  reason: actual and formal argument lists differ in length\n1 error"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03310",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03311",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03325",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03341",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03610",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03814",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  }
+]

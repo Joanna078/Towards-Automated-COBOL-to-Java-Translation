@@ -136,11 +136,11 @@ public class kyopuro implements CobolRunnable {
     /* main */
     new CobolControl(l_MAIN_SECTION__main, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/kyopuro_fixed.cob:18: ACCEPT */
+        /* /content/temp_cobol/input.cob:18: ACCEPT */
         {
           CobolTerminal.accept (f_in_str);
         }
-        /* /content/temp_cobol/kyopuro_fixed.cob:19: UNSTRING */
+        /* /content/temp_cobol/input.cob:19: UNSTRING */
         {
           CobolString.unstringInit (f_in_str, 0, 1);
           CobolString.unstringDelimited (CobolConstant.space, 1);
@@ -148,11 +148,11 @@ public class kyopuro implements CobolRunnable {
           CobolString.unstringInto (f_k, 0, 0);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_cobol/kyopuro_fixed.cob:22: IF */
+        /* /content/temp_cobol/input.cob:22: IF */
         {
           if (((long)b_k.cmpNumdisp (5, 0) == 0L))
             {
-              /* /content/temp_cobol/kyopuro_fixed.cob:24: COMPUTE */
+              /* /content/temp_cobol/input.cob:24: COMPUTE */
               {
                 {
                   {
@@ -166,7 +166,7 @@ public class kyopuro implements CobolRunnable {
             }
           else
             {
-              /* /content/temp_cobol/kyopuro_fixed.cob:26: COMPUTE */
+              /* /content/temp_cobol/input.cob:26: COMPUTE */
               {
                 {
                   {
@@ -177,7 +177,7 @@ public class kyopuro implements CobolRunnable {
                   }
                 }
               }
-              /* /content/temp_cobol/kyopuro_fixed.cob:27: COMPUTE */
+              /* /content/temp_cobol/input.cob:27: COMPUTE */
               {
                 {
                   {
@@ -188,16 +188,16 @@ public class kyopuro implements CobolRunnable {
                   }
                 }
               }
-              /* /content/temp_cobol/kyopuro_fixed.cob:28: PERFORM */
+              /* /content/temp_cobol/input.cob:28: PERFORM */
               for (int n0 = b_t.getNumdisp(5); n0 > 0; n0--)
               {
                 {
-                  /* /content/temp_cobol/kyopuro_fixed.cob:29: DIVIDE */
+                  /* /content/temp_cobol/input.cob:29: DIVIDE */
                   {
                     f_n.divQuotient (f_i, f_q, 4);
                     f_r.divRemainder (4);
                   }
-                  /* /content/temp_cobol/kyopuro_fixed.cob:30: COMPUTE */
+                  /* /content/temp_cobol/input.cob:30: COMPUTE */
                   {
                     {
                       {
@@ -214,23 +214,23 @@ public class kyopuro implements CobolRunnable {
                       }
                     }
                   }
-                  /* /content/temp_cobol/kyopuro_fixed.cob:31: ADD */
+                  /* /content/temp_cobol/input.cob:31: ADD */
                   {
                     f_i.add (c_1_1, 4);
                   }
                 }
               }
-              /* /content/temp_cobol/kyopuro_fixed.cob:33: MOVE */
+              /* /content/temp_cobol/input.cob:33: MOVE */
               {
                 f_view_res.moveFrom (f_res);
               }
             }
         }
-        /* /content/temp_cobol/kyopuro_fixed.cob:36: DISPLAY */
+        /* /content/temp_cobol/input.cob:36: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, f_view_res);
         }
-        /* /content/temp_cobol/kyopuro_fixed.cob:37: STOP */
+        /* /content/temp_cobol/input.cob:37: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

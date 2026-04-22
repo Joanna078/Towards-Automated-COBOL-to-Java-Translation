@@ -1,0 +1,198 @@
+[
+  {
+    "problem_id": "p02916",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p02916/PROGRAM_ID.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p02916/PROGRAM_ID.java"
+  },
+  {
+    "problem_id": "p02898",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p02898/PROGRAM_ID.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p02898/PROGRAM_ID.java"
+  },
+  {
+    "problem_id": "p02886",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p02886/PROGRAM_ID.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p02886/PROGRAM_ID.java"
+  },
+  {
+    "problem_id": "p03282",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p03282/ABC_106_C.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p03282/ABC_106_C.java"
+  },
+  {
+    "problem_id": "p02718",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p02718/PROGRAM_ID.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p02718/PROGRAM_ID.java"
+  },
+  {
+    "problem_id": "p02642",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p02642/_3170D.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p02642/_3170D.java"
+  },
+  {
+    "problem_id": "p02958",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p02958/PROGRAM_ID.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p02958/PROGRAM_ID.java"
+  },
+  {
+    "problem_id": "p02658",
+    "status": "extraction_failed",
+    "success": false,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p02658/PROGRAM_ID.java",
+    "error": "Could not extract valid Java code from LLM output"
+  },
+  {
+    "problem_id": "p03311",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p03311/_3100C.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p03311/_3100C.java"
+  },
+  {
+    "problem_id": "p02727",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p02727/_3160E.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p02727/_3160E.java"
+  },
+  {
+    "problem_id": "p02684",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p02684/_3167D.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p02684/_3167D.java"
+  },
+  {
+    "problem_id": "p02848",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p02848/_3146B.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p02848/_3146B.java"
+  },
+  {
+    "problem_id": "p02784",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p02784/PROGRAM_ID.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p02784/PROGRAM_ID.java"
+  },
+  {
+    "problem_id": "p03246",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p03246/_3103C.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p03246/_3103C.java"
+  },
+  {
+    "problem_id": "p03814",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p03814/ABC_053_B.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p03814/ABC_053_B.java"
+  },
+  {
+    "problem_id": "p03287",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p03287/ABC_105_D.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p03287/ABC_105_D.java"
+  },
+  {
+    "problem_id": "p02691",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p02691/_3164C.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p02691/_3164C.java"
+  },
+  {
+    "problem_id": "p03310",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p03310/ABC_102_D.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p03310/ABC_102_D.java"
+  },
+  {
+    "problem_id": "p03610",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p03610/ABC_072_B.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p03610/ABC_072_B.java"
+  },
+  {
+    "problem_id": "p03309",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p03309/ABC_102_C.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p03309/ABC_102_C.java"
+  },
+  {
+    "problem_id": "p02881",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p02881/AtCoder.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p02881/AtCoder.java"
+  },
+  {
+    "problem_id": "p02689",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p02689/_3166C.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p02689/_3166C.java"
+  },
+  {
+    "problem_id": "p02732",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p02732/_3159C.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p02732/_3159C.java"
+  },
+  {
+    "problem_id": "p03107",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p03107/_30303A.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p03107/_30303A.java"
+  },
+  {
+    "problem_id": "p03325",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p03325/ABC_999_A.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p03325/ABC_999_A.java"
+  },
+  {
+    "problem_id": "p03073",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p03073/_3124C.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p03073/_3124C.java"
+  },
+  {
+    "problem_id": "p03294",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p03294/ABC_103_C.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p03294/ABC_103_C.java"
+  },
+  {
+    "problem_id": "p03341",
+    "status": "fixed",
+    "success": true,
+    "raw_file": "/scratch0/jabraham/strategythree_results/raw/p03341/_3098C.java",
+    "cleaned_file": "/scratch0/jabraham/strategythree_results/cleaned/p03341/_3098C.java"
+  }
+]

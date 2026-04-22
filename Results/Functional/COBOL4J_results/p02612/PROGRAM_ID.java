@@ -124,16 +124,16 @@ public class PROGRAM_ID implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:14: ACCEPT */
+        /* /content/temp_cobol/input.cob:14: ACCEPT */
         {
           CobolTerminal.accept (f_N);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:15: DIVIDE */
+        /* /content/temp_cobol/input.cob:15: DIVIDE */
         {
           f_N.divQuotient (c_1_1000, f_qt, 4);
           f_rm.divRemainder (4);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:16: COMPUTE */
+        /* /content/temp_cobol/input.cob:16: COMPUTE */
         {
           {
             {
@@ -144,20 +144,20 @@ public class PROGRAM_ID implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:17: DIVIDE */
+        /* /content/temp_cobol/input.cob:17: DIVIDE */
         {
           f_num.divQuotient (c_1_1000, f_qt, 4);
           f_ans.divRemainder (4);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:18: MOVE */
+        /* /content/temp_cobol/input.cob:18: MOVE */
         {
           f_zs.moveFrom (f_ans);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:19: DISPLAY */
+        /* /content/temp_cobol/input.cob:19: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, CobolIntrinsic.funcTrim (0, 0, f_zs, 0));
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:20: STOP */
+        /* /content/temp_cobol/input.cob:20: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

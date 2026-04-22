@@ -129,11 +129,11 @@ public class AtCoder implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/AtCoder_fixed.cob:19: ACCEPT */
+        /* /content/temp_cobol/input.cob:19: ACCEPT */
         {
           CobolTerminal.accept (f_A);
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:20: COMPUTE */
+        /* /content/temp_cobol/input.cob:20: COMPUTE */
         {
           {
             {
@@ -146,15 +146,15 @@ public class AtCoder implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:21: MOVE */
+        /* /content/temp_cobol/input.cob:21: MOVE */
         {
           f_B.moveFrom (f_A);
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:22: DISPLAY */
+        /* /content/temp_cobol/input.cob:22: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, f_B);
         }
-        /* /content/temp_cobol/AtCoder_fixed.cob:23: STOP */
+        /* /content/temp_cobol/input.cob:23: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

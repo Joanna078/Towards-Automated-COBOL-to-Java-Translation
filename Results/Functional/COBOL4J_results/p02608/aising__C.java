@@ -141,36 +141,36 @@ public class aising__C implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/aising-C_fixed.cob:17: ACCEPT */
+        /* /content/temp_cobol/input.cob:17: ACCEPT */
         {
           CobolTerminal.accept (f_N);
         }
-        /* /content/temp_cobol/aising-C_fixed.cob:19: MOVE */
+        /* /content/temp_cobol/input.cob:19: MOVE */
         {
           b_TBL.fillBytes (48, 30000);
         }
-        /* /content/temp_cobol/aising-C_fixed.cob:20: PERFORM */
+        /* /content/temp_cobol/input.cob:20: PERFORM */
         b_X.setSwpU16Binary (1);
         for(;;b_X.addSwpU16Binary (1))
         {
           if (((long)f_X.cmpInteger (100) >  0L))
             break;
           {
-            /* /content/temp_cobol/aising-C_fixed.cob:21: PERFORM */
+            /* /content/temp_cobol/input.cob:21: PERFORM */
             b_Y.setSwpU16Binary (1);
             for(;;b_Y.addSwpU16Binary (1))
             {
               if (((long)f_Y.cmpInteger (100) >  0L))
                 break;
               {
-                /* /content/temp_cobol/aising-C_fixed.cob:22: PERFORM */
+                /* /content/temp_cobol/input.cob:22: PERFORM */
                 b_Z.setSwpU16Binary (1);
                 for(;;b_Z.addSwpU16Binary (1))
                 {
                   if (((long)f_Z.cmpInteger (100) >  0L))
                     break;
                   {
-                    /* /content/temp_cobol/aising-C_fixed.cob:23: COMPUTE */
+                    /* /content/temp_cobol/input.cob:23: COMPUTE */
                     {
                       {
                         {
@@ -201,11 +201,11 @@ public class aising__C implements CobolRunnable {
                         }
                       }
                     }
-                    /* /content/temp_cobol/aising-C_fixed.cob:24: IF */
+                    /* /content/temp_cobol/input.cob:24: IF */
                     {
                       if (((long)f_V.cmpInteger (10000) <= 0L))
                         {
-                          /* /content/temp_cobol/aising-C_fixed.cob:25: ADD */
+                          /* /content/temp_cobol/input.cob:25: ADD */
                           {
                             CobolFieldFactory.makeCobolField(3, b_T__TBL.getSubDataStorage(3 * ((int)(b_V.bswap_32()) - 1)), a_5_NumericDisplay_Digits3_Scale0).add (c_1_1, 4);
                           }
@@ -217,24 +217,24 @@ public class aising__C implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/aising-C_fixed.cob:31: PERFORM */
+        /* /content/temp_cobol/input.cob:31: PERFORM */
         b_I.setSwpU16Binary (1);
         for(;;b_I.addSwpU16Binary (1))
         {
           if (((long)f_I.cmpInteger ((int)(b_N.bswap_32())) >  0L))
             break;
           {
-            /* /content/temp_cobol/aising-C_fixed.cob:32: MOVE */
+            /* /content/temp_cobol/input.cob:32: MOVE */
             {
               f_OUT.moveFrom (CobolFieldFactory.makeCobolField(3, b_T__TBL.getSubDataStorage(3 * ((short)(b_I.bswap_16()) - 1)), a_5_NumericDisplay_Digits3_Scale0));
             }
-            /* /content/temp_cobol/aising-C_fixed.cob:33: DISPLAY */
+            /* /content/temp_cobol/input.cob:33: DISPLAY */
             {
               CobolTerminal.display (0, 1, 1, CobolIntrinsic.funcTrim (0, 0, f_OUT, 0));
             }
           }
         }
-        /* /content/temp_cobol/aising-C_fixed.cob:36: STOP */
+        /* /content/temp_cobol/input.cob:36: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

@@ -123,11 +123,11 @@ public class ABC_089_A implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ABC_089_A_fixed.cob:13: ACCEPT */
+        /* /content/temp_cobol/input.cob:13: ACCEPT */
         {
           CobolTerminal.accept (f_N);
         }
-        /* /content/temp_cobol/ABC_089_A_fixed.cob:15: DIVIDE */
+        /* /content/temp_cobol/input.cob:15: DIVIDE */
         {
           {
             {
@@ -138,18 +138,18 @@ public class ABC_089_A implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/ABC_089_A_fixed.cob:17: MOVE */
+        /* /content/temp_cobol/input.cob:17: MOVE */
         {
           f_ZS.moveFrom (f_tmp);
         }
-        /* /content/temp_cobol/ABC_089_A_fixed.cob:19: PERFORM */
+        /* /content/temp_cobol/input.cob:19: PERFORM */
         /* PERFORM UNANS */
         CobolControl.perform(contList, l_UNANS).run();
-        /* /content/temp_cobol/ABC_089_A_fixed.cob:21: DISPLAY */
+        /* /content/temp_cobol/input.cob:21: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, CobolFieldFactory.makeCobolField(CobolIntrinsic.funcStoredCharLength (f_ans).getInt(), b_ans.getSubDataStorage(0), a_3_Alphanumeric));
         }
-        /* /content/temp_cobol/ABC_089_A_fixed.cob:22: STOP */
+        /* /content/temp_cobol/input.cob:22: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }
@@ -167,7 +167,7 @@ public class ABC_089_A implements CobolRunnable {
     /* UNANS_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_UNANS_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ABC_089_A_fixed.cob:25: UNSTRING */
+        /* /content/temp_cobol/input.cob:25: UNSTRING */
         {
           CobolString.unstringInit (f_ZS, 0, 1);
           CobolString.unstringDelimited (CobolConstant.space, 1);

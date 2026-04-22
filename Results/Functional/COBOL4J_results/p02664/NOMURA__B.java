@@ -141,7 +141,7 @@ public class NOMURA__B implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/NOMURA-B_fixed.cob:17: OPEN */
+        /* /content/temp_cobol/input.cob:17: OPEN */
         {
           CobolRuntimeException.code = 0;
           {
@@ -153,7 +153,7 @@ public class NOMURA__B implements CobolRunnable {
             CobolControl.perform(contList, l_Default_Error_Handler).run();
           }
         }
-        /* /content/temp_cobol/NOMURA-B_fixed.cob:18: READ */
+        /* /content/temp_cobol/input.cob:18: READ */
         CobolRuntimeException.code = 0;
         {
           h_STDIO.read (0, null, 1);
@@ -163,7 +163,7 @@ public class NOMURA__B implements CobolRunnable {
           /* PERFORM Default Error Handler */
           CobolControl.perform(contList, l_Default_Error_Handler).run();
         }
-        /* /content/temp_cobol/NOMURA-B_fixed.cob:19: CLOSE */
+        /* /content/temp_cobol/input.cob:19: CLOSE */
         {
           CobolRuntimeException.code = 0;
           {
@@ -175,22 +175,22 @@ public class NOMURA__B implements CobolRunnable {
             CobolControl.perform(contList, l_Default_Error_Handler).run();
           }
         }
-        /* /content/temp_cobol/NOMURA-B_fixed.cob:21: MOVE */
+        /* /content/temp_cobol/input.cob:21: MOVE */
         {
           b_OUT.setBytes (b_T, 200000);
         }
-        /* /content/temp_cobol/NOMURA-B_fixed.cob:22: INSPECT */
+        /* /content/temp_cobol/input.cob:22: INSPECT */
         {
           CobolInspect.init (f_OUT, 1);
           CobolInspect.start ();
           CobolInspect.all (c_1_D, c_2);
           CobolInspect.finish ();
         }
-        /* /content/temp_cobol/NOMURA-B_fixed.cob:24: DISPLAY */
+        /* /content/temp_cobol/input.cob:24: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, CobolIntrinsic.funcTrim (0, 0, f_OUT, 0));
         }
-        /* /content/temp_cobol/NOMURA-B_fixed.cob:25: STOP */
+        /* /content/temp_cobol/input.cob:25: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

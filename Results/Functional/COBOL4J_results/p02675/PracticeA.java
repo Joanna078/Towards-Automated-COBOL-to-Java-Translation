@@ -111,15 +111,15 @@ public class PracticeA implements CobolRunnable {
     /* MAIN-SECTION */
     new CobolControl(l_MAIN_SECTION__MAIN_SECTION, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/PracticeA_fixed.cob:12: ACCEPT */
+        /* /content/temp_cobol/input.cob:12: ACCEPT */
         {
           CobolTerminal.accept (f_WORK);
         }
-        /* /content/temp_cobol/PracticeA_fixed.cob:13: EVALUATE */
+        /* /content/temp_cobol/input.cob:13: EVALUATE */
         {
           if (((((((long)b_WORK_R_B__WORK_R.cmpNumdisp (1, 2) == 0L) || ((long)b_WORK_R_B__WORK_R.cmpNumdisp (1, 4) == 0L)) || ((long)b_WORK_R_B__WORK_R.cmpNumdisp (1, 5) == 0L)) || ((long)b_WORK_R_B__WORK_R.cmpNumdisp (1, 7) == 0L)) || ((long)b_WORK_R_B__WORK_R.cmpNumdisp (1, 9) == 0L)))
             {
-              /* /content/temp_cobol/PracticeA_fixed.cob:15: DISPLAY */
+              /* /content/temp_cobol/input.cob:15: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_1_hon);
               }
@@ -127,7 +127,7 @@ public class PracticeA implements CobolRunnable {
           else
             if ((((((long)b_WORK_R_B__WORK_R.cmpNumdisp (1, 0) == 0L) || ((long)b_WORK_R_B__WORK_R.cmpNumdisp (1, 1) == 0L)) || ((long)b_WORK_R_B__WORK_R.cmpNumdisp (1, 6) == 0L)) || ((long)b_WORK_R_B__WORK_R.cmpNumdisp (1, 8) == 0L)))
               {
-                /* /content/temp_cobol/PracticeA_fixed.cob:17: DISPLAY */
+                /* /content/temp_cobol/input.cob:17: DISPLAY */
                 {
                   CobolTerminal.display (0, 1, 1, c_2_pon);
                 }
@@ -135,13 +135,13 @@ public class PracticeA implements CobolRunnable {
             else
               if (((long)b_WORK_R_B__WORK_R.cmpNumdisp (1, 3) == 0L))
                 {
-                  /* /content/temp_cobol/PracticeA_fixed.cob:19: DISPLAY */
+                  /* /content/temp_cobol/input.cob:19: DISPLAY */
                   {
                     CobolTerminal.display (0, 1, 1, c_3_bon);
                   }
                 }
         }
-        /* /content/temp_cobol/PracticeA_fixed.cob:21: STOP */
+        /* /content/temp_cobol/input.cob:21: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

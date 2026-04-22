@@ -112,32 +112,32 @@ public class PROGRAM_ID implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:10: ACCEPT */
+        /* /content/temp_cobol/input.cob:10: ACCEPT */
         {
           CobolTerminal.accept (f_S);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:11: ACCEPT */
+        /* /content/temp_cobol/input.cob:11: ACCEPT */
         {
           CobolTerminal.accept (f_T);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:13: IF */
+        /* /content/temp_cobol/input.cob:13: IF */
         {
           if (((long)f_S.compareTo (CobolFieldFactory.makeCobolField((CobolIntrinsic.funcStoredCharLength (f_T).getInt() - 1), b_T.getSubDataStorage(0), a_1_Alphanumeric)) == 0L))
             {
-              /* /content/temp_cobol/PROGRAM_ID_fixed.cob:14: DISPLAY */
+              /* /content/temp_cobol/input.cob:14: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_1_Yes);
               }
             }
           else
             {
-              /* /content/temp_cobol/PROGRAM_ID_fixed.cob:16: DISPLAY */
+              /* /content/temp_cobol/input.cob:16: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_2_No);
               }
             }
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:18: STOP */
+        /* /content/temp_cobol/input.cob:18: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

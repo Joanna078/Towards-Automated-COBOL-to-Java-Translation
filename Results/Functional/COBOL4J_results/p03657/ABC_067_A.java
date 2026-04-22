@@ -121,11 +121,11 @@ public class ABC_067_A implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ABC_067_A_fixed.cob:16: ACCEPT */
+        /* /content/temp_cobol/input.cob:16: ACCEPT */
         {
           CobolTerminal.accept (f_INP);
         }
-        /* /content/temp_cobol/ABC_067_A_fixed.cob:18: UNSTRING */
+        /* /content/temp_cobol/input.cob:18: UNSTRING */
         {
           CobolString.unstringInit (f_INP, 0, 1);
           CobolString.unstringDelimited (CobolConstant.space, 0);
@@ -133,7 +133,7 @@ public class ABC_067_A implements CobolRunnable {
           CobolString.unstringInto (f_B, 0, 0);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_cobol/ABC_067_A_fixed.cob:22: COMPUTE */
+        /* /content/temp_cobol/input.cob:22: COMPUTE */
         {
           {
             {
@@ -142,7 +142,7 @@ public class ABC_067_A implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/ABC_067_A_fixed.cob:23: COMPUTE */
+        /* /content/temp_cobol/input.cob:23: COMPUTE */
         {
           {
             {
@@ -151,11 +151,11 @@ public class ABC_067_A implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/ABC_067_A_fixed.cob:24: ADD */
+        /* /content/temp_cobol/input.cob:24: ADD */
         {
           f_B.add (f_A, 4);
         }
-        /* /content/temp_cobol/ABC_067_A_fixed.cob:25: COMPUTE */
+        /* /content/temp_cobol/input.cob:25: COMPUTE */
         {
           {
             {
@@ -164,24 +164,24 @@ public class ABC_067_A implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/ABC_067_A_fixed.cob:27: IF */
+        /* /content/temp_cobol/input.cob:27: IF */
         {
           if (((((long)b_MODA.cmpNumdisp (1, 0) == 0L) || ((long)b_MODB.cmpNumdisp (1, 0) == 0L)) || ((long)b_MODAB.cmpNumdisp (1, 0) == 0L)))
             {
-              /* /content/temp_cobol/ABC_067_A_fixed.cob:28: DISPLAY */
+              /* /content/temp_cobol/input.cob:28: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_2_Possible);
               }
             }
           else
             {
-              /* /content/temp_cobol/ABC_067_A_fixed.cob:30: DISPLAY */
+              /* /content/temp_cobol/input.cob:30: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_3_Impossible);
               }
             }
         }
-        /* /content/temp_cobol/ABC_067_A_fixed.cob:33: STOP */
+        /* /content/temp_cobol/input.cob:33: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

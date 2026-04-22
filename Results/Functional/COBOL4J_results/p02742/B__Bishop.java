@@ -130,11 +130,11 @@ public class B__Bishop implements CobolRunnable {
     /* MAIN-001 */
     new CobolControl(l_MAIN_SECTION__MAIN_001, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/B-Bishop_fixed.cob:14: ACCEPT */
+        /* /content/temp_cobol/input.cob:14: ACCEPT */
         {
           CobolTerminal.accept (f_INP);
         }
-        /* /content/temp_cobol/B-Bishop_fixed.cob:15: UNSTRING */
+        /* /content/temp_cobol/input.cob:15: UNSTRING */
         {
           CobolString.unstringInit (f_INP, 0, 1);
           CobolString.unstringDelimited (c_1, 0);
@@ -142,18 +142,18 @@ public class B__Bishop implements CobolRunnable {
           CobolString.unstringInto (f_W, 0, 0);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_cobol/B-Bishop_fixed.cob:18: IF */
+        /* /content/temp_cobol/input.cob:18: IF */
         {
           if ((((long)b_H.cmpLongNumdisp (10, 1) == 0L) || ((long)b_W.cmpLongNumdisp (10, 1) == 0L)))
             {
-              /* /content/temp_cobol/B-Bishop_fixed.cob:19: MOVE */
+              /* /content/temp_cobol/input.cob:19: MOVE */
               {
                 f_OUT.moveFrom (c_2_0);
               }
             }
           else
             {
-              /* /content/temp_cobol/B-Bishop_fixed.cob:21: COMPUTE */
+              /* /content/temp_cobol/input.cob:21: COMPUTE */
               {
                 {
                   {
@@ -164,7 +164,7 @@ public class B__Bishop implements CobolRunnable {
                   }
                 }
               }
-              /* /content/temp_cobol/B-Bishop_fixed.cob:22: COMPUTE */
+              /* /content/temp_cobol/input.cob:22: COMPUTE */
               {
                 {
                   {
@@ -175,7 +175,7 @@ public class B__Bishop implements CobolRunnable {
                   }
                 }
               }
-              /* /content/temp_cobol/B-Bishop_fixed.cob:23: IF */
+              /* /content/temp_cobol/input.cob:23: IF */
               {
                 if ((((long)                (new GetInt() {
                   public int run() throws CobolStopRunException {
@@ -197,7 +197,7 @@ public class B__Bishop implements CobolRunnable {
               }
             }).run() == 0L)))
               {
-                /* /content/temp_cobol/B-Bishop_fixed.cob:24: COMPUTE */
+                /* /content/temp_cobol/input.cob:24: COMPUTE */
                 {
                   {
                     {
@@ -213,7 +213,7 @@ public class B__Bishop implements CobolRunnable {
               }
             else
               {
-                /* /content/temp_cobol/B-Bishop_fixed.cob:26: COMPUTE */
+                /* /content/temp_cobol/input.cob:26: COMPUTE */
                 {
                   {
                     {
@@ -232,11 +232,11 @@ public class B__Bishop implements CobolRunnable {
           }
         }
     }
-    /* /content/temp_cobol/B-Bishop_fixed.cob:29: DISPLAY */
+    /* /content/temp_cobol/input.cob:29: DISPLAY */
     {
       CobolTerminal.display (0, 1, 1, CobolIntrinsic.funcTrim (0, 0, f_OUT, 0));
     }
-    /* /content/temp_cobol/B-Bishop_fixed.cob:31: STOP */
+    /* /content/temp_cobol/input.cob:31: STOP */
     {
       CobolStopRunException.throwException (b_RETURN_CODE.intValue());
     }

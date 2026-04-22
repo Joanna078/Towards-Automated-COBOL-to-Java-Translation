@@ -126,15 +126,15 @@ public class ABC_098_A implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ABC_098_A_fixed.cob:18: ACCEPT */
+        /* /content/temp_cobol/input.cob:18: ACCEPT */
         {
           CobolTerminal.accept (f_INP);
         }
-        /* /content/temp_cobol/ABC_098_A_fixed.cob:20: PERFORM */
+        /* /content/temp_cobol/input.cob:20: PERFORM */
         for (int n0 = b_maxlen.getNumdisp(1); n0 > 0; n0--)
         {
           {
-            /* /content/temp_cobol/ABC_098_A_fixed.cob:22: PERFORM */
+            /* /content/temp_cobol/input.cob:22: PERFORM */
             f_j.moveFrom (f_cur);
             for(;;f_j.addInt (1))
             {
@@ -142,7 +142,7 @@ public class ABC_098_A implements CobolRunnable {
                 break;
               ;
             }
-            /* /content/temp_cobol/ABC_098_A_fixed.cob:26: COMPUTE */
+            /* /content/temp_cobol/input.cob:26: COMPUTE */
             {
               {
                 {
@@ -153,11 +153,11 @@ public class ABC_098_A implements CobolRunnable {
                 }
               }
             }
-            /* /content/temp_cobol/ABC_098_A_fixed.cob:28: MOVE */
+            /* /content/temp_cobol/input.cob:28: MOVE */
             {
               CobolFieldFactory.makeCobolField(8, b_AB__AB11__AB1.getSubDataStorage(8 * (f_i.getInt() - 1)), a_5_NumericDisplay_Digits8_Scale0_HaveSign).moveFrom (CobolFieldFactory.makeCobolField(b_len.getNumdisp(2), b_INP.getSubDataStorage((b_cur.getNumdisp(2) - 1)), a_2_Alphanumeric));
             }
-            /* /content/temp_cobol/ABC_098_A_fixed.cob:30: COMPUTE */
+            /* /content/temp_cobol/input.cob:30: COMPUTE */
             {
               {
                 {
@@ -168,21 +168,21 @@ public class ABC_098_A implements CobolRunnable {
                 }
               }
             }
-            /* /content/temp_cobol/ABC_098_A_fixed.cob:32: ADD */
+            /* /content/temp_cobol/input.cob:32: ADD */
             {
               f_i.add (c_1_1, 4);
             }
           }
         }
-        /* /content/temp_cobol/ABC_098_A_fixed.cob:36: MOVE */
+        /* /content/temp_cobol/input.cob:36: MOVE */
         {
           f_ans.moveFrom (CobolIntrinsic.funcMax (3, CobolIntrinsic.intrBinop (CobolFieldFactory.makeCobolField(8, b_AB__AB11__AB1.getSubDataStorage(8 * 0), a_5_NumericDisplay_Digits8_Scale0_HaveSign), 43, CobolFieldFactory.makeCobolField(8, b_AB__AB11__AB1.getSubDataStorage(8 * 1), a_5_NumericDisplay_Digits8_Scale0_HaveSign)), CobolIntrinsic.intrBinop (CobolFieldFactory.makeCobolField(8, b_AB__AB11__AB1.getSubDataStorage(8 * 0), a_5_NumericDisplay_Digits8_Scale0_HaveSign), 45, CobolFieldFactory.makeCobolField(8, b_AB__AB11__AB1.getSubDataStorage(8 * 1), a_5_NumericDisplay_Digits8_Scale0_HaveSign)), CobolIntrinsic.intrBinop (CobolFieldFactory.makeCobolField(8, b_AB__AB11__AB1.getSubDataStorage(8 * 0), a_5_NumericDisplay_Digits8_Scale0_HaveSign), 42, CobolFieldFactory.makeCobolField(8, b_AB__AB11__AB1.getSubDataStorage(8 * 1), a_5_NumericDisplay_Digits8_Scale0_HaveSign))));
         }
-        /* /content/temp_cobol/ABC_098_A_fixed.cob:39: DISPLAY */
+        /* /content/temp_cobol/input.cob:39: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, f_ans);
         }
-        /* /content/temp_cobol/ABC_098_A_fixed.cob:40: STOP */
+        /* /content/temp_cobol/input.cob:40: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

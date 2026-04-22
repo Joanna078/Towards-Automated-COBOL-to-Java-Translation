@@ -121,11 +121,11 @@ public class Answer implements CobolRunnable {
     /* 000-Start */
     new CobolControl(l_AnswerMain__000_Start, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/Answer_fixed.cob:25: ACCEPT */
+        /* /content/temp_cobol/input.cob:25: ACCEPT */
         {
           CobolTerminal.accept (f_s__Input_Values);
         }
-        /* /content/temp_cobol/Answer_fixed.cob:26: UNSTRING */
+        /* /content/temp_cobol/input.cob:26: UNSTRING */
         {
           CobolString.unstringInit (f_s__Input_Values, 0, 1);
           CobolString.unstringDelimited (CobolConstant.space, 0);
@@ -133,29 +133,29 @@ public class Answer implements CobolRunnable {
           CobolString.unstringInto (f_b__Input_Values, 0, 0);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_cobol/Answer_fixed.cob:27: MOVE */
+        /* /content/temp_cobol/input.cob:27: MOVE */
         {
           f_s__Input_Values.moveFrom (CobolIntrinsic.funcConcatenate (0, 0, 2, CobolIntrinsic.funcTrim (0, 0, f_a__Input_Values, 0), CobolIntrinsic.funcTrim (0, 0, f_b__Input_Values, 0)));
         }
-        /* /content/temp_cobol/Answer_fixed.cob:28: MOVE */
+        /* /content/temp_cobol/input.cob:28: MOVE */
         {
           f_v__Calc_Values.moveFrom (f_s__Input_Values);
         }
-        /* /content/temp_cobol/Answer_fixed.cob:29: MOVE */
+        /* /content/temp_cobol/input.cob:29: MOVE */
         {
           b_disp__Calc_Values.setBytes (str_0_No, 5);
         }
-        /* /content/temp_cobol/Answer_fixed.cob:30: PERFORM */
+        /* /content/temp_cobol/input.cob:30: PERFORM */
         b_i__Calc_Values.set((int)1);
         for(;;        b_i__Calc_Values.set((int)(b_i__Calc_Values.intValue() + 1))
 )
         {
           {
-            /* /content/temp_cobol/Answer_fixed.cob:32: MOVE */
+            /* /content/temp_cobol/input.cob:32: MOVE */
             {
               b_r__Calc_Values.setBytes (b_i__Calc_Values, 4);
             }
-            /* /content/temp_cobol/Answer_fixed.cob:33: MULTIPLY */
+            /* /content/temp_cobol/input.cob:33: MULTIPLY */
             {
               {
                 {
@@ -166,11 +166,11 @@ public class Answer implements CobolRunnable {
                 }
               }
             }
-            /* /content/temp_cobol/Answer_fixed.cob:34: IF */
+            /* /content/temp_cobol/input.cob:34: IF */
             {
               if (((long)f_r__Calc_Values.cmpInteger (b_v__Calc_Values.intValue()) == 0L))
                 {
-                  /* /content/temp_cobol/Answer_fixed.cob:35: MOVE */
+                  /* /content/temp_cobol/input.cob:35: MOVE */
                   {
                     b_disp__Calc_Values.setBytes (str_1_Yes, 5);
                   }
@@ -180,7 +180,7 @@ public class Answer implements CobolRunnable {
           if (((long)f_i__Calc_Values.cmpInteger (1000) >= 0L))
             break;
         }
-        /* /content/temp_cobol/Answer_fixed.cob:38: DISPLAY */
+        /* /content/temp_cobol/input.cob:38: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, f_disp__Calc_Values);
         }

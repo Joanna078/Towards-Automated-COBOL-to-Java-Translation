@@ -111,28 +111,28 @@ public class _3162A implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/162A_fixed.cob:8: ACCEPT */
+        /* /content/temp_cobol/input.cob:8: ACCEPT */
         {
           CobolTerminal.accept (f_N);
         }
-        /* /content/temp_cobol/162A_fixed.cob:9: IF */
+        /* /content/temp_cobol/input.cob:9: IF */
         {
           if (((((long)(Byte.toUnsignedInt(b_N.getSubDataStorage(0).getByte(0)) - (int)55) == 0L) || ((long)(Byte.toUnsignedInt(b_N.getSubDataStorage(1).getByte(0)) - (int)55) == 0L)) || ((long)(Byte.toUnsignedInt(b_N.getSubDataStorage(2).getByte(0)) - (int)55) == 0L)))
             {
-              /* /content/temp_cobol/162A_fixed.cob:10: DISPLAY */
+              /* /content/temp_cobol/input.cob:10: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_1_Yes);
               }
             }
           else
             {
-              /* /content/temp_cobol/162A_fixed.cob:12: DISPLAY */
+              /* /content/temp_cobol/input.cob:12: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_2_No);
               }
             }
         }
-        /* /content/temp_cobol/162A_fixed.cob:15: STOP */
+        /* /content/temp_cobol/input.cob:15: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

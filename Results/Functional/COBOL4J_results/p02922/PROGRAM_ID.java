@@ -127,11 +127,11 @@ public class PROGRAM_ID implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:14: ACCEPT */
+        /* /content/temp_cobol/input.cob:14: ACCEPT */
         {
           CobolTerminal.accept (f_ln);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:15: UNSTRING */
+        /* /content/temp_cobol/input.cob:15: UNSTRING */
         {
           CobolString.unstringInit (f_ln, 0, 1);
           CobolString.unstringDelimited (CobolConstant.space, 0);
@@ -139,17 +139,17 @@ public class PROGRAM_ID implements CobolRunnable {
           CobolString.unstringInto (f_B, 0, 0);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:16: PERFORM */
+        /* /content/temp_cobol/input.cob:16: PERFORM */
         for (;;)
         {
           if (((long)f_B.compareTo (f_cur) <= 0L))
             break;
           {
-            /* /content/temp_cobol/PROGRAM_ID_fixed.cob:17: ADD */
+            /* /content/temp_cobol/input.cob:17: ADD */
             {
               f_ans.add (c_1_1, 4);
             }
-            /* /content/temp_cobol/PROGRAM_ID_fixed.cob:18: COMPUTE */
+            /* /content/temp_cobol/input.cob:18: COMPUTE */
             {
               {
                 {
@@ -164,15 +164,15 @@ public class PROGRAM_ID implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:20: MOVE */
+        /* /content/temp_cobol/input.cob:20: MOVE */
         {
           f_zs.moveFrom (f_ans);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:21: DISPLAY */
+        /* /content/temp_cobol/input.cob:21: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, CobolIntrinsic.funcTrim (0, 0, f_zs, 0));
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:22: STOP */
+        /* /content/temp_cobol/input.cob:22: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

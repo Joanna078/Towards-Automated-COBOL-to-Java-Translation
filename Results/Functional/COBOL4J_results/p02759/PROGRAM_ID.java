@@ -123,11 +123,11 @@ public class PROGRAM_ID implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:8: ACCEPT */
+        /* /content/temp_cobol/input.cob:8: ACCEPT */
         {
           CobolTerminal.accept (f_N);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:9: COMPUTE */
+        /* /content/temp_cobol/input.cob:9: COMPUTE */
         {
           {
             {
@@ -140,11 +140,11 @@ public class PROGRAM_ID implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:10: DISPLAY */
+        /* /content/temp_cobol/input.cob:10: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, f_ans);
         }
-        /* /content/temp_cobol/PROGRAM_ID_fixed.cob:11: STOP */
+        /* /content/temp_cobol/input.cob:11: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

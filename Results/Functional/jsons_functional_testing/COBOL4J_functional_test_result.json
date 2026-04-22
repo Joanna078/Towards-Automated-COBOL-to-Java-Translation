@@ -1,0 +1,5845 @@
+{
+  "summary": {
+    "total": 324,
+    "compiled": 309,
+    "executed": 280,
+    "passed": 280,
+    "compilation_failed": 15,
+    "execution_failed": 29,
+    "output_mismatch": 0
+  },
+  "detailed_results": [
+    {
+      "problem_id": "p02547",
+      "java_file": "SORTNUM.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1879
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02548",
+      "java_file": "SORTNUM.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2079
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02552",
+      "java_file": "SORTNUM.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3119
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02582",
+      "java_file": "_3175A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2884
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02583",
+      "java_file": "_3175B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2146
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02584",
+      "java_file": "_3175C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1976
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02594",
+      "java_file": "_3174A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2062
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02595",
+      "java_file": "_3174B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1932
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02597",
+      "java_file": "_3174D.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02606",
+      "java_file": "aising__A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2138
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02607",
+      "java_file": "aising__B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1911
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02608",
+      "java_file": "aising__C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 1.6257
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02612",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2029
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02613",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1924
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02614",
+      "java_file": "_3173C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3978
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02621",
+      "java_file": "_3172A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3422
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02627",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1926
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02628",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": false,
+        "error": "/content/temp_compile/PROGRAM_ID.java:221: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+      },
+      "execution": {
+        "success": false,
+        "error": null,
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02629",
+      "java_file": "_3171C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1861
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02630",
+      "java_file": "_3171C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02639",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": false,
+        "error": "/content/temp_compile/PROGRAM_ID.java:140: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+      },
+      "execution": {
+        "success": false,
+        "error": null,
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02640",
+      "java_file": "_3170B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1999
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02641",
+      "java_file": "_3170C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1886
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02642",
+      "java_file": "_3170D.java",
+      "compilation": {
+        "success": false,
+        "error": "/content/temp_compile/_3170D.java:270: error: bad operand types for binary operator '-'\n                          b_C__TBL_M__TBL2.getSubDataStorage(5 * (b_A__TBL1.getSubDataStorage(4 * (b_I - 1)) - 1)).set((byte)1);\n                                                                                                       ^\n  first type:  CobolDataStorage\n  second type: int\n/content/temp_compile/_3170D.java:292: error: bad operand types for binary operator '-'\n                      b_C__TBL_M__TBL2.getSubDataStorage(5 * ((b_A__TBL1.getSubDataStorage(4 * (b_I - 1)) * b_J) - 1)).set((byte)1);\n                                                                                                    ^\n  first type:  CobolDataStorage\n  second type: int\n2 errors"
+      },
+      "execution": {
+        "success": false,
+        "error": null,
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02657",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1972
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02658",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": false,
+        "error": "/content/temp_compile/PROGRAM_ID.java:206: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+      },
+      "execution": {
+        "success": false,
+        "error": null,
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02659",
+      "java_file": "abc169c.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.198
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02663",
+      "java_file": "NOMURA__A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3123
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02664",
+      "java_file": "NOMURA__B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02675",
+      "java_file": "PracticeA.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.208
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02676",
+      "java_file": "_3168B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1932
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02677",
+      "java_file": "_3168C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2066
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02681",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1994
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02682",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3497
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02683",
+      "java_file": "_3167C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2195
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02684",
+      "java_file": "_3167D.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02687",
+      "java_file": "_3166A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2142
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02688",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": false,
+        "error": "/content/temp_compile/PROGRAM_ID.java:167: error: incompatible types: possible lossy conversion from long to int\n            for (int n1 = b_maxlen.bswap_64(); n1 > 0; n1--)\n                                           ^\n1 error"
+      },
+      "execution": {
+        "success": false,
+        "error": null,
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02689",
+      "java_file": "_3166C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02690",
+      "java_file": "_3166D.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2357
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02691",
+      "java_file": "_3164C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02692",
+      "java_file": "_3166F.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.339
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02693",
+      "java_file": "_3165A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1945
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02694",
+      "java_file": "_3165B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.214
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02696",
+      "java_file": "_3165D.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1898
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02699",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1931
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02700",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1907
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02701",
+      "java_file": "_3164C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2161
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02705",
+      "java_file": "_3163A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2787
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02707",
+      "java_file": "_3163C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02711",
+      "java_file": "_3162A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1984
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02712",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2151
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02713",
+      "java_file": "_3162C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3695
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02714",
+      "java_file": "_3162D.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3875
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02717",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1942
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02718",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": false,
+        "error": "/content/temp_compile/PROGRAM_ID.java:160: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+      },
+      "execution": {
+        "success": false,
+        "error": null,
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02719",
+      "java_file": "_3161C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.212
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02720",
+      "java_file": "_3161D.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2098
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02723",
+      "java_file": "_3160B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2052
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02724",
+      "java_file": "_3160B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1971
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02725",
+      "java_file": "_3160C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02726",
+      "java_file": "_3160D.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2021
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02727",
+      "java_file": "_3160E.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02729",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3219
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02730",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1928
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02731",
+      "java_file": "_3159C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2033
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02732",
+      "java_file": "_3159C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02741",
+      "java_file": "A__KthTerm.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.32
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02742",
+      "java_file": "B__Bishop.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3011
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02743",
+      "java_file": "ATCODER.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1936
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02753",
+      "java_file": "_3158A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2117
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02754",
+      "java_file": "_3158B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2011
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02755",
+      "java_file": "_3158B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2421
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02756",
+      "java_file": "_3158B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2511
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02759",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1932
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02760",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.328
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02761",
+      "java_file": "GUESSNUM.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2042
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02762",
+      "java_file": "D__Friend.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2566
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02765",
+      "java_file": "test156.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1984
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02766",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1942
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02767",
+      "java_file": "A__BEGINNER.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2041
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02771",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2052
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02772",
+      "java_file": "A__BEGINNER.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3532
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02773",
+      "java_file": "A__BEGINNER.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2785
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02777",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1982
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02778",
+      "java_file": "_3154B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1912
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02783",
+      "java_file": "ATCODER.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2024
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02784",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02789",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3392
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02790",
+      "java_file": "_3152B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1955
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02801",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2022
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02811",
+      "java_file": "ABC150a.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1939
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02812",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.198
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02817",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1918
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02818",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2132
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02829",
+      "java_file": "AtCoder.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3234
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02830",
+      "java_file": "_3148B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3264
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02835",
+      "java_file": "ABC150_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2215
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02836",
+      "java_file": "_3147B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1929
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02847",
+      "java_file": "AtCoder.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2113
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02848",
+      "java_file": "_3146B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02859",
+      "java_file": "_3145A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2758
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02860",
+      "java_file": "_3145B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1912
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02879",
+      "java_file": "AtCoder.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2127
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02880",
+      "java_file": "AtCoder.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1982
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02881",
+      "java_file": "AtCoder.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"jp.osscons.opensourcecobol.libcobj.data.CobolDecimal.getValue()\" because \"decimal\" is null\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDecimal.setField(CobolDecimal.java:265)\n\tat AtCoder$4$2.run(AtCoder.java:205)\n\tat AtCoder$4.run(AtCoder.java:216)\n\tat AtCoder.execEntry(AtCoder.java:256)\n\tat AtCoder.run_module(AtCoder.java:103)\n\tat AtCoder.AtCoder_(AtCoder.java:44)\n\tat AtCoder.main(AtCoder.java:264)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02882",
+      "java_file": "AtCoder.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2175
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02885",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2046
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02886",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": false,
+        "error": "/content/temp_compile/PROGRAM_ID.java:148: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+      },
+      "execution": {
+        "success": false,
+        "error": null,
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02897",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3509
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02898",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": false,
+        "error": "/content/temp_compile/PROGRAM_ID.java:217: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+      },
+      "execution": {
+        "success": false,
+        "error": null,
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02909",
+      "java_file": "ATCODER.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1888
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02910",
+      "java_file": "_3141B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1969
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02915",
+      "java_file": "_3140A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2004
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02916",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": false,
+        "error": "/content/temp_compile/PROGRAM_ID.java:161: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n/content/temp_compile/PROGRAM_ID.java:217: error: incompatible types: possible lossy conversion from long to int\n        for (int n1 = b_maxlen.bswap_64(); n1 > 0; n1--)\n                                       ^\n/content/temp_compile/PROGRAM_ID.java:288: error: incompatible types: possible lossy conversion from long to int\n        for (int n2 = b_maxlen.bswap_64(); n2 > 0; n2--)\n                                       ^\n3 errors"
+      },
+      "execution": {
+        "success": false,
+        "error": null,
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02921",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2081
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02922",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3614
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02933",
+      "java_file": "ATCODER.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2368
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02934",
+      "java_file": "_3138B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2033
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02945",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2241
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02946",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.199
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02951",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1971
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02952",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.226
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02957",
+      "java_file": "_3135A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.339
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02958",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": false,
+        "error": "/content/temp_compile/PROGRAM_ID.java:144: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+      },
+      "execution": {
+        "success": false,
+        "error": null,
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02969",
+      "java_file": "AtCoder.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1937
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02970",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2128
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02981",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2146
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02982",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": false,
+        "error": "/content/temp_compile/PROGRAM_ID.java:182: error: incompatible types: possible lossy conversion from long to int\n            for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                           ^\n1 error"
+      },
+      "execution": {
+        "success": false,
+        "error": null,
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p02987",
+      "java_file": "_3132A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1909
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02988",
+      "java_file": "_3132B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1936
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02993",
+      "java_file": "AtCoder.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3498
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02994",
+      "java_file": "PROGRAM_ID.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3552
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p02999",
+      "java_file": "ATCODER.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1938
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03000",
+      "java_file": "_3130B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2043
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03011",
+      "java_file": "TEST129.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2149
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03012",
+      "java_file": "_3129B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1996
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03029",
+      "java_file": "ATCODER.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.195
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03035",
+      "java_file": "AtCoder.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3358
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03041",
+      "java_file": "AtCoder.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.33
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03059",
+      "java_file": "AtCoder.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.21
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03071",
+      "java_file": "_3124A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1942
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03072",
+      "java_file": "_3124B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2009
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03073",
+      "java_file": "_3124C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03075",
+      "java_file": "AtCoder.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3299
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03076",
+      "java_file": "_3123B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1916
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03085",
+      "java_file": "A__DoubleHelix.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1933
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03086",
+      "java_file": "_3122B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1914
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03101",
+      "java_file": "TEST121.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2181
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03105",
+      "java_file": "ATCODER.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1947
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03107",
+      "java_file": "_30303A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100000\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _30303A$4.run(_30303A.java:149)\n\tat _30303A.execEntry(_30303A.java:266)\n\tat _30303A.run_module(_30303A.java:99)\n\tat _30303A._30303A_(_30303A.java:44)\n\tat _30303A.main(_30303A.java:274)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03125",
+      "java_file": "ATCODER.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3256
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03145",
+      "java_file": "ATCODER.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1944
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03192",
+      "java_file": "caddi2018a.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1854
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03195",
+      "java_file": "caddi2018d.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1923
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03206",
+      "java_file": "christmas.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1989
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03210",
+      "java_file": "ATCODER.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2016
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03219",
+      "java_file": "ATCODER.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2188
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03238",
+      "java_file": "Main.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2181
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03242",
+      "java_file": "ABC111A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3384
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03243",
+      "java_file": "ABC111B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1926
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03246",
+      "java_file": "_3103C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03250",
+      "java_file": "ATCODER.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1938
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03251",
+      "java_file": "ABC110B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3319
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03260",
+      "java_file": "_3180908A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3269
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03264",
+      "java_file": "_3108A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1888
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03268",
+      "java_file": "_3102C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2336
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03272",
+      "java_file": "ABC_107_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1892
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03273",
+      "java_file": "ABC_107_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2011
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03274",
+      "java_file": "ABC_107_C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03275",
+      "java_file": "ABC_107_D.java",
+      "compilation": {
+        "success": false,
+        "error": "/content/temp_compile/SET_EXTERNAL.java:317: error: variable b_RETURN_CODE is already defined in class SET_EXTERNAL\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/SET_EXTERNAL.java:318: error: variable b_BNY is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_BNY;\t/* BNY */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:323: error: variable b_RETURN_CODE is already defined in class SET_EXTERNAL\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/SET_EXTERNAL.java:329: error: variable b_tmp is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:330: error: variable b_x is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_x;\t/* x */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:332: error: variable b_RETURN_CODE is already defined in class SET_EXTERNAL\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/SET_EXTERNAL.java:333: error: variable b_N is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:334: error: variable b_BT1 is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_BT1;\t/* BT1 */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:335: error: variable b_BX1 is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:336: error: variable b_BX2 is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:337: error: variable b_tmp is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:338: error: variable b_x is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_x;\t/* x */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:340: error: variable b_RETURN_CODE is already defined in class SET_EXTERNAL\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/SET_EXTERNAL.java:341: error: variable b_Z is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_Z;\t/* Z */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:342: error: variable b_N is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:343: error: variable b_M is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_M;\t/* M */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:344: error: variable b_BT1 is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_BT1;\t/* BT1 */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:345: error: variable b_BX1 is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:346: error: variable b_BX2 is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:357: error: variable b_RETURN_CODE is already defined in class SET_EXTERNAL\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/SET_EXTERNAL.java:358: error: variable b_INF is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_INF;\t/* INF */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:359: error: variable b_N is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:360: error: variable b_tmp is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:362: error: variable b_r is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_r;\t/* r */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:365: error: variable b_BX1 is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:366: error: variable b_BX2 is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:383: error: variable f_tmp is already defined in class SET_EXTERNAL\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/SET_EXTERNAL.java:384: error: variable f_x is already defined in class SET_EXTERNAL\n  private AbstractCobolField f_x;\t/* x */\n                             ^\n/content/temp_compile/SET_EXTERNAL.java:388: error: variable f_x is already defined in class SET_EXTERNAL\n  private AbstractCobolField f_x;\t/* x */\n                             ^\n/content/temp_compile/SET_EXTERNAL.java:389: error: variable f_tmp is already defined in class SET_EXTERNAL\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/SET_EXTERNAL.java:394: error: variable f_tmp is already defined in class SET_EXTERNAL\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/SET_EXTERNAL.java:396: error: variable f_r is already defined in class SET_EXTERNAL\n  private AbstractCobolField f_r;\t/* r */\n                             ^\n/content/temp_compile/SET_EXTERNAL.java:399: error: variable f_d_ret is already defined in class SET_EXTERNAL\n  private AbstractCobolField f_d_ret;\t/* d_ret */\n                             ^\n/content/temp_compile/ABC_107_D.java:616: error: variable b_RETURN_CODE is already defined in class ABC_107_D\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_107_D.java:617: error: variable b_INF is already defined in class ABC_107_D\n  private CobolDataStorage b_INF;\t/* INF */\n                           ^\n/content/temp_compile/ABC_107_D.java:619: error: variable b_Z is already defined in class ABC_107_D\n  private CobolDataStorage b_Z;\t/* Z */\n                           ^\n/content/temp_compile/ABC_107_D.java:621: error: variable b_RETURN_CODE is already defined in class ABC_107_D\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_107_D.java:622: error: variable b_BNY is already defined in class ABC_107_D\n  private CobolDataStorage b_BNY;\t/* BNY */\n                           ^\n/content/temp_compile/ABC_107_D.java:627: error: variable b_RETURN_CODE is already defined in class ABC_107_D\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_107_D.java:628: error: variable b_N is already defined in class ABC_107_D\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/ABC_107_D.java:629: error: variable b_M is already defined in class ABC_107_D\n  private CobolDataStorage b_M;\t/* M */\n                           ^\n/content/temp_compile/ABC_107_D.java:633: error: variable b_tmp is already defined in class ABC_107_D\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/ABC_107_D.java:634: error: variable b_x is already defined in class ABC_107_D\n  private CobolDataStorage b_x;\t/* x */\n                           ^\n/content/temp_compile/ABC_107_D.java:636: error: variable b_RETURN_CODE is already defined in class ABC_107_D\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_107_D.java:637: error: variable b_N is already defined in class ABC_107_D\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/ABC_107_D.java:638: error: variable b_BT1 is already defined in class ABC_107_D\n  private CobolDataStorage b_BT1;\t/* BT1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:639: error: variable b_BX1 is already defined in class ABC_107_D\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:640: error: variable b_BX2 is already defined in class ABC_107_D\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/ABC_107_D.java:641: error: variable b_tmp is already defined in class ABC_107_D\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/ABC_107_D.java:642: error: variable b_x is already defined in class ABC_107_D\n  private CobolDataStorage b_x;\t/* x */\n                           ^\n/content/temp_compile/ABC_107_D.java:644: error: variable b_RETURN_CODE is already defined in class ABC_107_D\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_107_D.java:645: error: variable b_Z is already defined in class ABC_107_D\n  private CobolDataStorage b_Z;\t/* Z */\n                           ^\n/content/temp_compile/ABC_107_D.java:646: error: variable b_N is already defined in class ABC_107_D\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/ABC_107_D.java:647: error: variable b_M is already defined in class ABC_107_D\n  private CobolDataStorage b_M;\t/* M */\n                           ^\n/content/temp_compile/ABC_107_D.java:648: error: variable b_BT1 is already defined in class ABC_107_D\n  private CobolDataStorage b_BT1;\t/* BT1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:649: error: variable b_BX1 is already defined in class ABC_107_D\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:650: error: variable b_BX2 is already defined in class ABC_107_D\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/ABC_107_D.java:651: error: variable b_x1 is already defined in class ABC_107_D\n  private CobolDataStorage b_x1;\t/* x1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:652: error: variable b_XX1 is already defined in class ABC_107_D\n  private CobolDataStorage b_XX1;\t/* XX1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:653: error: variable b_XX2 is already defined in class ABC_107_D\n  private CobolDataStorage b_XX2;\t/* XX2 */\n                           ^\n/content/temp_compile/ABC_107_D.java:661: error: variable b_RETURN_CODE is already defined in class ABC_107_D\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_107_D.java:662: error: variable b_INF is already defined in class ABC_107_D\n  private CobolDataStorage b_INF;\t/* INF */\n                           ^\n/content/temp_compile/ABC_107_D.java:663: error: variable b_N is already defined in class ABC_107_D\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/ABC_107_D.java:664: error: variable b_tmp is already defined in class ABC_107_D\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/ABC_107_D.java:666: error: variable b_r is already defined in class ABC_107_D\n  private CobolDataStorage b_r;\t/* r */\n                           ^\n/content/temp_compile/ABC_107_D.java:669: error: variable b_BX1 is already defined in class ABC_107_D\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/ABC_107_D.java:670: error: variable b_BX2 is already defined in class ABC_107_D\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/ABC_107_D.java:671: error: variable b_d_ret is already defined in class ABC_107_D\n  private CobolDataStorage b_d_ret;\t/* d_ret */\n                           ^\n/content/temp_compile/ABC_107_D.java:690: error: variable f_Z is already defined in class ABC_107_D\n  private AbstractCobolField f_Z;\t/* Z */\n                             ^\n/content/temp_compile/ABC_107_D.java:701: error: variable f_tmp is already defined in class ABC_107_D\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/ABC_107_D.java:702: error: variable f_x is already defined in class ABC_107_D\n  private AbstractCobolField f_x;\t/* x */\n                             ^\n/content/temp_compile/ABC_107_D.java:703: error: variable f_d_ret is already defined in class ABC_107_D\n  private AbstractCobolField f_d_ret;\t/* d_ret */\n                             ^\n/content/temp_compile/ABC_107_D.java:706: error: variable f_x is already defined in class ABC_107_D\n  private AbstractCobolField f_x;\t/* x */\n                             ^\n/content/temp_compile/ABC_107_D.java:707: error: variable f_tmp is already defined in class ABC_107_D\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/ABC_107_D.java:711: error: variable f_INF is already defined in class ABC_107_D\n  private AbstractCobolField f_INF;\t/* INF */\n                             ^\n/content/temp_compile/ABC_107_D.java:712: error: variable f_tmp is already defined in class ABC_107_D\n  private AbstractCobolField f_tmp;\t/* tmp */\n                             ^\n/content/temp_compile/ABC_107_D.java:714: error: variable f_r is already defined in class ABC_107_D\n  private AbstractCobolField f_r;\t/* r */\n                             ^\n/content/temp_compile/ABC_107_D.java:717: error: variable f_d_ret is already defined in class ABC_107_D\n  private AbstractCobolField f_d_ret;\t/* d_ret */\n                             ^\n/content/temp_compile/F.java:401: error: variable b_RETURN_CODE is already defined in class F\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/F.java:403: error: variable b_N is already defined in class F\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/F.java:409: error: variable b_BX1 is already defined in class F\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/F.java:410: error: variable b_BX2 is already defined in class F\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/F.java:453: error: variable f_d_ret is already defined in class F\n  private AbstractCobolField f_d_ret;\n                             ^\n/content/temp_compile/F.java:454: error: variable b_d_ret is already defined in class F\n  private CobolDataStorage b_d_ret;\n                           ^\n/content/temp_compile/BIT_ADD.java:371: error: variable b_RETURN_CODE is already defined in class BIT_ADD\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/BIT_ADD.java:372: error: variable b_N is already defined in class BIT_ADD\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/BIT_ADD.java:373: error: variable b_BT1 is already defined in class BIT_ADD\n  private CobolDataStorage b_BT1;\t/* BT1 */\n                           ^\n/content/temp_compile/BIT_ADD.java:374: error: variable b_BX1 is already defined in class BIT_ADD\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/BIT_ADD.java:375: error: variable b_BX2 is already defined in class BIT_ADD\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/BIT_ADD.java:376: error: variable b_tmp is already defined in class BIT_ADD\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n/content/temp_compile/BIT_ADD.java:377: error: variable b_x is already defined in class BIT_ADD\n  private CobolDataStorage b_x;\t/* x */\n                           ^\n/content/temp_compile/BIT_ADD.java:379: error: variable b_RETURN_CODE is already defined in class BIT_ADD\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/BIT_ADD.java:381: error: variable b_N is already defined in class BIT_ADD\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/BIT_ADD.java:382: error: variable b_M is already defined in class BIT_ADD\n  private CobolDataStorage b_M;\t/* M */\n                           ^\n/content/temp_compile/BIT_ADD.java:383: error: variable b_BT1 is already defined in class BIT_ADD\n  private CobolDataStorage b_BT1;\t/* BT1 */\n                           ^\n/content/temp_compile/BIT_ADD.java:384: error: variable b_BX1 is already defined in class BIT_ADD\n  private CobolDataStorage b_BX1;\t/* BX1 */\n                           ^\n/content/temp_compile/BIT_ADD.java:385: error: variable b_BX2 is already defined in class BIT_ADD\n  private CobolDataStorage b_BX2;\t/* BX2 */\n                           ^\n/content/temp_compile/BIT_ADD.java:396: error: variable b_RETURN_CODE is already defined in class BIT_ADD\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/BIT_ADD.java:398: error: variable b_N is already defined in class BIT_ADD\n  private CobolDataStorage b_N;\t/* N */\n                           ^\n/content/temp_compile/BIT_ADD.java:399: error: variable b_tmp is already defined in class BIT_ADD\n  private CobolDataStorage b_tmp;\t/* tmp */\n                           ^\n100 errors\nonly showing the first 100 errors, of 148 total; use -Xmaxerrs if you would like to see more"
+      },
+      "execution": {
+        "success": false,
+        "error": null,
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03276",
+      "java_file": "_3101C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03280",
+      "java_file": "ABC_106_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2003
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03281",
+      "java_file": "ABC_106_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.6291
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03282",
+      "java_file": "ABC_106_C.java",
+      "compilation": {
+        "success": false,
+        "error": "/content/temp_compile/ABC_106_C.java:144: error: cannot find symbol\n              if (((long)(Byte.toUnsignedInt(\"1\".getByte(0)) - Byte.toUnsignedInt(b_S__S1.getSubDataStorage((f_i.getInt() - 1)).getByte(0))) != 0L))\n                                                ^\n  symbol:   method getByte(int)\n  location: class String\n1 error"
+      },
+      "execution": {
+        "success": false,
+        "error": null,
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03283",
+      "java_file": "ABC_106_D.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2259
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03284",
+      "java_file": "Crackers.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1877
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03285",
+      "java_file": "ABC_105_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1843
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03286",
+      "java_file": "ABC_105_C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1999
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03287",
+      "java_file": "ABC_105_D.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03288",
+      "java_file": "ABC_104_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1934
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03289",
+      "java_file": "ABC_100_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.189
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03290",
+      "java_file": "ABC_104_C.java",
+      "compilation": {
+        "success": false,
+        "error": "/content/temp_compile/SET_EXTERNAL.java:318: error: variable b_RETURN_CODE is already defined in class SET_EXTERNAL\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/SET_EXTERNAL.java:319: error: variable b_HXD is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_HXD;\t/* HXD */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:320: error: variable b_BNY is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_BNY;\t/* BNY */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:332: error: variable b_RETURN_CODE is already defined in class SET_EXTERNAL\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/SET_EXTERNAL.java:333: error: variable b_BIT4 is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_BIT4;\t/* BIT4 */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:334: error: variable b_BYT4 is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_BYT4;\t/* BYT4 */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:335: error: variable b_HXD is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_HXD;\t/* HXD */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:336: error: variable b_i is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_i;\t/* i */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:337: error: variable b_j is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_j;\t/* j */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:340: error: variable b_q is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_q;\t/* q */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:341: error: variable b_r is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_r;\t/* r */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:342: error: variable b_B_TBL1 is already defined in class SET_EXTERNAL\n  private CobolDataStorage b_B_TBL1;\t/* B_TBL1 */\n                           ^\n/content/temp_compile/SET_EXTERNAL.java:361: error: variable f_i is already defined in class SET_EXTERNAL\n  private AbstractCobolField f_i;\t/* i */\n                             ^\n/content/temp_compile/SET_EXTERNAL.java:363: error: variable f_q is already defined in class SET_EXTERNAL\n  private AbstractCobolField f_q;\t/* q */\n                             ^\n/content/temp_compile/SET_EXTERNAL.java:364: error: variable f_r is already defined in class SET_EXTERNAL\n  private AbstractCobolField f_r;\t/* r */\n                             ^\n/content/temp_compile/B_TABLE.java:360: error: variable b_RETURN_CODE is already defined in class B_TABLE\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/B_TABLE.java:363: error: variable b_HXD is already defined in class B_TABLE\n  private CobolDataStorage b_HXD;\t/* HXD */\n                           ^\n/content/temp_compile/B_TABLE.java:364: error: variable b_i is already defined in class B_TABLE\n  private CobolDataStorage b_i;\t/* i */\n                           ^\n/content/temp_compile/B_TABLE.java:365: error: variable b_j is already defined in class B_TABLE\n  private CobolDataStorage b_j;\t/* j */\n                           ^\n/content/temp_compile/B_TABLE.java:368: error: variable b_q is already defined in class B_TABLE\n  private CobolDataStorage b_q;\t/* q */\n                           ^\n/content/temp_compile/B_TABLE.java:369: error: variable b_r is already defined in class B_TABLE\n  private CobolDataStorage b_r;\t/* r */\n                           ^\n/content/temp_compile/B_TABLE.java:370: error: variable b_B_TBL1 is already defined in class B_TABLE\n  private CobolDataStorage b_B_TBL1;\t/* B_TBL1 */\n                           ^\n/content/temp_compile/B_TABLE.java:390: error: variable f_i is already defined in class B_TABLE\n  private AbstractCobolField f_i;\t/* i */\n                             ^\n/content/temp_compile/B_TABLE.java:392: error: variable f_q is already defined in class B_TABLE\n  private AbstractCobolField f_q;\t/* q */\n                             ^\n/content/temp_compile/B_TABLE.java:393: error: variable f_r is already defined in class B_TABLE\n  private AbstractCobolField f_r;\t/* r */\n                             ^\n/content/temp_compile/ABC_104_C.java:754: error: variable b_RETURN_CODE is already defined in class ABC_104_C\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_104_C.java:760: error: variable b_HXD is already defined in class ABC_104_C\n  private CobolDataStorage b_HXD;\t/* HXD */\n                           ^\n/content/temp_compile/ABC_104_C.java:761: error: variable b_NUM_OFF is already defined in class ABC_104_C\n  private CobolDataStorage b_NUM_OFF;\t/* NUM_OFF */\n                           ^\n/content/temp_compile/ABC_104_C.java:762: error: variable b_NUM_ON is already defined in class ABC_104_C\n  private CobolDataStorage b_NUM_ON;\t/* NUM_ON */\n                           ^\n/content/temp_compile/ABC_104_C.java:767: error: variable b_RETURN_CODE is already defined in class ABC_104_C\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_104_C.java:768: error: variable b_HXD is already defined in class ABC_104_C\n  private CobolDataStorage b_HXD;\t/* HXD */\n                           ^\n/content/temp_compile/ABC_104_C.java:769: error: variable b_BNY is already defined in class ABC_104_C\n  private CobolDataStorage b_BNY;\t/* BNY */\n                           ^\n/content/temp_compile/ABC_104_C.java:771: error: variable b_i is already defined in class ABC_104_C\n  private CobolDataStorage b_i;\t/* i */\n                           ^\n/content/temp_compile/ABC_104_C.java:772: error: variable b_j is already defined in class ABC_104_C\n  private CobolDataStorage b_j;\t/* j */\n                           ^\n/content/temp_compile/ABC_104_C.java:781: error: variable b_RETURN_CODE is already defined in class ABC_104_C\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/ABC_104_C.java:782: error: variable b_BIT4 is already defined in class ABC_104_C\n  private CobolDataStorage b_BIT4;\t/* BIT4 */\n                           ^\n/content/temp_compile/ABC_104_C.java:783: error: variable b_BYT4 is already defined in class ABC_104_C\n  private CobolDataStorage b_BYT4;\t/* BYT4 */\n                           ^\n/content/temp_compile/ABC_104_C.java:784: error: variable b_HXD is already defined in class ABC_104_C\n  private CobolDataStorage b_HXD;\t/* HXD */\n                           ^\n/content/temp_compile/ABC_104_C.java:785: error: variable b_i is already defined in class ABC_104_C\n  private CobolDataStorage b_i;\t/* i */\n                           ^\n/content/temp_compile/ABC_104_C.java:786: error: variable b_j is already defined in class ABC_104_C\n  private CobolDataStorage b_j;\t/* j */\n                           ^\n/content/temp_compile/ABC_104_C.java:787: error: variable b_k is already defined in class ABC_104_C\n  private CobolDataStorage b_k;\t/* k */\n                           ^\n/content/temp_compile/ABC_104_C.java:788: error: variable b_m is already defined in class ABC_104_C\n  private CobolDataStorage b_m;\t/* m */\n                           ^\n/content/temp_compile/ABC_104_C.java:789: error: variable b_q is already defined in class ABC_104_C\n  private CobolDataStorage b_q;\t/* q */\n                           ^\n/content/temp_compile/ABC_104_C.java:790: error: variable b_r is already defined in class ABC_104_C\n  private CobolDataStorage b_r;\t/* r */\n                           ^\n/content/temp_compile/ABC_104_C.java:791: error: variable b_B_TBL1 is already defined in class ABC_104_C\n  private CobolDataStorage b_B_TBL1;\t/* B_TBL1 */\n                           ^\n/content/temp_compile/ABC_104_C.java:819: error: variable f_i is already defined in class ABC_104_C\n  private AbstractCobolField f_i;\t/* i */\n                             ^\n/content/temp_compile/ABC_104_C.java:820: error: variable f_j is already defined in class ABC_104_C\n  private AbstractCobolField f_j;\t/* j */\n                             ^\n/content/temp_compile/ABC_104_C.java:832: error: variable f_i is already defined in class ABC_104_C\n  private AbstractCobolField f_i;\t/* i */\n                             ^\n/content/temp_compile/ABC_104_C.java:833: error: variable f_k is already defined in class ABC_104_C\n  private AbstractCobolField f_k;\t/* k */\n                             ^\n/content/temp_compile/ABC_104_C.java:834: error: variable f_q is already defined in class ABC_104_C\n  private AbstractCobolField f_q;\t/* q */\n                             ^\n/content/temp_compile/ABC_104_C.java:835: error: variable f_r is already defined in class ABC_104_C\n  private AbstractCobolField f_r;\t/* r */\n                             ^\n51 errors"
+      },
+      "execution": {
+        "success": false,
+        "error": null,
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03291",
+      "java_file": "ABC_104_D.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03292",
+      "java_file": "ABC_103_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3436
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03293",
+      "java_file": "_3103B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2038
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03294",
+      "java_file": "ABC_103_C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03295",
+      "java_file": "ABC_103_D.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2192
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03296",
+      "java_file": "ABC_026_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3578
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03297",
+      "java_file": "AGC_026_B.java",
+      "compilation": {
+        "success": false,
+        "error": "/content/temp_compile/GCD.java:271: error: variable b_RETURN_CODE is already defined in class GCD\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/GCD.java:290: error: variable f_d_ret is already defined in class GCD\n  private AbstractCobolField f_d_ret;\t/* d_ret */\n                             ^\n/content/temp_compile/GCD.java:304: error: variable f_d_b is already defined in class GCD\n  private AbstractCobolField f_d_b;\n                             ^\n/content/temp_compile/GCD.java:306: error: variable f_d_a is already defined in class GCD\n  private AbstractCobolField f_d_a;\n                             ^\n/content/temp_compile/AGC_026_B.java:381: error: variable b_RETURN_CODE is already defined in class AGC_026_B\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/AGC_026_B.java:384: error: variable b_x is already defined in class AGC_026_B\n  private CobolDataStorage b_x;\t/* x */\n                           ^\n/content/temp_compile/AGC_026_B.java:386: error: variable b_RETURN_CODE is already defined in class AGC_026_B\n  public CobolDataStorage b_RETURN_CODE;\t/* RETURN-CODE */\n                          ^\n/content/temp_compile/AGC_026_B.java:387: error: variable b_g is already defined in class AGC_026_B\n  private CobolDataStorage b_g;\t/* g */\n                           ^\n/content/temp_compile/AGC_026_B.java:405: error: variable f_d_ret is already defined in class AGC_026_B\n  private AbstractCobolField f_d_ret;\t/* d_ret */\n                             ^\n/content/temp_compile/AGC_026_B.java:413: error: variable f_g is already defined in class AGC_026_B\n  private AbstractCobolField f_g;\t/* g */\n                             ^\n/content/temp_compile/AGC_026_B.java:416: error: variable f_x is already defined in class AGC_026_B\n  private AbstractCobolField f_x;\t/* x */\n                             ^\n11 errors"
+      },
+      "execution": {
+        "success": false,
+        "error": null,
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03307",
+      "java_file": "ABC_102_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2067
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03308",
+      "java_file": "ABC_102_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2144
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03309",
+      "java_file": "ABC_102_C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03310",
+      "java_file": "ABC_102_D.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03311",
+      "java_file": "_3100C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03315",
+      "java_file": "ABC_101_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3353
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03316",
+      "java_file": "ABC_101_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1883
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03317",
+      "java_file": "ABC_101_C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2305
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03319",
+      "java_file": "_3099C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1997
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03323",
+      "java_file": "A__Birthday.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2044
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03324",
+      "java_file": "ABC_100_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.191
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03325",
+      "java_file": "ABC_999_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03326",
+      "java_file": "ABC_100_D.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2297
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03327",
+      "java_file": "ABC_099_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1872
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03328",
+      "java_file": "ABC_099_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1886
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03329",
+      "java_file": "ABC_099_C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.318
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03331",
+      "java_file": "AGC_025_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2034
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03332",
+      "java_file": "AGC_025_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.4055
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03337",
+      "java_file": "ABC_098_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3136
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03338",
+      "java_file": "ABC_098_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2124
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03341",
+      "java_file": "_3098C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03351",
+      "java_file": "ABC_097_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1902
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03352",
+      "java_file": "ABC_097_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3163
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03355",
+      "java_file": "_3097C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2184
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03359",
+      "java_file": "a.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1996
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03360",
+      "java_file": "ABC_096_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1947
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03369",
+      "java_file": "test1.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1968
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03370",
+      "java_file": "ABC_095_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1936
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03373",
+      "java_file": "_3096C.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1886
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03377",
+      "java_file": "ABC_094_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3028
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03378",
+      "java_file": "ABC_094_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3304
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03385",
+      "java_file": "ABC_093_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2032
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03386",
+      "java_file": "ABC_093_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1961
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03399",
+      "java_file": "ABC_092_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.189
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03400",
+      "java_file": "ABC_092_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2113
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03407",
+      "java_file": "ABC_091_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1911
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03408",
+      "java_file": "ABC_091_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3266
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03415",
+      "java_file": "A__Diagonal.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3215
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03416",
+      "java_file": "Answer.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.198
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03417",
+      "java_file": "kyopuro.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.188
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03418",
+      "java_file": "kyopuro.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1963
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03423",
+      "java_file": "ABC_089_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1906
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03424",
+      "java_file": "Answer.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1897
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03433",
+      "java_file": "ATCODER.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1962
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03434",
+      "java_file": "ABC_088_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3305
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03448",
+      "java_file": "Answer.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3308
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03455",
+      "java_file": "ABC_086_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1875
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03456",
+      "java_file": "Answer.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2185
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03457",
+      "java_file": "test1.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1905
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03469",
+      "java_file": "ALREADY.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1911
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03470",
+      "java_file": "test1.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1913
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03473",
+      "java_file": "ABC_084_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2137
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03474",
+      "java_file": "ABC_084_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3176
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03477",
+      "java_file": "ABC_083_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3138
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03478",
+      "java_file": "test1.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2107
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03485",
+      "java_file": "_3082A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1934
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03486",
+      "java_file": "ABC_082_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.199
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03493",
+      "java_file": "ABC_081_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1902
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03494",
+      "java_file": "test1.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1898
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03501",
+      "java_file": "ABC_080_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3049
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03502",
+      "java_file": "ABC_080_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3309
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03543",
+      "java_file": "ABC_079_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1842
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03544",
+      "java_file": "ABC_079_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2059
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03547",
+      "java_file": "ABC_078_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1972
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03548",
+      "java_file": "ABC_078_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1916
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03555",
+      "java_file": "ABC_077_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1977
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03556",
+      "java_file": "ABC_077_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1905
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03563",
+      "java_file": "ABC_076_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.318
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03564",
+      "java_file": "ABC_076_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3423
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03573",
+      "java_file": "ABC_075_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1925
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03574",
+      "java_file": "ABC_075_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.202
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03597",
+      "java_file": "ABC_074_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1899
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03598",
+      "java_file": "ABC_074_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1916
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03605",
+      "java_file": "ABC_073_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2049
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03606",
+      "java_file": "ABC_073_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.196
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03609",
+      "java_file": "test1.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3136
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03610",
+      "java_file": "ABC_072_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03623",
+      "java_file": "ABC_071_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2132
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03624",
+      "java_file": "ABC_071_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2142
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03632",
+      "java_file": "ABC_070_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3209
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03635",
+      "java_file": "ABC_069_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3501
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03636",
+      "java_file": "_3069B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _3069B$4.run(_3069B.java:138)\n\tat _3069B.execEntry(_3069B.java:186)\n\tat _3069B.run_module(_3069B.java:90)\n\tat _3069B._3069B_(_3069B.java:44)\n\tat _3069B.main(_3069B.java:194)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03643",
+      "java_file": "ABC_068_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1924
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03644",
+      "java_file": "ABC_068_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1974
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03657",
+      "java_file": "ABC_067_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1933
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03658",
+      "java_file": "ABC_067_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1954
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03671",
+      "java_file": "ABC_066_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2034
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03672",
+      "java_file": "ABC_066_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3334
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03679",
+      "java_file": "ABC_065_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.319
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03680",
+      "java_file": "ABC_065_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2238
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03694",
+      "java_file": "ABC_064_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2185
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03697",
+      "java_file": "ABC_063_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.194
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03698",
+      "java_file": "ABC_063_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1942
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03711",
+      "java_file": "_3062A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2147
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03712",
+      "java_file": "ABC_062_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3335
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03719",
+      "java_file": "ABC_061_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3159
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03720",
+      "java_file": "ABC_061_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1968
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03729",
+      "java_file": "ABC_060_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2047
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03730",
+      "java_file": "ABC_060_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2021
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03737",
+      "java_file": "ABC_059_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2032
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03738",
+      "java_file": "ABC_059_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2167
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03759",
+      "java_file": "_3058A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1887
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03760",
+      "java_file": "ABC_058_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3354
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03773",
+      "java_file": "ABC_057_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3459
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03774",
+      "java_file": "ABC_057_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2005
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03777",
+      "java_file": "_3056A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1964
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03778",
+      "java_file": "ABC_056_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.193
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03795",
+      "java_file": "ABC_055_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2007
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03796",
+      "java_file": "ABC_055_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2185
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03813",
+      "java_file": "ABC_053_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3297
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03814",
+      "java_file": "ABC_053_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": false,
+        "error": "Execution timeout (>5s)",
+        "time_seconds": null
+      },
+      "test_validation": {
+        "success": false,
+        "error": null
+      },
+      "overall_status": "failed"
+    },
+    {
+      "problem_id": "p03826",
+      "java_file": "ABC_052_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1895
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03827",
+      "java_file": "ABC_052_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1911
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03834",
+      "java_file": "ABC051A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1857
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03835",
+      "java_file": "ABC_051_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1943
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03844",
+      "java_file": "ABC_050_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3179
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03845",
+      "java_file": "ABC_050_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.194
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03852",
+      "java_file": "_3049A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2128
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03853",
+      "java_file": "ABC_049_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1943
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03854",
+      "java_file": "test1.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1978
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03860",
+      "java_file": "test1.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2015
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03861",
+      "java_file": "ABC_048_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1898
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03943",
+      "java_file": "ABC_047_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3165
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03944",
+      "java_file": "ABC_047_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3099
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03962",
+      "java_file": "test1.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1928
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03963",
+      "java_file": "ABC046__B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1938
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03997",
+      "java_file": "_3045A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1881
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p03998",
+      "java_file": "ABC_045_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2023
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p04011",
+      "java_file": "TESTA.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1865
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p04012",
+      "java_file": "ABC_044_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.2103
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p04029",
+      "java_file": "ABC043__A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3214
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p04030",
+      "java_file": "ABC_043_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.3004
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p04043",
+      "java_file": "ABC_042_A.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.1901
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    },
+    {
+      "problem_id": "p04044",
+      "java_file": "ABC_042_B.java",
+      "compilation": {
+        "success": true,
+        "error": null
+      },
+      "execution": {
+        "success": true,
+        "error": null,
+        "time_seconds": 0.193
+      },
+      "test_validation": {
+        "success": true,
+        "error": null
+      },
+      "overall_status": "passed"
+    }
+  ]
+}

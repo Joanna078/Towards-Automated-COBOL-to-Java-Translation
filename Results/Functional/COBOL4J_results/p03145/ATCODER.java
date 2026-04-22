@@ -126,11 +126,11 @@ public class ATCODER implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_translate/s555600829.cob:14: ACCEPT */
+        /* /content/temp_cobol/input.cob:14: ACCEPT */
         {
           CobolTerminal.accept (f_indata);
         }
-        /* /content/temp_translate/s555600829.cob:16: UNSTRING */
+        /* /content/temp_cobol/input.cob:16: UNSTRING */
         {
           CobolString.unstringInit (f_indata, 0, 1);
           CobolString.unstringDelimited (CobolConstant.space, 0);
@@ -139,7 +139,7 @@ public class ATCODER implements CobolRunnable {
           CobolString.unstringInto (f_a3, 0, 0);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_translate/s555600829.cob:17: COMPUTE */
+        /* /content/temp_cobol/input.cob:17: COMPUTE */
         {
           {
             {
@@ -150,7 +150,7 @@ public class ATCODER implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_translate/s555600829.cob:18: DIVIDE */
+        /* /content/temp_cobol/input.cob:18: DIVIDE */
         {
           {
             {
@@ -161,15 +161,15 @@ public class ATCODER implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_translate/s555600829.cob:19: MOVE */
+        /* /content/temp_cobol/input.cob:19: MOVE */
         {
           f_disp.moveFrom (CobolIntrinsic.funcTrim (0, 0, f_r, 0));
         }
-        /* /content/temp_translate/s555600829.cob:20: DISPLAY */
+        /* /content/temp_cobol/input.cob:20: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, f_disp);
         }
-        /* /content/temp_translate/s555600829.cob:22: STOP */
+        /* /content/temp_cobol/input.cob:22: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

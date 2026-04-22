@@ -131,11 +131,11 @@ public class ATCODER implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ATCODER_fixed.cob:16: ACCEPT */
+        /* /content/temp_cobol/input.cob:16: ACCEPT */
         {
           CobolTerminal.accept (f_indata);
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:18: UNSTRING */
+        /* /content/temp_cobol/input.cob:18: UNSTRING */
         {
           CobolString.unstringInit (f_indata, 0, 1);
           CobolString.unstringDelimited (CobolConstant.space, 0);
@@ -144,7 +144,7 @@ public class ATCODER implements CobolRunnable {
           CobolString.unstringInto (f_a3, 0, 0);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:19: COMPUTE */
+        /* /content/temp_cobol/input.cob:19: COMPUTE */
         {
           {
             {
@@ -157,7 +157,7 @@ public class ATCODER implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:20: DIVIDE */
+        /* /content/temp_cobol/input.cob:20: DIVIDE */
         {
           {
             {
@@ -168,15 +168,15 @@ public class ATCODER implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:22: MOVE */
+        /* /content/temp_cobol/input.cob:22: MOVE */
         {
           f_disp.moveFrom (CobolIntrinsic.funcTrim (0, 0, f_g, 0));
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:23: DISPLAY */
+        /* /content/temp_cobol/input.cob:23: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, f_disp);
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:26: STOP */
+        /* /content/temp_cobol/input.cob:26: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

@@ -132,30 +132,30 @@ public class _3166D implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/166D_fixed.cob:15: ACCEPT */
+        /* /content/temp_cobol/input.cob:15: ACCEPT */
         {
           CobolTerminal.accept (f_X);
         }
-        /* /content/temp_cobol/166D_fixed.cob:17: MOVE */
+        /* /content/temp_cobol/input.cob:17: MOVE */
         {
           b_Y.fillBytes (0, 2);
           b_Z.fillBytes (0, 2);
         }
-        /* /content/temp_cobol/166D_fixed.cob:18: PERFORM */
+        /* /content/temp_cobol/input.cob:18: PERFORM */
         b_A.setSwpS16Binary (1);
         for(;;b_A.addSwpS16Binary (1))
         {
           if ((((long)f_A.cmpInteger (3980) >  0L) || ((long)f_Y.cmpInteger (0) >  0L)))
             break;
           {
-            /* /content/temp_cobol/166D_fixed.cob:19: PERFORM */
+            /* /content/temp_cobol/input.cob:19: PERFORM */
             b_B.setSwpS16Binary (-2500);
             for(;;b_B.addSwpS16Binary (1))
             {
               if ((((long)f_B.cmpInteger (3980) >  0L) || ((long)f_Y.cmpInteger (0) >  0L)))
                 break;
               {
-                /* /content/temp_cobol/166D_fixed.cob:20: IF */
+                /* /content/temp_cobol/input.cob:20: IF */
                 {
                   if (((long)                  (new GetInt() {
                     public int run() throws CobolStopRunException {
@@ -172,11 +172,11 @@ public class _3166D implements CobolRunnable {
                   }
                 }).run() == 0L))
                   {
-                    /* /content/temp_cobol/166D_fixed.cob:21: MOVE */
+                    /* /content/temp_cobol/input.cob:21: MOVE */
                     {
                       f_Y.moveFrom (f_A);
                     }
-                    /* /content/temp_cobol/166D_fixed.cob:22: MOVE */
+                    /* /content/temp_cobol/input.cob:22: MOVE */
                     {
                       f_Z.moveFrom (f_B);
                     }
@@ -186,19 +186,19 @@ public class _3166D implements CobolRunnable {
           }
         }
       }
-      /* /content/temp_cobol/166D_fixed.cob:27: MOVE */
+      /* /content/temp_cobol/input.cob:27: MOVE */
       {
         f_OUT1.moveFrom (f_Y);
       }
-      /* /content/temp_cobol/166D_fixed.cob:28: MOVE */
+      /* /content/temp_cobol/input.cob:28: MOVE */
       {
         f_OUT2.moveFrom (f_Z);
       }
-      /* /content/temp_cobol/166D_fixed.cob:29: DISPLAY */
+      /* /content/temp_cobol/input.cob:29: DISPLAY */
       {
         CobolTerminal.display (0, 1, 3, CobolIntrinsic.funcTrim (0, 0, f_OUT1, 0), c_1, CobolIntrinsic.funcTrim (0, 0, f_OUT2, 0));
       }
-      /* /content/temp_cobol/166D_fixed.cob:30: STOP */
+      /* /content/temp_cobol/input.cob:30: STOP */
       {
         CobolStopRunException.throwException (b_RETURN_CODE.intValue());
       }

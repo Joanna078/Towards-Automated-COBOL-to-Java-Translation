@@ -160,11 +160,11 @@ public class _3098C implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/098C_fixed.cob:25: ACCEPT */
+        /* /content/temp_cobol/input.cob:25: ACCEPT */
         {
           CobolTerminal.accept (f_N);
         }
-        /* /content/temp_cobol/098C_fixed.cob:27: OPEN */
+        /* /content/temp_cobol/input.cob:27: OPEN */
         {
           CobolRuntimeException.code = 0;
           {
@@ -176,7 +176,7 @@ public class _3098C implements CobolRunnable {
             CobolControl.perform(contList, l_Default_Error_Handler).run();
           }
         }
-        /* /content/temp_cobol/098C_fixed.cob:28: READ */
+        /* /content/temp_cobol/input.cob:28: READ */
         CobolRuntimeException.code = 0;
         {
           h_STDIO.read (0, null, 1);
@@ -186,7 +186,7 @@ public class _3098C implements CobolRunnable {
           /* PERFORM Default Error Handler */
           CobolControl.perform(contList, l_Default_Error_Handler).run();
         }
-        /* /content/temp_cobol/098C_fixed.cob:29: CLOSE */
+        /* /content/temp_cobol/input.cob:29: CLOSE */
         {
           CobolRuntimeException.code = 0;
           {
@@ -198,30 +198,30 @@ public class _3098C implements CobolRunnable {
             CobolControl.perform(contList, l_Default_Error_Handler).run();
           }
         }
-        /* /content/temp_cobol/098C_fixed.cob:31: MOVE */
+        /* /content/temp_cobol/input.cob:31: MOVE */
         {
           b_W_CNT.fillBytes (0, 4);
           b_E_CNT.fillBytes (0, 4);
         }
-        /* /content/temp_cobol/098C_fixed.cob:32: PERFORM */
+        /* /content/temp_cobol/input.cob:32: PERFORM */
         b_I.setSwpU32Binary (1);
         for(;;b_I.addSwpU32Binary (1))
         {
           if (((long)f_I.cmpInteger ((int)(b_N.bswap_32())) >  0L))
             break;
           {
-            /* /content/temp_cobol/098C_fixed.cob:33: IF */
+            /* /content/temp_cobol/input.cob:33: IF */
             {
               if (((long)(Byte.toUnsignedInt(b_S.getSubDataStorage(((int)(b_I.bswap_32()) - 1)).getByte(0)) - (int)87) == 0L))
                 {
-                  /* /content/temp_cobol/098C_fixed.cob:34: ADD */
+                  /* /content/temp_cobol/input.cob:34: ADD */
                   {
                     f_W_CNT.add (c_1_1, 4);
                   }
                 }
               else
                 {
-                  /* /content/temp_cobol/098C_fixed.cob:36: ADD */
+                  /* /content/temp_cobol/input.cob:36: ADD */
                   {
                     f_E_CNT.add (c_1_1, 4);
                   }
@@ -229,33 +229,33 @@ public class _3098C implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/098C_fixed.cob:40: MOVE */
+        /* /content/temp_cobol/input.cob:40: MOVE */
         {
           b_MIN.setBytes (b_N, 4);
         }
-        /* /content/temp_cobol/098C_fixed.cob:41: MOVE */
+        /* /content/temp_cobol/input.cob:41: MOVE */
         {
           b_WW.fillBytes (0, 4);
           b_EW.fillBytes (0, 4);
         }
-        /* /content/temp_cobol/098C_fixed.cob:42: PERFORM */
+        /* /content/temp_cobol/input.cob:42: PERFORM */
         b_I.setSwpU32Binary (1);
         for(;;b_I.addSwpU32Binary (1))
         {
           if (((long)f_I.cmpInteger ((int)(b_N.bswap_32())) >  0L))
             break;
           {
-            /* /content/temp_cobol/098C_fixed.cob:43: IF */
+            /* /content/temp_cobol/input.cob:43: IF */
             {
               if (((long)(Byte.toUnsignedInt(b_S.getSubDataStorage(((int)(b_I.bswap_32()) - 1)).getByte(0)) - (int)69) == 0L))
                 {
-                  /* /content/temp_cobol/098C_fixed.cob:44: ADD */
+                  /* /content/temp_cobol/input.cob:44: ADD */
                   {
                     f_EW.add (c_1_1, 4);
                   }
                 }
             }
-            /* /content/temp_cobol/098C_fixed.cob:47: COMPUTE */
+            /* /content/temp_cobol/input.cob:47: COMPUTE */
             {
               {
                 {
@@ -268,21 +268,21 @@ public class _3098C implements CobolRunnable {
                 }
               }
             }
-            /* /content/temp_cobol/098C_fixed.cob:48: IF */
+            /* /content/temp_cobol/input.cob:48: IF */
             {
               if (((long)f_MIN.cmpInteger ((int)(b_M.bswap_32())) >  0L))
                 {
-                  /* /content/temp_cobol/098C_fixed.cob:49: MOVE */
+                  /* /content/temp_cobol/input.cob:49: MOVE */
                   {
                     b_MIN.setBytes (b_M, 4);
                   }
                 }
             }
-            /* /content/temp_cobol/098C_fixed.cob:52: IF */
+            /* /content/temp_cobol/input.cob:52: IF */
             {
               if (((long)(Byte.toUnsignedInt(b_S.getSubDataStorage(((int)(b_I.bswap_32()) - 1)).getByte(0)) - (int)87) == 0L))
                 {
-                  /* /content/temp_cobol/098C_fixed.cob:53: ADD */
+                  /* /content/temp_cobol/input.cob:53: ADD */
                   {
                     f_WW.add (c_1_1, 4);
                   }
@@ -290,15 +290,15 @@ public class _3098C implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/098C_fixed.cob:57: MOVE */
+        /* /content/temp_cobol/input.cob:57: MOVE */
         {
           f_OUT.moveFrom (f_MIN);
         }
-        /* /content/temp_cobol/098C_fixed.cob:58: DISPLAY */
+        /* /content/temp_cobol/input.cob:58: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, CobolIntrinsic.funcTrim (0, 0, f_OUT, 0));
         }
-        /* /content/temp_cobol/098C_fixed.cob:59: STOP */
+        /* /content/temp_cobol/input.cob:59: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

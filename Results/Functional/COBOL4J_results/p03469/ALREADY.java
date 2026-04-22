@@ -111,19 +111,19 @@ public class ALREADY implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ALREADY_fixed.cob:7: ACCEPT */
+        /* /content/temp_cobol/input.cob:7: ACCEPT */
         {
           CobolTerminal.accept (f_S);
         }
-        /* /content/temp_cobol/ALREADY_fixed.cob:8: MOVE */
+        /* /content/temp_cobol/input.cob:8: MOVE */
         {
           b_S.getSubDataStorage(0).setBytes (str_0_2018, 4);
         }
-        /* /content/temp_cobol/ALREADY_fixed.cob:9: DISPLAY */
+        /* /content/temp_cobol/input.cob:9: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, f_S);
         }
-        /* /content/temp_cobol/ALREADY_fixed.cob:10: STOP */
+        /* /content/temp_cobol/input.cob:10: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

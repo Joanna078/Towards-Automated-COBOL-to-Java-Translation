@@ -113,27 +113,27 @@ public class caddi2018d implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/caddi2018d_fixed.cob:13: ACCEPT */
+        /* /content/temp_cobol/input.cob:13: ACCEPT */
         {
           CobolTerminal.accept (f_n);
         }
-        /* /content/temp_cobol/caddi2018d_fixed.cob:15: PERFORM */
+        /* /content/temp_cobol/input.cob:15: PERFORM */
         for (int n0 = b_n.getNumdisp(6); n0 > 0; n0--)
         {
           {
-            /* /content/temp_cobol/caddi2018d_fixed.cob:16: ACCEPT */
+            /* /content/temp_cobol/input.cob:16: ACCEPT */
             {
               CobolTerminal.accept (f_a);
             }
-            /* /content/temp_cobol/caddi2018d_fixed.cob:17: IF */
+            /* /content/temp_cobol/input.cob:17: IF */
             {
               if (((long)CobolIntrinsic.funcMod (f_a, c_1_2).cmpInteger (0) != 0L))
                 {
-                  /* /content/temp_cobol/caddi2018d_fixed.cob:18: MOVE */
+                  /* /content/temp_cobol/input.cob:18: MOVE */
                   {
                     b_e.setByte(49);
                   }
-                  /* /content/temp_cobol/caddi2018d_fixed.cob:19: EXIT */
+                  /* /content/temp_cobol/input.cob:19: EXIT */
                   {
                     if(true) break;
                   }
@@ -141,24 +141,24 @@ public class caddi2018d implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/caddi2018d_fixed.cob:23: IF */
+        /* /content/temp_cobol/input.cob:23: IF */
         {
           if (((long)b_e.cmpNumdisp (1, 0) == 0L))
             {
-              /* /content/temp_cobol/caddi2018d_fixed.cob:24: DISPLAY */
+              /* /content/temp_cobol/input.cob:24: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_2_second);
               }
             }
           else
             {
-              /* /content/temp_cobol/caddi2018d_fixed.cob:26: DISPLAY */
+              /* /content/temp_cobol/input.cob:26: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_3_first);
               }
             }
         }
-        /* /content/temp_cobol/caddi2018d_fixed.cob:29: STOP */
+        /* /content/temp_cobol/input.cob:29: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

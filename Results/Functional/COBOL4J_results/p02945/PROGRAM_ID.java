@@ -120,11 +120,11 @@ public class PROGRAM_ID implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_translate/a.cob:14: ACCEPT */
+        /* /content/temp_cobol/input.cob:14: ACCEPT */
         {
           CobolTerminal.accept (f_ln);
         }
-        /* /content/temp_translate/a.cob:15: UNSTRING */
+        /* /content/temp_cobol/input.cob:15: UNSTRING */
         {
           CobolString.unstringInit (f_ln, 0, 1);
           CobolString.unstringDelimited (CobolConstant.space, 0);
@@ -132,7 +132,7 @@ public class PROGRAM_ID implements CobolRunnable {
           CobolString.unstringInto (f_B, 0, 0);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_translate/a.cob:16: COMPUTE */
+        /* /content/temp_cobol/input.cob:16: COMPUTE */
         {
           {
             {
@@ -141,15 +141,15 @@ public class PROGRAM_ID implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_translate/a.cob:17: MOVE */
+        /* /content/temp_cobol/input.cob:17: MOVE */
         {
           b_zs.setBytes (b_ans, 10);
         }
-        /* /content/temp_translate/a.cob:18: DISPLAY */
+        /* /content/temp_cobol/input.cob:18: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, f_zs);
         }
-        /* /content/temp_translate/a.cob:19: STOP */
+        /* /content/temp_cobol/input.cob:19: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

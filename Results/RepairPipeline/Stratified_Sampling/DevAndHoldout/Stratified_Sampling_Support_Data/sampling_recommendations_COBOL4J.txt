@@ -1,0 +1,64 @@
+================================================================================
+COBOL4J BUG TAXONOMY - SAMPLING RECOMMENDATIONS
+================================================================================
+
+Total Failures: 44
+
+--------------------------------------------------------------------------------
+COMPILATION ERRORS (15 total)
+--------------------------------------------------------------------------------
+
+Group: type_mismatch (10 files)
+  Common constructs: data_types.PIC_X, data_types.PIC_9, data_types.COMP
+  Inspect these 5 files:
+    1. p02958 — data_types.PIC_X, data_types.PIC_9, data_types.COMP
+    2. p02886 — data_types.PIC_X, data_types.PIC_9, data_types.COMP
+    3. p02718 — data_types.PIC_X, data_types.PIC_9, data_types.COMP
+    4. p02982 — data_types.PIC_X, data_types.PIC_9, data_types.PIC_S9
+    5. p02898 — data_types.PIC_X, data_types.PIC_9, data_types.PIC_S9
+
+Group: duplicate_error (3 files)
+  Common constructs: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+  Inspect these 3 files:
+    1. p03275 — data_types.PIC_X, data_types.PIC_9, data_types.PIC_S9
+    2. p03290 — data_types.PIC_X, data_types.PIC_9, data_types.BINARY
+    3. p03297 — data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+
+Group: other (1 files)
+  Common constructs: data_types.PIC_X, data_types.PIC_9, data_types.COMP
+  Inspect these 1 files:
+    1. p02642 — data_types.PIC_X, data_types.PIC_9, data_types.COMP
+
+Group: undefined_symbol (1 files)
+  Common constructs: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+  Inspect these 1 files:
+    1. p03282 — data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+
+--------------------------------------------------------------------------------
+RUNTIME ERRORS (29 total)
+--------------------------------------------------------------------------------
+
+Group: timeout (26 files)
+  Common constructs: data_types.PIC_X, io_operations.DISPLAY, io_operations.READ
+  Inspect these 5 files:
+    1. p02664 — data_types.PIC_X, control_flow.STOP_RUN, string_operations.INSPECT
+    2. p03814 — data_types.PIC_X, data_types.PIC_9, data_types.BINARY
+    3. p02597 — data_types.PIC_X, data_types.PIC_9, data_types.COMP
+    4. p03073 — data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    5. p03246 — data_types.PIC_X, data_types.PIC_9, data_types.COMP
+
+Group: array_index_exception (2 files)
+  Common constructs: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+  Inspect these 2 files:
+    1. p03107 — data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+    2. p03636 — data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+
+Group: null_pointer (1 files)
+  Common constructs: data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+  Inspect these 1 files:
+    1. p02881 — data_types.PIC_X, data_types.PIC_9, control_flow.PERFORM
+
+================================================================================
+TOTAL RECOMMENDED SAMPLES: 18
+Coverage: 18/44 (40.9%)
+================================================================================

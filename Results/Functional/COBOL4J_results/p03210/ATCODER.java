@@ -118,35 +118,35 @@ public class ATCODER implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ATCODER_fixed.cob:14: ACCEPT */
+        /* /content/temp_cobol/input.cob:14: ACCEPT */
         {
           CobolTerminal.accept (f_indata);
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:16: UNSTRING */
+        /* /content/temp_cobol/input.cob:16: UNSTRING */
         {
           CobolString.unstringInit (f_indata, 0, 1);
           CobolString.unstringDelimited (CobolConstant.space, 0);
           CobolString.unstringInto (f_a1, 0, 0);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:17: IF */
+        /* /content/temp_cobol/input.cob:17: IF */
         {
           if (((((long)b_a1.cmpNumdisp (8, 3) == 0L) || ((long)b_a1.cmpNumdisp (8, 5) == 0L)) || ((long)b_a1.cmpNumdisp (8, 7) == 0L)))
             {
-              /* /content/temp_cobol/ATCODER_fixed.cob:18: DISPLAY */
+              /* /content/temp_cobol/input.cob:18: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_1_YES);
               }
             }
           else
             {
-              /* /content/temp_cobol/ATCODER_fixed.cob:20: DISPLAY */
+              /* /content/temp_cobol/input.cob:20: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_2_NO);
               }
             }
         }
-        /* /content/temp_cobol/ATCODER_fixed.cob:23: STOP */
+        /* /content/temp_cobol/input.cob:23: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

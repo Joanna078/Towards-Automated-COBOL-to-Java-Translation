@@ -126,16 +126,16 @@ public class _3160B implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/160B_fixed.cob:12: ACCEPT */
+        /* /content/temp_cobol/input.cob:12: ACCEPT */
         {
           CobolTerminal.accept (f_X);
         }
-        /* /content/temp_cobol/160B_fixed.cob:14: DIVIDE */
+        /* /content/temp_cobol/input.cob:14: DIVIDE */
         {
           f_X.divQuotient (c_1_500, f_S1, 4);
           f_A.divRemainder (4);
         }
-        /* /content/temp_cobol/160B_fixed.cob:15: DIVIDE */
+        /* /content/temp_cobol/input.cob:15: DIVIDE */
         {
           {
             {
@@ -146,7 +146,7 @@ public class _3160B implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/160B_fixed.cob:16: COMPUTE */
+        /* /content/temp_cobol/input.cob:16: COMPUTE */
         {
           {
             {
@@ -161,11 +161,11 @@ public class _3160B implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/160B_fixed.cob:18: DISPLAY */
+        /* /content/temp_cobol/input.cob:18: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, CobolIntrinsic.funcTrim (0, 0, f_OUT, 0));
         }
-        /* /content/temp_cobol/160B_fixed.cob:19: STOP */
+        /* /content/temp_cobol/input.cob:19: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

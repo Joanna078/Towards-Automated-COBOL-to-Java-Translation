@@ -127,11 +127,11 @@ public class ABC043__A implements CobolRunnable {
     /* MAIN-PROCEDURE */
     new CobolControl(l_MAIN_SECTION__MAIN_PROCEDURE, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ABC043-A_fixed.cob:12: ACCEPT */
+        /* /content/temp_cobol/input.cob:12: ACCEPT */
         {
           CobolTerminal.accept (f_N);
         }
-        /* /content/temp_cobol/ABC043-A_fixed.cob:13: COMPUTE */
+        /* /content/temp_cobol/input.cob:13: COMPUTE */
         {
           {
             {
@@ -146,15 +146,15 @@ public class ABC043__A implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/ABC043-A_fixed.cob:14: MOVE */
+        /* /content/temp_cobol/input.cob:14: MOVE */
         {
           f_ANSS.moveFrom (f_ANS);
         }
-        /* /content/temp_cobol/ABC043-A_fixed.cob:15: DISPLAY */
+        /* /content/temp_cobol/input.cob:15: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, f_ANSS);
         }
-        /* /content/temp_cobol/ABC043-A_fixed.cob:16: STOP */
+        /* /content/temp_cobol/input.cob:16: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

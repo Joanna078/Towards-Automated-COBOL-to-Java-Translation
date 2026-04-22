@@ -161,11 +161,11 @@ public class _3170D implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/170D_fixed.cob:30: ACCEPT */
+        /* /content/temp_cobol/input.cob:30: ACCEPT */
         {
           CobolTerminal.accept (f_N);
         }
-        /* /content/temp_cobol/170D_fixed.cob:32: OPEN */
+        /* /content/temp_cobol/input.cob:32: OPEN */
         {
           CobolRuntimeException.code = 0;
           {
@@ -177,7 +177,7 @@ public class _3170D implements CobolRunnable {
             CobolControl.perform(contList, l_Default_Error_Handler).run();
           }
         }
-        /* /content/temp_cobol/170D_fixed.cob:33: READ */
+        /* /content/temp_cobol/input.cob:33: READ */
         CobolRuntimeException.code = 0;
         {
           h_STDIO.read (0, null, 1);
@@ -187,7 +187,7 @@ public class _3170D implements CobolRunnable {
           /* PERFORM Default Error Handler */
           CobolControl.perform(contList, l_Default_Error_Handler).run();
         }
-        /* /content/temp_cobol/170D_fixed.cob:34: CLOSE */
+        /* /content/temp_cobol/input.cob:34: CLOSE */
         {
           CobolRuntimeException.code = 0;
           {
@@ -199,18 +199,18 @@ public class _3170D implements CobolRunnable {
             CobolControl.perform(contList, l_Default_Error_Handler).run();
           }
         }
-        /* /content/temp_cobol/170D_fixed.cob:37: MOVE */
+        /* /content/temp_cobol/input.cob:37: MOVE */
         {
           b_P1.setSwpU32Binary (1);
         }
-        /* /content/temp_cobol/170D_fixed.cob:38: PERFORM */
+        /* /content/temp_cobol/input.cob:38: PERFORM */
         b_I.setSwpU32Binary (1);
         for(;;b_I.addSwpU32Binary (1))
         {
           if (((long)f_I.cmpInteger (b_N.getNumdisp(6)) >  0L))
             break;
           {
-            /* /content/temp_cobol/170D_fixed.cob:39: PERFORM */
+            /* /content/temp_cobol/input.cob:39: PERFORM */
             b_P2.setBytes (b_P1, 4);
             for(;;b_P2.addSwpU32Binary (1))
             {
@@ -218,16 +218,16 @@ public class _3170D implements CobolRunnable {
                 break;
               ;
             }
-            /* /content/temp_cobol/170D_fixed.cob:41: MOVE */
+            /* /content/temp_cobol/input.cob:41: MOVE */
             {
               CobolFieldFactory.makeCobolField(4, b_A__TBL1.getSubDataStorage(4 * ((int)(b_I.bswap_32()) - 1)), a_4_NumericBinary_Digits6_Scale0_BinarySwap).moveFrom (CobolFieldFactory.makeCobolField(((int)(b_P2.bswap_32()) - (int)(b_P1.bswap_32())), b_INP.getSubDataStorage(((int)(b_P1.bswap_32()) - 1)), a_2_Alphanumeric));
               f_IDX.moveFrom (CobolFieldFactory.makeCobolField(((int)(b_P2.bswap_32()) - (int)(b_P1.bswap_32())), b_INP.getSubDataStorage(((int)(b_P1.bswap_32()) - 1)), a_2_Alphanumeric));
             }
-            /* /content/temp_cobol/170D_fixed.cob:42: ADD */
+            /* /content/temp_cobol/input.cob:42: ADD */
             {
               CobolFieldFactory.makeCobolField(4, b_B__TBL_M__TBL2.getSubDataStorage(5 * ((int)(b_IDX.bswap_32()) - 1)), a_5_NumericBinary_Digits7_Scale0_BinarySwap).add (c_1_1, 4);
             }
-            /* /content/temp_cobol/170D_fixed.cob:43: COMPUTE */
+            /* /content/temp_cobol/input.cob:43: COMPUTE */
             {
               {
                 {
@@ -240,38 +240,38 @@ public class _3170D implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/170D_fixed.cob:46: SORT */
+        /* /content/temp_cobol/input.cob:46: SORT */
         {
           CobolFileSort.sortTableInit (1, 0);
           CobolFileSort.sortTableInitKey (0, f_A__TBL1, 0);
           CobolFileSort.sortTable (f_A__TBL1, b_N.getNumdisp(6));
         }
-        /* /content/temp_cobol/170D_fixed.cob:47: MOVE */
+        /* /content/temp_cobol/input.cob:47: MOVE */
         {
           b_CNT.fillBytes (48, 6);
         }
-        /* /content/temp_cobol/170D_fixed.cob:48: PERFORM */
+        /* /content/temp_cobol/input.cob:48: PERFORM */
         b_I.setSwpU32Binary (1);
         for(;;b_I.addSwpU32Binary (1))
         {
           if (((long)f_I.cmpInteger (b_N.getNumdisp(6)) >  0L))
             break;
           {
-            /* /content/temp_cobol/170D_fixed.cob:49: IF */
+            /* /content/temp_cobol/input.cob:49: IF */
             {
               if (((long)CobolFieldFactory.makeCobolField(1, b_C__TBL_M__TBL2.getSubDataStorage(5 * ((int)(b_A__TBL1.getSubDataStorage(4 * ((int)(b_I.bswap_32()) - 1)).bswap_32()) - 1)), a_6_NumericBinary_Digits1_Scale0_BinarySwap).cmpInteger (0) == 0L))
                 {
-                  /* /content/temp_cobol/170D_fixed.cob:50: IF */
+                  /* /content/temp_cobol/input.cob:50: IF */
                   {
                     if (((long)CobolFieldFactory.makeCobolField(4, b_B__TBL_M__TBL2.getSubDataStorage(5 * ((int)(b_A__TBL1.getSubDataStorage(4 * ((int)(b_I.bswap_32()) - 1)).bswap_32()) - 1)), a_5_NumericBinary_Digits7_Scale0_BinarySwap).cmpInteger (1) >  0L))
                       {
-                        /* /content/temp_cobol/170D_fixed.cob:51: MOVE */
+                        /* /content/temp_cobol/input.cob:51: MOVE */
                         {
                           b_C__TBL_M__TBL2.getSubDataStorage(5 * (b_A__TBL1.getSubDataStorage(4 * (b_I - 1)) - 1)).set((byte)1);
                         }
                       }
                   }
-                  /* /content/temp_cobol/170D_fixed.cob:54: PERFORM */
+                  /* /content/temp_cobol/input.cob:54: PERFORM */
                   b_J.setSwpU32Binary (2);
                   for(;;b_J.addSwpU32Binary (1))
                   {
@@ -287,7 +287,7 @@ public class _3170D implements CobolRunnable {
                   }).run() >  0L))
                     break;
                   {
-                    /* /content/temp_cobol/170D_fixed.cob:55: MOVE */
+                    /* /content/temp_cobol/input.cob:55: MOVE */
                     {
                       b_C__TBL_M__TBL2.getSubDataStorage(5 * ((b_A__TBL1.getSubDataStorage(4 * (b_I - 1)) * b_J) - 1)).set((byte)1);
                     }
@@ -297,22 +297,22 @@ public class _3170D implements CobolRunnable {
           }
         }
       }
-      /* /content/temp_cobol/170D_fixed.cob:60: MOVE */
+      /* /content/temp_cobol/input.cob:60: MOVE */
       {
         b_CNT.fillBytes (48, 6);
       }
-      /* /content/temp_cobol/170D_fixed.cob:61: PERFORM */
+      /* /content/temp_cobol/input.cob:61: PERFORM */
       b_I.setSwpU32Binary (1);
       for(;;b_I.addSwpU32Binary (1))
       {
         if (((long)f_I.cmpInteger (b_N.getNumdisp(6)) >  0L))
           break;
         {
-          /* /content/temp_cobol/170D_fixed.cob:62: IF */
+          /* /content/temp_cobol/input.cob:62: IF */
           {
             if (((long)CobolFieldFactory.makeCobolField(1, b_C__TBL_M__TBL2.getSubDataStorage(5 * ((int)(b_A__TBL1.getSubDataStorage(4 * ((int)(b_I.bswap_32()) - 1)).bswap_32()) - 1)), a_6_NumericBinary_Digits1_Scale0_BinarySwap).cmpInteger (0) == 0L))
               {
-                /* /content/temp_cobol/170D_fixed.cob:63: ADD */
+                /* /content/temp_cobol/input.cob:63: ADD */
                 {
                   f_CNT.add (c_1_1, 4);
                 }
@@ -320,15 +320,15 @@ public class _3170D implements CobolRunnable {
           }
         }
       }
-      /* /content/temp_cobol/170D_fixed.cob:67: MOVE */
+      /* /content/temp_cobol/input.cob:67: MOVE */
       {
         f_OUT.moveFrom (f_CNT);
       }
-      /* /content/temp_cobol/170D_fixed.cob:68: DISPLAY */
+      /* /content/temp_cobol/input.cob:68: DISPLAY */
       {
         CobolTerminal.display (0, 1, 1, CobolIntrinsic.funcTrim (0, 0, f_OUT, 0));
       }
-      /* /content/temp_cobol/170D_fixed.cob:69: STOP */
+      /* /content/temp_cobol/input.cob:69: STOP */
       {
         CobolStopRunException.throwException (b_RETURN_CODE.intValue());
       }

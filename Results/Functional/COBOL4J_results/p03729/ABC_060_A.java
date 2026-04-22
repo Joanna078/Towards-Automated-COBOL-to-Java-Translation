@@ -114,11 +114,11 @@ public class ABC_060_A implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ABC_060_A_fixed.cob:13: ACCEPT */
+        /* /content/temp_cobol/input.cob:13: ACCEPT */
         {
           CobolTerminal.accept (f_INP);
         }
-        /* /content/temp_cobol/ABC_060_A_fixed.cob:15: UNSTRING */
+        /* /content/temp_cobol/input.cob:15: UNSTRING */
         {
           CobolString.unstringInit (f_INP, 0, 1);
           CobolString.unstringDelimited (CobolConstant.space, 0);
@@ -127,24 +127,24 @@ public class ABC_060_A implements CobolRunnable {
           CobolString.unstringInto (f_C, 0, 0);
           CobolString.unstringFinish ();
         }
-        /* /content/temp_cobol/ABC_060_A_fixed.cob:19: IF */
+        /* /content/temp_cobol/input.cob:19: IF */
         {
           if ((((long)(Byte.toUnsignedInt(b_A.getSubDataStorage((CobolIntrinsic.funcStoredCharLength (f_A).getInt() - 1)).getByte(0)) - Byte.toUnsignedInt(b_B.getSubDataStorage(0).getByte(0))) == 0L) && ((long)(Byte.toUnsignedInt(b_B.getSubDataStorage((CobolIntrinsic.funcStoredCharLength (f_B).getInt() - 1)).getByte(0)) - Byte.toUnsignedInt(b_C.getSubDataStorage(0).getByte(0))) == 0L)))
             {
-              /* /content/temp_cobol/ABC_060_A_fixed.cob:21: DISPLAY */
+              /* /content/temp_cobol/input.cob:21: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_1_YES);
               }
             }
           else
             {
-              /* /content/temp_cobol/ABC_060_A_fixed.cob:23: DISPLAY */
+              /* /content/temp_cobol/input.cob:23: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_2_NO);
               }
             }
         }
-        /* /content/temp_cobol/ABC_060_A_fixed.cob:26: STOP */
+        /* /content/temp_cobol/input.cob:26: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

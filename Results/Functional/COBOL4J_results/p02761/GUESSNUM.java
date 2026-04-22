@@ -120,45 +120,45 @@ public class GUESSNUM implements CobolRunnable {
     /* MAIN-010 */
     new CobolControl(l_MAIN_SECTION__MAIN_010, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/GUESSNUM_fixed.cob:23: MOVE */
+        /* /content/temp_cobol/input.cob:23: MOVE */
         {
           b_TBL.fillBytes (32, 3);
         }
-        /* /content/temp_cobol/GUESSNUM_fixed.cob:24: MOVE */
+        /* /content/temp_cobol/input.cob:24: MOVE */
         {
           b_SW_ERR.setByte(48);
         }
-        /* /content/temp_cobol/GUESSNUM_fixed.cob:26: ACCEPT */
+        /* /content/temp_cobol/input.cob:26: ACCEPT */
         {
           CobolTerminal.accept (f_INP1);
         }
-        /* /content/temp_cobol/GUESSNUM_fixed.cob:27: PERFORM */
+        /* /content/temp_cobol/input.cob:27: PERFORM */
         b_I.setByte(49);
         for(;;f_I.addInt (1))
         {
           if (((long)b_I.memcmp (b_M__INP1, 1) >  0L))
             break;
           {
-            /* /content/temp_cobol/GUESSNUM_fixed.cob:28: ACCEPT */
+            /* /content/temp_cobol/input.cob:28: ACCEPT */
             {
               CobolTerminal.accept (f_INP2);
             }
-            /* /content/temp_cobol/GUESSNUM_fixed.cob:29: IF */
+            /* /content/temp_cobol/input.cob:29: IF */
             {
               if (((long)CobolFieldFactory.makeCobolField(1, b_T_N__TBL.getSubDataStorage((b_S__INP2.getNumdisp(1) - 1)), a_3_NumericDisplay_Digits1_Scale0).compareTo (c_1) == 0L))
                 {
-                  /* /content/temp_cobol/GUESSNUM_fixed.cob:30: IF */
+                  /* /content/temp_cobol/input.cob:30: IF */
                   {
                     if (((((long)f_C__INP2.compareTo (c_2_0) == 0L) && ((long)b_S__INP2.cmpNumdisp (1, 1) == 0L)) && ((long)b_N__INP1.cmpNumdisp (1, 1) >  0L)))
                       {
-                        /* /content/temp_cobol/GUESSNUM_fixed.cob:31: MOVE */
+                        /* /content/temp_cobol/input.cob:31: MOVE */
                         {
                           b_SW_ERR.setByte(49);
                         }
                       }
                     else
                       {
-                        /* /content/temp_cobol/GUESSNUM_fixed.cob:33: MOVE */
+                        /* /content/temp_cobol/input.cob:33: MOVE */
                         {
                           b_T_N__TBL.getSubDataStorage((b_S__INP2.getNumdisp(1) - 1)).setByte(b_C__INP2.getByte(0));
                         }
@@ -167,11 +167,11 @@ public class GUESSNUM implements CobolRunnable {
                 }
               else
                 {
-                  /* /content/temp_cobol/GUESSNUM_fixed.cob:36: IF */
+                  /* /content/temp_cobol/input.cob:36: IF */
                   {
                     if (((long)b_T_N__TBL.getSubDataStorage((b_S__INP2.getNumdisp(1) - 1)).memcmp (b_C__INP2, 1) != 0L))
                       {
-                        /* /content/temp_cobol/GUESSNUM_fixed.cob:37: MOVE */
+                        /* /content/temp_cobol/input.cob:37: MOVE */
                         {
                           b_SW_ERR.setByte(49);
                         }
@@ -181,39 +181,39 @@ public class GUESSNUM implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/GUESSNUM_fixed.cob:42: IF */
+        /* /content/temp_cobol/input.cob:42: IF */
         {
           if (((long)(Byte.toUnsignedInt(b_SW_ERR.getByte(0)) - (int)49) == 0L))
             {
-              /* /content/temp_cobol/GUESSNUM_fixed.cob:43: DISPLAY */
+              /* /content/temp_cobol/input.cob:43: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_3);
               }
             }
           else
             {
-              /* /content/temp_cobol/GUESSNUM_fixed.cob:45: IF */
+              /* /content/temp_cobol/input.cob:45: IF */
               {
                 if ((((long)b_N__INP1.cmpNumdisp (1, 1) >  0L) && ((long)CobolFieldFactory.makeCobolField(1, b_T_N__TBL.getSubDataStorage(0), a_3_NumericDisplay_Digits1_Scale0).compareTo (c_1) == 0L)))
                   {
-                    /* /content/temp_cobol/GUESSNUM_fixed.cob:46: MOVE */
+                    /* /content/temp_cobol/input.cob:46: MOVE */
                     {
                       b_T_N__TBL.getSubDataStorage(0).setByte(49);
                     }
                   }
               }
-              /* /content/temp_cobol/GUESSNUM_fixed.cob:49: PERFORM */
+              /* /content/temp_cobol/input.cob:49: PERFORM */
               b_I.setByte(49);
               for(;;f_I.addInt (1))
               {
                 if (((long)b_I.memcmp (b_N__INP1, 1) >  0L))
                   break;
                 {
-                  /* /content/temp_cobol/GUESSNUM_fixed.cob:50: IF */
+                  /* /content/temp_cobol/input.cob:50: IF */
                   {
                     if (((long)CobolFieldFactory.makeCobolField(1, b_T_N__TBL.getSubDataStorage((b_I.getNumdisp(1) - 1)), a_3_NumericDisplay_Digits1_Scale0).compareTo (c_1) == 0L))
                       {
-                        /* /content/temp_cobol/GUESSNUM_fixed.cob:51: MOVE */
+                        /* /content/temp_cobol/input.cob:51: MOVE */
                         {
                           b_T_N__TBL.getSubDataStorage((b_I.getNumdisp(1) - 1)).setByte(48);
                         }
@@ -221,11 +221,11 @@ public class GUESSNUM implements CobolRunnable {
                   }
                 }
               }
-              /* /content/temp_cobol/GUESSNUM_fixed.cob:55: MOVE */
+              /* /content/temp_cobol/input.cob:55: MOVE */
               {
                 f_OUT_N.moveFrom (CobolFieldFactory.makeCobolField(b_N__INP1.getNumdisp(1), b_TBL.getSubDataStorage(0), a_4_Alphanumeric));
               }
-              /* /content/temp_cobol/GUESSNUM_fixed.cob:56: DISPLAY */
+              /* /content/temp_cobol/input.cob:56: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, f_OUT_N);
               }
@@ -238,7 +238,7 @@ public class GUESSNUM implements CobolRunnable {
     /* MAIN-EXIT */
     new CobolControl(l_MAIN_SECTION__MAIN_EXIT, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/GUESSNUM_fixed.cob:60: STOP */
+        /* /content/temp_cobol/input.cob:60: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

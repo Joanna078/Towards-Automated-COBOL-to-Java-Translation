@@ -1,0 +1,558 @@
+[
+  {
+    "problem_id": "p02597",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02628",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02630",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02639",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02664",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02688",
+    "passed": "Y",
+    "passed_on_iter": 1,
+    "iterations_tried": 1,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p02707",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02725",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p02982",
+    "passed": "Y",
+    "passed_on_iter": 2,
+    "iterations_tried": 2,
+    "error_type": null,
+    "error_details": null,
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": false,
+        "passed": false,
+        "error_type": "extraction_failed",
+        "error_details": "Could not extract valid Java from LLM output."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "problem_id": "p03274",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03276",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03291",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input.",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Execution timeout (>5s). The program did not terminate, likely due to an infinite loop. Check all loop conditions (PERFORM UNTIL equivalents, while/for loops) and ensure they have proper exit conditions. Also verify that input is being read correctly and not causing the program to block waiting for additional input."
+      }
+    ]
+  },
+  {
+    "problem_id": "p03636",
+    "passed": "N",
+    "passed_on_iter": null,
+    "iterations_tried": 5,
+    "error_type": "runtime_error",
+    "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _3069B$4.run(_3069B.java:138)\n\tat _3069B.execEntry(_3069B.java:186)\n\tat _3069B.run_module(_3069B.java:90)\n\tat _3069B._3069B_(_3069B.java:44)\n\tat _3069B.main(_3069B.java:194)",
+    "history": [
+      {
+        "iteration": 1,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _3069B$4.run(_3069B.java:138)\n\tat _3069B.execEntry(_3069B.java:186)\n\tat _3069B.run_module(_3069B.java:90)\n\tat _3069B._3069B_(_3069B.java:44)\n\tat _3069B.main(_3069B.java:194)"
+      },
+      {
+        "iteration": 2,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _3069B$4.run(_3069B.java:138)\n\tat _3069B.execEntry(_3069B.java:186)\n\tat _3069B.run_module(_3069B.java:90)\n\tat _3069B._3069B_(_3069B.java:44)\n\tat _3069B.main(_3069B.java:194)"
+      },
+      {
+        "iteration": 3,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _3069B$4.run(_3069B.java:138)\n\tat _3069B.execEntry(_3069B.java:186)\n\tat _3069B.run_module(_3069B.java:90)\n\tat _3069B._3069B_(_3069B.java:44)\n\tat _3069B.main(_3069B.java:194)"
+      },
+      {
+        "iteration": 4,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _3069B$4.run(_3069B.java:138)\n\tat _3069B.execEntry(_3069B.java:186)\n\tat _3069B.run_module(_3069B.java:90)\n\tat _3069B._3069B_(_3069B.java:44)\n\tat _3069B.main(_3069B.java:194)"
+      },
+      {
+        "iteration": 5,
+        "action": "fix_attempted",
+        "extraction_ok": true,
+        "passed": false,
+        "error_type": "runtime_error",
+        "error_details": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _3069B$4.run(_3069B.java:138)\n\tat _3069B.execEntry(_3069B.java:186)\n\tat _3069B.run_module(_3069B.java:90)\n\tat _3069B._3069B_(_3069B.java:44)\n\tat _3069B.main(_3069B.java:194)"
+      }
+    ]
+  }
+]

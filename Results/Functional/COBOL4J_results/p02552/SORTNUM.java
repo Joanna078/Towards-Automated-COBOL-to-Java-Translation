@@ -111,28 +111,28 @@ public class SORTNUM implements CobolRunnable {
     /* MAIN_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_MAIN_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/SORTNUM_fixed.cob:12: ACCEPT */
+        /* /content/temp_cobol/input.cob:12: ACCEPT */
         {
           CobolTerminal.accept (f_X);
         }
-        /* /content/temp_cobol/SORTNUM_fixed.cob:14: IF */
+        /* /content/temp_cobol/input.cob:14: IF */
         {
           if (((long)b_X.cmpNumdisp (1, 0) == 0L))
             {
-              /* /content/temp_cobol/SORTNUM_fixed.cob:15: DISPLAY */
+              /* /content/temp_cobol/input.cob:15: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_1_1);
               }
             }
           else
             {
-              /* /content/temp_cobol/SORTNUM_fixed.cob:17: DISPLAY */
+              /* /content/temp_cobol/input.cob:17: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, c_2_0);
               }
             }
         }
-        /* /content/temp_cobol/SORTNUM_fixed.cob:21: STOP */
+        /* /content/temp_cobol/input.cob:21: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

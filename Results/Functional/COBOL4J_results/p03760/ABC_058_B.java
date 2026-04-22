@@ -120,15 +120,15 @@ public class ABC_058_B implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ABC_058_B_fixed.cob:13: ACCEPT */
+        /* /content/temp_cobol/input.cob:13: ACCEPT */
         {
           CobolTerminal.accept (f_O);
         }
-        /* /content/temp_cobol/ABC_058_B_fixed.cob:14: ACCEPT */
+        /* /content/temp_cobol/input.cob:14: ACCEPT */
         {
           CobolTerminal.accept (f_E);
         }
-        /* /content/temp_cobol/ABC_058_B_fixed.cob:16: COMPUTE */
+        /* /content/temp_cobol/input.cob:16: COMPUTE */
         {
           {
             {
@@ -137,14 +137,14 @@ public class ABC_058_B implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/ABC_058_B_fixed.cob:18: PERFORM */
+        /* /content/temp_cobol/input.cob:18: PERFORM */
         b_i.setBytes (str_0_01, 2);
         for(;;f_i.addInt (1))
         {
           if (((long)b_len.memcmp (b_i, 2) <  0L))
             break;
           {
-            /* /content/temp_cobol/ABC_058_B_fixed.cob:19: STRING */
+            /* /content/temp_cobol/input.cob:19: STRING */
             {
               CobolString.stringInit (f_ans, 0);
               CobolString.stringDelimited (0);
@@ -155,11 +155,11 @@ public class ABC_058_B implements CobolRunnable {
             }
           }
         }
-        /* /content/temp_cobol/ABC_058_B_fixed.cob:27: DISPLAY */
+        /* /content/temp_cobol/input.cob:27: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, CobolFieldFactory.makeCobolField(CobolIntrinsic.funcStoredCharLength (f_ans).getInt(), b_ans.getSubDataStorage(0), a_1_Alphanumeric));
         }
-        /* /content/temp_cobol/ABC_058_B_fixed.cob:28: STOP */
+        /* /content/temp_cobol/input.cob:28: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

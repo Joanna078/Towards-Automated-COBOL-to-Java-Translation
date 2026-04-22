@@ -115,11 +115,11 @@ public class a implements CobolRunnable {
     /* main */
     new CobolControl(l_MAIN_SECTION__main, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/a_fixed.cob:12: ACCEPT */
+        /* /content/temp_cobol/input.cob:12: ACCEPT */
         {
           CobolTerminal.accept (f_inp);
         }
-        /* /content/temp_cobol/a_fixed.cob:13: PERFORM */
+        /* /content/temp_cobol/input.cob:13: PERFORM */
         b_i.setByte(49);
         for(;;f_i.addInt (1))
         {
@@ -127,54 +127,54 @@ public class a implements CobolRunnable {
             break;
           ;
         }
-        /* /content/temp_cobol/a_fixed.cob:15: ADD */
+        /* /content/temp_cobol/input.cob:15: ADD */
         {
           f_i.add (c_1_1, 4);
         }
-        /* /content/temp_cobol/a_fixed.cob:16: MOVE */
+        /* /content/temp_cobol/input.cob:16: MOVE */
         {
           f_a.moveFrom (CobolFieldFactory.makeCobolField(b_i.getNumdisp(1), b_inp.getSubDataStorage(0), a_1_Alphanumeric));
         }
-        /* /content/temp_cobol/a_fixed.cob:17: ADD */
+        /* /content/temp_cobol/input.cob:17: ADD */
         {
           f_i.add (c_2_2, 4);
         }
-        /* /content/temp_cobol/a_fixed.cob:18: MOVE */
+        /* /content/temp_cobol/input.cob:18: MOVE */
         {
           f_b.moveFrom (CobolFieldFactory.makeCobolField(2, b_inp.getSubDataStorage((b_i.getNumdisp(1) - 1)), a_1_Alphanumeric));
         }
-        /* /content/temp_cobol/a_fixed.cob:19: IF */
+        /* /content/temp_cobol/input.cob:19: IF */
         {
           if (((long)b_a.memcmp (b_b, 2) >  0L))
             {
-              /* /content/temp_cobol/a_fixed.cob:20: ADD */
+              /* /content/temp_cobol/input.cob:20: ADD */
               {
                 f_a.add (c_1_1, 4);
               }
             }
         }
-        /* /content/temp_cobol/a_fixed.cob:22: IF */
+        /* /content/temp_cobol/input.cob:22: IF */
         {
           if (((long)b_a.cmpNumdisp (2, 10) <  0L))
             {
-              /* /content/temp_cobol/a_fixed.cob:23: MOVE */
+              /* /content/temp_cobol/input.cob:23: MOVE */
               {
                 f_d.moveFrom (f_a);
               }
-              /* /content/temp_cobol/a_fixed.cob:24: DISPLAY */
+              /* /content/temp_cobol/input.cob:24: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, f_d);
               }
             }
           else
             {
-              /* /content/temp_cobol/a_fixed.cob:26: DISPLAY */
+              /* /content/temp_cobol/input.cob:26: DISPLAY */
               {
                 CobolTerminal.display (0, 1, 1, f_a);
               }
             }
         }
-        /* /content/temp_cobol/a_fixed.cob:28: STOP */
+        /* /content/temp_cobol/input.cob:28: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }

@@ -1,0 +1,80 @@
+{
+  "p02688": {
+    "problem_id": "p02688",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:167: error: incompatible types: possible lossy conversion from long to int\n            for (int n1 = b_maxlen.bswap_64(); n1 > 0; n1--)\n                                           ^\n1 error"
+  },
+  "p02628": {
+    "problem_id": "p02628",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:221: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+  },
+  "p02639": {
+    "problem_id": "p02639",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:140: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+  },
+  "p02982": {
+    "problem_id": "p02982",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:182: error: incompatible types: possible lossy conversion from long to int\n            for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                           ^\n1 error"
+  },
+  "p03276": {
+    "problem_id": "p03276",
+    "java_file": "_3101C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03636": {
+    "problem_id": "p03636",
+    "java_file": "_3069B.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _3069B$4.run(_3069B.java:138)\n\tat _3069B.execEntry(_3069B.java:186)\n\tat _3069B.run_module(_3069B.java:90)\n\tat _3069B._3069B_(_3069B.java:44)\n\tat _3069B.main(_3069B.java:194)"
+  },
+  "p03291": {
+    "problem_id": "p03291",
+    "java_file": "ABC_104_D.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03274": {
+    "problem_id": "p03274",
+    "java_file": "ABC_107_C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02725": {
+    "problem_id": "p02725",
+    "java_file": "_3160C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02707": {
+    "problem_id": "p02707",
+    "java_file": "_3163C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02664": {
+    "problem_id": "p02664",
+    "java_file": "NOMURA__B.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02597": {
+    "problem_id": "p02597",
+    "java_file": "_3174D.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02630": {
+    "problem_id": "p02630",
+    "java_file": "_3171C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  }
+}

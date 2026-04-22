@@ -1,0 +1,170 @@
+{
+  "p02916": {
+    "problem_id": "p02916",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:161: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n/content/temp_compile/PROGRAM_ID.java:217: error: incompatible types: possible lossy conversion from long to int\n        for (int n1 = b_maxlen.bswap_64(); n1 > 0; n1--)\n                                       ^\n/content/temp_compile/PROGRAM_ID.java:288: error: incompatible types: possible lossy conversion from long to int\n        for (int n2 = b_maxlen.bswap_64(); n2 > 0; n2--)\n                                       ^\n3 errors"
+  },
+  "p02898": {
+    "problem_id": "p02898",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:217: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+  },
+  "p02886": {
+    "problem_id": "p02886",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:148: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+  },
+  "p03282": {
+    "problem_id": "p03282",
+    "java_file": "ABC_106_C.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/ABC_106_C.java:144: error: cannot find symbol\n              if (((long)(Byte.toUnsignedInt(\"1\".getByte(0)) - Byte.toUnsignedInt(b_S__S1.getSubDataStorage((f_i.getInt() - 1)).getByte(0))) != 0L))\n                                                ^\n  symbol:   method getByte(int)\n  location: class String\n1 error"
+  },
+  "p02718": {
+    "problem_id": "p02718",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:160: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+  },
+  "p02642": {
+    "problem_id": "p02642",
+    "java_file": "_3170D.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/_3170D.java:270: error: bad operand types for binary operator '-'\n                          b_C__TBL_M__TBL2.getSubDataStorage(5 * (b_A__TBL1.getSubDataStorage(4 * (b_I - 1)) - 1)).set((byte)1);\n                                                                                                       ^\n  first type:  CobolDataStorage\n  second type: int\n/content/temp_compile/_3170D.java:292: error: bad operand types for binary operator '-'\n                      b_C__TBL_M__TBL2.getSubDataStorage(5 * ((b_A__TBL1.getSubDataStorage(4 * (b_I - 1)) * b_J) - 1)).set((byte)1);\n                                                                                                    ^\n  first type:  CobolDataStorage\n  second type: int\n2 errors"
+  },
+  "p02958": {
+    "problem_id": "p02958",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:144: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+  },
+  "p02658": {
+    "problem_id": "p02658",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "compilation",
+    "error_message": "/content/temp_compile/PROGRAM_ID.java:206: error: incompatible types: possible lossy conversion from long to int\n        for (int n0 = b_maxlen.bswap_64(); n0 > 0; n0--)\n                                       ^\n1 error"
+  },
+  "p03311": {
+    "problem_id": "p03311",
+    "java_file": "_3100C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02727": {
+    "problem_id": "p02727",
+    "java_file": "_3160E.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02684": {
+    "problem_id": "p02684",
+    "java_file": "_3167D.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02848": {
+    "problem_id": "p02848",
+    "java_file": "_3146B.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02784": {
+    "problem_id": "p02784",
+    "java_file": "PROGRAM_ID.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03246": {
+    "problem_id": "p03246",
+    "java_file": "_3103C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03814": {
+    "problem_id": "p03814",
+    "java_file": "ABC_053_B.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03287": {
+    "problem_id": "p03287",
+    "java_file": "ABC_105_D.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02691": {
+    "problem_id": "p02691",
+    "java_file": "_3164C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03310": {
+    "problem_id": "p03310",
+    "java_file": "ABC_102_D.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03610": {
+    "problem_id": "p03610",
+    "java_file": "ABC_072_B.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03309": {
+    "problem_id": "p03309",
+    "java_file": "ABC_102_C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02881": {
+    "problem_id": "p02881",
+    "java_file": "AtCoder.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.NullPointerException: Cannot invoke \"jp.osscons.opensourcecobol.libcobj.data.CobolDecimal.getValue()\" because \"decimal\" is null\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDecimal.setField(CobolDecimal.java:265)\n\tat AtCoder$4$2.run(AtCoder.java:205)\n\tat AtCoder$4.run(AtCoder.java:216)\n\tat AtCoder.execEntry(AtCoder.java:256)\n\tat AtCoder.run_module(AtCoder.java:103)\n\tat AtCoder.AtCoder_(AtCoder.java:44)\n\tat AtCoder.main(AtCoder.java:264)"
+  },
+  "p02689": {
+    "problem_id": "p02689",
+    "java_file": "_3166C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p02732": {
+    "problem_id": "p02732",
+    "java_file": "_3159C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03107": {
+    "problem_id": "p03107",
+    "java_file": "_30303A.java",
+    "error_type": "runtime",
+    "error_message": "Runtime error: Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 100000\n\tat jp.osscons.opensourcecobol.libcobj.data.CobolDataStorage.getByte(CobolDataStorage.java:530)\n\tat _30303A$4.run(_30303A.java:149)\n\tat _30303A.execEntry(_30303A.java:266)\n\tat _30303A.run_module(_30303A.java:99)\n\tat _30303A._30303A_(_30303A.java:44)\n\tat _30303A.main(_30303A.java:274)"
+  },
+  "p03325": {
+    "problem_id": "p03325",
+    "java_file": "ABC_999_A.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03073": {
+    "problem_id": "p03073",
+    "java_file": "_3124C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03294": {
+    "problem_id": "p03294",
+    "java_file": "ABC_103_C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  },
+  "p03341": {
+    "problem_id": "p03341",
+    "java_file": "_3098C.java",
+    "error_type": "runtime",
+    "error_message": "Execution timeout (>5s)"
+  }
+}

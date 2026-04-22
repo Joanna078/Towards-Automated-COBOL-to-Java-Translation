@@ -127,25 +127,25 @@ public class ABC_079_B implements CobolRunnable {
     /* MAIN */
     new CobolControl(l_MAIN_SECTION__MAIN, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ABC_079_B_fixed.cob:17: ACCEPT */
+        /* /content/temp_cobol/input.cob:17: ACCEPT */
         {
           CobolTerminal.accept (f_N);
         }
-        /* /content/temp_cobol/ABC_079_B_fixed.cob:19: PERFORM */
+        /* /content/temp_cobol/input.cob:19: PERFORM */
         /* PERFORM LUCASNUMBER */
         CobolControl.perform(contList, l_LUCASNUMBER).run();
-        /* /content/temp_cobol/ABC_079_B_fixed.cob:21: MOVE */
+        /* /content/temp_cobol/input.cob:21: MOVE */
         {
           f_ZS.moveFrom (f_lucas);
         }
-        /* /content/temp_cobol/ABC_079_B_fixed.cob:23: PERFORM */
+        /* /content/temp_cobol/input.cob:23: PERFORM */
         /* PERFORM UNANS */
         CobolControl.perform(contList, l_UNANS).run();
-        /* /content/temp_cobol/ABC_079_B_fixed.cob:25: DISPLAY */
+        /* /content/temp_cobol/input.cob:25: DISPLAY */
         {
           CobolTerminal.display (0, 1, 1, CobolFieldFactory.makeCobolField(CobolIntrinsic.funcStoredCharLength (f_ans).getInt(), b_ans.getSubDataStorage(0), a_4_Alphanumeric));
         }
-        /* /content/temp_cobol/ABC_079_B_fixed.cob:26: STOP */
+        /* /content/temp_cobol/input.cob:26: STOP */
         {
           CobolStopRunException.throwException (b_RETURN_CODE.intValue());
         }
@@ -163,7 +163,7 @@ public class ABC_079_B implements CobolRunnable {
     /* UNANS_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_UNANS_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ABC_079_B_fixed.cob:29: UNSTRING */
+        /* /content/temp_cobol/input.cob:29: UNSTRING */
         {
           CobolString.unstringInit (f_ZS, 0, 1);
           CobolString.unstringDelimited (CobolConstant.space, 1);
@@ -185,22 +185,22 @@ public class ABC_079_B implements CobolRunnable {
     /* LUCASNUMBER_SECTION__DEFAULT_PARAGRAPH */
     new CobolControl(l_LUCASNUMBER_SECTION__DEFAULT_PARAGRAPH, CobolControl.LabelType.label) {
       public Optional<CobolControl> run() throws CobolRuntimeException, CobolStopRunException {
-        /* /content/temp_cobol/ABC_079_B_fixed.cob:35: MOVE */
+        /* /content/temp_cobol/input.cob:35: MOVE */
         {
           b_ppr.setBytes (str_0_000000000000000002, 18);
         }
-        /* /content/temp_cobol/ABC_079_B_fixed.cob:36: MOVE */
+        /* /content/temp_cobol/input.cob:36: MOVE */
         {
           b_pr.setBytes (str_1_000000000000000001, 18);
         }
-        /* /content/temp_cobol/ABC_079_B_fixed.cob:38: PERFORM */
+        /* /content/temp_cobol/input.cob:38: PERFORM */
         b_i.setBytes (str_2_02, 2);
         for(;;f_i.addInt (1))
         {
           if (((long)b_N.memcmp (b_i, 2) <  0L))
             break;
           {
-            /* /content/temp_cobol/ABC_079_B_fixed.cob:39: ADD */
+            /* /content/temp_cobol/input.cob:39: ADD */
             {
               {
                 {
@@ -211,21 +211,21 @@ public class ABC_079_B implements CobolRunnable {
                 }
               }
             }
-            /* /content/temp_cobol/ABC_079_B_fixed.cob:40: MOVE */
+            /* /content/temp_cobol/input.cob:40: MOVE */
             {
               b_ppr.setBytes (b_pr, 18);
             }
-            /* /content/temp_cobol/ABC_079_B_fixed.cob:41: MOVE */
+            /* /content/temp_cobol/input.cob:41: MOVE */
             {
               b_pr.setBytes (b_lucas, 18);
             }
           }
         }
-        /* /content/temp_cobol/ABC_079_B_fixed.cob:44: IF */
+        /* /content/temp_cobol/input.cob:44: IF */
         {
           if (((long)b_N.cmpNumdisp (2, 1) == 0L))
             {
-              /* /content/temp_cobol/ABC_079_B_fixed.cob:45: MOVE */
+              /* /content/temp_cobol/input.cob:45: MOVE */
               {
                 b_lucas.setBytes (str_3_000000000000000001, 18);
               }
