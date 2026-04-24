@@ -33,10 +33,6 @@ This directory contains Jupyter notebooks and Python scripts used for data proce
         - `v1.py` to `v5.py` — Versions/implementations for Qwen repair strategies
       - **xmainframescripts/**
         - `v1.py` to `v5.py` — Versions/implementations for XMainframe repair strategies
-      - **Original_Translations/**
-        - **COBOL4J_original_translation/** — Original COBOL4J translation outputs
-        - **qwen_original_translation/** — Original Qwen translation outputs
-        - **xmainframe_original_translation/** — Original XMainframe translation outputs
 
 ---
 
@@ -58,7 +54,8 @@ This directory contains the experimental results, analysis data, and evaluation 
     - **rq5_strategy3_results/** — Results for RQ5 Strategy 3
     - **rq5_strategy4_results/** — Results for RQ5 Strategy 4
   - **RepairPipeline/**
-    - **Results/** — Main results directory
+    - **Results/** — Main results directory, with the detailed results of 5 iterations and holdout
+run per tool
     - **Stratified_Sampling/** — Data related to stratified sampling methodology
   - **Static/**
     - `static_analysis_cobol4j.json` — Static analysis for COBOL4J translations
