@@ -1,2 +1,0 @@
-<|assistant|>
-The task is asking you to translate a given COBOL program into a more modern, production-ready version of that program written in Java. The translation should be done while maintaining the original functionality as much as possible.
